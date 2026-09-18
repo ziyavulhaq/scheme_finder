@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --paper: #FBF9F4;
+    --paper-alt: #F1ECE0;
+    --ink: #1F3A5F;
+    --ink-soft: #345178;
+    --marigold: #E8A33D;
+    --marigold-deep: #B97A1C;
+    --marigold-soft: #FBEBD2;
+    --banyan: #3B6E52;
+    --banyan-soft: #E4EEE7;
+    --line: #D8D2C4;
+    --charcoal: #2B2A28;
+    --charcoal-soft: #6B6558;
+    --danger: #A6412A;
+    --danger-soft: #F4E3DD;
+    --white: #FFFFFF;
+    --radius-sm: 4px;
+    --radius-md: 10px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--charcoal);
+    font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-serif-num {
+    font-family: 'Fraunces', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+}
+
+/* Custom Leaflet Map styling */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-md);
+  z-index: 10;
+  border: 1px solid var(--line);
+}
+
+/* Ledger Stamp Animation */
+.stamp {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 2.5px solid var(--banyan);
+  color: var(--banyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.15;
+  transform: rotate(-9deg) scale(0.8);
+  opacity: 0;
+  transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stamp::after {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 1px dashed var(--banyan);
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.stamp.show {
+  transform: rotate(-9deg) scale(1);
+  opacity: 1;
+}
+
+/* Ledger Left Rule Entries */
+.ledger-entry {
+  border-left: 3.5px solid var(--ink);
+  background: transparent;
+}
+
+.ledger-entry-marigold {
+  border-left: 3.5px solid var(--marigold-deep);
+}
+
+.ledger-entry-danger {
+  border-left: 3.5px solid var(--danger);
+  background: #FFFDF9;
+}
+
+/* Minimum 44px tap targets */
+button, select, input[type="number"], .tap-target {
+  min-height: 44px;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--paper-alt);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--charcoal-soft);
+}
+
+/* Print styles for Referral Slip */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-slip, #printable-slip * {
+    visibility: visible;
+  }
+  #printable-slip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    color: black;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

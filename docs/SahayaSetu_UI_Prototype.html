@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SahayaSetu — Find your scheme</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBF9F4;
+    --paper-alt:#F1ECE0;
+    --ink:#1F3A5F;
+    --ink-soft:#345178;
+    --marigold:#E8A33D;
+    --marigold-deep:#B97A1C;
+    --marigold-soft:#FBEBD2;
+    --banyan:#3B6E52;
+    --banyan-soft:#E4EEE7;
+    --line:#D8D2C4;
+    --charcoal:#2B2A28;
+    --charcoal-soft:#6B6558;
+    --danger:#A6412A;
+    --danger-soft:#F4E3DD;
+    --white:#FFFFFF;
+    --radius-sm:4px;
+    --radius-md:10px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--charcoal);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  body.lang-hi{ font-family:'IBM Plex Sans Devanagari','IBM Plex Sans', system-ui, sans-serif; }
+  h1,h2,h3,.display{
+    font-family:'Fraunces', Georgia, serif;
+    font-weight:600;
+    color:var(--ink);
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  body.lang-hi h1, body.lang-hi h2, body.lang-hi h3, body.lang-hi .display{
+    font-family:'IBM Plex Sans Devanagari','IBM Plex Sans', system-ui, sans-serif;
+    font-weight:700;
+  }
+  a{color:inherit;}
+  button{font-family:inherit;}
+  :focus-visible{ outline:2px solid var(--ink); outline-offset:2px; }
+
+  .wrap{ max-width:960px; margin:0 auto; padding:0 24px; }
+
+  /* header */
+  .site-header{
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+    position:sticky; top:0; z-index:20;
+  }
+  .header-row{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px 24px; max-width:960px; margin:0 auto; gap:16px;
+  }
+  .brand{ display:flex; align-items:baseline; gap:8px; }
+  .brand-mark{
+    font-family:'Fraunces', serif; font-weight:700; font-size:1.35rem; color:var(--ink);
+  }
+  body.lang-hi .brand-mark{ font-family:'IBM Plex Sans Devanagari', sans-serif; }
+  .brand-tag{ font-size:.8rem; color:var(--charcoal-soft); }
+  nav.main-nav{ display:flex; gap:4px; }
+  nav.main-nav button{
+    background:none; border:none; color:var(--charcoal); font-size:.92rem;
+    padding:8px 12px; border-radius:var(--radius-sm); cursor:pointer;
+  }
+  nav.main-nav button:hover{ background:var(--paper-alt); }
+  .lang-toggle{
+    display:flex; align-items:center; gap:6px; background:var(--white);
+    border:1px solid var(--line); border-radius:999px; padding:4px; cursor:pointer;
+  }
+  .lang-toggle span{
+    width:32px; height:28px; display:flex; align-items:center; justify-content:center;
+    border-radius:999px; font-size:.95rem; color:var(--charcoal-soft);
+  }
+  .lang-toggle span.active{ background:var(--ink); color:var(--white); }
+
+  @media (max-width:720px){
+    nav.main-nav{ display:none; }
+  }
+
+  main{ padding-bottom:60px; }
+  .section{ padding:56px 0 8px; }
+  .section + .section{ border-top:1px solid var(--line); padding-top:48px; }
+  .eyebrow-free-title{ font-size:2rem; max-width:20ch; }
+  .subhead{ color:var(--charcoal-soft); margin-top:10px; max-width:52ch; font-size:1.02rem; }
+
+  /* wizard */
+  .wizard{
+    margin-top:36px; display:flex; flex-direction:column; gap:22px; max-width:560px;
+  }
+  .field-row{ display:flex; gap:16px; align-items:flex-start; }
+  .field-num{
+    flex:none; width:28px; height:28px; border-radius:50%; border:1.5px solid var(--ink);
+    color:var(--ink); font-family:'Fraunces', serif; font-weight:600; font-size:.88rem;
+    display:flex; align-items:center; justify-content:center; margin-top:4px;
+  }
+  .field-body{ flex:1; }
+  .field-body label{ display:block; font-weight:500; margin-bottom:8px; font-size:.98rem; }
+  .field-body select, .field-body input[type=number]{
+    width:100%; padding:11px 12px; border:1px solid var(--line); border-radius:var(--radius-sm);
+    background:var(--white); font-size:1rem; color:var(--charcoal); font-family:inherit;
+  }
+  .radio-pair{ display:flex; gap:10px; }
+  .radio-pair label{
+    flex:1; text-align:center; border:1px solid var(--line); border-radius:var(--radius-sm);
+    padding:10px; cursor:pointer; font-weight:500; margin:0; background:var(--white);
+  }
+  .radio-pair input{ display:none; }
+  .radio-pair input:checked + span{ color:var(--white); }
+  .radio-pair label:has(input:checked){ background:var(--ink); border-color:var(--ink); color:var(--white); }
+  .hint{ font-size:.82rem; color:var(--charcoal-soft); margin-top:6px; }
+
+  .btn{
+    border:none; border-radius:var(--radius-sm); padding:13px 22px; font-size:1rem;
+    font-weight:600; cursor:pointer; display:inline-flex; align-items:center; gap:8px;
+  }
+  .btn-primary{ background:var(--marigold); color:var(--charcoal); }
+  .btn-primary:hover{ background:var(--marigold-deep); color:var(--white); }
+  .btn-secondary{ background:var(--ink); color:var(--white); }
+  .btn-secondary:hover{ background:var(--ink-soft); }
+  .btn-ghost{ background:transparent; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover{ background:var(--paper-alt); }
+
+  .wizard-actions{ margin-top:6px; }
+
+  /* result passbook entry */
+  .result{
+    margin-top:40px; display:flex; gap:24px; border-left:3px solid var(--ink);
+    padding:22px 0 22px 24px; align-items:flex-start;
+  }
+  .result.hidden, .notice.hidden, .hidden{ display:none !important; }
+  .result-main{ flex:1; }
+  .result-kicker{ font-size:.84rem; color:var(--charcoal-soft); margin-bottom:6px; }
+  .result-title{ font-size:1.5rem; }
+  .fact-list{ list-style:none; padding:0; margin:16px 0 0; display:flex; flex-wrap:wrap; gap:22px; }
+  .fact-list li{ font-size:.92rem; }
+  .fact-list b{ display:block; font-family:'Fraunces', serif; font-size:1.15rem; color:var(--ink); font-weight:600; }
+  body.lang-hi .fact-list b{ font-family:'IBM Plex Sans Devanagari', sans-serif; }
+  .result-actions{ margin-top:20px; display:flex; gap:12px; flex-wrap:wrap; }
+
+  .stamp{
+    flex:none; width:84px; height:84px; border-radius:50%; border:2.5px solid var(--banyan);
+    color:var(--banyan); display:flex; align-items:center; justify-content:center; text-align:center;
+    font-family:'Fraunces', serif; font-weight:600; font-size:.68rem; line-height:1.15;
+    transform:rotate(-9deg) scale(.8); opacity:0; transition:transform .45s cubic-bezier(.34,1.56,.64,1), opacity .3s;
+    position:relative;
+  }
+  .stamp::after{
+    content:''; position:absolute; inset:6px; border:1px dashed var(--banyan); border-radius:50%; opacity:.6;
+  }
+  .stamp.show{ transform:rotate(-9deg) scale(1); opacity:1; }
+  body.lang-hi .stamp{ font-family:'IBM Plex Sans Devanagari', sans-serif; font-weight:700; }
+
+  .notice{
+    margin-top:32px; border-left:3px solid var(--danger); padding:18px 0 18px 24px; max-width:560px;
+  }
+  .notice p{ margin:6px 0 0; color:var(--charcoal-soft); font-size:.95rem; }
+  .notice strong{ color:var(--danger); font-family:'Fraunces', serif; font-size:1.1rem; }
+  body.lang-hi .notice strong{ font-family:'IBM Plex Sans Devanagari', sans-serif; }
+
+  /* calculator */
+  .calc-empty p{ color:var(--charcoal-soft); max-width:48ch; }
+  .calc-body{ margin-top:28px; display:grid; grid-template-columns:1.1fr 1fr; gap:48px; }
+  @media (max-width:760px){ .calc-body{ grid-template-columns:1fr; gap:32px; } }
+  .slider-group{ margin-bottom:26px; }
+  .slider-group .row-between{ display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px; }
+  .slider-group label{ font-weight:500; font-size:.95rem; }
+  .slider-value{ font-family:'Fraunces', serif; color:var(--ink); font-weight:600; }
+  body.lang-hi .slider-value{ font-family:'IBM Plex Sans Devanagari', sans-serif; }
+  input[type=range]{
+    width:100%; accent-color:var(--ink); height:4px; background:var(--line);
+  }
+  .check-row{ display:flex; align-items:center; gap:10px; margin-top:18px; font-size:.92rem; }
+  .check-row input{ width:18px; height:18px; accent-color:var(--ink); }
+  .rate-note{ font-size:.82rem; color:var(--charcoal-soft); margin-top:4px; }
+
+  .emi-display{
+    border-left:3px solid var(--marigold-deep); padding-left:24px;
+  }
+  .emi-label{ font-size:.88rem; color:var(--charcoal-soft); }
+  .emi-number{ font-family:'Fraunces', serif; font-size:2.6rem; color:var(--ink); font-weight:600; margin:4px 0 18px; }
+  body.lang-hi .emi-number{ font-family:'IBM Plex Sans Devanagari', sans-serif; }
+  .grace-note{ font-size:.88rem; color:var(--charcoal-soft); margin-bottom:20px; }
+  .breakdown-bar{ height:14px; border-radius:999px; overflow:hidden; display:flex; background:var(--line); }
+  .breakdown-bar .principal{ background:var(--ink); }
+  .breakdown-bar .interest{ background:var(--marigold); }
+  .breakdown-legend{ display:flex; gap:22px; margin-top:12px; font-size:.85rem; }
+  .legend-dot{ width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:6px; }
+
+  /* locator */
+  .chip-row{ display:flex; gap:8px; flex-wrap:wrap; margin:24px 0 32px; }
+  .chip{
+    border:1px solid var(--line); background:var(--white); color:var(--charcoal);
+    padding:8px 16px; border-radius:999px; font-size:.88rem; cursor:pointer;
+  }
+  .chip.active{ background:var(--ink); border-color:var(--ink); color:var(--white); }
+  .locate-grid{ display:grid; grid-template-columns:1fr 1.15fr; gap:36px; align-items:start; }
+  @media (max-width:760px){ .locate-grid{ grid-template-columns:1fr; } }
+
+  .map-panel{
+    background:var(--paper-alt); border:1px solid var(--line); border-radius:var(--radius-md);
+    aspect-ratio:4/3.6; position:relative; overflow:hidden;
+  }
+  .map-panel svg{ width:100%; height:100%; display:block; }
+  .you-pin circle.pulse{
+    animation:pulse 2.2s ease-out infinite;
+    transform-origin:center;
+  }
+  @media (prefers-reduced-motion:reduce){ .you-pin circle.pulse{ animation:none; } }
+  @keyframes pulse{
+    0%{ opacity:.55; transform:scale(1); }
+    70%{ opacity:0; transform:scale(2.6); }
+    100%{ opacity:0; transform:scale(2.6); }
+  }
+
+  .partner-list{ list-style:none; margin:0; padding:0; }
+  .partner-list li{
+    padding:16px 0; border-bottom:1px solid var(--line);
+    display:flex; justify-content:space-between; gap:12px;
+  }
+  .partner-list li:first-child{ padding-top:0; }
+  .p-name{ font-weight:600; }
+  .p-meta{ font-size:.85rem; color:var(--charcoal-soft); margin-top:3px; }
+  .p-dist{ font-size:.85rem; color:var(--charcoal-soft); white-space:nowrap; text-align:right; }
+  .status-badge{
+    display:inline-block; font-size:.75rem; padding:3px 10px; border-radius:999px; margin-top:6px;
+  }
+  .status-available{ background:var(--banyan-soft); color:var(--banyan); }
+  .status-limited{ background:var(--marigold-soft); color:var(--marigold-deep); }
+
+  .demo-note{
+    max-width:560px; font-size:.82rem; color:var(--charcoal-soft); margin-top:28px;
+    border-top:1px dashed var(--line); padding-top:14px;
+  }
+
+  footer{
+    border-top:1px solid var(--line); margin-top:40px; padding:28px 0 40px;
+  }
+  footer p{ font-size:.82rem; color:var(--charcoal-soft); max-width:64ch; margin:0 0 6px; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-row">
+    <div class="brand">
+      <span class="brand-mark">SahayaSetu</span>
+      <span class="brand-tag" data-i18n="brandTag">scheme &amp; credit assistant</span>
+    </div>
+    <nav class="main-nav">
+      <button data-scroll="recommend" data-i18n="navRecommend">Find a scheme</button>
+      <button data-scroll="calculate" data-i18n="navCalculate">Calculate EMI</button>
+      <button data-scroll="locate" data-i18n="navLocate">Find a partner</button>
+    </nav>
+    <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+      <span id="langEn" class="active">A</span>
+      <span id="langHi">अ</span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- SECTION 1: RECOMMENDER -->
+  <section class="section" id="recommend">
+    <div class="wrap">
+      <h1 class="eyebrow-free-title" data-i18n="heroTitle">Find the scheme that fits you</h1>
+      <p class="subhead" data-i18n="heroSub">Answer four questions about your project. No paperwork yet — just a clear answer on what you're eligible for.</p>
+
+      <form class="wizard" id="wizardForm">
+        <div class="field-row">
+          <span class="field-num">1</span>
+          <div class="field-body">
+            <label for="projectType" data-i18n="q1Label">What are you raising money for?</label>
+            <select id="projectType">
+              <option value="trade" data-i18n="optTrade">Small trade or shop</option>
+              <option value="manufacturing" data-i18n="optManufacturing">Manufacturing or production unit</option>
+              <option value="services" data-i18n="optServices">Services business</option>
+              <option value="agri" data-i18n="optAgri">Agriculture-allied activity</option>
+              <option value="education" data-i18n="optEducation">Higher education or professional course</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-row" id="costRow">
+          <span class="field-num">2</span>
+          <div class="field-body">
+            <label for="costInput" id="costLabel" data-i18n="q2LabelProject">Estimated project cost (₹)</label>
+            <input type="number" id="costInput" min="5000" step="5000" value="120000">
+          </div>
+        </div>
+
+        <div class="field-row">
+          <span class="field-num">3</span>
+          <div class="field-body">
+            <label for="incomeInput" data-i18n="q3Label">Annual family income (₹)</label>
+            <input type="number" id="incomeInput" min="0" step="5000" value="180000">
+            <p class="hint" data-i18n="q3Hint">Concessional schemes apply up to ₹5,00,000 per year.</p>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <span class="field-num">4</span>
+          <div class="field-body">
+            <label data-i18n="q4Label">Do you have SC category proof?</label>
+            <div class="radio-pair">
+              <label><input type="radio" name="proof" value="yes" checked><span data-i18n="yes">Yes</span></label>
+              <label><input type="radio" name="proof" value="no"><span data-i18n="no">Not yet</span></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="wizard-actions">
+          <button type="submit" class="btn btn-primary" data-i18n="wizardSubmit">See my scheme</button>
+        </div>
+      </form>
+
+      <div class="result hidden" id="resultBlock">
+        <div class="stamp" id="stamp" data-i18n="stampText">Matched</div>
+        <div class="result-main">
+          <div class="result-kicker" data-i18n="resultKicker">Your match</div>
+          <h2 class="result-title" id="resultName">—</h2>
+          <p class="subhead" id="resultDesc" style="margin-top:6px;"></p>
+          <ul class="fact-list">
+            <li><b id="factMax">—</b><span data-i18n="factMaxLabel">Maximum loan</span></li>
+            <li><b id="factRate">—</b><span data-i18n="factRateLabel">Interest rate</span></li>
+            <li><b id="factGrace">—</b><span data-i18n="factGraceLabel">Grace period</span></li>
+          </ul>
+          <div class="result-actions">
+            <button class="btn btn-secondary" id="goCalc" data-i18n="goCalc">Calculate EMI</button>
+            <button class="btn btn-ghost" id="goLocate" data-i18n="goLocate">Find a partner near you</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="notice hidden" id="ineligibleBlock">
+        <strong data-i18n="ineligTitle">This concessional scheme may not apply</strong>
+        <p id="ineligibleText"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: CALCULATOR -->
+  <section class="section" id="calculate">
+    <div class="wrap">
+      <h2 class="eyebrow-free-title" data-i18n="calcTitle">Calculate your monthly instalment</h2>
+
+      <div class="calc-empty" id="calcEmpty">
+        <p data-i18n="calcEmptyText">Choose a scheme above first — the calculator uses its loan limit and interest rate.</p>
+      </div>
+
+      <div class="calc-body hidden" id="calcBody">
+        <div>
+          <div class="slider-group">
+            <div class="row-between">
+              <label for="amountSlider" data-i18n="loanAmountLabel">Loan amount</label>
+              <span class="slider-value" id="amountValue">₹0</span>
+            </div>
+            <input type="range" id="amountSlider">
+          </div>
+          <div class="slider-group">
+            <div class="row-between">
+              <label for="tenureSlider" data-i18n="tenureLabel">Repayment period</label>
+              <span class="slider-value" id="tenureValue">0</span>
+            </div>
+            <input type="range" id="tenureSlider">
+          </div>
+          <p class="rate-note" id="rateNote"></p>
+          <div class="check-row">
+            <input type="checkbox" id="moratoriumCheck" checked>
+            <label for="moratoriumCheck" data-i18n="moratoriumLabel">Apply moratorium (grace period before first EMI)</label>
+          </div>
+        </div>
+
+        <div class="emi-display">
+          <div class="emi-label" data-i18n="emiLabel">Estimated EMI</div>
+          <div class="emi-number" id="emiNumber">₹0</div>
+          <div class="grace-note" id="graceNote"></div>
+          <div class="breakdown-bar"><div class="principal" id="barPrincipal"></div><div class="interest" id="barInterest"></div></div>
+          <div class="breakdown-legend">
+            <span><span class="legend-dot" style="background:var(--ink)"></span><span data-i18n="legendPrincipal">Principal</span> <b id="legendPrincipalVal"></b></span>
+            <span><span class="legend-dot" style="background:var(--marigold)"></span><span data-i18n="legendInterest">Total interest</span> <b id="legendInterestVal"></b></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: LOCATOR -->
+  <section class="section" id="locate">
+    <div class="wrap">
+      <h2 class="eyebrow-free-title" data-i18n="locateTitle">Partners near you</h2>
+      <p class="subhead" data-i18n="locateSub">Channel partners authorised to process this loan category — sorted by distance.</p>
+
+      <div class="chip-row" id="chipRow">
+        <button class="chip active" data-filter="all" data-i18n="chipAll">All</button>
+        <button class="chip" data-filter="micro" data-i18n="chipMicro">Micro Finance</button>
+        <button class="chip" data-filter="term" data-i18n="chipTerm">Term Loan</button>
+        <button class="chip" data-filter="education" data-i18n="chipEducation">Education</button>
+      </div>
+
+      <div class="locate-grid">
+        <div class="map-panel" aria-hidden="true">
+          <svg viewBox="0 0 300 270">
+            <path d="M0,60 C70,40 110,90 180,70 S280,30 300,50" stroke="#D8D2C4" stroke-width="6" fill="none"/>
+            <path d="M20,180 C90,160 140,220 220,190 S300,210 300,230" stroke="#D8D2C4" stroke-width="6" fill="none"/>
+            <path d="M150,0 C160,90 130,150 150,270" stroke="#D8D2C4" stroke-width="6" fill="none"/>
+            <g class="you-pin">
+              <circle class="pulse" cx="150" cy="130" r="10" fill="#E8A33D"/>
+              <circle cx="150" cy="130" r="7" fill="#B97A1C" stroke="#FBF9F4" stroke-width="2"/>
+            </g>
+            <g fill="#1F3A5F"><circle cx="95" cy="90" r="6"/></g>
+            <g fill="#1F3A5F"><circle cx="205" cy="100" r="6"/></g>
+            <g fill="#1F3A5F"><circle cx="120" cy="190" r="6"/></g>
+            <g fill="#1F3A5F"><circle cx="225" cy="175" r="6"/></g>
+            <g fill="#1F3A5F"><circle cx="80" cy="200" r="6"/></g>
+          </svg>
+        </div>
+        <ul class="partner-list" id="partnerList"></ul>
+      </div>
+
+      <p class="demo-note" data-i18n="demoNote">Sample directory shown for demonstration. A production version would sync live branch data and fund-utilisation status from NABARD / SCA systems.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p data-i18n="footerDisclaimer">Interest rates, limits and grace periods shown here are indicative for this prototype. Always confirm current terms with your nearest channel partner or the official scheme portal before applying.</p>
+    <p data-i18n="footerCredit">Built for Smart India Hackathon · Ministry of Social Justice and Empowerment</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+
+  const schemes = {
+    micro:{ key:'micro', maxCost:140000, rate:6.5, moratorium:3, maxTenureMonths:60,
+      nameEn:'Micro Finance Scheme', nameHi:'सूक्ष्म वित्त योजना',
+      descEn:'For small trade and service projects up to ₹1.4 lakh.',
+      descHi:'₹1.4 लाख तक की छोटी व्यापार व सेवा परियोजनाओं के लिए।' },
+    term:{ key:'term', maxCost:5000000, rate:8, moratorium:6, maxTenureMonths:84,
+      nameEn:'Term Loan Scheme', nameHi:'सावधि ऋण योजना',
+      descEn:'For larger manufacturing and business projects up to ₹50 lakh.',
+      descHi:'₹50 लाख तक की बड़ी विनिर्माण व व्यावसायिक परियोजनाओं के लिए।' },
+    education:{ key:'education', maxCost:2000000, rate:4, moratorium:12, maxTenureMonths:120,
+      nameEn:'Education Loan Scheme', nameHi:'शिक्षा ऋण योजना',
+      descEn:'For higher education and professional courses.',
+      descHi:'उच्च शिक्षा एवं व्यावसायिक पाठ्यक्रमों के लिए।' }
+  };
+  const INCOME_LIMIT = 500000;
+
+  const partners = [
+    { name:'District SC Development Corporation', type:'State Channelizing Agency', dist:1.2, cats:['micro','term'], status:'available' },
+    { name:'Union Bank of India — MG Road', type:'Public Sector Bank', dist:2.4, cats:['micro','term','education'], status:'available' },
+    { name:'Kaveri Grameena Bank — Rural Branch', type:'Regional Rural Bank', dist:3.1, cats:['micro'], status:'limited' },
+    { name:'Sahaya Mahila NBFC-MFI Centre', type:'NBFC-MFI', dist:3.8, cats:['micro'], status:'available' },
+    { name:'Canara Bank — Civil Lines', type:'Public Sector Bank', dist:4.5, cats:['term','education'], status:'available' },
+    { name:'State Education Loan Cell', type:'State Channelizing Agency', dist:5.0, cats:['education'], status:'limited' },
+    { name:'Bank of India — Industrial Estate', type:'Public Sector Bank', dist:5.6, cats:['term'], status:'available' },
+    { name:'Prayas Grameen Bank', type:'Regional Rural Bank', dist:6.3, cats:['micro','education'], status:'available' }
+  ];
+
+  const translations = {
+    en:{
+      brandTag:'scheme & credit assistant',
+      navRecommend:'Find a scheme', navCalculate:'Calculate EMI', navLocate:'Find a partner',
+      heroTitle:'Find the scheme that fits you',
+      heroSub:"Answer four questions about your project. No paperwork yet — just a clear answer on what you're eligible for.",
+      q1Label:'What are you raising money for?',
+      optTrade:'Small trade or shop', optManufacturing:'Manufacturing or production unit',
+      optServices:'Services business', optAgri:'Agriculture-allied activity',
+      optEducation:'Higher education or professional course',
+      q2LabelProject:'Estimated project cost (₹)', q2LabelEdu:'Estimated course cost (₹)',
+      q3Label:'Annual family income (₹)', q3Hint:'Concessional schemes apply up to ₹5,00,000 per year.',
+      q4Label:'Do you have SC category proof?', yes:'Yes', no:'Not yet',
+      wizardSubmit:'See my scheme',
+      stampText:'Matched', resultKicker:'Your match',
+      factMaxLabel:'Maximum loan', factRateLabel:'Interest rate', factGraceLabel:'Grace period',
+      goCalc:'Calculate EMI', goLocate:'Find a partner near you',
+      ineligTitle:'This concessional scheme may not apply',
+      ineligIncome:'Family income above ₹5,00,000 a year falls outside this concessional scheme. You may still explore standard bank credit or MUDRA loans at market rates.',
+      ineligOverLimit:'This project cost is above ₹50,00,000, which is beyond what these schemes cover. Consider splitting the project or exploring larger institutional financing.',
+      calcTitle:'Calculate your monthly instalment',
+      calcEmptyText:'Choose a scheme above first — the calculator uses its loan limit and interest rate.',
+      loanAmountLabel:'Loan amount', tenureLabel:'Repayment period',
+      moratoriumLabel:'Apply moratorium (grace period before first EMI)',
+      emiLabel:'Estimated EMI',
+      legendPrincipal:'Principal', legendInterest:'Total interest',
+      locateTitle:'Partners near you',
+      locateSub:'Channel partners authorised to process this loan category — sorted by distance.',
+      chipAll:'All', chipMicro:'Micro Finance', chipTerm:'Term Loan', chipEducation:'Education',
+      demoNote:'Sample directory shown for demonstration. A production version would sync live branch data and fund-utilisation status from NABARD / SCA systems.',
+      footerDisclaimer:'Interest rates, limits and grace periods shown here are indicative for this prototype. Always confirm current terms with your nearest channel partner or the official scheme portal before applying.',
+      footerCredit:'Built for Smart India Hackathon · Ministry of Social Justice and Empowerment',
+      statusAvailable:'Available', statusLimited:'Limited capacity',
+      monthsShort:'months', perMonth:'/ month', kmAway:'km away'
+    },
+    hi:{
+      brandTag:'योजना एवं ऋण सहायक',
+      navRecommend:'योजना खोजें', navCalculate:'ईएमआई निकालें', navLocate:'साझेदार खोजें',
+      heroTitle:'अपने लिए सही योजना खोजें',
+      heroSub:'अपनी परियोजना के बारे में चार सवालों के जवाब दें। अभी कोई कागज़ी कार्रवाई नहीं — बस यह स्पष्ट जवाब कि आप किसके पात्र हैं।',
+      q1Label:'आप किस काम के लिए धन जुटा रहे हैं?',
+      optTrade:'छोटा व्यापार या दुकान', optManufacturing:'विनिर्माण या उत्पादन इकाई',
+      optServices:'सेवा व्यवसाय', optAgri:'कृषि-संबद्ध गतिविधि',
+      optEducation:'उच्च शिक्षा या व्यावसायिक पाठ्यक्रम',
+      q2LabelProject:'अनुमानित परियोजना लागत (₹)', q2LabelEdu:'अनुमानित पाठ्यक्रम लागत (₹)',
+      q3Label:'वार्षिक पारिवारिक आय (₹)', q3Hint:'रियायती योजनाएँ ₹5,00,000 प्रति वर्ष तक लागू होती हैं।',
+      q4Label:'क्या आपके पास अनुसूचित जाति प्रमाण है?', yes:'हाँ', no:'अभी नहीं',
+      wizardSubmit:'मेरी योजना देखें',
+      stampText:'मिलान हुआ', resultKicker:'आपकी योजना',
+      factMaxLabel:'अधिकतम ऋण', factRateLabel:'ब्याज दर', factGraceLabel:'मोहलत अवधि',
+      goCalc:'ईएमआई निकालें', goLocate:'नज़दीकी साझेदार खोजें',
+      ineligTitle:'यह रियायती योजना लागू नहीं हो सकती',
+      ineligIncome:'₹5,00,000 प्रति वर्ष से अधिक पारिवारिक आय इस रियायती योजना के दायरे से बाहर है। आप सामान्य बैंक ऋण या मुद्रा ऋण बाज़ार दरों पर देख सकते हैं।',
+      ineligOverLimit:'यह परियोजना लागत ₹50,00,000 से अधिक है, जो इन योजनाओं के दायरे से बाहर है। परियोजना को विभाजित करने या बड़े संस्थागत वित्तपोषण पर विचार करें।',
+      calcTitle:'अपनी मासिक किस्त निकालें',
+      calcEmptyText:'पहले ऊपर एक योजना चुनें — कैलकुलेटर उसकी ऋण सीमा और ब्याज दर का उपयोग करता है।',
+      loanAmountLabel:'ऋण राशि', tenureLabel:'चुकौती अवधि',
+      moratoriumLabel:'मोहलत अवधि लागू करें (पहली ईएमआई से पहले)',
+      emiLabel:'अनुमानित ईएमआई',
+      legendPrincipal:'मूलधन', legendInterest:'कुल ब्याज',
+      locateTitle:'आपके पास के साझेदार',
+      locateSub:'इस ऋण श्रेणी को संसाधित करने के लिए अधिकृत चैनल साझेदार — दूरी के अनुसार क्रमबद्ध।',
+      chipAll:'सभी', chipMicro:'सूक्ष्म वित्त', chipTerm:'सावधि ऋण', chipEducation:'शिक्षा',
+      demoNote:'यह निर्देशिका केवल प्रदर्शन हेतु है। उत्पादन संस्करण में NABARD/SCA प्रणालियों से लाइव शाखा डेटा और निधि-उपयोग स्थिति समन्वित होगी।',
+      footerDisclaimer:'यहाँ दिखाई गई ब्याज दरें, सीमाएँ और मोहलत अवधि इस प्रोटोटाइप के लिए सांकेतिक हैं। आवेदन से पहले अपने नज़दीकी चैनल साझेदार या आधिकारिक योजना पोर्टल से पुष्टि करें।',
+      footerCredit:'स्मार्ट इंडिया हैकथॉन के लिए निर्मित · सामाजिक न्याय एवं अधिकारिता मंत्रालय',
+      statusAvailable:'उपलब्ध', statusLimited:'सीमित क्षमता',
+      monthsShort:'महीने', perMonth:'/ माह', kmAway:'किमी दूर'
+    }
+  };
+
+  const state = { lang:'en', scheme:null, filter:'all' };
+
+  function t(key){ return translations[state.lang][key] || key; }
+  function fmtINR(n){ return '₹' + Math.round(n).toLocaleString('en-IN'); }
+
+  function applyStaticText(){
+    document.querySelectorAll('[data-i18n]').forEach(el=>{
+      const key = el.getAttribute('data-i18n');
+      if(translations[state.lang][key] !== undefined) el.textContent = t(key);
+    });
+    document.getElementById('costLabel').textContent =
+      document.getElementById('projectType').value === 'education' ? t('q2LabelEdu') : t('q2LabelProject');
+  }
+
+  function evaluateScheme(){
+    const type = document.getElementById('projectType').value;
+    const cost = parseFloat(document.getElementById('costInput').value) || 0;
+    const income = parseFloat(document.getElementById('incomeInput').value) || 0;
+
+    if(income > INCOME_LIMIT){
+      return { status:'ineligible', reason:'ineligIncome' };
+    }
+    if(type === 'education'){
+      return { status:'match', scheme:schemes.education };
+    }
+    if(cost <= schemes.micro.maxCost){
+      return { status:'match', scheme:schemes.micro };
+    }
+    if(cost <= schemes.term.maxCost){
+      return { status:'match', scheme:schemes.term };
+    }
+    return { status:'overLimit', reason:'ineligOverLimit' };
+  }
+
+  function renderResult(evalResult){
+    const resultBlock = document.getElementById('resultBlock');
+    const ineligibleBlock = document.getElementById('ineligibleBlock');
+    const calcEmpty = document.getElementById('calcEmpty');
+    const calcBody = document.getElementById('calcBody');
+
+    if(evalResult.status === 'match'){
+      state.scheme = evalResult.scheme;
+      resultBlock.classList.remove('hidden');
+      ineligibleBlock.classList.add('hidden');
+      document.getElementById('resultName').textContent = state.lang==='hi' ? state.scheme.nameHi : state.scheme.nameEn;
+      document.getElementById('resultDesc').textContent = state.lang==='hi' ? state.scheme.descHi : state.scheme.descEn;
+      document.getElementById('factMax').textContent = fmtINR(state.scheme.maxCost);
+      document.getElementById('factRate').textContent = state.scheme.rate + '% p.a.';
+      document.getElementById('factGrace').textContent = state.scheme.moratorium + ' ' + t('monthsShort');
+      requestAnimationFrame(()=> document.getElementById('stamp').classList.add('show'));
+
+      calcEmpty.classList.add('hidden');
+      calcBody.classList.remove('hidden');
+      setupCalculator();
+      renderPartners();
+    } else {
+      state.scheme = null;
+      resultBlock.classList.add('hidden');
+      document.getElementById('stamp').classList.remove('show');
+      ineligibleBlock.classList.remove('hidden');
+      document.getElementById('ineligibleText').textContent = t(evalResult.reason);
+      calcEmpty.classList.remove('hidden');
+      calcBody.classList.add('hidden');
+    }
+  }
+
+  function computeEMI(P, annualRatePct, months){
+    const r = annualRatePct/12/100;
+    if(r === 0) return P/months;
+    const f = Math.pow(1+r, months);
+    return P * r * f / (f-1);
+  }
+
+  function setupCalculator(){
+    const s = state.scheme;
+    const amountSlider = document.getElementById('amountSlider');
+    const tenureSlider = document.getElementById('tenureSlider');
+    const cost = parseFloat(document.getElementById('costInput').value) || s.maxCost;
+
+    amountSlider.min = 10000;
+    amountSlider.max = s.maxCost;
+    amountSlider.step = s.maxCost > 500000 ? 10000 : 5000;
+    amountSlider.value = Math.min(cost, s.maxCost);
+
+    tenureSlider.min = 6;
+    tenureSlider.max = s.maxTenureMonths;
+    tenureSlider.step = 6;
+    tenureSlider.value = Math.round(s.maxTenureMonths*0.6/6)*6;
+
+    recalcCalculator();
+  }
+
+  function recalcCalculator(){
+    const s = state.scheme;
+    if(!s) return;
+    const amount = parseFloat(document.getElementById('amountSlider').value);
+    const months = parseFloat(document.getElementById('tenureSlider').value);
+    const withMoratorium = document.getElementById('moratoriumCheck').checked;
+
+    document.getElementById('amountValue').textContent = fmtINR(amount);
+    const years = (months/12).toFixed(1).replace(/\.0$/,'');
+    document.getElementById('tenureValue').textContent = months + ' ' + t('monthsShort');
+    document.getElementById('rateNote').textContent =
+      (state.lang==='hi' ? 'दर: ' : 'Rate: ') + s.rate + '% p.a. — ' + (state.lang==='hi' ? 'इस योजना की मानक रियायती दर' : "this scheme's standard concessional rate");
+
+    const emi = computeEMI(amount, s.rate, months);
+    const totalPaid = emi*months;
+    const totalInterest = totalPaid - amount;
+
+    document.getElementById('emiNumber').textContent = fmtINR(emi) + ' ' + t('perMonth');
+    document.getElementById('graceNote').textContent = withMoratorium
+      ? (state.lang==='hi' ? `पहली ईएमआई ${s.moratorium} माह की मोहलत के बाद देय होगी।` : `First EMI is due after a ${s.moratorium}-month grace period.`)
+      : '';
+
+    const pPct = Math.max(4, Math.min(96, (amount/totalPaid)*100));
+    document.getElementById('barPrincipal').style.width = pPct + '%';
+    document.getElementById('barInterest').style.width = (100-pPct) + '%';
+    document.getElementById('legendPrincipalVal').textContent = fmtINR(amount);
+    document.getElementById('legendInterestVal').textContent = fmtINR(totalInterest);
+  }
+
+  function renderPartners(){
+    const list = document.getElementById('partnerList');
+    list.innerHTML = '';
+    let items = partners.slice().sort((a,b)=>a.dist-b.dist);
+    if(state.filter !== 'all'){
+      items = items.filter(p=>p.cats.includes(state.filter));
+    } else if(state.scheme){
+      items = items.filter(p=>p.cats.includes(state.scheme.key)).concat(items.filter(p=>!p.cats.includes(state.scheme.key)));
+    }
+    items.forEach(p=>{
+      const li = document.createElement('li');
+      const statusClass = p.status === 'available' ? 'status-available' : 'status-limited';
+      const statusText = p.status === 'available' ? t('statusAvailable') : t('statusLimited');
+      li.innerHTML = `
+        <div>
+          <div class="p-name">${p.name}</div>
+          <div class="p-meta">${p.type}</div>
+          <span class="status-badge ${statusClass}">${statusText}</span>
+        </div>
+        <div class="p-dist">${p.dist} ${t('kmAway')}</div>
+      `;
+      list.appendChild(li);
+    });
+  }
+
+  // events
+  document.getElementById('projectType').addEventListener('change', function(){
+    const costRow = document.getElementById('costRow');
+    document.getElementById('costLabel').textContent =
+      this.value === 'education' ? t('q2LabelEdu') : t('q2LabelProject');
+  });
+
+  document.getElementById('wizardForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    renderResult(evaluateScheme());
+    document.getElementById('resultBlock').scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+
+  document.getElementById('amountSlider').addEventListener('input', recalcCalculator);
+  document.getElementById('tenureSlider').addEventListener('input', recalcCalculator);
+  document.getElementById('moratoriumCheck').addEventListener('change', recalcCalculator);
+
+  document.getElementById('goCalc').addEventListener('click', ()=>{
+    document.getElementById('calculate').scrollIntoView({behavior:'smooth'});
+  });
+  document.getElementById('goLocate').addEventListener('click', ()=>{
+    document.getElementById('locate').scrollIntoView({behavior:'smooth'});
+  });
+
+  document.querySelectorAll('nav.main-nav button').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      document.getElementById(btn.getAttribute('data-scroll')).scrollIntoView({behavior:'smooth'});
+    });
+  });
+
+  document.getElementById('chipRow').addEventListener('click', (e)=>{
+    const chip = e.target.closest('.chip');
+    if(!chip) return;
+    document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+    chip.classList.add('active');
+    state.filter = chip.getAttribute('data-filter');
+    renderPartners();
+  });
+
+  document.getElementById('langToggle').addEventListener('click', ()=>{
+    state.lang = state.lang === 'en' ? 'hi' : 'en';
+    document.body.classList.toggle('lang-hi', state.lang === 'hi');
+    document.documentElement.lang = state.lang;
+    document.getElementById('langEn').classList.toggle('active', state.lang==='en');
+    document.getElementById('langHi').classList.toggle('active', state.lang==='hi');
+    applyStaticText();
+    if(state.scheme){
+      document.getElementById('resultName').textContent = state.lang==='hi' ? state.scheme.nameHi : state.scheme.nameEn;
+      document.getElementById('resultDesc').textContent = state.lang==='hi' ? state.scheme.descHi : state.scheme.descEn;
+      document.getElementById('factGrace').textContent = state.scheme.moratorium + ' ' + t('monthsShort');
+      recalcCalculator();
+      renderPartners();
+    } else {
+      renderPartners();
+    }
+    const ineligibleBlock = document.getElementById('ineligibleBlock');
+    if(!ineligibleBlock.classList.contains('hidden')){
+      renderResult(evaluateScheme());
+    }
+  });
+
+  // init
+  applyStaticText();
+  renderPartners();
+})();
+</script>
+</body>
+</html>
