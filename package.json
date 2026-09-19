@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently -k -p \"[{name}]\" -n \"backend,frontend\" -c \"cyan.bold,magenta.bold\" \"node server/server.js\" \"vite\"",
+    "dev:frontend": "vite",
     "server": "node server/server.js",
     "build": "vite build",
     "preview": "vite preview"
@@ -12,13 +13,16 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^6.1.1",
     "autoprefixer": "^10.6.0",
+    "concurrently": "^10.0.5",
     "postcss": "^8.5.28",
     "tailwindcss": "^3.4.17",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "canvas-confetti": "^1.9.4",
+    "jsonwebtoken": "^9.0.3",
     "leaflet": "^1.9.4",
     "lucide-react": "^1.45.0",
     "qrcode": "^1.5.4",

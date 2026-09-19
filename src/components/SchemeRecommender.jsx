@@ -158,45 +158,9 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <div className="mb-8">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xs font-mono px-2 py-0.5 bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded">
-              {t("entry1Badge") || "ENTRY 01 • ELIGIBILITY AUDIT"}
-            </span>
-            <span className="text-xs text-[#6B6558]">{t("entry1Engine") || "Deterministic Classification Engine"}</span>
-          </div>
           <h1 className="font-serif font-bold text-3xl sm:text-4xl text-[#1F3A5F] tracking-tight">
-            {t("recommenderTitle") || "Find the scheme that fits you"}
+            {t("recommenderTitle") || "Find Your Scheme"}
           </h1>
-          <p className="mt-2 text-[#6B6558] text-base max-w-2xl leading-relaxed">
-            {t("recommenderSubtitle") || "Answer four questions about your enterprise or studies. No paperwork yet — just a clear, predictable answer on your statutory entitlement."}
-          </p>
-        </div>
-
-        {/* SIH Judge Presets / Quick Test Bar */}
-        <div className="mb-8 p-3.5 bg-[#F1ECE0]/60 border border-[#D8D2C4] rounded-md">
-          <div className="text-xs font-semibold text-[#1F3A5F] uppercase tracking-wider mb-2 flex items-center justify-between">
-            <span>{t("quickTestLabel") || "Quick Test Cases (SIH Verification Benchmarks):"}</span>
-            <span className="text-[11px] font-normal text-[#6B6558]">{t("clickToPrefill") || "Click to pre-fill"}</span>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {[
-              { label: t("case1Label") || "Case 1: Small Trade (₹1.2L)", type: "trade", cost: 120000, income: 180000 },
-              { label: t("case2Label") || "Case 2: Manufacturing (₹8L)", type: "manufacturing", cost: 800000, income: 300000 },
-              { label: t("case3Label") || "Case 3: Higher Education (₹6L)", type: "education", cost: 600000, income: 250000 },
-              { label: t("case4Label") || "Case 4: Services > ₹5L Income", type: "services", cost: 200000, income: 650000 },
-              { label: t("case5Label") || "Case 5: Manufacturing > ₹50L", type: "manufacturing", cost: 6500000, income: 400000 },
-              { label: t("case6Label") || "Case 6: Education > ₹20L Cap (₹25L)", type: "education", cost: 2500000, income: 200000 }
-            ].map((p, idx) => (
-              <button
-                key={idx}
-                type="button"
-                onClick={() => handleQuickPreset(p)}
-                className="text-xs px-2.5 py-1 rounded bg-white hover:bg-[#FBF9F4] border border-[#D8D2C4] text-[#2B2A28] font-medium transition"
-              >
-                {p.label}
-              </button>
-            ))}
-          </div>
         </div>
 
         {/* 4-Question Intake Form */}
@@ -337,13 +301,13 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
             <button
               type="submit"
               disabled={loading}
-              className="px-6 py-3 bg-[#E8A33D] hover:bg-[#B97A1C] text-[#2B2A28] hover:text-white font-semibold rounded text-sm transition shadow-sm flex items-center gap-2"
+              className="px-6 py-3 bg-[#E8A33D] hover:bg-[#B97A1C] text-[#2B2A28] hover:text-white font-semibold rounded text-sm transition shadow-sm flex items-center gap-2 cursor-pointer"
             >
               {loading ? (
-                <span>{t("checkingBtn") || "Auditing eligibility rules..."}</span>
+                <span>{t("checkingBtn") || "Finding matching schemes..."}</span>
               ) : (
                 <>
-                  <span>{t("checkEligibilityBtn") || "See my scheme match"}</span>
+                  <span>{t("checkEligibilityBtn") || "Find My Scheme"}</span>
                   <ArrowRight className="w-4 h-4" />
                 </>
               )}
@@ -359,10 +323,10 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
               <div className="ledger-entry bg-[#FFFDF9] border border-[#D8D2C4] p-6 sm:p-8 rounded-md shadow-sm relative">
                 <div className="flex flex-col sm:flex-row justify-between items-start gap-6">
                   <div className="flex-1">
-                    <div className="flex items-center gap-2 text-xs font-mono uppercase text-[#6B6558] mb-1">
-                      <span>{t("auditOutcome") || "OFFICIAL SANCTION CLASSIFICATION"}</span>
+                    <div className="flex items-center gap-2 text-xs uppercase text-[#6B6558] mb-1">
+                      <span className="font-semibold text-[#1F3A5F]">{t("auditOutcome") || "Loan Eligibility"}</span>
                       <span>•</span>
-                      <span className="text-[#3B6E52] font-semibold">{t("ruleMatched") || "100% EXPLAINABLE MATCH"}</span>
+                      <span className="text-[#3B6E52] font-semibold">{t("ruleMatched") || "Best Match Found"}</span>
                     </div>
 
                     <h2 className="font-serif font-bold text-2xl sm:text-3xl text-[#1F3A5F]">
@@ -372,38 +336,38 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
                       {result.scheme.description}
                     </p>
 
-                    {/* Reasoning Box (Functional requirement) */}
+                    {/* Reasoning Box */}
                     <div className="bg-[#F1ECE0] border-l-2 border-[#1F3A5F] p-3 rounded text-xs text-[#2B2A28] leading-relaxed mb-6">
-                      <span className="font-semibold text-[#1F3A5F]">{t("whyMatched") || "Eligibility Reasoning: "}</span>
+                      <span className="font-semibold text-[#1F3A5F]">{t("whyMatched") || "Why you qualify: "}</span>
                       {result.reason}
                     </div>
 
-                    {/* Capped Warning (Test Case 6) */}
+                    {/* Capped Warning */}
                     {result.capped && (
                       <div className="bg-[#FBEBD2] border-l-2 border-[#E8A33D] p-3 rounded text-xs text-[#2B2A28] leading-relaxed mb-6">
-                        <span className="font-semibold text-[#B97A1C]">{t("projectCapExceeded") || "Domestic Ceiling Cap: "}</span>
-                        Maximum concessional sanction for domestic education is capped at ₹20,00,000.
-                        Remaining balance of {formatINR(Number(costInput) - 2000000)} must be arranged
-                        via margin money or scholarship. If studying abroad, NSFDC covers up to ₹40,00,000.
+                        <span className="font-semibold text-[#B97A1C]">{t("projectCapExceeded") || "Course Loan Limit: "}</span>
+                        Maximum concessional loan for domestic education is capped at ₹20,00,000.
+                        Remaining balance of {formatINR(Number(costInput) - 2000000)} can be arranged
+                        via personal contribution or scholarship (study abroad is eligible up to ₹40,00,000).
                       </div>
                     )}
 
                     {/* Caste proof guidance */}
                     {result.casteProofNote && (
                       <div className="bg-[#E4EEE7] border-l-2 border-[#3B6E52] p-3 rounded text-xs text-[#2B2A28] leading-relaxed mb-6">
-                        <span className="font-semibold text-[#3B6E52]">{t("proofHelp") || "Document Action Required: "}</span>
+                        <span className="font-semibold text-[#3B6E52]">{t("proofHelp") || "Document Reminder: "}</span>
                         {result.casteProofNote}
                       </div>
                     )}
 
-                    {/* Mandatory 90% Margin Money & Cost Breakdown Card */}
+                    {/* 90% Cost Coverage & Your Contribution Card */}
                     <div className="bg-[#FAF7F0] border border-[#D8D2C4] rounded-md p-4 mb-6">
                       <div className="flex items-center justify-between border-b border-[#D8D2C4] pb-2 mb-3">
-                        <span className="text-xs font-mono font-semibold uppercase text-[#1F3A5F]">
-                          {t("marginBreakdownTitle") || "Statutory 90% Financing & Margin Money Breakdown"}
+                        <span className="text-xs font-semibold uppercase text-[#1F3A5F]">
+                          {t("marginBreakdownTitle") || "Loan Amount & Your Contribution Breakdown"}
                         </span>
-                        <span className="text-[11px] font-mono px-2 py-0.5 bg-[#3B6E52]/10 text-[#3B6E52] font-semibold rounded border border-[#3B6E52]/20">
-                          {result.loanPercentage || 90}% Loan • {result.marginPercentage || 10}% Margin
+                        <span className="text-[11px] px-2 py-0.5 bg-[#3B6E52]/10 text-[#3B6E52] font-semibold rounded border border-[#3B6E52]/20">
+                          {result.loanPercentage || 90}% Government Loan • {result.marginPercentage || 10}% Your Share
                         </span>
                       </div>
 
@@ -413,70 +377,70 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
                           <span className="font-serif font-bold text-xl text-[#2B2A28]">
                             {formatINR(result.enteredCost || costInput)}
                           </span>
-                          <span className="text-[11px] text-[#6B6558] block mt-0.5">100% of capital required</span>
+                          <span className="text-[11px] text-[#6B6558] block mt-0.5">100% of money needed</span>
                         </div>
 
                         <div className="bg-white p-3 rounded border border-[#3B6E52]/30 bg-emerald-50/30">
                           <span className="text-xs text-[#3B6E52] font-medium block">
-                            {t("eligibleLoanLabel") || "Eligible Concessional Loan (90%)"}
+                            {t("eligibleLoanLabel") || "Eligible Government Loan (90%)"}
                           </span>
                           <span className="font-serif font-bold text-xl text-[#1F3A5F]">
                             {formatINR(result.eligibleLoanAmount || (result.scheme.maxCost ? Math.min(result.scheme.maxCost, Math.round(0.9 * (result.enteredCost || costInput))) : 0))}
                           </span>
-                          <span className="text-[11px] text-[#3B6E52] block mt-0.5 font-medium">{t("schemeCoverage") || "Financed via NSFDC Channel Partner"}</span>
+                          <span className="text-[11px] text-[#3B6E52] block mt-0.5 font-medium">{t("schemeCoverage") || "Covered under low-interest scheme"}</span>
                         </div>
 
                         <div className="bg-white p-3 rounded border border-[#B97A1C]/30 bg-amber-50/30">
                           <span className="text-xs text-[#B97A1C] font-medium block">
-                            {t("borrowerMargin") || "Required Margin Money (10%)"}
+                            {t("borrowerMargin") || "Your Share (10% Margin Money)"}
                           </span>
                           <span className="font-serif font-bold text-xl text-[#B97A1C]">
                             {formatINR(result.marginMoney !== undefined ? result.marginMoney : (Number(costInput) - (result.eligibleLoanAmount || 0)))}
                           </span>
-                          <span className="text-[11px] text-[#6B6558] block mt-0.5">{t("selfContr") || "Borrower self-contribution"}</span>
+                          <span className="text-[11px] text-[#6B6558] block mt-0.5">{t("selfContr") || "Your self-contribution"}</span>
                         </div>
                       </div>
 
                       {/* Explicit Margin Money Explanation Note */}
-                      <p className="text-[11px] text-[#6B6558] mt-2.5 leading-relaxed">
-                        <span className="font-semibold text-[#1F3A5F]">Statutory Margin Note: </span>
-                        Under NSFDC channel finance regulations, concessional loans cover up to 90% of eligible project cost up to the statutory ceiling. The applicant must arrange the remaining margin money ({formatINR(result.marginMoney || 0)}) from own sources or state capital subsidies.
+                      <p className="text-xs text-[#6B6558] mt-2.5 leading-relaxed">
+                        <span className="font-semibold text-[#1F3A5F]">Important Note: </span>
+                        The government scheme funds up to 90% of your total project cost. You only need to arrange the remaining 10% ({formatINR(result.marginMoney || 0)}) from your personal savings or state subsidies.
                       </p>
                     </div>
 
-                    {/* Key Scheme Terms & Official Provenance */}
+                    {/* Key Scheme Terms */}
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-[#D8D2C4]">
                       <div>
-                        <span className="text-xs text-[#6B6558] block">{t("concessionalRate") || "Concessional Rate"}</span>
+                        <span className="text-xs text-[#6B6558] block">{t("concessionalRate") || "Low Interest Rate"}</span>
                         <span className="font-serif font-bold text-xl text-[#1F3A5F]">
                           {result.scheme.rate}% p.a.
                         </span>
-                        <span className="text-[11px] text-[#6B6558] block">{t("statutoryInterest") || "Statutory Concessional Rate"}</span>
+                        <span className="text-[11px] text-[#6B6558] block">{t("statutoryInterest") || "Government subsidized rate"}</span>
                       </div>
 
                       <div>
-                        <span className="text-xs text-[#6B6558] block">{t("moratoriumGrace") || "Moratorium (Grace Period)"}</span>
+                        <span className="text-xs text-[#6B6558] block">{t("moratoriumGrace") || "Repayment Holiday (Grace Period)"}</span>
                         <span className="font-serif font-bold text-xl text-[#1F3A5F]">
                           {result.scheme.moratorium} {t("months") || "Months"}
                         </span>
-                        <span className="text-[11px] text-[#6B6558] block">{t("repaymentHoliday") || "Principal repayment holiday"}</span>
+                        <span className="text-[11px] text-[#6B6558] block">{t("repaymentHoliday") || "No loan repayment during startup"}</span>
                       </div>
 
                       <div>
-                        <span className="text-xs text-[#6B6558] block">{t("maxLoanLimit") || "Maximum Scheme Ceiling"}</span>
+                        <span className="text-xs text-[#6B6558] block">{t("maxLoanLimit") || "Maximum Scheme Loan"}</span>
                         <span className="font-serif font-bold text-xl text-[#1F3A5F]">
                           {formatINR(result.scheme.maxCost)}
                         </span>
-                        <span className="text-[11px] text-[#6B6558] block">Statutory maximum loan limit</span>
+                        <span className="text-[11px] text-[#6B6558] block">{t("maxLoanLimitHelp") || "Maximum limit for this scheme"}</span>
                       </div>
                     </div>
 
-                    {/* Data Provenance Box */}
+                    {/* Official Guidelines Info Box */}
                     <div className="mt-4 p-3 bg-blue-50/50 border border-blue-200/60 rounded text-xs flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                       <div className="flex items-center gap-2 text-[#1F3A5F]">
                         <ShieldCheck className="w-4 h-4 text-[#3B6E52] flex-none" />
                         <span>
-                          <strong>{t("officialSource") || "Data Provenance:"}</strong> {t("nsfdcVerified") || "Sourced directly from NSFDC Official Lending Guidelines"} ({t("lastVerifiedOn") || "Last verified"}: {result.scheme.last_verified_date || "2026-09-18"})
+                          <strong>{t("officialSource") || "Government Guidelines:"}</strong> {t("nsfdcVerified") || "Official Government Scheme Information"}
                         </span>
                       </div>
                       <a
@@ -485,7 +449,7 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
                         rel="noopener noreferrer"
                         className="text-[#1F3A5F] hover:underline font-medium inline-flex items-center gap-1 flex-none"
                       >
-                        <span>{t("officialGuidelines") || "View NSFDC Official Source"}</span>
+                        <span>{t("officialGuidelines") || "View Official Scheme Details"}</span>
                         <ExternalLink className="w-3 h-3" />
                       </a>
                     </div>
@@ -494,29 +458,26 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
                     <div className="flex flex-wrap gap-3 mt-6 pt-4 border-t border-[#D8D2C4]/60">
                       <button
                         onClick={() => onSelectForCalculator && onSelectForCalculator(result.scheme, result.eligibleLoanAmount || result.effectiveAmount || costInput)}
-                        className="px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white rounded text-sm font-semibold transition flex items-center gap-2 shadow-sm"
+                        className="px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white rounded text-sm font-semibold transition flex items-center gap-2 shadow-sm cursor-pointer"
                       >
                         <Calculator className="w-4 h-4" />
-                        <span>{t("actionCalculateEmi") || "Calculate EMI"}</span>
+                        <span>{t("actionCalculateEmi") || "Calculate My EMI"}</span>
                       </button>
 
                       <button
                         onClick={() => onSelectForLocator && onSelectForLocator(result.scheme.id)}
-                        className="px-4 py-2.5 bg-white hover:bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded text-sm font-semibold transition flex items-center gap-2"
+                        className="px-4 py-2.5 bg-white hover:bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded text-sm font-semibold transition flex items-center gap-2 cursor-pointer"
                       >
                         <MapPin className="w-4 h-4" />
-                        <span>{t("actionFindPartner") || "Find an authorized partner near you"}</span>
+                        <span>{t("actionFindPartner") || "Find Nearby Bank to Apply"}</span>
                       </button>
                     </div>
                   </div>
 
-                  {/* Stamp */}
+                  {/* Stamp / Badge */}
                   <div className="flex-none self-center sm:self-start">
-                    <div className="stamp show">
-                      <span>
-                        OFFICIAL<br />
-                        MATCHED
-                      </span>
+                    <div className="px-4 py-2.5 bg-[#E4EEE7] border-2 border-[#3B6E52] rounded-lg text-[#3B6E52] text-center font-bold text-xs uppercase tracking-wider shadow-sm">
+                      Eligible<br />Match
                     </div>
                   </div>
                 </div>
@@ -527,11 +488,11 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
                 <div className="flex items-start gap-3">
                   <AlertTriangle className="w-6 h-6 text-[#A6412A] flex-none mt-0.5" />
                   <div>
-                    <span className="text-xs font-mono uppercase text-[#A6412A] tracking-wider font-semibold">
-                      {t("auditOutcome") || "CONCESSIONAL ELIGIBILITY AUDIT • NOT ELIGIBLE"}
+                    <span className="text-xs uppercase text-[#A6412A] tracking-wider font-semibold">
+                      {t("auditOutcome") || "Loan Eligibility Notice"}
                     </span>
                     <h3 className="font-serif font-bold text-xl sm:text-2xl text-[#A6412A] mt-1">
-                      {t("incomeExceeded") || "This concessional scheme does not apply"}
+                      {t("incomeExceeded") || "Not eligible for this subsidized scheme"}
                     </h3>
 
                     <p className="text-sm text-[#2B2A28] mt-2 leading-relaxed">
@@ -539,13 +500,12 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
                     </p>
 
                     <div className="mt-4 p-3 bg-white border border-[#D8D2C4] rounded text-xs text-[#6B6558] leading-relaxed">
-                      <span className="font-semibold text-[#2B2A28]">{t("whyMatched") || "Recommended Next Step: "}</span>
+                      <span className="font-semibold text-[#2B2A28]">{t("whyMatched") || "What you can do next: "}</span>
                       {result.suggestedAlternative}
                     </div>
 
                     <div className="mt-4 text-xs text-[#6B6558]">
-                      Need a second review? You can adjust the parameters above or consult your nearest
-                      District SC Development Corporation office.
+                      Need assistance? You can adjust your answers above or visit your nearest district government bank.
                     </div>
                   </div>
                 </div>

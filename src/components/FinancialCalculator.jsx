@@ -173,21 +173,9 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="mb-8">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xs font-mono px-2 py-0.5 bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded">
-              {t.entry2Badge || "ENTRY 02 • FINANCIAL AMORTIZATION & MARGIN MONEY"}
-            </span>
-            <span className="text-xs text-[#6B6558]">
-              {t.entry2Formula || "Statutory Reducing-Balance Formula"}
-            </span>
-          </div>
           <h2 className="font-serif font-bold text-3xl sm:text-4xl text-[#1F3A5F] tracking-tight">
-            {t.calcTitle || "Calculate your monthly instalment"}
+            {t.calcTitle || "Calculate Monthly Instalment (EMI)"}
           </h2>
-          <p className="mt-2 text-[#6B6558] text-base max-w-3xl leading-relaxed">
-            {t.calcSubtitle ||
-              "Transparent repayment projections with statutory 90% project cost coverage, 10% borrower margin money, moratorium grace period offsets, and commercial interest savings."}
-          </p>
         </div>
 
         {/* Scheme Selector Tabs */}
@@ -239,33 +227,33 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
 
             {/* 90% Cost Coverage & Margin Money Breakdown Card */}
             <div className="p-4 bg-[#FBF9F4] border border-[#D8D2C4] rounded-md space-y-3">
-              <div className="text-xs font-bold text-[#1F3A5F] uppercase tracking-wider flex items-center gap-1.5">
+              <div className="text-xs font-semibold text-[#1F3A5F] uppercase tracking-wider flex items-center gap-1.5">
                 <Coins className="w-4 h-4 text-[#B97A1C]" />
-                <span>{t.marginBreakdownTitle || "Statutory 90% Project Financing & Margin Money"}</span>
+                <span>{t.marginBreakdownTitle || "Loan Amount & Your Contribution Breakdown"}</span>
               </div>
 
               <div className="grid grid-cols-2 gap-3">
                 <div className="p-2.5 bg-white border border-[#3B6E52]/30 rounded">
                   <span className="text-[11px] text-[#3B6E52] block font-medium">
-                    {t.eligibleConcessionalLoan || t.eligibleLoanLabel || "Eligible Concessional Loan (Up to 90%)"}
+                    {t.eligibleConcessionalLoan || t.eligibleLoanLabel || "Eligible Government Loan (Up to 90%)"}
                   </span>
                   <span className="font-serif font-bold text-base text-[#1F3A5F]">
                     {formatINR(marginCalc.eligibleLoanAmount)}
                   </span>
                   <span className="text-[10px] text-[#6B6558] block mt-0.5">
-                    ({marginCalc.loanPercentage}% {t.schemeCoverage || "funded by MoSJE/Channel Partner"})
+                    ({marginCalc.loanPercentage}% {t.schemeCoverage || "funded by government scheme"})
                   </span>
                 </div>
 
                 <div className="p-2.5 bg-white border border-[#B97A1C]/30 rounded">
                   <span className="text-[11px] text-[#B97A1C] block font-medium">
-                    {t.requiredMarginMoney || t.marginMoneyLabel || "Borrower Margin Money (Self-Contribution)"}
+                    {t.requiredMarginMoney || t.marginMoneyLabel || "Your Share (10% Margin Money)"}
                   </span>
                   <span className="font-serif font-bold text-base text-[#B97A1C]">
                     {formatINR(marginCalc.marginMoney)}
                   </span>
                   <span className="text-[10px] text-[#6B6558] block mt-0.5">
-                    ({marginCalc.marginPercentage}% {t.selfContr || "beneficiary contribution"})
+                    ({marginCalc.marginPercentage}% {t.selfContr || "your contribution"})
                   </span>
                 </div>
               </div>
@@ -335,11 +323,11 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
                 />
                 <div>
                   <span className="text-sm font-semibold text-[#2B2A28] block">
-                    {t.moratoriumGrace || "Apply Moratorium Repayment Holiday"} ({moratoriumMonths} {t.months || "Months"})
+                    {t.moratoriumGrace || "Repayment Holiday (Grace Period)"} ({moratoriumMonths} {t.months || "Months"})
                   </span>
                   <span className="text-xs text-[#6B6558] block mt-0.5">
                     {t.moratoriumHint ||
-                      "Defers principal repayments during business setup gestation. First EMI postponed."}
+                      "Pay zero or reduced EMI during the first few months while setting up your business."}
                   </span>
                 </div>
               </label>
@@ -372,10 +360,10 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
           {/* Right Column: Ledger EMI Output Entry (6 cols) */}
           <div className="lg:col-span-6 bg-[#FFFDF9] border border-[#D8D2C4] border-l-4 border-l-[#B97A1C] p-6 sm:p-8 rounded-md shadow-sm space-y-6">
             <div>
-              <span className="text-xs font-mono uppercase text-[#6B6558] tracking-wider block mb-1">
-                {t.amortizationScheduleTitle || "MONTHLY REPAYMENT SCHEDULE"}
+              <span className="text-xs uppercase text-[#6B6558] tracking-wider block mb-1">
+                {t.amortizationScheduleTitle || "MONTHLY REPAYMENT ESTIMATE"}
               </span>
-              <span className="text-xs text-[#6B6558] block">{t.monthlyEmiLabel || t.monthlyEmi || "Estimated Monthly Instalment"}</span>
+              <span className="text-xs text-[#6B6558] block">{t.monthlyEmiLabel || t.monthlyEmi || "Monthly Instalment (EMI)"}</span>
               <div className="font-serif font-bold text-4xl sm:text-5xl text-[#1F3A5F] mt-1">
                 {formatINR(emi)}
                 <span className="text-base font-normal font-sans text-[#6B6558]"> / month</span>
@@ -385,8 +373,8 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
             {/* Grace period note */}
             {applyMoratorium ? (
               <div className="p-3 bg-[#FBEBD2] border-l-2 border-[#E8A33D] rounded text-xs text-[#2B2A28] leading-relaxed">
-                <span className="font-semibold text-[#B97A1C]">{t.repaymentHoliday || "Grace Period Applied"}: </span>
-                First regular EMI is due after a {moratoriumMonths}-month moratorium
+                <span className="font-semibold text-[#B97A1C]">{t.repaymentHoliday || "Repayment Holiday"}: </span>
+                Your first regular EMI starts after a {moratoriumMonths}-month grace period
                 (estimated first payment date: <strong className="font-semibold">{firstPaymentDateStr}</strong>).
               </div>
             ) : (
@@ -399,7 +387,7 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
             {/* Breakdown Visual Bar */}
             <div>
               <div className="flex justify-between text-xs text-[#6B6558] mb-1.5 font-medium">
-                <span>{t.principalRepayment || "Principal"} ({principalPct}%)</span>
+                <span>{t.principalRepayment || "Loan Principal"} ({principalPct}%)</span>
                 <span>{t.totalInterestLabel || t.totalInterest || "Total Interest"} ({interestPct}%)</span>
               </div>
               <div className="h-3.5 rounded-full overflow-hidden flex bg-[#D8D2C4]">
@@ -421,7 +409,7 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
                   </span>
                 </div>
                 <div className="text-right">
-                  <span className="text-[#6B6558] block">{t.totalInterestLabel || t.totalInterest || "Total Concessional Interest"}</span>
+                  <span className="text-[#6B6558] block">{t.totalInterestLabel || t.totalInterest || "Total Interest to Pay"}</span>
                   <span className="font-serif font-bold text-base text-[#B97A1C]">
                     {formatINR(totalInterest)}
                   </span>
@@ -429,7 +417,7 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
               </div>
 
               <div className="flex justify-between items-center text-xs pt-2">
-                <span className="text-[#6B6558]">{t.colTotal || "Total Repayment"} ({t.principalRepayment || "Principal"} + {t.interestCol || "Interest"}):</span>
+                <span className="text-[#6B6558]">{t.colTotal || "Total Amount"} ({t.principalRepayment || "Principal"} + {t.interestCol || "Interest"}):</span>
                 <span className="font-serif font-bold text-base text-[#2B2A28]">
                   {formatINR(totalRepayment)}
                 </span>
@@ -438,27 +426,27 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
 
             {/* Commercial Savings Benchmark */}
             <div className="p-3 bg-[#E4EEE7] border border-[#3B6E52]/30 rounded text-xs text-[#2B2A28]">
-              <span className="font-semibold text-[#3B6E52]">{t.estSavings || "Concessional Savings"}: </span>
-              Compared to standard commercial bank loans at 13.5% p.a., you save approximately{" "}
+              <span className="font-semibold text-[#3B6E52]">{t.estSavings || "Interest Savings"}: </span>
+              Compared to commercial bank loans at 13.5% p.a., you save approximately{" "}
               <strong className="font-bold text-[#3B6E52]">{formatINR(interestSaved)}</strong> in total
-              interest charges through this MoSJE scheme.
+              interest through this government scheme!
             </div>
 
             {/* Actions */}
             <div className="flex flex-wrap gap-3 pt-2 border-t border-[#D8D2C4]">
               <button
                 onClick={handleExportCSV}
-                className="px-4 py-2.5 bg-white hover:bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded text-xs font-semibold transition flex items-center gap-1.5 shadow-sm"
+                className="px-4 py-2.5 bg-white hover:bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded text-xs font-semibold transition flex items-center gap-1.5 shadow-sm cursor-pointer"
               >
                 <Download className="w-3.5 h-3.5" />
-                <span>{t.downloadCsvLabel || t.downloadCsvBtn || "Export CSV Schedule"}</span>
+                <span>{t.downloadCsvLabel || t.downloadCsvBtn || "Download Schedule (CSV)"}</span>
               </button>
 
               <button
                 onClick={() => onRouteToPartners && onRouteToPartners(currentScheme.id)}
-                className="px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white rounded text-xs font-semibold transition flex items-center gap-1.5 shadow-sm"
+                className="px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white rounded text-xs font-semibold transition flex items-center gap-1.5 shadow-sm cursor-pointer"
               >
-                <span>{t.routeToBanksBtn || t.locatePartnerBtn || "Find Nearby Channel Partners"}</span>
+                <span>{t.routeToBanksBtn || t.locatePartnerBtn || "Find Nearby Bank to Apply"}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
             </div>

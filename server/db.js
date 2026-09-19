@@ -88,81 +88,104 @@ export function initDatabase() {
         )
       `);
 
-      // Seed/Refresh Schemes with provenance columns
-      db.run("DELETE FROM schemes;", () => {
-        const stmt = db.prepare(`
-          INSERT INTO schemes (id, code, name, category, description, maxCost, minCost, rate, moratorium, maxTenureMonths, incomeLimit, source_url, last_verified_date)
-          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      // 6. Users Table for real JWT authentication & profile editing
+      db.run(`
+        CREATE TABLE IF NOT EXISTS users (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          name TEXT NOT NULL,
+          phone TEXT UNIQUE NOT NULL,
+          email TEXT,
+          password_hash TEXT NOT NULL,
+          state TEXT DEFAULT 'Tamil Nadu',
+          caste_category TEXT DEFAULT 'Scheduled Caste (SC)',
+          profile_image TEXT,
+          created_at INTEGER NOT NULL
+        )
+      `, () => {
+        // Seed default demo user: phone 9876543210, password 'password123'
+        const demoHash = "$2b$10$FZ1/AM59qkfMK/RO5h2wq.Q8uv8QTVmpTx3dd9i1yHNRp3xPEcH1O";
+        db.run(`
+          INSERT INTO users (id, name, phone, email, password_hash, state, caste_category, profile_image, created_at)
+          VALUES (1, 'Ramesh Kumar', '9876543210', 'ramesh.kumar@example.com', '${demoHash}', 'Tamil Nadu', 'Scheduled Caste (SC)', '', 1726750000000)
+          ON CONFLICT(phone) DO UPDATE SET password_hash = '${demoHash}'
         `);
+      });
 
-        const schemeList = [
-          [
-            "micro",
-            "NSFDC-MCF",
-            "Micro Finance Scheme",
-            "Micro Finance",
-            "Concessional micro-credit assistance for small trade, vending, artisanal, and allied business projects up to ₹1.4 Lakh at 6.5% p.a. covering up to 90% of project cost.",
-            140000,
-            5000,
-            6.5,
-            3,
-            36,
-            500000,
-            "https://nsfdc.nic.in/scheme",
-            "2026-09-18"
-          ],
-          [
-            "term",
-            "NSFDC-TL",
-            "Term Loan Scheme",
-            "Term Loan",
-            "Direct term financing for manufacturing, fabrication, processing, and scalable service units up to ₹50 Lakh at 8.0% p.a. with 6-month moratorium.",
-            5000000,
-            140001,
-            8.0,
-            6,
-            84,
-            500000,
-            "https://nsfdc.nic.in/scheme",
-            "2026-09-18"
-          ],
-          [
-            "education",
-            "NSFDC-ELS",
-            "Education Loan Scheme",
-            "Education Loan",
-            "Subsidized educational credit for recognized technical, engineering, and medical courses up to ₹20 Lakh (Domestic) / ₹40 Lakh (Abroad) at 4.0% p.a. with 12-month moratorium.",
-            2000000,
-            10000,
-            4.0,
-            12,
-            120,
-            500000,
-            "https://nsfdc.nic.in/scheme",
-            "2026-09-18"
-          ],
-          [
-            "aajeevika",
-            "NSFDC-AMFY",
-            "Aajeevika Micro-Finance Yojana",
-            "Micro Finance via NBFC-MFI",
-            "Prompt need-based micro credit assistance up to ₹1.40 Lakh channeled through empanelled NBFC-MFIs at 15.0% p.a. with 3-month moratorium.",
-            140000,
-            5000,
-            15.0,
-            3,
-            36,
-            500000,
-            "https://nsfdc.nic.in/scheme",
-            "2026-09-18"
-          ]
-        ];
+      // Seed/Refresh Schemes with provenance columns (Idempotent INSERT OR REPLACE)
+      const schemeList = [
+        [
+          "micro",
+          "NSFDC-MCF",
+          "Micro Finance Scheme",
+          "Micro Finance",
+          "Concessional micro-credit assistance for small trade, vending, artisanal, and allied business projects up to ₹1.4 Lakh at 6.5% p.a. covering up to 90% of project cost.",
+          140000,
+          5000,
+          6.5,
+          3,
+          36,
+          500000,
+          "https://nsfdc.nic.in/scheme",
+          "2026-09-18"
+        ],
+        [
+          "term",
+          "NSFDC-TL",
+          "Term Loan Scheme",
+          "Term Loan",
+          "Direct term financing for manufacturing, fabrication, processing, and scalable service units up to ₹50 Lakh at 8.0% p.a. with 6-month moratorium.",
+          5000000,
+          140001,
+          8.0,
+          6,
+          84,
+          500000,
+          "https://nsfdc.nic.in/scheme",
+          "2026-09-18"
+        ],
+        [
+          "education",
+          "NSFDC-ELS",
+          "Education Loan Scheme",
+          "Education Loan",
+          "Subsidized educational credit for recognized technical, engineering, and medical courses up to ₹20 Lakh (Domestic) / ₹40 Lakh (Abroad) at 4.0% p.a. with 12-month moratorium.",
+          2000000,
+          10000,
+          4.0,
+          12,
+          120,
+          500000,
+          "https://nsfdc.nic.in/scheme",
+          "2026-09-18"
+        ],
+        [
+          "aajeevika",
+          "NSFDC-AMFY",
+          "Aajeevika Micro-Finance Yojana",
+          "Micro Finance via NBFC-MFI",
+          "Prompt need-based micro credit assistance up to ₹1.40 Lakh channeled through empanelled NBFC-MFIs at 15.0% p.a. with 3-month moratorium.",
+          140000,
+          5000,
+          15.0,
+          3,
+          36,
+          500000,
+          "https://nsfdc.nic.in/scheme",
+          "2026-09-18"
+        ]
+      ];
 
-        for (const s of schemeList) {
-          stmt.run(s);
-        }
-        stmt.finalize();
-        console.log("[DB] Provenance-verified schemes seeded.");
+      const schemeStmt = db.prepare(`
+        INSERT OR REPLACE INTO schemes (id, code, name, category, description, maxCost, minCost, rate, moratorium, maxTenureMonths, incomeLimit, source_url, last_verified_date)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      `);
+
+      for (const s of schemeList) {
+        schemeStmt.run(s);
+      }
+      schemeStmt.finalize((err) => {
+        if (err) console.error("Error finalizing schemes:", err);
+        else console.log("[DB] Provenance-verified schemes seeded.");
       });
 
       // Seed Official SCAs from official NSFDC publication

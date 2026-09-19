@@ -36,44 +36,104 @@ export const LanguageProvider = ({ children }) => {
     }
   });
 
-  // Text-To-Speech function for Low-Literacy Beneficiaries
-  const speak = (textToSpeak) => {
-    if (!("speechSynthesis" in window)) {
-      alert("Audio narration is not supported in this browser.");
-      return;
-    }
+  // Store current fallback audio element if playing
+  const [audioElement, setAudioElement] = useState(null);
 
-    if (isSpeaking) {
+  // Pre-load available voices on mount
+  useEffect(() => {
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      window.speechSynthesis.getVoices();
+      window.speechSynthesis.onvoiceschanged = () => {
+        window.speechSynthesis.getVoices();
+      };
+    }
+  }, []);
+
+  const stopSpeech = () => {
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
       window.speechSynthesis.cancel();
-      setIsSpeaking(false);
-      return;
     }
+    if (audioElement) {
+      audioElement.pause();
+      audioElement.currentTime = 0;
+      setAudioElement(null);
+    }
+    setIsSpeaking(false);
+  };
 
-    window.speechSynthesis.cancel(); // Stop any pending speech
-    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+  // Text-To-Speech function supporting Tamil, Kannada, Malayalam, Telugu, Hindi, English
+  const speak = (textToSpeak, targetLang) => {
+    stopSpeech();
 
-    // Map selected language to TTS voice code
+    const activeLangCode = targetLang || lang;
     const langCodeMap = {
       en: "en-IN",
       hi: "hi-IN",
       ta: "ta-IN",
       te: "te-IN",
-      kn: "kn-IN"
+      kn: "kn-IN",
+      ml: "ml-IN"
     };
-    utterance.lang = langCodeMap[lang] || "en-IN";
-    utterance.rate = 0.9; // Slightly slower for clear rural comprehension
+    const desiredLocale = langCodeMap[activeLangCode] || "en-IN";
 
-    utterance.onstart = () => setIsSpeaking(true);
-    utterance.onend = () => setIsSpeaking(false);
-    utterance.onerror = () => setIsSpeaking(false);
+    // Play via Web Speech API fallback
+    const playSpeechSynthesis = () => {
+      if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+        setIsSpeaking(false);
+        return;
+      }
+      try {
+        const utterance = new SpeechSynthesisUtterance(textToSpeak);
+        utterance.lang = desiredLocale;
+        utterance.rate = 0.9;
+        const voices = window.speechSynthesis.getVoices();
+        if (voices && voices.length > 0) {
+          const matchedVoice = voices.find(v => 
+            v.lang === desiredLocale || 
+            v.lang.toLowerCase().replace('_', '-').startsWith(activeLangCode.toLowerCase())
+          );
+          if (matchedVoice) utterance.voice = matchedVoice;
+        }
+        utterance.onstart = () => setIsSpeaking(true);
+        utterance.onend = () => setIsSpeaking(false);
+        utterance.onerror = () => setIsSpeaking(false);
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        }
+        window.speechSynthesis.speak(utterance);
+      } catch (err) {
+        setIsSpeaking(false);
+      }
+    };
 
-    window.speechSynthesis.speak(utterance);
-  };
+    // Play via high-quality native audio proxy (/api/tts)
+    try {
+      const cleanText = (textToSpeak || "").slice(0, 250);
+      const ttsUrl = `/api/tts?tl=${activeLangCode}&q=${encodeURIComponent(cleanText)}`;
+      const audio = new Audio(ttsUrl);
+      setAudioElement(audio);
 
-  const stopSpeech = () => {
-    if ("speechSynthesis" in window) {
-      window.speechSynthesis.cancel();
-      setIsSpeaking(false);
+      audio.onplay = () => setIsSpeaking(true);
+      audio.onended = () => {
+        setIsSpeaking(false);
+        setAudioElement(null);
+      };
+      audio.onerror = (e) => {
+        console.warn("Backend TTS playback failed, falling back to Web Speech:", e);
+        setAudioElement(null);
+        playSpeechSynthesis();
+      };
+
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((err) => {
+          console.warn("Audio play prevented or failed, trying speech synthesis:", err);
+          setAudioElement(null);
+          playSpeechSynthesis();
+        });
+      }
+    } catch (e) {
+      playSpeechSynthesis();
     }
   };
 

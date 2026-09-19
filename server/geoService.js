@@ -744,28 +744,6 @@ export async function getPanIndiaVerifiedFallback(userLat, userLng, detectedStat
 
   const partners = [];
 
-  // Add SCA
-  if (sca) {
-    const dist = calculateDistanceKm(userLat, userLng, sca.latitude, sca.longitude);
-    partners.push({
-      id: `sca-${sca.id || "state"}`,
-      name: sca.name,
-      shortName: sca.shortName || sca.name,
-      type: "State Channelizing Agency",
-      address: sca.address,
-      phone: sca.phone,
-      latitude: sca.latitude,
-      longitude: sca.longitude,
-      distance: dist,
-      directionsUrl: `https://www.google.com/maps/dir/?api=1&origin=${userLat},${userLng}&destination=${sca.latitude},${sca.longitude}&travelmode=driving`,
-      cats: ["micro", "term", "education", "mcf", "msy", "term-loan", "els", "green-business", "suy"],
-      schemesAvailable: ["mcf", "msy", "term-loan", "els", "green-business", "suy"],
-      status: "available",
-      utilizationStatus: "Available (estimated)",
-      institutionLabel: "Official State Channelizing Agency"
-    });
-  }
-
   // Add regional bank branches
   regionalBankList.forEach((rb, idx) => {
     const lat = Number(userLat) + (rb.latOffset || (idx * 0.004));
@@ -810,11 +788,7 @@ export async function getPanIndiaVerifiedFallback(userLat, userLng, detectedStat
     detectedState: cleanState,
     displayName: locationHint ? `${locationHint}, ${cleanState}, India` : `${cleanState}, India`,
     userLocation: { lat: userLat, lng: userLng },
-    sca: sca ? {
-      ...sca,
-      distance: calculateDistanceKm(userLat, userLng, sca.latitude, sca.longitude),
-      directionsUrl: `https://www.google.com/maps/dir/?api=1&origin=${userLat},${userLng}&destination=${sca.latitude},${sca.longitude}&travelmode=driving`
-    } : null,
+    sca: null,
     total: filtered.length,
     partners: filtered,
     attribution: "© OpenStreetMap contributors • NSFDC Channel Directory"

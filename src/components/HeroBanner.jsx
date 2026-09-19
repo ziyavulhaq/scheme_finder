@@ -15,7 +15,7 @@ export const HeroBanner = ({ onFindScheme, onCalculateEmi, onLocatePartners }) =
             <span>{t("heroBadge")}</span>
           </span>
           <span className="inline-flex items-center space-x-1 px-2.5 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-            <span>Ministry of Social Justice & Empowerment (MoSJE)</span>
+            <span>Citizen Concessional Schemes</span>
           </span>
         </div>
 
@@ -65,10 +65,10 @@ export const HeroBanner = ({ onFindScheme, onCalculateEmi, onLocatePartners }) =
               </div>
               <div>
                 <h3 className="text-sm font-bold text-slate-900">
-                  Important: Channel Finance Routing
+                  How To Apply Through Partner Banks
                 </h3>
                 <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                  MoSJE does not entertain direct loan applications. All concessional funds are strictly routed through accredited <strong>SCAs (TAHDCO, TSCCDC, etc.)</strong>, <strong>PSBs (SBI, Canara, Indian Bank)</strong>, <strong>RRBs</strong>, and <strong>NBFC-MFIs</strong>.
+                  All concessional loans are disbursed directly through authorized partner branches including <strong>State Agencies</strong>, <strong>Public Sector Banks (SBI, Canara, Indian Bank)</strong>, and <strong>Regional Rural Banks</strong>.
                 </p>
                 <div className="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-medium text-emerald-700">
                   <span className="flex items-center space-x-1">

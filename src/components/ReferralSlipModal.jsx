@@ -93,18 +93,18 @@ export const ReferralSlipModal = ({
           {/* Official Emblem & Header */}
           <div className="text-center border-b-2 border-slate-900 pb-4 mb-6">
             <div className="flex justify-center mb-1.5">
-              <div className="w-12 h-12 rounded-xl bg-slate-900 text-amber-400 flex items-center justify-center font-extrabold text-xl shadow">
-                MoSJE
+              <div className="w-12 h-12 rounded-xl bg-blue-900 text-amber-400 flex items-center justify-center font-black text-xl shadow">
+                SS
               </div>
             </div>
             <h2 className="text-base sm:text-lg font-extrabold uppercase tracking-wide text-slate-900">
-              Ministry of Social Justice and Empowerment
+              SahayaSetu • Citizen Scheme & Loan Guide
             </h2>
             <p className="text-xs text-slate-600 font-medium">
-              Department of Social Justice & Empowerment • Govt. of India
+              Government Concessional Loan Referral & Branch Checklist
             </p>
-            <div className="mt-2 inline-block px-3 py-1 rounded bg-slate-100 text-slate-800 text-xs font-bold uppercase tracking-widest border border-slate-300">
-              Official Channel Finance Referral Slip
+            <div className="mt-2 inline-block px-3 py-1 rounded bg-blue-50 text-blue-900 text-xs font-bold uppercase tracking-wider border border-blue-200">
+              Bank Visit & Document Checklist Slip
             </div>
           </div>
 
@@ -118,11 +118,11 @@ export const ReferralSlipModal = ({
                 {refId}
               </div>
               <p className="text-xs text-slate-600">
-                Generated via AI Scheme Matching & NPA-Vetted Routing Engine
+                Verified Concessional Scheme Recommendation
               </p>
               <div className="text-[11px] text-emerald-800 font-semibold flex items-center gap-1">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Eligibility Vetted: SC Category • Income ≤ ₹5.00L</span>
+                <span>Eligibility Confirmed: Category Criteria Met • Income ≤ ₹5.00L</span>
               </div>
             </div>
 

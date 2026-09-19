@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
+import jwt from "jsonwebtoken";
+import bcrypt from "bcryptjs";
 import db, { initDatabase } from "./db.js";
 import { evaluateEligibility } from "./rulesEngine.js";
 import { calculateAmortization } from "./financialMath.js";
@@ -11,12 +13,175 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const JWT_SECRET = process.env.JWT_SECRET || "sahayasetu_secure_jwt_token_2026";
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: "10mb" }));
 
 // Initialize SQLite database and seed tables
 await initDatabase();
+
+// Auth Middleware: Verify Bearer JWT
+function authenticateToken(req, res, next) {
+  const authHeader = req.headers["authorization"];
+  const token = authHeader && authHeader.split(" ")[1];
+  if (!token) {
+    return res.status(401).json({ success: false, error: "Access denied. No authentication token provided." });
+  }
+  jwt.verify(token, JWT_SECRET, (err, decoded) => {
+    if (err) {
+      return res.status(403).json({ success: false, error: "Invalid or expired session token." });
+    }
+    req.user = decoded;
+    next();
+  });
+}
+
+// 0. AUTH ENDPOINTS: Real JWT Authentication & Profile Management
+// POST /api/auth/register - Register Citizen Account
+app.post("/api/auth/register", async (req, res) => {
+  try {
+    const { name, phone, email, password, state, casteCategory } = req.body;
+    if (!name || !phone || !password) {
+      return res.status(400).json({ success: false, error: "Name, phone number, and password are required." });
+    }
+
+    const cleanPhone = phone.trim().replace(/\D/g, "");
+    if (cleanPhone.length < 10) {
+      return res.status(400).json({ success: false, error: "Please provide a valid 10-digit mobile number." });
+    }
+
+    db.get("SELECT id FROM users WHERE phone = ?", [cleanPhone], async (err, existing) => {
+      if (err) return res.status(500).json({ success: false, error: err.message });
+      if (existing) {
+        return res.status(409).json({ success: false, error: "An account with this phone number already exists. Please sign in." });
+      }
+
+      const passwordHash = await bcrypt.hash(password, 10);
+      const createdAt = Date.now();
+
+      db.run(
+        `INSERT INTO users (name, phone, email, password_hash, state, caste_category, profile_image, created_at)
+         VALUES (?, ?, ?, ?, ?, ?, '', ?)`,
+        [name.trim(), cleanPhone, (email || "").trim(), passwordHash, state || "Tamil Nadu", casteCategory || "Scheduled Caste (SC)", createdAt],
+        function (insertErr) {
+          if (insertErr) return res.status(500).json({ success: false, error: insertErr.message });
+          
+          const userId = this.lastID;
+          const userPayload = {
+            id: userId,
+            name: name.trim(),
+            phone: cleanPhone,
+            email: (email || "").trim(),
+            state: state || "Tamil Nadu",
+            casteCategory: casteCategory || "Scheduled Caste (SC)",
+            profileImage: ""
+          };
+
+          const token = jwt.sign(userPayload, JWT_SECRET, { expiresIn: "7d" });
+          res.json({ success: true, token, user: userPayload });
+        }
+      );
+    });
+  } catch (e) {
+    res.status(500).json({ success: false, error: e.message });
+  }
+});
+
+// POST /api/auth/login - Sign In with Phone/Email & Password
+app.post("/api/auth/login", (req, res) => {
+  try {
+    const { identifier, password } = req.body;
+    if (!identifier || !password) {
+      return res.status(400).json({ success: false, error: "Please provide your registered mobile number and password." });
+    }
+
+    const cleanIdentifier = identifier.trim().replace(/\D/g, "");
+    const query = "SELECT * FROM users WHERE phone = ? OR email = ?";
+    
+    db.get(query, [cleanIdentifier || identifier.trim(), identifier.trim()], async (err, user) => {
+      if (err) return res.status(500).json({ success: false, error: err.message });
+      if (!user) {
+        return res.status(401).json({ success: false, error: "Account not found. Please check your phone number or create an account." });
+      }
+
+      const isMatch = await bcrypt.compare(password, user.password_hash);
+      if (!isMatch) {
+        return res.status(401).json({ success: false, error: "Incorrect password. Please try again." });
+      }
+
+      const userPayload = {
+        id: user.id,
+        name: user.name,
+        phone: user.phone,
+        email: user.email,
+        state: user.state,
+        casteCategory: user.caste_category,
+        profileImage: user.profile_image || ""
+      };
+
+      const token = jwt.sign(userPayload, JWT_SECRET, { expiresIn: "7d" });
+      res.json({ success: true, token, user: userPayload });
+    });
+  } catch (e) {
+    res.status(500).json({ success: false, error: e.message });
+  }
+});
+
+// GET /api/auth/me - Verify current session & return user
+app.get("/api/auth/me", authenticateToken, (req, res) => {
+  db.get("SELECT id, name, phone, email, state, caste_category, profile_image FROM users WHERE id = ?", [req.user.id], (err, user) => {
+    if (err || !user) {
+      return res.status(404).json({ success: false, error: "User session not found." });
+    }
+    res.json({
+      success: true,
+      user: {
+        id: user.id,
+        name: user.name,
+        phone: user.phone,
+        email: user.email,
+        state: user.state,
+        casteCategory: user.caste_category,
+        profileImage: user.profile_image || ""
+      }
+    });
+  });
+});
+
+// PUT /api/auth/profile - Update User Name & Profile Picture
+app.put("/api/auth/profile", authenticateToken, (req, res) => {
+  const { name, profileImage } = req.body;
+  const userId = req.user.id;
+
+  db.get("SELECT * FROM users WHERE id = ?", [userId], (err, user) => {
+    if (err || !user) return res.status(404).json({ success: false, error: "User not found." });
+
+    const newName = name !== undefined && name.trim() ? name.trim() : user.name;
+    const newImage = profileImage !== undefined ? profileImage : user.profile_image;
+
+    db.run(
+      "UPDATE users SET name = ?, profile_image = ? WHERE id = ?",
+      [newName, newImage, userId],
+      (updateErr) => {
+        if (updateErr) return res.status(500).json({ success: false, error: updateErr.message });
+
+        const updatedUser = {
+          id: user.id,
+          name: newName,
+          phone: user.phone,
+          email: user.email,
+          state: user.state,
+          casteCategory: user.caste_category,
+          profileImage: newImage || ""
+        };
+
+        const newToken = jwt.sign(updatedUser, JWT_SECRET, { expiresIn: "7d" });
+        res.json({ success: true, token: newToken, user: updatedUser });
+      }
+    );
+  });
+});
 
 import {
   calculateDistanceKm,
@@ -106,7 +271,32 @@ app.get("/api/geocode", async (req, res) => {
   }
 });
 
-// 5. GET /api/partners/nearby - Live Location-Aware Channel Partner Directory
+// 5. GET /api/tts - Audio proxy for native Indic language speech (ta, kn, ml, te, hi, en)
+app.get("/api/tts", async (req, res) => {
+  try {
+    const { tl = "en", q = "" } = req.query;
+    if (!q) return res.status(400).send("Text query is required");
+    const cleanText = q.slice(0, 250);
+    const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=${tl}&client=tw-ob&q=${encodeURIComponent(cleanText)}`;
+    const ttsRes = await fetch(googleTtsUrl, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      }
+    });
+    if (!ttsRes.ok) {
+      return res.status(ttsRes.status).send("TTS audio fetch failed");
+    }
+    res.setHeader("Content-Type", "audio/mpeg");
+    res.setHeader("Cache-Control", "public, max-age=86400");
+    const arrayBuffer = await ttsRes.arrayBuffer();
+    res.send(Buffer.from(arrayBuffer));
+  } catch (err) {
+    console.error("TTS endpoint error:", err.message);
+    res.status(500).send(err.message);
+  }
+});
+
+// 6. GET /api/partners/nearby - Live Location-Aware Bank Directory
 app.get("/api/partners/nearby", async (req, res) => {
   let userLat = parseFloat(req.query.lat);
   let userLng = parseFloat(req.query.lng);
@@ -137,10 +327,7 @@ app.get("/api/partners/nearby", async (req, res) => {
       displayName = rev.displayName;
     }
 
-    // 1. Fetch Official State Channelizing Agency (SCA) for this state
-    const sca = await getOfficialStateSCA(detectedState, userLat, userLng);
-
-    // 2. Fetch live bank nodes from Overpass API (multi-mirror) + Nominatim POI fallback
+    // Fetch live bank nodes from Overpass API (multi-mirror) + Nominatim POI fallback
     let rawBanks = [];
     try {
       rawBanks = await fetchLiveBanksAnywhere(userLat, userLng, displayName || city || detectedState);
@@ -149,35 +336,6 @@ app.get("/api/partners/nearby", async (req, res) => {
     }
 
     const partners = [];
-
-    // Add SCA if found
-    if (sca) {
-      const scaDist = calculateDistanceKm(userLat, userLng, sca.latitude, sca.longitude);
-      const scaDirections = `https://www.google.com/maps/dir/?api=1&origin=${userLat},${userLng}&destination=${sca.latitude},${sca.longitude}&travelmode=driving`;
-      sca.directionsUrl = scaDirections;
-      sca.distance = scaDist;
-
-      const scaSchemes = ["mcf", "msy", "term-loan", "els", "green-business", "suy"];
-      partners.push({
-        id: `sca-${sca.id}`,
-        name: sca.name,
-        shortName: sca.shortName || sca.name,
-        type: "State Channelizing Agency",
-        address: sca.address,
-        phone: sca.phone,
-        email: sca.email,
-        website: sca.website,
-        latitude: sca.latitude,
-        longitude: sca.longitude,
-        distance: scaDist,
-        directionsUrl: scaDirections,
-        cats: ["micro", "term", "education", "mcf", "msy", "term-loan", "els", "green-business", "suy"],
-        schemesAvailable: scaSchemes,
-        status: "available",
-        utilizationStatus: "Available (estimated)",
-        institutionLabel: "Official State Channelizing Agency"
-      });
-    }
 
     // Process and classify real bank nodes (filtered strictly to 12 confirmed PSUs + RRBs)
     const seenBankLocations = new Set();
@@ -273,6 +431,12 @@ app.get("/api/partners/nearby", async (req, res) => {
       });
     }
 
+    // Ensure strictly no Adi Dravidar / TAHDCO / SCA is included
+    filteredPartners = filteredPartners.filter(p => {
+      const name = (p.name || "").toLowerCase();
+      return !name.includes("adi dravidar") && !name.includes("tahdco") && p.type !== "State Channelizing Agency";
+    });
+
     // Sort ascending by distance (shortest path first)
     filteredPartners.sort((a, b) => a.distance - b.distance);
 
@@ -283,7 +447,7 @@ app.get("/api/partners/nearby", async (req, res) => {
       detectedState,
       displayName,
       userLocation: { lat: userLat, lng: userLng },
-      sca,
+      sca: null,
       officialScaDirectory: "https://nsfdc.nic.in/our-channel-partners",
       total: filteredPartners.length,
       partners: filteredPartners,
