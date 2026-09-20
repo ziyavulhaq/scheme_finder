@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { CheckCircle, AlertTriangle, ArrowRight, Calculator, MapPin, FileText, Info, ExternalLink, ShieldCheck } from "lucide-react";
+import { CheckCircle, AlertTriangle, ArrowRight, Calculator, MapPin, FileText, Info, ExternalLink, ShieldCheck, FileCheck } from "lucide-react";
 import { calculateMarginMoney } from "../utils/financialMath";
 import { useLanguage } from "../context/LanguageContext";
 
-export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator }) => {
+export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, onSelectForDocuments }) => {
   const { lang, t } = useLanguage();
   const [projectType, setProjectType] = useState("trade");
   const [costInput, setCostInput] = useState(120000);
@@ -154,23 +154,23 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
   const isEdu = projectType === "education";
 
   return (
-    <section className="section py-10 px-4 sm:px-8 border-b border-[#D8D2C4]" id="recommend">
+    <section className="section py-6 sm:py-10 px-3 sm:px-8 border-b border-[#D8D2C4] w-full max-w-full overflow-hidden" id="recommend">
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
-        <div className="mb-8">
-          <h1 className="font-serif font-bold text-3xl sm:text-4xl text-[#1F3A5F] tracking-tight">
+        <div className="mb-6 sm:mb-8">
+          <h1 className="font-serif font-bold text-2xl sm:text-4xl text-[#1F3A5F] tracking-tight">
             {t("recommenderTitle") || "Find Your Scheme"}
           </h1>
         </div>
 
         {/* 4-Question Intake Form */}
-        <form onSubmit={handleSubmit} className="space-y-6 max-w-xl">
+        <form onSubmit={handleSubmit} className="space-y-5 sm:space-y-6 max-w-xl">
           {/* Q1: Project Type */}
-          <div className="flex gap-4 items-start">
+          <div className="flex gap-3 sm:gap-4 items-start">
             <span className="flex-none w-7 h-7 rounded-full border border-[#1F3A5F] text-[#1F3A5F] font-serif font-bold text-sm flex items-center justify-center mt-1">
               1
             </span>
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               <label htmlFor="projectType" className="block text-sm font-semibold text-[#2B2A28] mb-1.5">
                 {t("q1Label") || "What are you raising money for?"}
               </label>
@@ -190,11 +190,11 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
           </div>
 
           {/* Q2: Estimated Cost */}
-          <div className="flex gap-4 items-start">
+          <div className="flex gap-3 sm:gap-4 items-start">
             <span className="flex-none w-7 h-7 rounded-full border border-[#1F3A5F] text-[#1F3A5F] font-serif font-bold text-sm flex items-center justify-center mt-1">
               2
             </span>
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               <label htmlFor="costInput" className="block text-sm font-semibold text-[#2B2A28] mb-1.5">
                 {isEdu ? (t("q2LabelCostEdu") || "Estimated course cost (₹)") : (t("q2LabelCost") || "Estimated project cost (₹)")}
               </label>
@@ -220,11 +220,11 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
           </div>
 
           {/* Q3: Annual Income */}
-          <div className="flex gap-4 items-start">
+          <div className="flex gap-3 sm:gap-4 items-start">
             <span className="flex-none w-7 h-7 rounded-full border border-[#1F3A5F] text-[#1F3A5F] font-serif font-bold text-sm flex items-center justify-center mt-1">
               3
             </span>
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               <label htmlFor="incomeInput" className="block text-sm font-semibold text-[#2B2A28] mb-1.5">
                 {t("q3LabelIncome") || "Annual family income (₹)"}
               </label>
@@ -248,17 +248,17 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
           </div>
 
           {/* Q4: SC Category Proof */}
-          <div className="flex gap-4 items-start">
+          <div className="flex gap-3 sm:gap-4 items-start">
             <span className="flex-none w-7 h-7 rounded-full border border-[#1F3A5F] text-[#1F3A5F] font-serif font-bold text-sm flex items-center justify-center mt-1">
               4
             </span>
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               <label className="block text-sm font-semibold text-[#2B2A28] mb-1.5">
                 {t("q4LabelProof") || "Do you have Scheduled Caste (SC) category proof?"}
               </label>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                 <label
-                  className={`border rounded p-2.5 text-center cursor-pointer text-sm font-medium transition ${
+                  className={`border rounded p-2.5 text-center cursor-pointer text-xs sm:text-sm font-medium transition ${
                     casteProof === "yes"
                       ? "bg-[#1F3A5F] text-white border-[#1F3A5F] shadow-sm"
                       : "bg-white text-[#2B2A28] border-[#D8D2C4] hover:bg-[#F1ECE0]"
@@ -276,7 +276,7 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
                 </label>
 
                 <label
-                  className={`border rounded p-2.5 text-center cursor-pointer text-sm font-medium transition ${
+                  className={`border rounded p-2.5 text-center cursor-pointer text-xs sm:text-sm font-medium transition ${
                     casteProof === "no"
                       ? "bg-[#1F3A5F] text-white border-[#1F3A5F] shadow-sm"
                       : "bg-white text-[#2B2A28] border-[#D8D2C4] hover:bg-[#F1ECE0]"
@@ -297,11 +297,11 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
           </div>
 
           {/* Submit Button */}
-          <div className="pt-2 pl-11">
+          <div className="pt-2 pl-0 sm:pl-11">
             <button
               type="submit"
               disabled={loading}
-              className="px-6 py-3 bg-[#E8A33D] hover:bg-[#B97A1C] text-[#2B2A28] hover:text-white font-semibold rounded text-sm transition shadow-sm flex items-center gap-2 cursor-pointer"
+              className="w-full sm:w-auto px-6 py-3 bg-[#E8A33D] hover:bg-[#B97A1C] text-[#2B2A28] hover:text-white font-semibold rounded text-sm transition shadow-sm flex items-center justify-center gap-2 cursor-pointer"
             >
               {loading ? (
                 <span>{t("checkingBtn") || "Finding matching schemes..."}</span>
@@ -314,6 +314,7 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
             </button>
           </div>
         </form>
+
 
         {/* RESULTS SECTION */}
         {hasSearched && result && (
@@ -455,20 +456,28 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator })
                     </div>
 
                     {/* Action Buttons */}
-                    <div className="flex flex-wrap gap-3 mt-6 pt-4 border-t border-[#D8D2C4]/60">
+                    <div className="flex flex-col sm:flex-row flex-wrap gap-2.5 sm:gap-3 mt-6 pt-4 border-t border-[#D8D2C4]/60">
+                      <button
+                        onClick={() => onSelectForDocuments && onSelectForDocuments(result.scheme, Number(incomeInput) || 180000)}
+                        className="w-full sm:w-auto px-4 py-2.5 bg-[#E8A33D] hover:bg-[#B97A1C] text-[#2B2A28] hover:text-white rounded text-xs sm:text-sm font-semibold transition flex items-center justify-center sm:justify-start gap-2 shadow-sm cursor-pointer"
+                      >
+                        <FileCheck className="w-4 h-4 shrink-0" />
+                        <span>{t("actionCheckDocuments") || "Verify Required Documents"}</span>
+                      </button>
+
                       <button
                         onClick={() => onSelectForCalculator && onSelectForCalculator(result.scheme, result.eligibleLoanAmount || result.effectiveAmount || costInput)}
-                        className="px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white rounded text-sm font-semibold transition flex items-center gap-2 shadow-sm cursor-pointer"
+                        className="w-full sm:w-auto px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white rounded text-xs sm:text-sm font-semibold transition flex items-center justify-center sm:justify-start gap-2 shadow-sm cursor-pointer"
                       >
-                        <Calculator className="w-4 h-4" />
+                        <Calculator className="w-4 h-4 shrink-0" />
                         <span>{t("actionCalculateEmi") || "Calculate My EMI"}</span>
                       </button>
 
                       <button
                         onClick={() => onSelectForLocator && onSelectForLocator(result.scheme.id)}
-                        className="px-4 py-2.5 bg-white hover:bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded text-sm font-semibold transition flex items-center gap-2 cursor-pointer"
+                        className="w-full sm:w-auto px-4 py-2.5 bg-white hover:bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded text-xs sm:text-sm font-semibold transition flex items-center justify-center sm:justify-start gap-2 cursor-pointer"
                       >
-                        <MapPin className="w-4 h-4" />
+                        <MapPin className="w-4 h-4 shrink-0" />
                         <span>{t("actionFindPartner") || "Find Nearby Bank to Apply"}</span>
                       </button>
                     </div>

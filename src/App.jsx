@@ -6,6 +6,7 @@ import { Navbar } from "./components/Navbar";
 import { SchemeRecommender } from "./components/SchemeRecommender";
 import { FinancialCalculator } from "./components/FinancialCalculator";
 import { PartnerLocator } from "./components/PartnerLocator";
+import { DocumentChecklist } from "./components/DocumentChecklist";
 import { BottomNav } from "./components/BottomNav";
 import { Footer } from "./components/Footer";
 
@@ -13,6 +14,7 @@ function AppContent() {
   const { isAuthenticated, loading } = useAuth();
   const [selectedScheme, setSelectedScheme] = useState(null);
   const [selectedAmount, setSelectedAmount] = useState(140000);
+  const [recommenderIncome, setRecommenderIncome] = useState(180000);
   const [selectedCategoryFilter, setSelectedCategoryFilter] = useState("all");
   const [activeSection, setActiveSection] = useState("recommend");
 
@@ -20,8 +22,11 @@ function AppContent() {
     return (
       <div className="min-h-screen bg-[#FBF9F4] flex items-center justify-center">
         <div className="text-center space-y-3">
-          <div className="w-10 h-10 border-3 border-[#1F3A5F] border-t-transparent rounded-full animate-spin mx-auto"></div>
-          <p className="text-xs font-semibold text-[#1F3A5F]">Loading SahayaSetu Portal...</p>
+          <div className="h-16 px-3 py-1.5 mx-auto inline-flex items-center justify-center rounded-2xl bg-white border border-[#D8D2C4] shadow-sm">
+            <img src="/logo.png" alt="FINORA" className="h-full w-auto object-contain" />
+          </div>
+          <div className="w-8 h-8 border-3 border-[#1F3A5F] border-t-transparent rounded-full animate-spin mx-auto"></div>
+          <p className="text-xs font-semibold text-[#1F3A5F]">Loading FINORA Portal...</p>
         </div>
       </div>
     );
@@ -40,6 +45,14 @@ function AppContent() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  // Handler: When user clicks "Verify Required Documents" from the Recommender result card
+  const handleSelectForDocuments = (scheme, income) => {
+    if (scheme) setSelectedScheme(scheme);
+    if (income) setRecommenderIncome(income);
+    setActiveSection("documents");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   // Handler: When user clicks "Find an authorized partner near you"
   const handleSelectForLocator = (schemeInput) => {
     const schemeId = typeof schemeInput === "object" && schemeInput !== null ? (schemeInput.id || "all") : (schemeInput || "all");
@@ -54,16 +67,17 @@ function AppContent() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FBF9F4] text-[#2B2A28]">
+    <div className="min-h-screen flex flex-col bg-[#FBF9F4] text-[#2B2A28] pb-24">
       {/* Site Header with Top-Right Settings & Profile button */}
       <Navbar activeSection={activeSection} onNavigate={handleNavigate} />
 
-      {/* Main Content: Render Active Page Only */}
-      <main className="flex-1 pb-10">
+      {/* Main Content: Render Active Page Only with pb-24 to clear fixed bottom nav */}
+      <main className="flex-1 pb-24">
         {activeSection === "recommend" && (
           <SchemeRecommender
             onSelectForCalculator={handleSelectForCalculator}
             onSelectForLocator={handleSelectForLocator}
+            onSelectForDocuments={handleSelectForDocuments}
           />
         )}
 
@@ -75,6 +89,25 @@ function AppContent() {
           />
         )}
 
+        {activeSection === "documents" && (
+          <DocumentChecklist
+            initialScheme={selectedScheme}
+            recommenderIncome={recommenderIncome}
+            onRouteToCalculator={() => {
+              setActiveSection("calculate");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            onRouteToLocator={() => {
+              setActiveSection("locate");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            onRouteToRecommender={() => {
+              setActiveSection("recommend");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          />
+        )}
+
         {activeSection === "locate" && (
           <PartnerLocator
             initialSchemeId={selectedCategoryFilter}
@@ -82,11 +115,11 @@ function AppContent() {
         )}
       </main>
 
-      {/* Bottom Navigation: Find Scheme, Calculate EMI, and Nearby Bank */}
-      <BottomNav activeSection={activeSection} onNavigate={handleNavigate} />
-
       {/* Footer */}
       <Footer onNavigate={handleNavigate} />
+
+      {/* Fixed Bottom Navigation: Stays locked to bottom across mobile and desktop */}
+      <BottomNav activeSection={activeSection} onNavigate={handleNavigate} />
     </div>
   );
 }

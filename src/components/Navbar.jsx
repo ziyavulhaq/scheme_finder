@@ -11,8 +11,8 @@ export const Navbar = ({ activeSection, onNavigate }) => {
 
   return (
     <>
-      <header className="site-header sticky top-0 z-40 bg-[#FBF9F4]/95 backdrop-blur-md border-b border-[#D8D2C4]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between gap-4">
+      <header className="site-header sticky top-0 z-40 w-full max-w-full overflow-hidden bg-[#FBF9F4]/95 backdrop-blur-md border-b border-[#D8D2C4]">
+        <div className="max-w-5xl mx-auto px-3 sm:px-8 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-4">
           {/* Brand */}
           <div 
             onClick={() => {
@@ -21,13 +21,17 @@ export const Navbar = ({ activeSection, onNavigate }) => {
             }}
             className="flex items-center gap-2.5 cursor-pointer group"
           >
-            <div className="w-9 h-9 rounded-lg border border-[#1F3A5F] bg-[#1F3A5F] text-[#FBF9F4] flex items-center justify-center font-serif font-bold text-lg shadow-sm">
-              S
+            <div className="h-10 px-1.5 py-0.5 rounded-lg bg-white border border-[#D8D2C4] shadow-xs flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+              <img 
+                src="/logo.png" 
+                alt="FINORA Logo" 
+                className="h-full w-auto object-contain max-w-[56px]" 
+              />
             </div>
             <div>
               <div className="flex items-baseline gap-2">
                 <span className="font-serif font-bold text-2xl text-[#1F3A5F] tracking-tight">
-                  SahayaSetu
+                  FINORA
                 </span>
                 <span className="text-xs font-medium text-[#6B6558] hidden sm:inline">
                   {t.subBrand || "Citizen Loan & Scheme Guide"}

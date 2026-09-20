@@ -87,11 +87,11 @@ export const AuthPage = () => {
     <div className="min-h-screen bg-[#FBF9F4] flex flex-col justify-between py-8 px-4 sm:px-6 lg:px-8">
       {/* Top Banner */}
       <div className="max-w-md w-full mx-auto text-center">
-        <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#1F3A5F] text-[#FBF9F4] font-serif font-bold text-2xl shadow-md mb-3">
-          S
+        <div className="inline-flex items-center justify-center h-16 px-3 py-1.5 rounded-2xl bg-white border border-[#D8D2C4] shadow-md mb-3">
+          <img src="/logo.png" alt="FINORA Logo" className="h-full w-auto object-contain" />
         </div>
         <h1 className="font-serif font-bold text-3xl text-[#1F3A5F] tracking-tight">
-          SahayaSetu
+          FINORA
         </h1>
         <p className="text-xs font-semibold text-[#6B6558] uppercase tracking-wider mt-1">
           Citizen Low-Interest Loan &amp; Scheme Portal
@@ -350,7 +350,7 @@ export const AuthPage = () => {
 
       {/* Footer Info */}
       <div className="max-w-md w-full mx-auto text-center text-xs text-[#8C827A] space-y-1">
-        <p>© SahayaSetu • Low-interest concessional credit guidance</p>
+        <p>© FINORA • Low-interest concessional credit guidance</p>
       </div>
     </div>
   );

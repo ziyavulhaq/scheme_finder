@@ -369,33 +369,33 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
   };
 
   return (
-    <section className="section py-10 px-4 sm:px-8" id="locate">
+    <section className="section py-6 sm:py-10 px-3 sm:px-8 w-full max-w-full overflow-hidden" id="locate">
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
-        <div className="mb-8">
-          <h2 className="font-serif font-bold text-3xl sm:text-4xl text-[#1F3A5F] tracking-tight">
+        <div className="mb-6 sm:mb-8">
+          <h2 className="font-serif font-bold text-2xl sm:text-4xl text-[#1F3A5F] tracking-tight">
             {t.locatorTitle || "Nearby Bank"}
           </h2>
         </div>
 
         {/* Location Controls Card */}
-        <div className="bg-white border border-[#D8D2C4] rounded-lg p-4 sm:p-5 shadow-sm mb-6">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div className="bg-white border border-[#D8D2C4] rounded-lg p-3 sm:p-5 shadow-sm mb-6 w-full max-w-full overflow-hidden">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4">
             {/* Search Input */}
-            <form onSubmit={handleCitySearch} className="flex-1 flex gap-2">
-              <div className="relative flex-1">
+            <form onSubmit={handleCitySearch} className="flex-1 flex flex-col sm:flex-row gap-2">
+              <div className="relative flex-1 min-w-0">
                 <Search className="w-4 h-4 text-[#6B6558] absolute left-3 top-1/2 -translate-y-1/2" />
                 <input
                   type="text"
                   value={cityInput}
                   onChange={(e) => setCityInput(e.target.value)}
                   placeholder={t.searchLocationPlaceholder || "Search any Indian city, district, town, or PIN code (e.g. Patna, Varanasi, 800001, Bhopal)"}
-                  className="w-full pl-9 pr-3 py-2 text-sm bg-[#FBF9F4] border border-[#D8D2C4] rounded-md text-[#2B2A28] focus:outline-none focus:border-[#1F3A5F] focus:ring-1 focus:ring-[#1F3A5F]"
+                  className="w-full pl-9 pr-3 py-2 text-xs sm:text-sm bg-[#FBF9F4] border border-[#D8D2C4] rounded-md text-[#2B2A28] focus:outline-none focus:border-[#1F3A5F] focus:ring-1 focus:ring-[#1F3A5F]"
                 />
               </div>
               <button
                 type="submit"
-                className="px-4 py-2 bg-[#1F3A5F] text-white text-xs font-semibold rounded-md hover:bg-[#152842] transition whitespace-nowrap shadow-sm"
+                className="w-full sm:w-auto px-4 py-2 bg-[#1F3A5F] text-white text-xs font-semibold rounded-md hover:bg-[#152842] transition whitespace-nowrap shadow-sm text-center cursor-pointer"
               >
                 {t.searchBtn || "Search Location"}
               </button>
@@ -404,7 +404,7 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
             {/* GPS Button */}
             <button
               onClick={handleUseCurrentLocation}
-              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 bg-[#F1ECE0] border border-[#D8D2C4] text-xs font-semibold text-[#1F3A5F] rounded-md hover:bg-[#E8E1D3] transition whitespace-nowrap"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 bg-[#F1ECE0] border border-[#D8D2C4] text-xs font-semibold text-[#1F3A5F] rounded-md hover:bg-[#E8E1D3] transition whitespace-nowrap cursor-pointer"
             >
               <Crosshair className="w-3.5 h-3.5 text-[#B97A1C]" />
               <span>{t.gpsBtn || "Use My GPS"}</span>
@@ -476,7 +476,7 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
         {/* Locator Grid: Leaflet Map & Partner List */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Map View (7 cols) */}
-          <div className="lg:col-span-7 bg-[#F1ECE0] border border-[#D8D2C4] rounded-md overflow-hidden shadow-sm h-[520px] relative">
+          <div className="lg:col-span-7 bg-[#F1ECE0] border border-[#D8D2C4] rounded-md overflow-hidden shadow-sm h-[320px] sm:h-[520px] w-full max-w-full relative">
             <MapContainer
               center={[userLoc.lat, userLoc.lng]}
               zoom={12}

@@ -93,12 +93,12 @@ export const ReferralSlipModal = ({
           {/* Official Emblem & Header */}
           <div className="text-center border-b-2 border-slate-900 pb-4 mb-6">
             <div className="flex justify-center mb-1.5">
-              <div className="w-12 h-12 rounded-xl bg-blue-900 text-amber-400 flex items-center justify-center font-black text-xl shadow">
-                SS
+              <div className="h-12 px-2 py-0.5 rounded-xl bg-white border border-slate-200 flex items-center justify-center shadow-xs">
+                <img src="/logo.png" alt="FINORA" className="h-full w-auto object-contain max-w-[60px]" />
               </div>
             </div>
             <h2 className="text-base sm:text-lg font-extrabold uppercase tracking-wide text-slate-900">
-              SahayaSetu • Citizen Scheme & Loan Guide
+              FINORA • Citizen Scheme & Loan Guide
             </h2>
             <p className="text-xs text-slate-600 font-medium">
               Government Concessional Loan Referral & Branch Checklist

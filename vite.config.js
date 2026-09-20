@@ -13,5 +13,19 @@ export default defineConfig({
         changeOrigin: true
       }
     }
+  },
+  optimizeDeps: {
+    include: [
+      'react',
+      'react/jsx-runtime',
+      'react-dom',
+      'react-dom/client',
+      'leaflet',
+      'react-leaflet',
+      'lucide-react',
+      'canvas-confetti',
+      'qrcode'
+    ],
+    exclude: ['tesseract.js']
   }
 });

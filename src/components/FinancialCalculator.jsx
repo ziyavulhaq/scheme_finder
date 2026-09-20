@@ -162,18 +162,18 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", `SahayaSetu_${currentScheme.id}_Schedule.csv`);
+    link.setAttribute("download", `FINORA_${currentScheme.id}_Schedule.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
   return (
-    <section className="section py-10 px-4 sm:px-8 border-b border-[#D8D2C4]" id="calculate">
+    <section className="section py-6 sm:py-10 px-3 sm:px-8 border-b border-[#D8D2C4] w-full max-w-full overflow-hidden" id="calculate">
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
-        <div className="mb-8">
-          <h2 className="font-serif font-bold text-3xl sm:text-4xl text-[#1F3A5F] tracking-tight">
+        <div className="mb-6 sm:mb-8">
+          <h2 className="font-serif font-bold text-2xl sm:text-4xl text-[#1F3A5F] tracking-tight">
             {t.calcTitle || "Calculate Monthly Instalment (EMI)"}
           </h2>
         </div>
@@ -433,10 +433,10 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
             </div>
 
             {/* Actions */}
-            <div className="flex flex-wrap gap-3 pt-2 border-t border-[#D8D2C4]">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-2.5 sm:gap-3 pt-2 border-t border-[#D8D2C4] w-full sm:w-auto">
               <button
                 onClick={handleExportCSV}
-                className="px-4 py-2.5 bg-white hover:bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded text-xs font-semibold transition flex items-center gap-1.5 shadow-sm cursor-pointer"
+                className="w-full sm:w-auto px-4 py-2.5 bg-white hover:bg-[#F1ECE0] border border-[#D8D2C4] text-[#1F3A5F] rounded text-xs font-semibold transition flex items-center justify-center gap-1.5 shadow-sm cursor-pointer"
               >
                 <Download className="w-3.5 h-3.5" />
                 <span>{t.downloadCsvLabel || t.downloadCsvBtn || "Download Schedule (CSV)"}</span>
@@ -444,7 +444,7 @@ export const FinancialCalculator = ({ initialScheme, initialAmount, onRouteToPar
 
               <button
                 onClick={() => onRouteToPartners && onRouteToPartners(currentScheme.id)}
-                className="px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white rounded text-xs font-semibold transition flex items-center gap-1.5 shadow-sm cursor-pointer"
+                className="w-full sm:w-auto px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white rounded text-xs font-semibold transition flex items-center justify-center gap-1.5 shadow-sm cursor-pointer"
               >
                 <span>{t.routeToBanksBtn || t.locatePartnerBtn || "Find Nearby Bank to Apply"}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
