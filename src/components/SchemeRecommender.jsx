@@ -42,7 +42,8 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, o
         body: JSON.stringify(payload)
       });
 
-      if (!res.ok) {
+      const contentType = res.headers.get("content-type") || "";
+      if (!res.ok || !contentType.includes("application/json")) {
         throw new Error(`Server returned status ${res.status}`);
       }
 

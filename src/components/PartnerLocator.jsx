@@ -284,7 +284,8 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
       }
 
       const res = await fetch(`/api/partners/nearby?${params.toString()}`);
-      if (!res.ok) throw new Error(`Server returned HTTP ${res.status}`);
+      const contentType = res.headers.get("content-type") || "";
+      if (!res.ok || !contentType.includes("application/json")) throw new Error(`Server returned HTTP ${res.status}`);
       const data = await res.json();
 
       const rawPartners = data.partners || [];
