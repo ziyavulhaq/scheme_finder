@@ -31,10 +31,11 @@ L.Icon.Default.mergeOptions({
 });
 
 // Custom Pins for Channel Partners
-const createPartnerPin = (type, isLimited) => {
-  const isSCA = type === "State Channelizing Agency";
+const createPartnerPin = (type = "", isLimited = false) => {
+  const safeType = String(type || "");
+  const isSCA = safeType.includes("State Channelizing");
   const bg = isSCA ? "#3B6E52" : isLimited ? "#B97A1C" : "#1F3A5F";
-  const letter = isSCA ? "S" : type.includes("Rural") ? "R" : "B";
+  const letter = isSCA ? "S" : safeType.includes("Rural") ? "R" : "B";
 
   return L.divIcon({
     className: "custom-partner-pin",
@@ -668,8 +669,11 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
             ) : (
               partners.map((p) => {
                 const isSelected = selectedPartner?.id === p.id;
-                const isSCA = p.type === "State Channelizing Agency";
+                const safeType = String(p.type || "");
+                const isSCA = safeType.includes("State Channelizing");
+                const isRural = safeType.includes("Rural");
                 const directionsLink = p.directionsUrl || `https://www.google.com/maps/dir/?api=1&origin=${userLoc.lat},${userLoc.lng}&destination=${p.latitude},${p.longitude}&travelmode=driving`;
+                const cleanPhone = p.phone ? String(p.phone).split('/')[0].split('•')[0].trim() : "";
 
                 return (
                   <div
@@ -689,12 +693,12 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
                             className={`px-1.5 py-0.2 rounded text-[10px] font-bold ${
                               isSCA
                                 ? "bg-[#E4EEE7] text-[#3B6E52]"
-                                : p.type.includes("Rural")
+                                : isRural
                                 ? "bg-[#EAE8F2] text-[#4A3E80]"
                                 : "bg-[#E6ECF5] text-[#1F3A5F]"
                             }`}
                           >
-                            {p.type}
+                            {p.type || "Channel Partner"}
                           </span>
                         </div>
                       </div>
@@ -718,7 +722,7 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
                         <Phone className="w-3.5 h-3.5 text-[#3B6E52] shrink-0" />
                         <span className="font-semibold text-[#1F3A5F]">Contact / Helpline:</span>
                         <a
-                          href={`tel:${p.phone.split('/')[0].trim()}`}
+                          href={`tel:${cleanPhone}`}
                           onClick={(e) => e.stopPropagation()}
                           className="hover:underline font-mono font-bold text-[#1F3A5F]"
                         >
