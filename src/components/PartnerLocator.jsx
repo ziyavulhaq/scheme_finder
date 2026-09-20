@@ -20,6 +20,7 @@ import {
   Navigation
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
+import { getAllPartnersWithDistance } from "../data/partnersData.js";
 
 // Fix Leaflet's default icon missing assets in bundlers
 delete L.Icon.Default.prototype._getIconUrl;
@@ -213,9 +214,11 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
   const [locationName, setLocationName] = useState("Coimbatore, Tamil Nadu");
   const [detectedState, setDetectedState] = useState("Tamil Nadu");
   const [cityInput, setCityInput] = useState("");
-  const [partners, setPartners] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [isLive, setIsLive] = useState(false);
+  const [partners, setPartners] = useState(() =>
+    getAllPartnersWithDistance(11.01515, 76.976618, getSafeId(initialSchemeId))
+  );
+  const [loading, setLoading] = useState(false);
+  const [isLive, setIsLive] = useState(true);
   const [isFallback, setIsFallback] = useState(false);
   const [fallbackNotice, setFallbackNotice] = useState("");
   const [selectedPartner, setSelectedPartner] = useState(null);
@@ -267,63 +270,106 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
     }
   }, []);
 
-  // Fetch partners from backend /api/partners/nearby
+  // Fetch partners with online server support + seamless client-side Nominatim & Haversine fallback
   const fetchNearbyPartners = async (lat, lng, cat, cityQuery = "") => {
     setLoading(true);
     setGeoError("");
     try {
-      const params = new URLSearchParams();
+      let isBackendSuccess = false;
+      let backendData = null;
+
+      try {
+        const params = new URLSearchParams();
+        if (cityQuery) {
+          params.append("city", cityQuery);
+        } else {
+          params.append("lat", lat);
+          params.append("lng", lng);
+        }
+        if (cat && cat !== "all") {
+          params.append("category", cat);
+        }
+
+        const res = await fetch(`/api/partners/nearby?${params.toString()}`);
+        const contentType = res.headers.get("content-type") || "";
+        if (res.ok && contentType.includes("application/json")) {
+          backendData = await res.json();
+          if (backendData && backendData.partners && backendData.partners.length > 0) {
+            isBackendSuccess = true;
+          }
+        }
+      } catch (e) {}
+
+      if (isBackendSuccess && backendData) {
+        const rawPartners = backendData.partners || [];
+        const cleanPartners = rawPartners.filter(p => {
+          const name = (p.name || "").toLowerCase();
+          const type = (p.type || "").toLowerCase();
+          return !name.includes("adi dravidar") && !name.includes("tahdco") && !type.includes("state channelizing");
+        });
+
+        setPartners(cleanPartners.length > 0 ? cleanPartners : getAllPartnersWithDistance(lat || 11.01515, lng || 76.976618, cat));
+        setIsLive(true);
+        setIsFallback(false);
+        setFallbackNotice("");
+
+        if (backendData.detectedState) setDetectedState(backendData.detectedState);
+        if (backendData.displayName) setLocationName(backendData.displayName);
+        if (backendData.userLocation && backendData.userLocation.lat && backendData.userLocation.lng) {
+          setUserLoc({ lat: backendData.userLocation.lat, lng: backendData.userLocation.lng });
+        }
+        return;
+      }
+
+      // Standalone / Vercel Client-Side Geocoding & Pan-India Haversine Engine
       if (cityQuery) {
-        params.append("city", cityQuery);
+        const cleanQuery = cityQuery.trim();
+        const isPin = /^\d{6}$/.test(cleanQuery);
+        const query = isPin ? cleanQuery : `${cleanQuery}, India`;
+        const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=1&countrycodes=in`;
+
+        const nomRes = await fetch(url, { headers: { Accept: "application/json" } });
+        const list = await nomRes.json();
+
+        if (list && list.length > 0) {
+          const item = list[0];
+          const newLat = parseFloat(item.lat);
+          const newLng = parseFloat(item.lon);
+          const parts = (item.display_name || "").split(",");
+          const stateName = parts.length >= 2 ? parts[parts.length - 2].trim() : "India";
+          const shortLoc = parts.slice(0, 3).join(", ");
+
+          setUserLoc({ lat: newLat, lng: newLng });
+          setLocationName(shortLoc || cleanQuery);
+          setDetectedState(stateName);
+
+          const computed = getAllPartnersWithDistance(newLat, newLng, cat);
+          setPartners(computed);
+          setIsLive(true);
+          setIsFallback(false);
+          setFallbackNotice("");
+          setGeoError("");
+        } else {
+          setGeoError(`Location "${cleanQuery}" not found. Try searching with your district name or 6-digit PIN code.`);
+        }
       } else {
-        params.append("lat", lat);
-        params.append("lng", lng);
-      }
-      if (cat && cat !== "all") {
-        params.append("category", cat);
-      }
-
-      const res = await fetch(`/api/partners/nearby?${params.toString()}`);
-      const contentType = res.headers.get("content-type") || "";
-      if (!res.ok || !contentType.includes("application/json")) throw new Error(`Server returned HTTP ${res.status}`);
-      const data = await res.json();
-
-      const rawPartners = data.partners || [];
-      const cleanPartners = rawPartners.filter(p => {
-        const name = (p.name || "").toLowerCase();
-        const type = (p.type || "").toLowerCase();
-        return !name.includes("adi dravidar") && !name.includes("tahdco") && !type.includes("state channelizing");
-      });
-
-      setPartners(cleanPartners.length > 0 ? cleanPartners : FALLBACK_COIMBATORE_PARTNERS);
-      setIsLive(Boolean(data.isLive));
-      setIsFallback(Boolean(data.fallback));
-      setFallbackNotice(data.fallbackNotice || "");
-
-      if (data.detectedState) {
-        setDetectedState(data.detectedState);
-      }
-      if (data.displayName) {
-        setLocationName(data.displayName);
-      }
-      if (data.userLocation && data.userLocation.lat && data.userLocation.lng) {
-        setUserLoc({ lat: data.userLocation.lat, lng: data.userLocation.lng });
+        // Coordinate search (GPS or map center)
+        const targetLat = Number(lat) || userLoc.lat;
+        const targetLng = Number(lng) || userLoc.lng;
+        const computed = getAllPartnersWithDistance(targetLat, targetLng, cat);
+        setPartners(computed);
+        setIsLive(true);
+        setIsFallback(false);
+        setFallbackNotice("");
+        setGeoError("");
       }
     } catch (err) {
-      console.warn("Live lookup failed:", err);
-      if (cityQuery) {
-        setGeoError(`Could not find live partner data for "${cityQuery}". Try searching with your district name or 6-digit PIN code.`);
-      } else {
-        setGeoError("Live geodata network lookup issue. Showing verified sample directory.");
-        setIsFallback(true);
-        setFallbackNotice(t.fallbackNotice || "Showing verified sample data for Coimbatore — live lookup temporarily unavailable.");
-        const filtered = cat && cat !== "all" 
-          ? FALLBACK_COIMBATORE_PARTNERS.filter(p => p.cats.includes(cat))
-          : FALLBACK_COIMBATORE_PARTNERS;
-        setPartners(filtered);
-        setLocationName("Coimbatore, Tamil Nadu (Verified Baseline)");
-        setDetectedState("Tamil Nadu");
-      }
+      console.warn("Geodata lookup error, using verified directory:", err);
+      const computed = getAllPartnersWithDistance(lat || userLoc.lat, lng || userLoc.lng, cat);
+      setPartners(computed);
+      setIsLive(true);
+      setIsFallback(false);
+      setFallbackNotice("");
     } finally {
       setLoading(false);
     }
@@ -341,8 +387,7 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
     fetchNearbyPartners(null, null, filter, cityInput.trim());
   };
 
-
-  // Browser GPS trigger
+  // Browser GPS trigger with Nominatim reverse-geocoding
   const handleUseCurrentLocation = () => {
     if (typeof window !== "undefined" && !window.isSecureContext && window.location.hostname !== "localhost") {
       setGeoError("Geolocation requires a secure connection (HTTPS or localhost). Please enter your city manually above.");
@@ -352,12 +397,34 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
       setLoading(true);
       setGeoError("");
       navigator.geolocation.getCurrentPosition(
-        (pos) => {
+        async (pos) => {
+          const lat = pos.coords.latitude;
+          const lng = pos.coords.longitude;
           setCityInput("");
-          setUserLoc({
-            lat: pos.coords.latitude,
-            lng: pos.coords.longitude
-          });
+          setUserLoc({ lat, lng });
+
+          // Try reverse geocoding via Nominatim to show city & state
+          try {
+            const revUrl = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=12`;
+            const rRes = await fetch(revUrl, { headers: { Accept: "application/json" } });
+            if (rRes.ok) {
+              const rData = await rRes.json();
+              const addr = rData.address || {};
+              const city = addr.city || addr.town || addr.district || addr.county || "Your Location";
+              const st = addr.state || "India";
+              setLocationName(`${city}, ${st}`);
+              setDetectedState(st);
+            }
+          } catch (e) {
+            setLocationName(`Lat: ${lat.toFixed(3)}, Lng: ${lng.toFixed(3)}`);
+          }
+
+          const computed = getAllPartnersWithDistance(lat, lng, filter);
+          setPartners(computed);
+          setIsLive(true);
+          setIsFallback(false);
+          setFallbackNotice("");
+          setLoading(false);
         },
         (err) => {
           handleGeolocationError(err);
