@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { TRANSLATIONS } from "../data/translations";
+import { apiUrl } from "../utils/apiConfig";
 
 const LanguageContext = createContext();
 
@@ -109,7 +110,7 @@ export const LanguageProvider = ({ children }) => {
     // Play via high-quality native audio proxy (/api/tts)
     try {
       const cleanText = (textToSpeak || "").slice(0, 250);
-      const ttsUrl = `/api/tts?tl=${activeLangCode}&q=${encodeURIComponent(cleanText)}`;
+      const ttsUrl = apiUrl(`/api/tts?tl=${activeLangCode}&q=${encodeURIComponent(cleanText)}`);
       const audio = new Audio(ttsUrl);
       setAudioElement(audio);
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { CheckCircle, AlertTriangle, ArrowRight, Calculator, MapPin, FileText, Info, ExternalLink, ShieldCheck, FileCheck } from "lucide-react";
 import { calculateMarginMoney } from "../utils/financialMath";
 import { useLanguage } from "../context/LanguageContext";
+import { apiUrl } from "../utils/apiConfig";
 
 export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, onSelectForDocuments }) => {
   const { lang, t } = useLanguage();
@@ -36,7 +37,7 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, o
 
     try {
       // Call real backend endpoint
-      const res = await fetch("/api/recommend", {
+      const res = await fetch(apiUrl("/api/recommend"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)

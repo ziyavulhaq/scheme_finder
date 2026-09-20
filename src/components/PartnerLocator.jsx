@@ -20,7 +20,8 @@ import {
   Navigation
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
-import { getAllPartnersWithDistance } from "../data/partnersData.js";
+import { getAllPartnersWithDistance, normalizeCategory, findCityCoordinates } from "../data/partnersData.js";
+import { apiUrl } from "../utils/apiConfig";
 
 // Fix Leaflet's default icon missing assets in bundlers
 delete L.Icon.Default.prototype._getIconUrl;
@@ -205,11 +206,13 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
   const { t } = useLanguage();
 
   const getSafeId = (val) => {
-    if (typeof val === "object" && val !== null) return val.id || "all";
-    return val || "all";
+    let raw = "all";
+    if (typeof val === "object" && val !== null) raw = val.id || "all";
+    else raw = val || "all";
+    return normalizeCategory(raw);
   };
 
-  const [filter, setFilter] = useState(getSafeId(initialSchemeId));
+  const [filter, setFilter] = useState(() => getSafeId(initialSchemeId));
   // Default to Coimbatore as verified origin seed
   const [userLoc, setUserLoc] = useState({ lat: 11.01515, lng: 76.976618 });
   const [locationName, setLocationName] = useState("Coimbatore, Tamil Nadu");
@@ -238,18 +241,18 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
       setGeoError("Geolocation requires a secure connection (HTTPS or localhost). Please enter your city manually above.");
       return;
     }
-    switch (err.code) {
+    switch (err?.code) {
       case 1: // PERMISSION_DENIED
-        setGeoError("Location access was denied. You can search by city name above.");
+        setGeoError("Location access was denied. You can search by city or district name above.");
         break;
       case 2: // POSITION_UNAVAILABLE
-        setGeoError("Location information is unavailable. Falling back to default city.");
+        setGeoError("Location information is unavailable. Showing default Pan-India city.");
         break;
       case 3: // TIMEOUT
-        setGeoError("Location request timed out. Please try again or search by city name.");
+        setGeoError("Location request timed out. Search your city manually above.");
         break;
       default:
-        setGeoError(`Location access unavailable (${err.message || "Unknown error"}). Enter your city manually above.`);
+        setGeoError(`Location access unavailable (${err?.message || "Unknown error"}). Enter your city manually above.`);
     }
   };
 
@@ -258,28 +261,75 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(
         (pos) => {
-          setUserLoc({
-            lat: pos.coords.latitude,
-            lng: pos.coords.longitude
-          });
+          const lat = pos.coords.latitude;
+          const lng = pos.coords.longitude;
+          setUserLoc({ lat, lng });
+
+          // Fast reverse geocode to update city/state display
+          try {
+            const revController = new AbortController();
+            const rTimeout = setTimeout(() => revController.abort(), 2000);
+            fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=12`, {
+              headers: { Accept: "application/json" },
+              signal: revController.signal
+            })
+              .then(res => res.json())
+              .then(rData => {
+                clearTimeout(rTimeout);
+                const addr = rData.address || {};
+                const city = addr.city || addr.town || addr.district || addr.suburb || "Your City";
+                const st = addr.state || "India";
+                setLocationName(`${city}, ${st}`);
+                setDetectedState(st);
+              })
+              .catch(() => {});
+          } catch (e) {}
         },
         (err) => {
           console.log("Browser geolocation on mount (using Coimbatore default):", err.message);
         },
-        { timeout: 6000 }
+        { timeout: 5000 }
       );
     }
   }, []);
 
-  // Fetch partners with online server support + seamless client-side Nominatim & Haversine fallback
+  // Fetch partners with instant pre-indexed Indian cities, online API check, and client-side Haversine engine
   const fetchNearbyPartners = async (lat, lng, cat, cityQuery = "") => {
     setLoading(true);
     setGeoError("");
+    const targetCat = normalizeCategory(cat);
+
     try {
+      // Step 1: If user entered city name, FIRST check instant coordinate dictionary (0ms latency!)
+      if (cityQuery) {
+        const cleanQuery = cityQuery.trim();
+        const cityMatch = findCityCoordinates(cleanQuery);
+        if (cityMatch) {
+          const newLat = cityMatch.lat;
+          const newLng = cityMatch.lng;
+          setUserLoc({ lat: newLat, lng: newLng });
+          setLocationName(`${cityMatch.name}, ${cityMatch.state}`);
+          setDetectedState(cityMatch.state);
+
+          const computed = getAllPartnersWithDistance(newLat, newLng, targetCat);
+          setPartners(computed);
+          setIsLive(true);
+          setIsFallback(false);
+          setFallbackNotice("");
+          setGeoError("");
+          setLoading(false);
+          return;
+        }
+      }
+
+      // Step 2: Try online backend API with strict 2.5-second timeout
       let isBackendSuccess = false;
       let backendData = null;
 
       try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 2500);
+
         const params = new URLSearchParams();
         if (cityQuery) {
           params.append("city", cityQuery);
@@ -287,11 +337,15 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
           params.append("lat", lat);
           params.append("lng", lng);
         }
-        if (cat && cat !== "all") {
-          params.append("category", cat);
+        if (targetCat && targetCat !== "all") {
+          params.append("category", targetCat);
         }
 
-        const res = await fetch(`/api/partners/nearby?${params.toString()}`);
+        const res = await fetch(apiUrl(`/api/partners/nearby?${params.toString()}`), {
+          signal: controller.signal
+        });
+        clearTimeout(timeoutId);
+
         const contentType = res.headers.get("content-type") || "";
         if (res.ok && contentType.includes("application/json")) {
           backendData = await res.json();
@@ -309,7 +363,7 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
           return !name.includes("adi dravidar") && !name.includes("tahdco") && !type.includes("state channelizing");
         });
 
-        setPartners(cleanPartners.length > 0 ? cleanPartners : getAllPartnersWithDistance(lat || 11.01515, lng || 76.976618, cat));
+        setPartners(cleanPartners.length > 0 ? cleanPartners : getAllPartnersWithDistance(lat || 11.01515, lng || 76.976618, targetCat));
         setIsLive(true);
         setIsFallback(false);
         setFallbackNotice("");
@@ -322,14 +376,17 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
         return;
       }
 
-      // Standalone / Vercel Client-Side Geocoding & Pan-India Haversine Engine
+      // Step 3: Standalone / Vercel Client-Side Geocoding with 3-second timeout
       if (cityQuery) {
         const cleanQuery = cityQuery.trim();
         const isPin = /^\d{6}$/.test(cleanQuery);
         const query = isPin ? cleanQuery : `${cleanQuery}, India`;
         const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=1&countrycodes=in`;
 
-        const nomRes = await fetch(url, { headers: { Accept: "application/json" } });
+        const nomController = new AbortController();
+        const nomTimeout = setTimeout(() => nomController.abort(), 3000);
+        const nomRes = await fetch(url, { headers: { Accept: "application/json" }, signal: nomController.signal });
+        clearTimeout(nomTimeout);
         const list = await nomRes.json();
 
         if (list && list.length > 0) {
@@ -344,20 +401,22 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
           setLocationName(shortLoc || cleanQuery);
           setDetectedState(stateName);
 
-          const computed = getAllPartnersWithDistance(newLat, newLng, cat);
+          const computed = getAllPartnersWithDistance(newLat, newLng, targetCat);
           setPartners(computed);
           setIsLive(true);
           setIsFallback(false);
           setFallbackNotice("");
           setGeoError("");
         } else {
-          setGeoError(`Location "${cleanQuery}" not found. Try searching with your district name or 6-digit PIN code.`);
+          setGeoError(`Location "${cleanQuery}" not found on map. Showing nearest Pan-India partner banks.`);
+          const computed = getAllPartnersWithDistance(userLoc.lat, userLoc.lng, targetCat);
+          setPartners(computed);
         }
       } else {
         // Coordinate search (GPS or map center)
         const targetLat = Number(lat) || userLoc.lat;
         const targetLng = Number(lng) || userLoc.lng;
-        const computed = getAllPartnersWithDistance(targetLat, targetLng, cat);
+        const computed = getAllPartnersWithDistance(targetLat, targetLng, targetCat);
         setPartners(computed);
         setIsLive(true);
         setIsFallback(false);
@@ -366,7 +425,7 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
       }
     } catch (err) {
       console.warn("Geodata lookup error, using verified directory:", err);
-      const computed = getAllPartnersWithDistance(lat || userLoc.lat, lng || userLoc.lng, cat);
+      const computed = getAllPartnersWithDistance(lat || userLoc.lat, lng || userLoc.lng, targetCat);
       setPartners(computed);
       setIsLive(true);
       setIsFallback(false);
@@ -404,10 +463,13 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
           setCityInput("");
           setUserLoc({ lat, lng });
 
-          // Try reverse geocoding via Nominatim to show city & state
+          // Try reverse geocoding via Nominatim with 2.5s timeout
           try {
+            const revController = new AbortController();
+            const rTimeout = setTimeout(() => revController.abort(), 2500);
             const revUrl = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=12`;
-            const rRes = await fetch(revUrl, { headers: { Accept: "application/json" } });
+            const rRes = await fetch(revUrl, { headers: { Accept: "application/json" }, signal: revController.signal });
+            clearTimeout(rTimeout);
             if (rRes.ok) {
               const rData = await rRes.json();
               const addr = rData.address || {};

@@ -15,8 +15,44 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET || "sahayasetu_secure_jwt_token_2026";
 
-app.use(cors());
+// Explicit CORS configuration for Vercel production deployment and local development
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:4173",
+  "http://localhost:3000",
+  "https://scheme-finder.vercel.app",
+  process.env.CLIENT_ORIGIN
+].filter(Boolean);
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (!origin) return callback(null, true);
+      if (
+        allowedOrigins.includes(origin) ||
+        origin.endsWith(".vercel.app") ||
+        origin.includes("localhost")
+      ) {
+        return callback(null, true);
+      }
+      return callback(null, true);
+    },
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"]
+  })
+);
+
 app.use(express.json({ limit: "10mb" }));
+
+// Health check endpoint for cloud monitoring (Render / Railway / Fly)
+app.get("/api/health", (req, res) => {
+  res.json({
+    status: "ok",
+    service: "FINORA SahayaSetu Backend",
+    timestamp: new Date().toISOString()
+  });
+});
 
 // Initialize SQLite database and seed tables
 await initDatabase();

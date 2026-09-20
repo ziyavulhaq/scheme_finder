@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
+import { apiUrl } from "../utils/apiConfig";
 
 const AuthContext = createContext();
 
@@ -40,7 +41,7 @@ export const AuthProvider = ({ children }) => {
       }
 
       try {
-        const res = await fetch("/api/auth/me", {
+        const res = await fetch(apiUrl("/api/auth/me"), {
           headers: { Authorization: `Bearer ${token}` }
         });
         const contentType = res.headers.get("content-type") || "";
@@ -69,7 +70,7 @@ export const AuthProvider = ({ children }) => {
       let backendData = null;
 
       try {
-        const res = await fetch("/api/auth/login", {
+        const res = await fetch(apiUrl("/api/auth/login"), {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ identifier, password })
@@ -146,7 +147,7 @@ export const AuthProvider = ({ children }) => {
       let backendData = null;
 
       try {
-        const res = await fetch("/api/auth/register", {
+        const res = await fetch(apiUrl("/api/auth/register"), {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(profileData)
@@ -209,7 +210,7 @@ export const AuthProvider = ({ children }) => {
     if (!token) return { success: false, error: "Not authenticated" };
     try {
       try {
-        const res = await fetch("/api/auth/profile", {
+        const res = await fetch(apiUrl("/api/auth/profile"), {
           method: "PUT",
           headers: {
             "Content-Type": "application/json",
