@@ -12,7 +12,7 @@ export const TRANSLATIONS = {
     "fallbackNotice": "Showing verified sample data for Coimbatore — live lookup temporarily unavailable.",
     "govTitle": "Government Loan & Scheme Assistant",
     "govDept": "Citizen Support Portal • Govt. of India",
-    "appTitle": "SahayaSetu Loan & Scheme Guide",
+    "appTitle": "Finox Loan & Scheme Guide",
     "appSubtitle": "Discover Low-Interest Government Loan Schemes and Nearby Bank Branches",
     "audioAssistant": "Audio Guide",
     "audioPlaying": "Speaking...",
@@ -233,15 +233,15 @@ export const TRANSLATIONS = {
     "sihStatement": "",
     "subBrand": "Citizen Loan & Scheme Guide",
     "tagline": "",
-    "speechGuide": "Welcome to SahayaSetu. Answer 4 simple questions to find which government loan scheme you can get, calculate your monthly payment, and find an authorized bank near you.",
+    "speechGuide": "Welcome to Finox. Answer 4 simple questions to find which government loan scheme you can get, calculate your monthly payment, and find an authorized bank near you.",
     "refText": "",
-    "footerMoSJE": "SahayaSetu Citizen Assistance",
-    "footerPortal": "SahayaSetu Citizen Assistance",
+    "footerMoSJE": "Finox Citizen Assistance",
+    "footerPortal": "Finox Citizen Assistance",
     "footerDept": "Social Justice & Welfare Portal • Govt. of India",
     "footerRef": "Helping citizens discover and apply for low-interest government schemes.",
     "footerHelpline": "Toll-Free Helpline: 14566",
     "footerDisclaimer": "Important Note: Subsidized government loans require verification of annual family income (up to ₹5.00 Lakhs) and Caste Certificate at the bank branch.",
-    "footerCopyright": "© 2026 SahayaSetu • Citizen Scheme & Loan Guide",
+    "footerCopyright": "© 2026 Finox • Citizen Scheme & Loan Guide",
     "navVerify": "Verify Scheme",
     "verifyTitle": "Scheme & Lender Verification Checker",
     "verifySubtitle": "Protect yourself from fake schemes and predatory lending apps. Check whether a scheme exists in the official myScheme government registry, evaluate common scam warning signs, and verify lenders on RBI Sachet.",
@@ -314,7 +314,7 @@ export const TRANSLATIONS = {
     "fallbackNotice": "कोयंबटूर के लिए सत्यापित नमूना डेटा प्रदर्शित किया जा रहा है — लाइव खोज अस्थायी रूप से अनुपलब्ध है।",
     "govTitle": "सरकारी ऋण एवं योजना सहायक पोर्टल",
     "govDept": "नागरिक सहायता पोर्टल | भारत सरकार",
-    "appTitle": "सहायसेतु ऋण एवं योजना मार्गदर्शिका",
+    "appTitle": "Finox ऋण एवं योजना मार्गदर्शिका",
     "appSubtitle": "कम ब्याज वाली सरकारी योजनाएं और नजदीकी बैंक शाखाएं खोजें",
     "audioAssistant": "ऑडियो गाइड",
     "audioPlaying": "सुनाई दे रहा है...",
@@ -534,15 +534,15 @@ export const TRANSLATIONS = {
     "sihStatement": "",
     "subBrand": "नागरिक ऋण एवं योजना मार्गदर्शिका",
     "tagline": "",
-    "speechGuide": "सहायसेतु में आपका स्वागत है। 4 सरल प्रश्नों के उत्तर देकर जानें कि आपको कौन सी सरकारी ऋण योजना मिल सकती है, अपनी मासिक किस्त जानें और नजदीकी बैंक खोजें।",
+    "speechGuide": "Finox में आपका स्वागत है। 4 सरल प्रश्नों के उत्तर देकर जानें कि आपको कौन सी सरकारी ऋण योजना मिल सकती है, अपनी मासिक किस्त जानें और नजदीकी बैंक खोजें।",
     "refText": "",
-    "footerMoSJE": "सहायसेतु नागरिक सहायता",
-    "footerPortal": "सहायसेतु नागरिक सहायता",
+    "footerMoSJE": "Finox नागरिक सहायता",
+    "footerPortal": "Finox नागरिक सहायता",
     "footerDept": "सामाजिक न्याय एवं जनकल्याण पोर्टल • भारत सरकार",
     "footerRef": "नागरिकों को कम ब्याज वाली सरकारी योजनाओं को खोजने और आवेदन करने में सहायता।",
     "footerHelpline": "टोल-फ्री हेल्पलाइन: 14566",
     "footerDisclaimer": "महत्वपूर्ण सूचना: सरकारी रियायती ऋण के लिए बैंक शाखा में वार्षिक पारिवारिक आय (₹5.00 लाख तक) और जाति प्रमाण पत्र का सत्यापन आवश्यक है।",
-    "footerCopyright": "© 2026 सहायसेतु • नागरिक योजना एवं ऋण मार्गदर्शिका",
+    "footerCopyright": "© 2026 Finox • नागरिक योजना एवं ऋण मार्गदर्शिका",
     "navVerify": "योजना सत्यापन",
     "verifyTitle": "सरकारी योजना एवं ऋणदाता सत्यापन चेकर",
     "verifySubtitle": "फर्जी सरकारी योजनाओं और अवैध लोन ऐप्स से खुद को सुरक्षित रखें। आधिकारिक myScheme रजिस्ट्री में योजना की जांच करें, धोखाधड़ी के चेतावनी संकेतों का आकलन करें और आरबीआई सचेत पर ऋणदाता को सत्यापित करें।",
@@ -615,7 +615,7 @@ export const TRANSLATIONS = {
     "fallbackNotice": "கோயம்புத்தூருக்கான சரிபார்க்கப்பட்ட மாதிரி தரவு காட்டப்படுகிறது — நேரலை தேடல் தற்காலிகமாக கிடைக்கவில்லை.",
     "govTitle": "அரசு கடன் மற்றும் திட்ட வழிகாட்டி",
     "govDept": "பொதுமக்கள் உதவி தளம் • இந்திய அரசு",
-    "appTitle": "சகாயசேது கடன் & திட்ட வழிகாட்டி",
+    "appTitle": "Finox கடன் & திட்ட வழிகாட்டி",
     "appSubtitle": "குறைந்த வட்டி அரசு கடன் திட்டங்கள் மற்றும் அருகிலுள்ள வங்கிகள்",
     "audioAssistant": "குரல் உதவி (ஆடியோ)",
     "audioPlaying": "பேசுகிறது...",
@@ -840,7 +840,7 @@ export const TRANSLATIONS = {
     "footerRef": "தொழில்முனைவோர் மற்றும் மாணவர்களுக்கான குறைந்த வட்டி கடன் உதவி.",
     "footerHelpline": "தேசிய கட்டணமில்லா உதவி எண்: 14566",
     "footerDisclaimer": "பொறுப்புத் துறப்பு: அரசு சலுகை வட்டி விகிதங்கள் மற்றும் மானியங்கள் வங்கி ஆவண சரிபார்ப்புக்கு உட்பட்டவை.",
-    "footerCopyright": "© 2026 சகாயசேது • எளிய மக்கள் கடன் வழிகாட்டி"
+    "footerCopyright": "© 2026 Finox • எளிய மக்கள் கடன் வழிகாட்டி"
   },
   "te": {
     "marginMoneyLabel": "లబ్ధిదారు స్వంత వాటా / మార్జిన్ మనీ (10%)",
@@ -1079,11 +1079,11 @@ export const TRANSLATIONS = {
     "footerRef": "పారిశ్రామికవేత్తలు మరియు విద్యార్థులకు తక్కువ వడ్డీ రుణ సహాయం.",
     "footerHelpline": "జాతీయ టోల్-ఫ్రీ హెల్ప్‌లైన్: 14566",
     "footerDisclaimer": "గమనిక: ప్రభుత్వ రాయితీ వడ్డీ రేట్లు మరియు సహాయం బ్యాంక్ పత్రాల పరిశీలనకు లోబడి ఉంటాయి.",
-    "footerCopyright": "© 2026 సహాయసేతు • పౌర రుణ & పథక మార్గదర్శి"
+    "footerCopyright": "© 2026 Finox • పౌర రుణ & పథక మార్గదర్శి"
   },
   "kn": {    "govTitle": "ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು ಮತ್ತು ಸಾಲ ಮಾರ್ಗದರ್ಶಿ",
     "govDept": "ನಾಗರಿಕ ಸಹಾಯ ವೇದಿಕೆ • ಭಾರತ ಸರ್ಕಾರ",
-    "appTitle": "ಸಹಾಯಸೇತು ಸಾಲ ಮತ್ತು ಯೋಜನೆ ಮಾರ್ಗದರ್ಶಿ",
+    "appTitle": "Finox ಸಾಲ ಮತ್ತು ಯೋಜನೆ ಮಾರ್ಗದರ್ಶಿ",
     "appSubtitle": "ಕಡಿಮೆ ಬಡ್ಡಿಯ ಸರ್ಕಾರಿ ಸಾಲ ಯೋಜನೆಗಳು ಮತ್ತು ಹತ್ತಿರದ ಬ್ಯಾಂಕ್‌ಗಳು",
     "audioAssistant": "ಧ್ವನಿ ಮಾರ್ಗದರ್ಶಿ (ಆಡಿಯೋ)",
     "audioPlaying": "ಮಾತನಾಡುತ್ತಿದೆ...",
@@ -1317,13 +1317,13 @@ export const TRANSLATIONS = {
     "footerRef": "ಉದ್ಯಮಿಗಳು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಕಡಿಮೆ ಬಡ್ಡಿಯ ಸಾಲ ನೆರವು.",
     "footerHelpline": "ರಾಷ್ಟ್ರೀಯ ಟೋಲ್-ಫ್ರೀ ಸಹಾಯವಾಣಿ: 14566",
     "footerDisclaimer": "ಗಮನಿಸಿ: ಸರ್ಕಾರದ ರಿಯಾಯಿತಿ ಬಡ್ಡಿದರಗಳು ಮತ್ತು ಸಬ್ಸಿಡಿಗಳು ಬ್ಯಾಂಕ್ ದಾಖಲೆಗಳ ಪರಿಶೀಲನೆಗೆ ಒಳಪಟ್ಟಿರುತ್ತವೆ.",
-    "footerCopyright": "© 2026 ಸಹಾಯಸೇತು • ನಾಗರಿಕ ಸಾಲ & ಯೋಜನೆ ಮಾರ್ಗದರ್ಶಿ"
+    "footerCopyright": "© 2026 Finox • ನಾಗರಿಕ ಸಾಲ & ಯೋಜನೆ ಮಾರ್ಗದರ್ಶಿ"
   },
 
   "ml": {
     "govTitle": "സർക്കാർ വായ്പാ പദ്ധതി സഹായി",
     "govDept": "പൗരസഹായ വേദി • ഭാരത സർക്കാർ",
-    "appTitle": "സഹായസേതു വായ്പാ & പദ്ധതി ഗൈഡ്",
+    "appTitle": "Finox വായ്പാ & പദ്ധതി ഗൈഡ്",
     "appSubtitle": "കുറഞ്ഞ പലിശ സർക്കാർ വായ്പാ പദ്ധതികളും അടുത്തുള്ള ബാങ്കുകളും",
     "audioAssistant": "വോയ്‌സ് ഗൈഡ് (ഓഡിയോ)",
     "audioPlaying": "സംസാരിക്കുന്നു...",
@@ -1344,9 +1344,9 @@ export const TRANSLATIONS = {
     "allSchemes": "എല്ലാ പദ്ധതികളും",
     "recommenderTitle": "നിങ്ങൾക്കായുള്ള സർക്കാർ വായ്പ കണ്ടെത്തുക",
     "calcTitle": "പ്രതിമാസ തവണ (EMI) കണക്കാക്കുക",
-    "speechGuide": "സഹായസേതുവിലേക്ക് സ്വാഗതം. നിങ്ങളുടെ സർക്കാർ സബ്‌സിഡി വായ്പ അറിയാൻ 4 ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകുക, പ്രതിമാസ തവണ കണക്കാക്കുക, അടുത്തുള്ള ബാങ്ക് കണ്ടെത്തുക.",
+    "speechGuide": "Finox-ലേക്ക് സ്വാഗതം. നിങ്ങളുടെ സർക്കാർ സബ്‌സിഡി വായ്പ അറിയാൻ 4 ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകുക, പ്രതിമാസ തവണ കണക്കാക്കുക, അടുത്തുള്ള ബാങ്ക് കണ്ടെത്തുക.",
     "footerDisclaimer": "നിരാകരണം: സർക്കാർ സബ്‌സിഡി നിരക്കുകൾ ബാങ്ക് രേഖ പരിശോധനയ്ക്ക് വിധേയമാണ്.",
-    "footerCopyright": "© 2026 സഹായസേതു • പൗര വായ്പാ സഹായി"
+    "footerCopyright": "© 2026 Finox • പൗര വായ്പാ സഹായി"
   }
 
 };

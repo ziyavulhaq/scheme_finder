@@ -344,7 +344,7 @@ export const AuthPage = () => {
 
       {/* Footer Info */}
       <div className="max-w-md w-full mx-auto text-center text-xs text-[#8C827A] space-y-1">
-        <p>© FINORA • Low-interest concessional credit guidance</p>
+        <p>© Finox • Low-interest concessional credit guidance</p>
       </div>
     </div>
   );

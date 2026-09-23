@@ -24,10 +24,10 @@ function AppContent() {
       <div className="min-h-screen bg-[#FBF9F4] flex items-center justify-center">
         <div className="text-center space-y-3">
           <div className="h-16 px-3 py-1.5 mx-auto inline-flex items-center justify-center rounded-2xl bg-white border border-[#D8D2C4] shadow-sm">
-            <img src="/logo.png" alt="FINORA" className="h-full w-auto object-contain" />
+            <img src="/logo.png" alt="Finox" className="h-full w-auto object-contain" />
           </div>
           <div className="w-8 h-8 border-3 border-[#1F3A5F] border-t-transparent rounded-full animate-spin mx-auto"></div>
-          <p className="text-xs font-semibold text-[#1F3A5F]">Loading FINORA Portal...</p>
+          <p className="text-xs font-semibold text-[#1F3A5F]">Loading Finox Portal...</p>
         </div>
       </div>
     );

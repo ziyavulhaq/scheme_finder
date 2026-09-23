@@ -55,9 +55,9 @@ export const Footer = ({ onNavigate }) => {
           </div>
           <div className="flex items-center gap-2 text-center sm:text-right">
             <div className="h-6 px-1 rounded bg-white border border-[#D8D2C4] shadow-2xs flex items-center justify-center shrink-0">
-              <img src="/logo.png" alt="FINORA" className="h-full w-auto object-contain max-w-[36px]" />
+              <img src="/logo.png" alt="Finox" className="h-full w-auto object-contain max-w-[36px]" />
             </div>
-            <span>{t.footerCopyright || "© 2026 FINORA • Citizen Scheme & Loan Guide"}</span>
+            <span>{t.footerCopyright || "© 2026 Finox • Citizen Scheme & Loan Guide"}</span>
           </div>
         </div>
       </div>
