@@ -15,4 +15,4 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: CLIENT_ORIGIN
-        value: https://scheme-finder.vercel.app
+        value: https://scheme-finder-six.vercel.app

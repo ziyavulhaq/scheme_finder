@@ -1,0 +1,12855 @@
+export const mySchemeCache = [
+  {
+    "slug": "stls",
+    "schemeName": "Short Term Loan Scheme",
+    "schemeShortTitle": "Stls",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "\"Short Term Loan Scheme\" provides financial assistance/ loan as a credit to individuals from the Scheduled Tribe Community to meet the immediate expenses towards Education, Medical and Business needs. The scheme aims to improve their standard of living.",
+    "tags": [
+      "Loan",
+      "Business",
+      "Scheduled Tribe",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/stls"
+  },
+  {
+    "slug": "nbcfdc-gls",
+    "schemeName": "NBCFDC General Loan Scheme",
+    "schemeShortTitle": "NBCFDC - GLS",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "A general loan scheme by the Ministry of Social Justice for Indian citizens from backward classes for various income-generating activities. Loan up to ₹15 Lakh per beneficiary for pursuing income-generating activities.",
+    "tags": [
+      "Loan",
+      "Empowerment",
+      "Backward Class",
+      "OBC",
+      "Entrepreneur"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nbcfdc-gls"
+  },
+  {
+    "slug": "cls",
+    "schemeName": "Composite Loan Scheme",
+    "schemeShortTitle": "CLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Composite Loan Scheme\" aims to provide need-based financial support to individuals from Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and PwDs to help them pursue various income-generating activities. The scheme encourages self-employment and entrepreneurship.",
+    "tags": [
+      "Loan",
+      "Employment",
+      "Entrepreneurship",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Minority",
+      "Disability"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cls"
+  },
+  {
+    "slug": "ltcpg",
+    "schemeName": "Loan for Training of Commercial Pilot (GUEEDC)",
+    "schemeShortTitle": "LTCPG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme \"Loan for Training of Commercial Pilot (GUEEDC)\" by the Social Justice and Empowerment Department, Gujarat, provides financial loan assistance of up to ₹25,00,000/- at 4% simple interest per annum is provided to Unreserved category candidates for pursuing commercial pilot training.",
+    "tags": [
+      "Loan",
+      "Education Loan",
+      "Commercial Pilot Training"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ltcpg"
+  },
+  {
+    "slug": "tls-delhi",
+    "schemeName": "Transport Loan Scheme",
+    "schemeShortTitle": "TLS-DELHI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Transport & Infrastructure",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Transport Loan Scheme\" aims to promote self-employment among target groups by providing term loans for Light Motor Vehicles. The scheme benefits Scheduled Castes, Other Backward Classes, Minorities, and Safai Karamcharis with financial assistance up to ₹5,00,000/-.",
+    "tags": [
+      "Loan",
+      "Employment",
+      "Entrepreneurship",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Minority",
+      "Safai Karmachari",
+      "Transport"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tls-delhi"
+  },
+  {
+    "slug": "lels",
+    "schemeName": "LIDCOM Education Loan Scheme",
+    "schemeShortTitle": "LELS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The \"Education Loan Scheme\" is a scheme by the Leather Industries Development Corporation (LIDCOM), Govt. of Maharashtra. In this scheme, finance of upto ₹ 20,00,000 is provided for post graduate students in the 18-50 years age group from Charmakar Community for studies in India and in abroad.",
+    "tags": [
+      "Loan",
+      "Education",
+      "Student",
+      "Postgraduation",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lels"
+  },
+  {
+    "slug": "aaelss",
+    "schemeName": "Assam Abhinandan Education Loan Subsidy Scheme",
+    "schemeShortTitle": "AAELSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "\"Assam Abhinandan Education Loan Subsidy Scheme\" was launched on 26 December 2019 by the Hon'ble Chief Minister of Assam. The scheme is managed by the Finance Department, Govt. of Assam. The govt. will provide a loan subsidy of up to ₹ 50,000 on education loans to students pursuing higher education.",
+    "tags": [
+      "Education",
+      "Loan",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aaelss"
+  },
+  {
+    "slug": "lmmls",
+    "schemeName": "LIDCOM Margin Money Loan Scheme",
+    "schemeShortTitle": "LMMLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": " In this scheme, for a loan limit from ₹50,001 to ₹5,00,000/-, 20% of the Project cost loan as Seed Capital is paid by the Corporation @ 4% interest per annum. A maximum of ₹10,000/- will be paid as a subsidy by Corporation. A 5% amount of project cost will have to be contributed by the beneficiary.",
+    "tags": [
+      "Loan",
+      "Subsidy",
+      "Scheduled Caste",
+      "Banking"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lmmls"
+  },
+  {
+    "slug": "els-delhi",
+    "schemeName": "Education Loan Scheme - Delhi",
+    "schemeShortTitle": "ELS-DELHI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "\"Education Loan Scheme\" provides financial assistance to the SC/ST/OBC/PwD students for pursuing professional and technical education in India and abroad, with loan limits of ₹7,50,000/- and ₹15,00,000/- respectively. Delhi residents with an annual family income below ₹5,00,000/- are eligible.",
+    "tags": [
+      "Education",
+      "Loan",
+      "Student",
+      "College",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Minority",
+      "Disability",
+      "OBC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/els-delhi"
+  },
+  {
+    "slug": "vetls",
+    "schemeName": "Vocational Education and Training Loan Scheme",
+    "schemeShortTitle": "VETLS",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Education & Learning",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The Vocational Education and Training Loan Scheme provides financial assistance to youth of the target group to enhance their skills & employability.",
+    "tags": [
+      "Education",
+      "Training",
+      "Loan",
+      "Skill"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vetls"
+  },
+  {
+    "slug": "aels",
+    "schemeName": "Arivu Education Loan Scheme ",
+    "schemeShortTitle": "AELS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The \"Arivu Education Loan Scheme,\" launched by the Minorities Welfare Department, Government of Karnataka, and implemented by the Karnataka Minorities Development Corporation, offers loans to students pursuing professional courses like MBBS, B.E., B.Tech., MBA, MCA, LLB, and others in various fields",
+    "tags": [
+      "Student",
+      "Loan",
+      "Minority Community"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aels"
+  },
+  {
+    "slug": "vpls",
+    "schemeName": "Vrutti Protsaha Loan Scheme",
+    "schemeShortTitle": "VPLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The \"Vrutti Protsaha Loan Scheme\" is an initiative by the Karnataka Minority Development Corporation (KMDC) to promote self-employment and economic activities among minority communities. The scheme provides financial assistance to eligible individuals from minority communities. ",
+    "tags": [
+      "Loan",
+      "Self-employment",
+      "Subsidy",
+      "Minority"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vpls"
+  },
+  {
+    "slug": "iflcbocwwb",
+    "schemeName": "Interest Free Loan (CBOCWWB)",
+    "schemeShortTitle": "IFL(CBOCWWB)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chandigarh"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Under this scheme, interest free loan shall be granted to the registered construction workers of the Board for the purchase of items like Fridge, Television/ LCD, Motor Cycle/Scooter, Cooler, Fan & Bicycle.",
+    "tags": [
+      "Interest Free",
+      "Loan",
+      "Construction Worker",
+      "Labour"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/iflcbocwwb"
+  },
+  {
+    "slug": "cls-pucu",
+    "schemeName": "Car Loan Scheme",
+    "schemeShortTitle": "CLS-PUCU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The \"Car Loan Scheme\" aims to assist the employees of the Government of Puducherry & Employees of the Government of Puducherry undertaking for the purchase of a new car for personal use. The applications for this scheme are accepted online only.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Vehicle",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cls-pucu"
+  },
+  {
+    "slug": "lfs-ebc",
+    "schemeName": "Loan For Foreign Study (E.B.C.) ",
+    "schemeShortTitle": "LFS-EBC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to support higher education abroad for eligible students from the Educationally Backward Class (EBC). It provides a maximum Foreign Study Loan of ₹15,00,000/- at an annual interest rate of 4% to EBC students.",
+    "tags": [
+      "Loan",
+      "Student",
+      "Education",
+      "College",
+      "Finance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lfs-ebc"
+  },
+  {
+    "slug": "cmrpvls",
+    "schemeName": "Chief Minister Rural Path Vendor Loan Scheme",
+    "schemeShortTitle": "CMRPVLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Chief Minister Rural Path Vendor Loan Scheme\" by the Panchayat and Rural Development Department, Government of Madhya Pradesh provides working capital assistance of up to ₹10,000, promotes regular loan repayment, and trains entrepreneurs in business practices. The scheme targets small traders.",
+    "tags": [
+      "Loan",
+      "Trader",
+      "Business",
+      "Financial Assistance",
+      "Vendor",
+      "Rural"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cmrpvls"
+  },
+  {
+    "slug": "lpt-gbocwwb",
+    "schemeName": "Loan for the Purchase of Tools (GBOCWWB)",
+    "schemeShortTitle": "LPT-GBOCWWB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Loan for the Purchase of Tools (GBOCWWB)\" is a Welfare Scheme by the Goa Building and Other Construction Workers Welfare Board of the Dept of Labour and Employment, Govt of Goa. Through this scheme, the worker registered with the Board is provided with a loan of ₹5,000/- for the purchase of tools.",
+    "tags": [
+      "Tool",
+      "Loan",
+      "Labour",
+      "Worker",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lpt-gbocwwb"
+  },
+  {
+    "slug": "dccbfjl",
+    "schemeName": "District Central Cooperative Banks and through its Branches: For Jewel Loan",
+    "schemeShortTitle": "DCCBFJL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme allows eligible individuals to obtain loans by pledging their gold and jewelry. The maximum loan amount is ₹1,00,000/- with an interest rate of 12%, subject to changes as per bank policies.\n",
+    "tags": [
+      "Jewel Loan",
+      "Banking"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dccbfjl"
+  },
+  {
+    "slug": "els-nmdfc",
+    "schemeName": "Education Loan Scheme of NMDFC",
+    "schemeShortTitle": "ELS-NMDFC",
+    "nodalMinistryName": "Ministry Of Minority Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Loan of upto ₹20,00,000/- for domestic courses & ₹30,00,000/- for courses abroad under Credit  Line-1 and Credit line -2 is extended to beneficiaries belong to minority communities at 3% p.a. & 8% p.a respectively.",
+    "tags": [
+      "Education Loan Scheme Of NMDFC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/els-nmdfc"
+  },
+  {
+    "slug": "lfs-sebc",
+    "schemeName": "Loan For Foreign Study (S.E.B.C.)",
+    "schemeShortTitle": "LFS-SEBC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to support higher education abroad for eligible students from the Socially and Educationally Backward Class (SEBC). It provides a maximum Foreign Study Loan of ₹15,00,000/- at an annual interest rate of 4% to SEBC students.",
+    "tags": [
+      "Student",
+      "Loan",
+      "Education",
+      "Mortgage",
+      "College"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lfs-sebc"
+  },
+  {
+    "slug": "pvlvls",
+    "schemeName": "Passenger Vehicle/Loading Vehicle Loan Scheme (DAADC)",
+    "schemeShortTitle": "PVLVLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The \"Passenger Vehicle/Loading Vehicle Loan Scheme\" introduced by the Social Justice and Empowerment Department provides financial support to unemployed individuals from Antyodaya Caste for purchasing passenger or freight vehicles. \n",
+    "tags": [
+      "Passenger Vehicle Loan",
+      "Loading Vehicle Loan",
+      "Antyodaya",
+      "Employment",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pvlvls"
+  },
+  {
+    "slug": "scvi-cls",
+    "schemeName": "Scheme for Cottage and Village Industries (Composite Loan Scheme)",
+    "schemeShortTitle": "SCVI-CLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to extend composite financial assistance (term loan and/or working capital loan) to Artisans, Village and Cottage Industries, and Micro Enterprises promoted by residents of Puducherry. Benefits include loans up to ₹25,00,000/- per unit.",
+    "tags": [
+      "Artisan",
+      "Village",
+      "Cottage",
+      "Industry",
+      "Loan",
+      "Machinery"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/scvi-cls"
+  },
+  {
+    "slug": "bls",
+    "schemeName": "Big Loan Scheme",
+    "schemeShortTitle": "BLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Big Loan Scheme\" aims to provide term loans up to ₹5,00,000/- for income-generating activities to eligible applicants from specific targets groups like SC, OBC, Minorities, Safai Karamcharis, and PwDs. The scheme is implemented by DSFDC in collaboration with National Apex Corporations.",
+    "tags": [
+      "Loan",
+      "Entrepreneur",
+      "Scheduled Caste",
+      "OBC",
+      "Minority",
+      "Safai Karamchari",
+      "Disability"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bls"
+  },
+  {
+    "slug": "els",
+    "schemeName": "Education Loan Scheme",
+    "schemeShortTitle": "ELS",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "A scheme named Education Loan Scheme by National Scheduled Castes Finance and Development Corporation (NSFDC) under the M/o Social Justice and Empowerment provides loans to students from Scheduled Castes who are pursuing full-time professional or technical courses in recognized institutions.",
+    "tags": [
+      "Higher Education",
+      "Loans To Students",
+      "National Scheduled Castes Finance",
+      "Corporation",
+      "Education Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/els"
+  },
+  {
+    "slug": "dccbfcd",
+    "schemeName": "District Central Cooperative Banks and through its Branches: For Consumer Durables T.V., Fridge and Two Wheelers Loan",
+    "schemeShortTitle": "DCCBFCD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "A loan scheme provided by District Central Cooperative Banks for purchasing consumer durables like T.V., fridges, and two-wheelers. Loan covers 75% of the product cost at an interest rate of 14%.\n",
+    "tags": [
+      "Consumer Loan",
+      "Electronics",
+      "Two Wheeler Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dccbfcd"
+  },
+  {
+    "slug": "aelss",
+    "schemeName": "Abhinandan Education Loan Subsidy Scheme",
+    "schemeShortTitle": "AELSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Skills & Employment"
+    ],
+    "briefDescription": "Chief Minister Sarbananda Sonowal launched the Assam Abhinandan Education Loan Subsidy Scheme at the Srimanta Sankardev International Auditorium on 26 December 2019 in the presence of Finance Minister Himanta Biswa Sarma, , several senior officials of the State Finance Department, and bank officials",
+    "tags": [
+      "Abhinandan",
+      "Education Loan",
+      "Subsidy Scheme"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aelss"
+  },
+  {
+    "slug": "mlsgb",
+    "schemeName": "Merit Loan Scheme for Good Borrowers",
+    "schemeShortTitle": "MLSGB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist the units of PIPDIC whose loan accounts are classified as Standard Assets continuously for 3 years. The assistance is provided for construction of additional building, purchase of additional machineries & equipments essential for expansion /modernisation / diversification.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Merit",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mlsgb"
+  },
+  {
+    "slug": "issoel",
+    "schemeName": "Interest Subsidy Scheme on Education Loan",
+    "schemeShortTitle": "ISSOEL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme \"Interest Subsidy Scheme on Education Loan\" by the Education Department, Gujarat, aims to provide financial support to students by offering 100% interest subsidy on education loans.",
+    "tags": [
+      "Education Loan",
+      "Higher Education",
+      "Interest Subsidy",
+      "Abroad Study"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/issoel"
+  },
+  {
+    "slug": "vlsy",
+    "schemeName": "Self-Employment Scheme: Vahan Loan Sahay Yojana",
+    "schemeShortTitle": "SESVLSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Vahan Loan Sahay Yojana\" is a component under the \"Self-Employment Scheme\" that provides on-road unit cost to self-employed individuals for purchasing vehicles such as rickshaws, loading rickshaws, Maruti cars, and jeep taxis.",
+    "tags": [
+      "Business",
+      "Self Employment",
+      "Vehicle Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vlsy"
+  },
+  {
+    "slug": "lpwtcw",
+    "schemeName": "Loan for the Purchase of Work Tool for the Construction Workers",
+    "schemeShortTitle": "LPWTCW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "\"Loan for the Purchase of Work Tool for the Construction Workers\" by the Delhi Building and Other Construction Workers Welfare Board, Labour Dept., Delhi, is a welfare scheme that provides an amount not exceeding ₹20,000/- as loan to the members of the fund, for the purchase of work related tools.",
+    "tags": [
+      "Labour",
+      "Loan",
+      "Work Tool",
+      "Construction Workers",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lpwtcw"
+  },
+  {
+    "slug": "sbsdaadc",
+    "schemeName": "Loan for Small Businesses (DAADC)",
+    "schemeShortTitle": "LSBDAADC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to promote self-employment among Scheduled Caste individuals belonging to Antyodaya Anna Yojana families by providing financial assistance for starting small businesses. Under this scheme, eligible beneficiaries are provided a loan of upto ₹1,25,000/- at a concessional interest rate.",
+    "tags": [
+      "Loan",
+      "Self-employment",
+      "Scheduled Caste",
+      "Small Business",
+      "Antyodaya Family"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sbsdaadc"
+  },
+  {
+    "slug": "parls",
+    "schemeName": "Passenger Auto Rickshaw Loan Scheme (DAADC)",
+    "schemeShortTitle": "PARLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The \"Passenger Auto Rickshaw Loan Scheme\" introduced by the Social Justice and Empowerment Department offers financial assistance in the form of loans to Scheduled Caste individuals from Antyodaya families to purchase passenger auto rickshaws and enhance their livelihood opportunities.",
+    "tags": [
+      "Passenger Auto Rickshaw Loan",
+      "Antyodaya",
+      "Scheduled Caste",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/parls"
+  },
+  {
+    "slug": "oels",
+    "schemeName": "Overseas Educational Loan Scheme",
+    "schemeShortTitle": "OELS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The \"Overseas Educational Loan Scheme\" objective is to provide financial/loan assistance to students belonging to minority communities who are pursuing graduate or postgraduate degree courses in recognized universities abroad.",
+    "tags": [
+      "Laon",
+      "Education",
+      "Student",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/oels"
+  },
+  {
+    "slug": "dlsk",
+    "schemeName": "Direct Loan Scheme Karnataka",
+    "schemeShortTitle": "DLSK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The \"Direct Loan Scheme\" offers financial assistance to unemployed scheduled caste individuals from the leather artisan community to start small businesses. ",
+    "tags": [
+      "Financial Assistance",
+      "Subsidy",
+      "Unemployed",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dlsk"
+  },
+  {
+    "slug": "lsmpcifl",
+    "schemeName": "Large Sized Multi Purpose Coop. Society For Interest Free Loan",
+    "schemeShortTitle": "LSMPCIFL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme provides interest-free loans to citizens through a cooperative society. The maximum loan amount offered is ₹45,000/-, with zero interest charged.\n",
+    "tags": [
+      "Interest Free Loan",
+      "Cooperative Society",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lsmpcifl"
+  },
+  {
+    "slug": "sgdtly",
+    "schemeName": "100% State Government Divyangjan Term Loan Yojana",
+    "schemeShortTitle": "SGDTLY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme provides provide financial support to native residents of Gujarat who have a disability of 40% or more. The eligible individuals can avail of a term loan ranging from ₹50,000/- to ₹1,00,000/- at a concessional interest rate of 6% per annum for a repayment period of five years.",
+    "tags": [
+      "Loan",
+      "Disability",
+      "Social Welfare",
+      "Differently Abled"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sgdtly"
+  },
+  {
+    "slug": "flftcp",
+    "schemeName": "Financial Loan for Training of Commercial Pilot",
+    "schemeShortTitle": "FLFTCP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to support students from Socially and Educationally Backward Classes (SEBC) in obtaining Commercial Pilot License (CPL) training through financial assistance. Under this scheme, a loan of up to ₹25,00,000 is offered at a concessional interest rate of 4% per annum to the students.....",
+    "tags": [
+      "Loan",
+      "Training",
+      "Opportunity",
+      "Skill Development",
+      "Interest Rate",
+      "SEBC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/flftcp"
+  },
+  {
+    "slug": "lmsipl",
+    "schemeName": "Livestock Mission Scheme - Interest Payment on Loan",
+    "schemeShortTitle": "LMSIPL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote self-employment opportunities at the local level by encouraging livestock-based entrepreneurship and reducing the financial burden on beneficiaries through payment of 90% of the bank loan interest by the State Government.",
+    "tags": [
+      "Livestock Mission",
+      "Interest Payment",
+      "Loan",
+      "Animal Husbandry",
+      "Buffalo",
+      "Cow",
+      "Sheep",
+      "Goat",
+      "Poultry",
+      "Pig"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lmsipl"
+  },
+  {
+    "slug": "slsmf",
+    "schemeName": "Scheme for Loan and Subsidy for Manure and Fertilizer-DNH&DD",
+    "schemeShortTitle": "SLSMF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Dadra & Nagar Haveli and Daman & Diu"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote fertiliser use for higher productivity. Subsidy-cum-loan assistance is provided in kind to small and marginal farmers.",
+    "tags": [
+      "Cultivator",
+      "Farmer",
+      "Subsidy",
+      "Loan",
+      "Small Farmers",
+      "Marginal Farmers",
+      "Scheduled Castes",
+      "Scheduled Tribes"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/slsmf"
+  },
+  {
+    "slug": "hblsegg",
+    "schemeName": "House Building Loan Scheme for Employees of Government of Goa",
+    "schemeShortTitle": "HBLSEGG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The scheme aims to assist government employees in achieving their dream of owning a house by providing financial support to erstwhile House Building Advance scheme beneficiaries whose loans were operative as on 15th May 2020. The scheme provides loan takeover facility through empanelled banks.",
+    "tags": [
+      "Loan",
+      "Housing",
+      "Subsidy",
+      "Interest",
+      "Finance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hblsegg"
+  },
+  {
+    "slug": "sl",
+    "schemeName": "Skill Loan Scheme",
+    "schemeShortTitle": "SL",
+    "nodalMinistryName": "Ministry Of Skill Development And Entrepreneurship",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to support youth by providing access to institutional credit for skill training courses. Through this scheme, collateral-free loans and credit guarantee support are provided to eligible borrowers for undertaking skill training programmes.",
+    "tags": [
+      "Skill Development",
+      "Student",
+      "Industrial Training Institutes",
+      "Polytechnics",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sl"
+  },
+  {
+    "slug": "bll",
+    "schemeName": "Bidya Lakshmi Loan",
+    "schemeShortTitle": "BLL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "\"Bidya Lakshmi\" aims to provide education loans for higher studies to children of Assam State Government employees. Benefits include loans up to ₹10,00,000/- at 4% interest, with subsidies for eligible candidates.",
+    "tags": [
+      "Student",
+      "Loan",
+      "Education",
+      "CLSS"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bll"
+  },
+  {
+    "slug": "dbsalhsifc",
+    "schemeName": "Dr. Baba Saheb Ambedkar Loan for Higher Study in Foreign Countries",
+    "schemeShortTitle": "DBSALHSIFC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Under this scheme, a loan of ₹15 lakhs is provided at an interest rate of 4% to offer financial assistance to bright career students of the Scheduled Castes who cannot go abroad for higher studies due to the their poor economic condition.",
+    "tags": [
+      "Loan",
+      "Higher Study",
+      "Abrod",
+      "Student",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dbsalhsifc"
+  },
+  {
+    "slug": "lfcpt",
+    "schemeName": "Loan For Commercial Pilot Training",
+    "schemeShortTitle": "LFCPT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to offer affordable loans of up to ₹25,00,000 at a 4% annual interest rate to tribal students who want to pursue pilot training.",
+    "tags": [
+      "Pilot Training",
+      "Opportunity",
+      "Schedule Tribe",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lfcpt"
+  },
+  {
+    "slug": "tls",
+    "schemeName": "Term Loan Scheme",
+    "schemeShortTitle": "TLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to uplift the economically disadvantaged Charmakar community (Dhor, Chambhar, Holar, Mochi, etc.) by promoting their educational, economic, and social development, helping them gain a respectable place in society.",
+    "tags": [
+      "BPL",
+      "Loan",
+      "Below Poverty Line",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tls"
+  },
+  {
+    "slug": "fsl",
+    "schemeName": "Foreign Study Loan",
+    "schemeShortTitle": "FSL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance to students from non-reserved categories for pursuing higher studies abroad in medical and post-graduation courses. It offers loans up to ₹15,00,000/- at 4% simple interest per annum to eligible students.",
+    "tags": [
+      "Education",
+      "Loan",
+      "Foreign",
+      "Student",
+      "University"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fsl"
+  },
+  {
+    "slug": "tlsbc",
+    "schemeName": "Term Loan Scheme for Backward Classes",
+    "schemeShortTitle": "TLSBC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme is implemented by the Haryana Backward Classes & Economically Weaker Sections Kalyan Nigam. Under this scheme, loans of up to ₹15,00,000/- are provided at an annual interest rate of 6% to 8% to individuals from the Backward Classes to enhance their employability.",
+    "tags": [
+      "Term Loan",
+      "Backward Classes",
+      "Loan Assistance",
+      "Employability"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tlsbc"
+  },
+  {
+    "slug": "apun-ghar",
+    "schemeName": "Interest Subvention Scheme For Housing Loan For Regular State Government Employee Under APUN GHAR",
+    "schemeShortTitle": "APUN GHAR",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Apun Ghar is a new home loan scheme for Assam Government employees as per announcement made in the Budget Speech,2016-2017 under which home loans will be provided to the State Government employees at subsidized interest rates.",
+    "tags": [
+      "Loan",
+      "Insurance",
+      "Interest Subvention",
+      "State Government Employee"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/apun-ghar"
+  },
+  {
+    "slug": "dccbfml",
+    "schemeName": "District Central Cooperative Banks and through its Branches: For Maternity Loan through Self Help Groups",
+    "schemeShortTitle": "DCCBFML",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Health & Wellness"
+    ],
+    "briefDescription": "The scheme offers financial aid to pregnant women via Self Help Groups. The loan is capped at ₹2,000/- with an interest rate of 11%, subject to changes.\n",
+    "tags": [
+      "Maternity Loan",
+      "Self Help Groups",
+      "Women Empowerment",
+      "Health And Wellness",
+      "Pregnancy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dccbfml"
+  },
+  {
+    "slug": "dccbfpl",
+    "schemeName": "District Central Cooperative Banks and through its Branches: For Professional Loan to Doctors, Engineers and Self Employed Professional",
+    "schemeShortTitle": "DCCBFPL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "This scheme provides professional loans to doctors, engineers, and self-employed professionals through District Central Cooperative Banks. The maximum loan amount is ₹10,00,000 at an interest rate of 13% (subject to change).\n",
+    "tags": [
+      "Professional Loan",
+      "Doctors",
+      "Engineers",
+      "Self Employed Professional",
+      "Social Empowerment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dccbfpl"
+  },
+  {
+    "slug": "kcc",
+    "schemeName": "Kisan Credit Card",
+    "schemeShortTitle": "KCC",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The Kisan Credit Card (KCC) scheme was introduced in 1998 for issue of Kisan Credit Cards to farmers on the basis of their holdings for uniform adoption by the banks so that farmers may use them to readily purchase agriculture inputs and draw cash for their production needs. ",
+    "tags": [
+      "Kisan",
+      "Credit Card",
+      "Farmer",
+      "Farming",
+      "Banking"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kcc"
+  },
+  {
+    "slug": "mcf",
+    "schemeName": "Micro Credit Finance",
+    "schemeShortTitle": "MCF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "Under the Micro Credit Finance Scheme, beneficiaries from the Charmkar Community receive financial assistance of up to ₹50,000 at an interest rate of 5% per annum. This assistance includes a subsidy of ₹10,000, with the remaining amount provided as a loan.",
+    "tags": [
+      "BPL",
+      "Below Poverty Line",
+      "Financial Assistance",
+      "Employment",
+      "Credit"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mcf"
+  },
+  {
+    "slug": "mcfnsfdc",
+    "schemeName": "Micro Credit Finance (NSFDC)",
+    "schemeShortTitle": "MCFNSFDC",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme is implemented by the National Scheduled Castes Finance & Development Corporation, Ministry of Social Justice & Empowerment, Govt. of India. Under this scheme, loans are provided to individuals from the SC community for units costing up to ₹1,40,000/- for income-generating activities.",
+    "tags": [
+      "Micro Credit",
+      "NSFDC",
+      "Loan",
+      "Self-employment",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mcfnsfdc"
+  },
+  {
+    "slug": "dccvfrmc",
+    "schemeName": "District Central Cooperative Banks and through its Branches: For Revamped Micro Credit Loan for Women Vendors of Flower, Vegetable, Fruit etc.",
+    "schemeShortTitle": "DCCVFRMC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme provides revamped micro credit loans through District Central Cooperative Banks to support women vendors selling flowers, vegetables, fruits etc. Loans range from  ₹100/- to  ₹5,000/- with an interest rate of 11%.\n",
+    "tags": [
+      "Micro Credit Loan",
+      "Women",
+      "Flower Vendors",
+      "Vegetable Vendors",
+      "Fruit Vendors",
+      "Business"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dccvfrmc"
+  },
+  {
+    "slug": "tls-cl1mc",
+    "schemeName": "Term Loan Scheme- Credit Line 1 for Minority Community",
+    "schemeShortTitle": "TLS-CL1MC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme is implemented by the Haryana Backward Classes and Economically Weaker Sections Kalyan Nigam. Under this scheme, loans of up to ₹20,00,000/- are provided at a concessional interest rate to individuals from minority communities to enhance their employability.",
+    "tags": [
+      "Term Loan",
+      "Credit Line",
+      "Minority Community",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tls-cl1mc"
+  },
+  {
+    "slug": "igsccy",
+    "schemeName": "Indira Gandhi Shehri Credit Card Yojana",
+    "schemeShortTitle": "IGSCCY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Indira Gandhi Urban Credit Card Scheme-2021 is implemented to provide employment / self-employment opportunities in\nurban areas and to provide financial resources for everyday needs.\n",
+    "tags": [
+      "Empowerment",
+      "Unemployment",
+      "Financial Assistance",
+      "Covid"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/igsccy"
+  },
+  {
+    "slug": "bsccs",
+    "schemeName": "Bihar Student Credit Card Scheme",
+    "schemeShortTitle": "BSCCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Bihar"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The Bihar Government launched the Bihar Student Credit Card (BSCC) scheme to provide financial aid to applicants to complete their higher education.",
+    "tags": [
+      "Educational Loan",
+      "Student Empowerment",
+      "Financial Assistance",
+      "Higher Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bsccs"
+  },
+  {
+    "slug": "wbsccs",
+    "schemeName": "West Bengal Student Credit Card Scheme",
+    "schemeShortTitle": "WBSCCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "West Bengal"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The Higher Education Department, Government of West Bengal has introduced the Student Credit Card Scheme for the students of West Bengal to enable them to pursue higher education without having any financial constraints.",
+    "tags": [
+      "Financial Assistance",
+      "Education Loan",
+      "Higher Study"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wbsccs"
+  },
+  {
+    "slug": "tlscl2mc",
+    "schemeName": "Term Loan Scheme- Credit Line 2 for Minority Community",
+    "schemeShortTitle": "TLSCL2MC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme is implemented by the Haryana Backward Classes and Economically Weaker Sections Kalyan Nigam. Under this scheme, loans of up to ₹30,00,000/- are provided at a concessional interest rate to individuals from minority communities to enhance their employability.",
+    "tags": [
+      "Term Loan",
+      "Credit Line",
+      "Minority Community",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tlscl2mc"
+  },
+  {
+    "slug": "mcfnskfdc-h",
+    "schemeName": "Micro Credit Finance under NSKFDC- Haryana",
+    "schemeShortTitle": "MCFNSKFDC-H",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "Under this scheme, loan is provided to Safai Karamchari and their dependents for projects with a maximum cost up to ₹1,00,000/- per beneficiaries for small and petty trade/business and various income generating activities.",
+    "tags": [
+      "Micro Credit",
+      "NSKFDC",
+      "Safai Karamcharis",
+      "Loan",
+      "Self-employment",
+      "HSFDC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mcfnskfdc-h"
+  },
+  {
+    "slug": "pmmkssy-1b",
+    "schemeName": "Pradhan Mantri Matsya Kisan Samridhi Sah-yojana (PM-MKSSY): COMPONENT 1B: One-Time Incentive for the Adoption of Aquaculture Insurance",
+    "schemeShortTitle": "PMMKSSY-1B",
+    "nodalMinistryName": "Ministry of Fisheries,Animal Husbandry and Dairying",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The Component 1B of PM-MKSSY provides a one-time incentive to eligible applicants who have availed institutional credit for fisheries-related activities. The objective is to encourage formal credit adoption and support the repayment capacity of fisheries microenterprises.",
+    "tags": [
+      "Incentive",
+      "Aquaculture",
+      "Insurance",
+      "Fisheries",
+      "Credit"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmmkssy-1b"
+  },
+  {
+    "slug": "kccsf-cmfps",
+    "schemeName": "Kisan Credit Card Scheme for Fisheries- Chief Minister Fishermen Prosperity Scheme",
+    "schemeShortTitle": "KCCSF-CMFPS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to provide short-term loans for fisheries. It offers zero-percent interest working capital to the fish farmers through cooperative banks.",
+    "tags": [
+      "Credit Card",
+      "Loan",
+      "Fishermen",
+      "Fish Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kccsf-cmfps"
+  },
+  {
+    "slug": "els-cl1mc",
+    "schemeName": "Education Loan Scheme- Credit Line 1 for Minority Community",
+    "schemeShortTitle": "ELS-CL1MC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme, implemented by the Haryana Backward Classes and Economically Weaker Sections Kalyan Nigam, provides education loans for pursuing general, professional, and technical courses or training at the graduate and higher levels to minority communities as notified by the Government of India.",
+    "tags": [
+      "Education Loan",
+      "Credit Line",
+      "Minority Community",
+      "Higher Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/els-cl1mc"
+  },
+  {
+    "slug": "els-cl2mc",
+    "schemeName": "Education Loan Scheme- Credit Line 2 for Minority Community",
+    "schemeShortTitle": "ELS-CL2MC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme is implemented by Haryana Backward Classes & Economically Weaker Sections Kalyan Nigam, aims to provide education loans to sections of minority population on the basis of \"Creamy Layer\". These loans support pursuing general/professional/technical courses at graduate levels or higher.",
+    "tags": [
+      "Education Loan",
+      "Credit Line",
+      "Minority Community",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/els-cl2mc"
+  },
+  {
+    "slug": "cccsaw",
+    "schemeName": "Credit Card Scheme For Artisans And Weavers Of Handicrafts And Handloom Sector",
+    "schemeShortTitle": "CCCSAW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The Credit Card Scheme for Artisans & Weavers is a loan scheme by the Department of Handicraft & Handloom (Govt. of Jammu & Kashmir) under which adequate and timely assistance from the financial institutions is provided to the Artisans and Weavers.",
+    "tags": [
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cccsaw"
+  },
+  {
+    "slug": "kccp",
+    "schemeName": "Kisan Credit Card (Pashupalan)",
+    "schemeShortTitle": "KCCP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to provide short-term working capital loans for livestock activities by offering eligible livestock farmers interest-subsidized loans for operational purposes through banks.",
+    "tags": [
+      "Loan",
+      "Livestock",
+      "Cooperative Society",
+      "Interest Rate",
+      "Farmer",
+      "Agriculture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kccp"
+  },
+  {
+    "slug": "cuy",
+    "schemeName": "Coir Udyami Yojana",
+    "schemeShortTitle": "CUY",
+    "nodalMinistryName": "Ministry Of Micro, Small and Medium Enterprises",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme \"Coir Udyami Yojana\" by the Coir Board, Ministry of MSME, Government of India, aims to modernize the coir industry and generate rural employment. It offers credit-linked financial assistance to establish coir units by eligible applicants.",
+    "tags": [
+      "Credit Linked Subsidy",
+      "Coir Production",
+      "Enterprises",
+      "Coir Board"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cuy"
+  },
+  {
+    "slug": "tpfkcc",
+    "schemeName": "To Provide Interest Subvention to Fishermen of the State at the Rate of 4% to the Beneficiaries Kishan Credit Card",
+    "schemeShortTitle": "TPFKCC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to provide 4% interest subvention to the fishermen in Gujarat on timely repayment of short-term loans taken through the Kisan Credit Card.\n\n",
+    "tags": [
+      "Agriculture",
+      "Fisherman",
+      "Interest Subvention"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tpfkcc"
+  },
+  {
+    "slug": "tpahkcc",
+    "schemeName": "To Provide Interest Subvention to Animal Husbandry of the State at the Rate of 4% to the Beneficiaries Kisan Credit Card",
+    "schemeShortTitle": "TPAHKCC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to provide 4% interest subvention to cattle breeders in Gujarat on timely repayment of short-term loans taken through the Kisan Credit Card for animal husbandry activities.\n\n",
+    "tags": [
+      "Agriculture",
+      "Animal Husbandry",
+      "Cattle Breeders",
+      "Interest Subvention"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tpahkcc"
+  },
+  {
+    "slug": "pm-svanidhi",
+    "schemeName": "PM Street Vendor’s AtmaNirbhar Nidhi (PM SVANidhi)",
+    "schemeShortTitle": "PM SVANIDHI",
+    "nodalMinistryName": "Ministry Of Housing & Urban Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "PM SVANidhi is a micro-credit scheme launched on 1st June 2020 by the MoHUA to provide handholding support to street vendors. The scheme facilitates a working capital collateral-free loan of ₹10,000, with subsequent loans of ₹20,000 and ₹50,000 with a 7% interest subsidy.",
+    "tags": [
+      "Street Vendors",
+      "Working Capital Loan",
+      "Enhanced Livelihood",
+      "Digital Empowerment",
+      "Affordable Credit"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pm-svanidhi"
+  },
+  {
+    "slug": "gsccs",
+    "schemeName": "Guruji Student Credit Card (GSCC) Scheme",
+    "schemeShortTitle": "GSCCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jharkhand"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Under this scheme, a financial support initiative by the Jharkhand Government to help students pursue higher education without financial constraints. Under this scheme, eligible students can avail of education loans up to ₹15,00,000 at a subsidized 4% simple interest rate, with additional benefits. ",
+    "tags": [
+      "Student",
+      "Loan",
+      "Higher Education",
+      "Interest Rate"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gsccs"
+  },
+  {
+    "slug": "tls-nmdfc",
+    "schemeName": "Term Loan Scheme of NMDFC",
+    "schemeShortTitle": "TLS-NMDFC",
+    "nodalMinistryName": "Ministry Of Minority Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Under this scheme, credit of up to ₹20,00,000/- under Credit Line-1 and up to ₹30,00,000/- under Credit line -2 is extended to beneficiaries among minority communities at 6%  p.a. & 8% p.a. respectively for financing economically viable income generation ventures.",
+    "tags": [
+      "Term Loan Scheme Of NMDFC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tls-nmdfc"
+  },
+  {
+    "slug": "mfs-nmdfc",
+    "schemeName": "Micro Finance Scheme of NMDFC",
+    "schemeShortTitle": "MFS-NMDFC",
+    "nodalMinistryName": "Ministry Of Minority Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Under the scheme, an amount of Rs. 1 lakh under credit Line-1 & upto  Rs. 1.5 lakh under Credit Line-2 is extended to each member of SHG (belong to Minority communities) at interest rate of 7% & 10% respectively.  Concession of 2% is extended to women beneficiaries under Credit Line-2.",
+    "tags": [
+      "Micro Finance Scheme Of NMDFC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mfs-nmdfc"
+  },
+  {
+    "slug": "vls-nmdfc",
+    "schemeName": "Virasat Loan Scheme of NMDFC",
+    "schemeShortTitle": "VLS-NMDFC",
+    "nodalMinistryName": "Ministry Of Minority Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Concessional credit of up to ₹10,00,000/- can be availed under Credit Line-1 & 2.  to meet Working Capital  and Fixed Capital for purchase of equipment/tools/machineries/raw material by the Minority Artisan.",
+    "tags": [
+      "Virasat Loan Scheme Of NMDFC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vls-nmdfc"
+  },
+  {
+    "slug": "fafiskc",
+    "schemeName": "COP-34 Financial Assistance to Farmer for Interest Subvention (Kishan Credit Card Interest Asst.)",
+    "schemeShortTitle": "FAFISKC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Under this scheme, financial assistance in the form of interest subvention is provided to farmers who repay their crop loans on time, helping them improve their agricultural productivity and economic well-being.\n\n",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Interest Subvention"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fafiskc"
+  },
+  {
+    "slug": "mpraj",
+    "schemeName": "Mushroom Production-Rajasthan",
+    "schemeShortTitle": "MPRAJ",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote mushroom cultivation by providing credit-linked back-ended subsidy for establishing mushroom production, spawn production, and compost units for farmers and farmer groups.",
+    "tags": [
+      "Mushroom Production",
+      "Mushroom Cultivation",
+      "Production Unit",
+      "Spawn Production Unit",
+      "Compost Unit",
+      "Subsidy",
+      "Farmers"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mpraj"
+  },
+  {
+    "slug": "anmpy",
+    "schemeName": "Atma Nirbhar Matsya Palan Yojana",
+    "schemeShortTitle": "ANMPY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Arunachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to provide a 45% subsidy with credit linkage for fishery infrastructure to ST individuals, SHGs, and FPOs engaged in aquaculture.",
+    "tags": [
+      "Subsidy",
+      "Farmers",
+      "Scheduled Tribe",
+      "Self Help Groups",
+      "FPO",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/anmpy"
+  },
+  {
+    "slug": "ptvsme",
+    "schemeName": "Prime Tourism Vehicle Scheme-Meghalaya",
+    "schemeShortTitle": "PTVSME",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Meghalaya"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme boosts tourism by providing 50% financial assistance for adventure tourism vehicles, along with easy credit, operator training, and GPS and branding support.",
+    "tags": [
+      "Tourism",
+      "Vehicle",
+      "Tourist Guide",
+      "Training",
+      "Drivers"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ptvsme"
+  },
+  {
+    "slug": "iss",
+    "schemeName": "Interest Subvention Scheme",
+    "schemeShortTitle": "ISS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide institutional credit for capital investments at reasonable interest rates and is implemented through the Karnataka State Financial Corporation (KSFC) in the state.",
+    "tags": [
+      "Interest Subsidy",
+      "Subvention",
+      "Micro Enterprises",
+      "Small Enterprises",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/iss"
+  },
+  {
+    "slug": "msgbcdc",
+    "schemeName": "Mahila Samruddhi (Gujarat Backward Caste Development Corporation)",
+    "schemeShortTitle": "MSGBCDC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to create self-employment for women from the backward classes. Through this scheme, low-interest rate loans are provided to female beneficiaries.",
+    "tags": [
+      "Loan",
+      "Woman",
+      "Small Scale Credit",
+      "Self Empowerment",
+      "Backward Classes"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/msgbcdc"
+  },
+  {
+    "slug": "eomi",
+    "schemeName": "Establishment of Marketing Infrastructure",
+    "schemeShortTitle": "EOMI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote the creation and development of marketing infrastructure for horticulture commodities by providing subsidy for establishing retail outlets and collection, sorting, grading, and packing units to farmers.",
+    "tags": [
+      "Marketing Infrastructure",
+      "Horticulture",
+      "Retail Market Outlet",
+      "Subsidy",
+      "Credit Linked Back Ended Assistance",
+      "Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/eomi"
+  },
+  {
+    "slug": "acabc",
+    "schemeName": "Agri-Clinic and Agribusiness Centers Scheme (ACABC)",
+    "schemeShortTitle": "ACABC",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to support agriculture development and create self-employment opportunities for trained agriculture professionals through establishment of Agri-Clinics and Agribusiness Centres.",
+    "tags": [
+      "Agriculture Infrastructure",
+      "Agribusiness",
+      "Agri-Clinic",
+      "Agriculture Entrepreneurship",
+      "Self Employment",
+      "Agriculture Training",
+      "Credit Linked Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/acabc"
+  },
+  {
+    "slug": "dduby",
+    "schemeName": "Deen Dayal Upadhyaya Bunkar Yojana",
+    "schemeShortTitle": "Dduby",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Arunachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "DDUBY is a government initiative in Arunachal Pradesh to provide affordable credit to women weavers, offering an interest subvention of 7% on short-term loans and working capital requirements.",
+    "tags": [
+      "Women Weavers",
+      "Loan",
+      "Women Empowerment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dduby"
+  },
+  {
+    "slug": "sasscdc",
+    "schemeName": "Scheme of Assistance to State Scheduled Castes Development Corporations",
+    "schemeShortTitle": "SASSCDC",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide economic development assistance to Scheduled Castes living below the poverty line through financial support and credit facilitation. It provides share capital, margin money loans, and subsidies to Scheduled Castes families for employment-oriented schemes.",
+    "tags": [
+      "Scheduled Caste",
+      "Employment",
+      "Agriculture",
+      "Industry",
+      "Transport",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sasscdc"
+  },
+  {
+    "slug": "mfcvs",
+    "schemeName": "Mobile Food Court Van (DAADC)",
+    "schemeShortTitle": "MFCV",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to generate self-employment opportunities in the food and beverage sector by providing credit to unemployed scheduled caste individuals belonging to Antyodaya families. Under this scheme, loans are provided to the eligible beneficiaries at a concessional interest rate.",
+    "tags": [
+      "Loan",
+      "Self-employment",
+      "Scheduled Caste",
+      "Antyodaya",
+      "Food Court Van"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mfcvs"
+  },
+  {
+    "slug": "cmkry",
+    "schemeName": "Chief Minister's Krishi Rinn Yojana",
+    "schemeShortTitle": "CMKRY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Arunachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The Government of Arunachal Pradesh has introduced The Chief Minister's Krishi Rinn Yojana (CMKRY) with the aim of providing a zero interest crop loan facility to farmers of the state to enable them easy access to formal credit through banking channels.",
+    "tags": [
+      "Farmers",
+      "Crop Loan",
+      "Zero Interest"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cmkry"
+  },
+  {
+    "slug": "speoscelu",
+    "schemeName": "Scheme for Providing Employment Opportunities to Scheduled Castes by Establishing Livestock Units",
+    "schemeShortTitle": "SPEOSCELU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "This is a credit-linked scheme with a primary objective of providing self-employment opportunities to Schedule castes, the unemployed persons will be assisted by way of establishing Dairy units, Piggery units, and Sheep/Goat units.",
+    "tags": [
+      "Financial Assistance",
+      "Employment",
+      "Scheduled Caste",
+      "Livestock Unit",
+      "Subsidy",
+      "Self-employment",
+      "Unemployed",
+      "Milch Animals",
+      "Piggery Unit",
+      "Sheep Unit",
+      "Goat Unit"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/speoscelu"
+  },
+  {
+    "slug": "mpdsc",
+    "schemeName": "Meghalaya Piggery Development Scheme",
+    "schemeShortTitle": "MPDSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Meghalaya"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The Meghalaya Piggery Development Scheme is a component of the Chief Minister’s CM-ELEVATE Program launched by the Government of Meghalaya. It aims to employ, engage, and empower youth and rural communities by promoting piggery entrepreneurship through easy access to credit and subsidies.",
+    "tags": [
+      "Animal",
+      "Piggery",
+      "Farmer",
+      "Farming"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mpdsc"
+  },
+  {
+    "slug": "mdds",
+    "schemeName": "Meghalaya Dairy Development Scheme",
+    "schemeShortTitle": "MDDS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Meghalaya"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The Chief Minister’s CM-ELEVATE Program includes Meghalaya Dairy Development Scheme under the Planning Dept, Govt of Meghalaya. The scheme aims to employ, engage, and empower the youth and rural communities by promoting Dairy related entrepreneurship through easy access to credit and subsidies.",
+    "tags": [
+      "Dairy",
+      "Farming",
+      "Farmer",
+      "Animal"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mdds"
+  },
+  {
+    "slug": "mrf",
+    "schemeName": "Mizoram Research Fellowship",
+    "schemeShortTitle": "MRF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Mizoram"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The \"Mizoram Research Fellowship\" aims to provide financial assistance to research workers and teachers, preferably below the age of 45 years, who have established their reputation for research OR have obtained a doctorate degree OR have published research work to their credit.",
+    "tags": [
+      "Fellowship",
+      "PhD",
+      "Research",
+      "Postgraduation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mrf"
+  },
+  {
+    "slug": "ipsftsvmu",
+    "schemeName": "Investment Promotion Scheme (IPS) 2022- for Thrust Sectors: Scheme For Vaccine Manufacturing Units",
+    "schemeShortTitle": "IPSFTSVMU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Dadra & Nagar Haveli and Daman & Diu"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "“ Scheme For Vaccine Manufacturing Units'' under the “Investment Promotion Scheme (IPS) - 2022” for Thrust Sectors, implemented by the Dept. of Industries, U.T. Administration Of DNH & DD, aims to provide Credit Linked Interest Subsidy & Capital Subsidy to Vaccine Manufacturing Units.",
+    "tags": [
+      "Thrust Sectors",
+      "Vaccine Manufacturing",
+      "Incentives",
+      "Entrepreneurship",
+      "Subsidy",
+      "Reimbursement",
+      "IPS"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ipsftsvmu"
+  },
+  {
+    "slug": "speoepsgug",
+    "schemeName": "Scheme for Providing Employment Opportunities by Establishing Piggery, Sheep and Goat Units (General)",
+    "schemeShortTitle": "SPEOEPSGUG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "This scheme is a credit linked scheme with a primary objective of providing self-employment opportunities, the unemployed persons will be assisted by way of establishing Sheep or Goat Units (15 female+1 male) and Piggery Unit (10 female+1 male). ",
+    "tags": [
+      "Self-employment",
+      "Piggery Unit",
+      "Sheep Unit",
+      "Goat Unit",
+      "Animal Husbandry",
+      "Unemployed",
+      "Financial Assistance",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/speoepsgug"
+  },
+  {
+    "slug": "cmegp",
+    "schemeName": "CHIEF MINISTER  EMPLOYMENT GENERATION  PROGRAMME (CMEGP)",
+    "schemeShortTitle": "CMEGP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Government of Maharashtra has approved the introduction of a new credit linked subsidy program called Chief Minister Employment Generation Program(CMEGP) for generation of employment opportunities through establishment of Micro & Small Enterprises in rural as well as urban areas in state.",
+    "tags": [
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Female",
+      "Other Backward Class",
+      "Person With Disability",
+      "VJNT"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cmegp"
+  },
+  {
+    "slug": "mpfs",
+    "schemeName": "Meghalaya Poultry Farming Scheme",
+    "schemeShortTitle": "MPFS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Meghalaya"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The Meghalaya Poultry Farming Scheme is a component under the Chief Minister’s CM-ELEVATE Program launched  by the Government of Meghalaya. It aims to employ, engage, and empower the youth and rural communities by  promoting poultry entrepreneurship through easy access to credit and subsidies. ",
+    "tags": [
+      "Poultry",
+      "Farming",
+      "Farmer",
+      "Bank Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mpfs"
+  },
+  {
+    "slug": "mgfs",
+    "schemeName": "Meghalaya Goat Farming Scheme",
+    "schemeShortTitle": "MGFS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Meghalaya"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The Meghalaya Goat Farming Development Scheme is a component of the Chief Minister’s CM-ELEVATE Program, launched by the Govt of Meghalaya. It aims to employ, engage, and empower youth and rural communities by promoting goat farming entrepreneurship, providing easy access to credit and subsidies.",
+    "tags": [
+      "Goat",
+      "Farming",
+      "Animal Husbandry",
+      "Farmer",
+      "EMI"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mgfs"
+  },
+  {
+    "slug": "clssmig",
+    "schemeName": "Credit Linked Subsidy Scheme for Middle Income Group",
+    "schemeShortTitle": "CLSSMIG",
+    "nodalMinistryName": "Ministry Of Housing & Urban Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "Under Credit Linked Subsidy Scheme, beneficiaries of Middle-Income Group (MIG) can seek housing loans from Banks, Housing Finance Companies and other such institutions for acquisition/ construction of house (including re-purchase).",
+    "tags": [
+      "Credit Linked",
+      "Subsidy",
+      "Loan",
+      "House",
+      "MIG",
+      "CLSS"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/clssmig"
+  },
+  {
+    "slug": "lbssf-gtl",
+    "schemeName": "Loan Based Schemes For Safai Karamchari - General Term Loan (GTL)",
+    "schemeShortTitle": "LBSSF-GTL",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment",
+      "Utility & Sanitation"
+    ],
+    "briefDescription": "A general term loan scheme by the Ministry of Social justice and Empowerment for Safai Karamchari, Manual Scavengers, and their dependants aged 18 years and above. ",
+    "tags": [
+      "Safai Karamcharis",
+      "Entrepreneurship",
+      "Loan",
+      "Financial Assistance",
+      "Credit",
+      "Sanitation",
+      "Manual Scavengers",
+      "Waste Pickers"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lbssf-gtl"
+  },
+  {
+    "slug": "l50ss",
+    "schemeName": "LIDCOM 50% Subsidy Scheme",
+    "schemeShortTitle": "L50SS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The \"50% Subsidy Scheme\" is a scheme by LIDCOM, Govt. of Maharashtra. In this scheme, 50% amount is being given as a subsidy on a maximum loan amount of ₹50,000/-. The subsidy is subject to the maximum limit of ₹10,000/-. The bank charge of interest is as per the existing rate.",
+    "tags": [
+      "Loan",
+      "Subsidy",
+      "Scheduled Caste",
+      "Banking"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/l50ss"
+  },
+  {
+    "slug": "40shydcs",
+    "schemeName": "40% Subsidy On Hank Yarn, Dyes & Chemicals Scheme",
+    "schemeShortTitle": "40SHYDCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Andhra Pradesh"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The \"40% subsidy on Hank Yarn, Dyes & Chemicals Scheme\" is a Subsidy Scheme by the Dept. of Handlooms & Textiles, Govt. of Andhra Pradesh. The assistance will be in the form of Grant from the State Govt. The subsidy will be available only on purchases / procurements from NHDC & APCO.",
+    "tags": [
+      "Subsidy",
+      "Handloom",
+      "Weaver"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/40shydcs"
+  },
+  {
+    "slug": "dtaiss",
+    "schemeName": "Dattopant Thengadi Artisan Interest Subsidy Scheme",
+    "schemeShortTitle": "DTAISS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance and low-interest capital to Handloom & Handicraft artisans for business development. It offers loans up to ₹1,00,000/-, along with Margin Money Subsidy (20-25%) and a 7% Interest Subsidy, benefiting registered artisans of Cottage industries in Gujarat.",
+    "tags": [
+      "Artisan",
+      "Subsidy",
+      "Loan",
+      "Equipment",
+      "Machinery"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dtaiss"
+  },
+  {
+    "slug": "hs",
+    "schemeName": "House Subsidy Scheme",
+    "schemeShortTitle": "HS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "A subsidy of Rs. 1,30,000/- is given to persons from Scheduled Castes, Other Backward Classes, Minority Communities, Single Women, or handicapped for the construction of the house. ",
+    "tags": [
+      "Housing Scheme",
+      "Subsidy",
+      "Construction",
+      "SC/ST",
+      "Women",
+      "Handicapped",
+      "Minority Scheme"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hs"
+  },
+  {
+    "slug": "petro-subsidy-for-disabled",
+    "schemeName": "Petrol Subsidy To Persons With Disability",
+    "schemeShortTitle": "PSTPWD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chandigarh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Under the Petrol Subsidy To Persons With Disability scheme handicapped person using motorized vehicles are entitled to 50% subsidy on actual expenditure on the purchase of petrol/diesel subject to fulfillment of other conditions laid down under the scheme.",
+    "tags": [
+      "Physically Handicapped",
+      "Disable Person",
+      "Scheme Handicapped Person",
+      "Petrol Subsidy",
+      "Person With Disability"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/petro-subsidy-for-disabled"
+  },
+  {
+    "slug": "asetpdnua",
+    "schemeName": "Additional Subsidy to Establish Tourism Projects in Distant and New Ulterior Areas",
+    "schemeShortTitle": "ASETPDNUA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to encourage private investment in tourism projects located in remote and ulterior areas of Madhya Pradesh. It offers an additional 5% capital subsidy, uncapped subsidy amounts, and reduces investment and capacity requirements by 50% for investors.",
+    "tags": [
+      "Subsidy",
+      "Capital",
+      "Investment",
+      "Tourism",
+      "Infrastructure"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/asetpdnua"
+  },
+  {
+    "slug": "iss2017",
+    "schemeName": "Interest Subsidy Scheme, 2017",
+    "schemeShortTitle": "ISS2017",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to incentivize units for making their enterprises financially viable. It provides interest subsidy on term loan and/or working capital loan (up to ₹25,00,000/- per year, or ₹27,50,000/- for women/Scheduled Caste/Scheduled Tribe applicants) to eligible industries.",
+    "tags": [
+      "Subsidy",
+      "Interest",
+      "MSME",
+      "Industry",
+      "Business",
+      "Enterprise",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/iss2017"
+  },
+  {
+    "slug": "mgpss",
+    "schemeName": "Mill Gate Price Subsidy Scheme",
+    "schemeShortTitle": "MGPSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme provides 15% subsidy on yarn purchases from NHDC depots to handloom weavers, cooperatives, and NGOs, along with freight reimbursement (1–8.5%). Intended beneficiaries include weavers below the poverty line.",
+    "tags": [
+      "Yarn",
+      "Subsidy",
+      "Silk",
+      "Jute",
+      "Freight",
+      "Handloom"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mgpss"
+  },
+  {
+    "slug": "gspv",
+    "schemeName": "Grant of Subsidy for Procurement of Vehicle",
+    "schemeShortTitle": "GSPV",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "\"Grant of Subsidy for Procurement of Vehicle\" aims to facilitate the quick transportation of fish catches from landing centers to marketing places, thereby preventing/minimizing spoilage of fish. It provides a 50% subsidy for the procurement of specified vehicles.",
+    "tags": [
+      "Subsidy",
+      "Procurement",
+      "Vehicle",
+      "Fisheries",
+      "Fisherman",
+      "Financial Asisstance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gspv"
+  },
+  {
+    "slug": "cisci",
+    "schemeName": "Capital Investment Subsidy for Creation of Infrastructure",
+    "schemeShortTitle": "CISCI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to support the creation of essential infrastructure on leased tourism lands. It provides a 25% capital investment subsidy up to ₹3,00,00,000/- to private investors establishing power, water, road, and drainage systems for tourism projects.",
+    "tags": [
+      "Subsidy",
+      "Capital",
+      "Investment",
+      "Tourism",
+      "Infrastructure"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cisci"
+  },
+  {
+    "slug": "scss-glwb",
+    "schemeName": "Shramyogi Cycle Subsidy Scheme- Gujarat Labour Welfare Board",
+    "schemeShortTitle": "SCSS-GLWB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The objective of the scheme is to provide a subsidy for the purchase of a bicycle to laborers working in the organized sector, enabling them to commute between their residence and workplace.",
+    "tags": [
+      "Labour",
+      "Worker",
+      "Subsidy",
+      "Shramyogi",
+      "Cycle",
+      "Bicycle"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/scss-glwb"
+  },
+  {
+    "slug": "ess-2017",
+    "schemeName": "Employment Subsidy Scheme, 2017",
+    "schemeShortTitle": "ESS-2017",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to create an environment conducive for attracting investment in Goa, incentivise existing units, and boost local employment. It provides a subsidy based on the percentage of Goan employees hired, restricting reimbursement to ₹7,000/- per Goan employee per month.",
+    "tags": [
+      "Industry",
+      "Tourism",
+      "Enterprise",
+      "Employee",
+      "Subsidy",
+      "Employment",
+      "Investment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ess-2017"
+  },
+  {
+    "slug": "gscims",
+    "schemeName": "Goa (Subsidy to Clay Idol Makers) Scheme",
+    "schemeShortTitle": "GSCIMS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to encourage Goan artisans to continue traditional clay idol making by providing a subsidy of ₹100/- per idol, supporting registered local craftsmen in preserving cultural heritage and ensuring livelihood sustainability.",
+    "tags": [
+      "Artisan",
+      "Subsidy",
+      "Cottage",
+      "Industry",
+      "Handicraft",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gscims"
+  },
+  {
+    "slug": "sfbotw",
+    "schemeName": "Subsidy for Battery Operated 2-Wheelers",
+    "schemeShortTitle": "SFBOTW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "This scheme is introduced by the Climate Change Department, Gujarat, aims to promote renewable energy and clean transportation by providing a subsidy to students for the purchase of battery-operated two-wheelers from authorized manufacturers.",
+    "tags": [
+      "Student",
+      "Electric Scooter Subsidy",
+      "Electric Vehicle",
+      "Renewable Energy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sfbotw"
+  },
+  {
+    "slug": "aabssobpmbos",
+    "schemeName": "Advanced Animal Breeding Scheme (Supply of Breedable Pedigree Murrah Bull on Subsidy)",
+    "schemeShortTitle": "AABSSOBPMBOS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "\"Advanced Animal Breeding Scheme (Supply of Breedable Pedigree Murrah Bulls on Subsidy)\" aims to improve cattle breeding by supplying pedigreed breedable Murrah bulls to progressive cattle rearers and trained cow servants. Murrah bulls are provided with a 75% subsidy to animal keepers.",
+    "tags": [
+      "Animal",
+      "Subsidy",
+      "Cow",
+      "Breed"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aabssobpmbos"
+  },
+  {
+    "slug": "ghcsscp",
+    "schemeName": "Grant of House Construction Subsidy to Scheduled Caste People",
+    "schemeShortTitle": "GHCSSCP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Grant of House Construction Subsidy to Scheduled Caste People” was introduced by the Adi Dravidar Welfare Dept, Govt of Puducherry. The poor Scheduled Caste people, and other Economically backward class people, who meet the eligibility criteria, are provided house construction subsidy.",
+    "tags": [
+      "House",
+      "Construction",
+      "Housing",
+      "Subsidy",
+      "Scheduled Caste",
+      "SC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ghcsscp"
+  },
+  {
+    "slug": "cshhp",
+    "schemeName": "Capital Subsidy for Heritage Hotel under Proprietorship",
+    "schemeShortTitle": "CSHHP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to encourage the establishment of heritage hotels through private investment by providing financial assistance to proprietors. The scheme provides a capital subsidy of 15% on fixed capital investment, subject to a maximum ceiling of ₹2,00,00,000/-. The applicants must be proprietors.",
+    "tags": [
+      "Subsidy",
+      "Capital",
+      "Investment",
+      "Heritage",
+      "Tourism"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cshhp"
+  },
+  {
+    "slug": "sfbothw",
+    "schemeName": "Subsidy For Battery Operated Three-Wheelers",
+    "schemeShortTitle": "SFBOTHW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "This scheme is introduced by the Climate Change Department, Gujarat, aims to promote the adoption of eco-friendly vehicles by providing a subsidy on the purchase of battery-operated three-wheelers.",
+    "tags": [
+      "Battery Operated Three-Wheelers",
+      "Electric Scooter Subsidy",
+      "Electric Vehicle",
+      "Renewable Energy",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sfbothw"
+  },
+  {
+    "slug": "tdp-spm",
+    "schemeName": "Tribals Development Plan: Subsidy for Purchase of Motorcycle",
+    "schemeShortTitle": "TDP-SPM",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme aims to assist tribal families in Goa to purchase motorcycles for self-employment by offering a government subsidy, thereby promoting economic self-reliance among low-income households.",
+    "tags": [
+      "Tribal",
+      "Transport",
+      "Subsidy",
+      "Employment",
+      "Motorcycle"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tdp-spm"
+  },
+  {
+    "slug": "csehrmu",
+    "schemeName": "Capital Subsidy to Existing Hotels for Renovation/Modernization & Upgradation",
+    "schemeShortTitle": "CSEHRMU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to incentivize existing hotels and resorts in Madhya Pradesh to upgrade their facilities to Deluxe, 4-Star, or higher categories. It provides capital subsidy benefits to private investors and hotel owners who undertake significant renovation and modernization projects.",
+    "tags": [
+      "Subsidy",
+      "Capital",
+      "Investment",
+      "Tourism",
+      "Infrastructure"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/csehrmu"
+  },
+  {
+    "slug": "gfsdapomv",
+    "schemeName": "Grant of Fuel Subsidy to Differently Abled Persons Who Are Owning Motorised Vehicles",
+    "schemeShortTitle": "GFSDAPOMV",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme “Grant of Fuel Subsidy to Differently Abled Persons Who Are Owning Motorised Vehicles” by the Department of Social Welfare, Government of Puducherry was introduced to provide a subsidy of upto 50 % of the cost of fuel to persons with disability who own motorised vehicles. ",
+    "tags": [
+      "Motor",
+      "Vehicle",
+      "Disability",
+      "PwD",
+      "Subsidy",
+      "Fuel"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gfsdapomv"
+  },
+  {
+    "slug": "gs2sses",
+    "schemeName": "Goa State 25% Subsidy for Self Employed Scheme",
+    "schemeShortTitle": "GS2SSES",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to boost self-employment in Goa and subsidize Capital Investment to encourage the creation of fixed assets. The scheme provides a 25% subsidy on fixed capital investment to individuals, partnership firms, or groups of individuals who have availed loans for approved self-employment.",
+    "tags": [
+      "Subsidy",
+      "Employment",
+      "Entrepreneur",
+      "Investment",
+      "Business",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gs2sses"
+  },
+  {
+    "slug": "mmdpp",
+    "schemeName": "Mukhyamantri Dairy Plus Programme (Provision of 02 Murrah Buffaloes on Subsidy)",
+    "schemeShortTitle": "MMDPP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to increase milk production and promote improved livestock breeding by providing two Murrah buffaloes to eligible farmers on a subsidy basis.",
+    "tags": [
+      "Subsidy",
+      "Farmer",
+      "Buffaloes",
+      "Livestock",
+      "Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmdpp"
+  },
+  {
+    "slug": "gvatbshsdocfvs",
+    "schemeName": "Goa Value Added Tax-Based Subsidy on H.S.D. Oil Consumed by Fishing Vessels Scheme",
+    "schemeShortTitle": "GVATBSHSDOCFVS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "“Goa Value Added Tax-Based Subsidy on H.S.D. Oil Consumed by Fishing Vessels Scheme” is a scheme by the Department of Fisheries, Govt. of Goa. Through this scheme, the amount equivalent to the actual VAT paid shall be reimbursed to the owner as a subsidy on H.S.D. Oil consumed by the fishing vessel.",
+    "tags": [
+      "Fish",
+      "Fishermen",
+      "Subsidy",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gvatbshsdocfvs"
+  },
+  {
+    "slug": "islaaa",
+    "schemeName": "Interest Subsidy on Loans for Agriculture and Allied Activities",
+    "schemeShortTitle": "ISLAAA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "“Interest Subsidy on Loans for Agriculture and Allied Activities” is a scheme by the Dept. of Fisheries, Govt. of Goa. The bonafide agriculturist, individual of the animal husbandry/fisheries sector from Goa are provided a loan of upto ₹ 5,00,000 for the purpose of Agriculture and Allied Activities.",
+    "tags": [
+      "Fisheries",
+      "Animal Husbandry",
+      "Loan",
+      "Agriculture",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/islaaa"
+  },
+  {
+    "slug": "ssfschr",
+    "schemeName": "Intensive Fisheries Development Programme - Subsidy on Solar System for fish/shrimp culture",
+    "schemeShortTitle": "IFDP-SSSFSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Under this scheme, subsidies on solar systems for fish/shrimp culture are provided to eligible fish and shrimp farmers. The subsidy is given at 60% of the total project cost, or ₹30,000 per kW, whichever is lower. The maximum subsidy is limited to 30 kW for shrimp farmers and 10 kW for fish farmers.",
+    "tags": [
+      "Subsidy",
+      "Solar System",
+      "Fish",
+      "Fish Farmer",
+      "Shrimp Culture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssfschr"
+  },
+  {
+    "slug": "hliss-glwb",
+    "schemeName": "Home Loan Interest Subsidy Scheme- Gujarat Labour Welfare Board",
+    "schemeShortTitle": "HLISS-GLWB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Housing & Shelter"
+    ],
+    "briefDescription": "Under the scheme, a 3% Interest Subsidy is provided to workers who are employed in the organized sector to buy their own house and get relief from interest deductions on loans taken from banks.",
+    "tags": [
+      "Home Loan",
+      "Interest",
+      "Subsidy",
+      "Organized Worker",
+      "Labour",
+      "Industrial Worker"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hliss-glwb"
+  },
+  {
+    "slug": "beispgccpts",
+    "schemeName": "\"Back Ended Investment Subsidy to Paddy Growers\" component of the \"Crop Production Technology\" scheme",
+    "schemeShortTitle": "BEISPGCCPTS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "\"Back Ended Investment Subsidy to Paddy Growers\" component of the \"Crop Production Technology\" scheme was introduced by the Dept of Agriculture and Farmer's Welfare, UT of Puducherry. The paddy farmers residing in the Yanam region are provided a back-ended investment subsidy at ₹4,000/- per hectare.",
+    "tags": [
+      "Paddy",
+      "Subsidy",
+      "Financial Assistance",
+      "Farmer",
+      "Agriculture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/beispgccpts"
+  },
+  {
+    "slug": "6isltvpb",
+    "schemeName": "6% Interest Subsidy on Loans taken for Vehicle Purchase through Banks",
+    "schemeShortTitle": "6ISLTVPB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to support Scheduled Tribe (ST) individuals in purchasing vehicles for self-employment purposes. Under this scheme, tribal beneficiaries availing bank loans for vehicle purchase with interest subsidy. This financial support helps reduce the repayment burden on tribal entrepreneurs.",
+    "tags": [
+      "Employment",
+      "Opportunity",
+      "Subsidy",
+      "Loan",
+      "Scheduled Tribe"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/6isltvpb"
+  },
+  {
+    "slug": "ips",
+    "schemeName": "Investment Promotion Scheme (IPS): Environment Protection Infrastructure Subsidy",
+    "schemeShortTitle": "IPS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Dadra & Nagar Haveli and Daman & Diu"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "“Environment Protection Infrastructure Subsidy'' under the “Investment Promotion Scheme (IPS)”, implemented by the Dept. of Industries, U.T. Administration Of DNH & DD, aims to promote Installation of Environment Protection Infrastructure for a cleaner environment.",
+    "tags": [
+      "Environment",
+      "MSMEs",
+      "Incentives",
+      "Entrepreneurship",
+      "Subsidy",
+      "Reimbursement",
+      "IPS",
+      "Infrastructure"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ips"
+  },
+  {
+    "slug": "dbraeass",
+    "schemeName": "Dr. B. R. Ambedkar’s Electric Auto (e-Auto) Subsidy Scheme",
+    "schemeShortTitle": "DBRAEASS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme aims to socially and economically empower Scheduled Caste / Scheduled Tribe women by supporting them in income-generating activities through electric autos. It provides a subsidy up to 75% of the cost (maximum ₹3,00,000/-) for electric autos to Scheduled Caste / Scheduled Tribe women.",
+    "tags": [
+      "Subsidy",
+      "Women",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Transport"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dbraeass"
+  },
+  {
+    "slug": "cisenrwc",
+    "schemeName": "Capital Investment Subsidy for Establishment of New Resort and Wellness Centre",
+    "schemeShortTitle": "CISENRWC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme provides a capital investment subsidy of 15% against fixed capital investment, subject to a maximum ceiling of ₹50,00,000/-. The applicant must invest a minimum capital expenditure of ₹2,00,00,000/- and ensure the availability of a minimum of air-conditioned lettable rooms.",
+    "tags": [
+      "Subsidy",
+      "Capital",
+      "Investment",
+      "Resort",
+      "Tourism"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cisenrwc"
+  },
+  {
+    "slug": "sseg10scp",
+    "schemeName": "Subsidy Scheme For Establishment Of Goat Unit (10+1) For Scheduled Caste People",
+    "schemeShortTitle": "SSEG10SCP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Subsidy Scheme for Establishment of Goat Unit (10+1) for Scheduled Caste People” was launched by the Dept. of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat to uplift economically poor livestock breeders of Gujarat State.",
+    "tags": [
+      "Scheduled Caste",
+      "Goat",
+      "Subsidy",
+      "Milk Production",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sseg10scp"
+  },
+  {
+    "slug": "scfc-cpt",
+    "schemeName": "\"Subsidy for Cultivation of Fodder Crops\" Component of the \"Crop Production Technology\" Scheme",
+    "schemeShortTitle": "SCFC-CPT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The \"Subsidy for Cultivation of Fodder Crops\" scheme was introduced by the Department of Agriculture and Farmer's Welfare, Union Territory of Puducherry. Through this scheme, cash incentives are distributed to Farmers and Self Help Groups for undertaking fodder cultivation in the Puducherry region.",
+    "tags": [
+      "Subsidy",
+      "Cultivation",
+      "Fodder",
+      "Farmer",
+      "Agriculture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/scfc-cpt"
+  },
+  {
+    "slug": "spfrpcvwnmpcn-faascdmf",
+    "schemeName": "\"Subsidy for the Purchase of Fiber-reinforced Plastic Cattamaran/ Vallam/ Wooden Nava/ Marine Plywood Canoe With Nets\" under \"Financial Assistance for Availing Subsidy Components for the Development of Marine Fisheries\"",
+    "schemeShortTitle": "SPFRPCVWNMPCN-FAASCDMF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme \"Subsidy for the Purchase of Fiber-reinforced Plastic Cattamaran/ Vallam/ Wooden Nava/ Marine Plywood Canoe With Nets\" is introduced to increase marine fish production by extending subsidies to the fishermen for the procurement of fiber-reinforced plastic vallam with nets.",
+    "tags": [
+      "Subsidy",
+      "Boat",
+      "Fisherman",
+      "Financial Assistance",
+      "Procurement"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/spfrpcvwnmpcn-faascdmf"
+  },
+  {
+    "slug": "cisenhmrsc",
+    "schemeName": "Capital Investment Subsidy for Establishment of New Hotel or Mini Resort of Standard Category",
+    "schemeShortTitle": "CISENHMRSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to encourage the establishment of new standard category hotels and mini resorts in Madhya Pradesh. It provides a 15% capital subsidy up to ₹50,00,000/- to private investors and entrepreneurs creating tourism accommodation infrastructure.",
+    "tags": [
+      "Subsidy",
+      "Capital",
+      "Investment",
+      "Resort",
+      "Tourism",
+      "Hotel"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cisenhmrsc"
+  },
+  {
+    "slug": "soipfsci",
+    "schemeName": "Intensive Fisheries Development Programme - Subsidy on Insurance Premium for Shrimp Crop Insurance ",
+    "schemeShortTitle": "IFDPSIPSCI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to promote sustainable aquaculture by reducing financial risk of shrimp farmers through subsidized insurance coverage.Under this scheme, a 50% subsidy is provided on insurance premium paid by eligible fish farmers for shrimp crop insurance, helping them mitigate potential crop losses",
+    "tags": [
+      "Subsidy",
+      "Farmer",
+      "Crop Insurance",
+      "Shrimp Crop",
+      "Insurance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/soipfsci"
+  },
+  {
+    "slug": "cisewsagffm",
+    "schemeName": "Capital Investment Subsidy for Establishment of Way Side Amenities Under Green Field or Franchise Model",
+    "schemeShortTitle": "CISEWSAGFFM",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to enhance the tourism experience by subsidizing the development of wayside amenities under Green Field or Franchise models. It offers a 15% capital investment subsidy capped at ₹50,00,000/- to investors who establish approved facilities with a minimum capital expenditure.",
+    "tags": [
+      "Subsidy",
+      "Capital",
+      "Investment",
+      "Tourism",
+      "Infrastructure"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cisewsagffm"
+  },
+  {
+    "slug": "ssegu10gcp",
+    "schemeName": "Subsidy Scheme For Establishment Of Goat Unit (10+1) For General Category People",
+    "schemeShortTitle": "SSEGU10GCP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Subsidy Scheme for Establishment of Goat Unit (10+1) for General Category People” was launched by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat to uplift Economically poor livestock breeders of Gujarat State.",
+    "tags": [
+      "General Category",
+      "Goat",
+      "Subsidy",
+      "Milk Production",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssegu10gcp"
+  },
+  {
+    "slug": "gslwi-sifc",
+    "schemeName": "Goa State Logistics and Warehousing Incentives Scheme: Subsidy towards Investment of Fixed Capital",
+    "schemeShortTitle": "GSLWI-SIFC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance for developing the logistics and warehousing industry in Goa. It offers a capital subsidy of 10% or 15% (up to ₹50,00,000/- yearly) towards fixed asset investment for eligible logistics and warehousing entities.",
+    "tags": [
+      "Business",
+      "Subsidy",
+      "Investment",
+      "Capital",
+      "Logistics",
+      "Warehousing"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gslwi-sifc"
+  },
+  {
+    "slug": "sse25rbusc",
+    "schemeName": "Subsidy Scheme On Establishment Of 25 R.I.R. Birds’ Unit For Scheduled Caste",
+    "schemeShortTitle": "SSE25RBUSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Subsidy Scheme on Establishment of 25 R.I.R. Birds’ unit for Scheduled Caste” was launched by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat to provide employment, nutritious diet and to raise the income of Schedule Caste People of the society.",
+    "tags": [
+      "Poultry Farming",
+      "Rhode Island Red",
+      "Subsidy",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sse25rbusc"
+  },
+  {
+    "slug": "sse100bbfsc",
+    "schemeName": "Subsidy Scheme For Establishment Of 100 Broiler Birds' Farm For Schedule Caste",
+    "schemeShortTitle": "SSE100BBFSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Subsidy Scheme for Establishment of 100 Broiler Birds' Farm for Schedule Caste” was launched by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat to provide supplementary income to Schedule Caste People of the society. ",
+    "tags": [
+      "Poultry Farming",
+      "Scheduled Caste",
+      "Subsidy",
+      "Broiler Birds",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sse100bbfsc"
+  },
+  {
+    "slug": "gspevcsg",
+    "schemeName": "Grant of Subsidy for Purchase of 'Electric Vehicles' to Consumers in State of Goa",
+    "schemeShortTitle": "GSPEVCSG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme provides financial assistance in the form of a subsidy for the purchase or conversion of Electric two-wheelers, three-wheelers, and four-wheelers, along with scrapping incentives for old vehicles, incentives for local manufacturing in Goa, and low-cost loans provided by CESL.",
+    "tags": [
+      "Subsidy",
+      "Vehicle",
+      "Consumer",
+      "Incentive",
+      "Transport"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gspevcsg"
+  },
+  {
+    "slug": "ssegu10stw",
+    "schemeName": "Subsidy Scheme For Establishment Of Goat Unit (10+1) For Scheduled Tribe Women",
+    "schemeShortTitle": "SSEGU10STW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme “Subsidy Scheme for Establishment of Goat Unit (10+1) for Scheduled Tribe Women” was launched by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat to uplift Economically poor livestock breeders of Gujarat State.",
+    "tags": [
+      "Scheduled Tribe",
+      "Woman",
+      "Subsidy",
+      "Milk Production",
+      "Goat"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssegu10stw"
+  },
+  {
+    "slug": "spwfrpsmb-faascdmf",
+    "schemeName": "Subsidy for the Purchase of Wooden/Fiber Reinforced Plastic/Steel Mechanised Boats",
+    "schemeShortTitle": "SPWFRPSMB-FAASCDMF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme \"Subsidy for the Purchase of Wooden/Fiber Reinforced Plastic/Steel Mechanised Boats\" is introduced by the Government of Puducherry with the objective of increasing marine fish production by extending subsidies for the procurement of wooden/fiber-reinforced plastic/steel mechanized boats.",
+    "tags": [
+      "Boat",
+      "Subsidy",
+      "Fisherman",
+      "Fisheries",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/spwfrpsmb-faascdmf"
+  },
+  {
+    "slug": "ciseesdshrhh",
+    "schemeName": "Capital Investment Subsidy For Expansion Of Established Star/Deluxe/Standard Hotel/Resort/Heritage Hotel",
+    "schemeShortTitle": "CISEESDSHRHH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Travel & Tourism",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to encourage the expansion of existing tourism accommodation units by incentivizing private investment in the state. The scheme provides a capital investment subsidy of 15% against the fixed capital investment, subject to a maximum ceiling of ₹5,00,00,000/-.",
+    "tags": [
+      "Subsidy",
+      "Capital",
+      "Investment",
+      "Resort",
+      "Tourism",
+      "Hotel"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ciseesdshrhh"
+  },
+  {
+    "slug": "6islbse",
+    "schemeName": "6% Interest Subsidy on Loans taken through Banks up to a Limit of Rs.5 Lakh for Self-Employment",
+    "schemeShortTitle": "6ISLBSE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to promote self-employment among scheduled tribe (ST) individuals by making business loans affordable. Under this scheme, ST beneficiaries availing loans for self-employment are provided a interest subsidy to reduce financial burden and encourage entrepreneurship.",
+    "tags": [
+      "Loan",
+      "Subsidy",
+      "Employment",
+      "Scheduled Tribe",
+      "Tribal"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/6islbse"
+  },
+  {
+    "slug": "pmmy",
+    "schemeName": "Pradhan Mantri Mudra Yojana",
+    "schemeShortTitle": "PMMY",
+    "nodalMinistryName": "Ministry Of Finance",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Pradhan Mantri Mudra Yojana (PMMY) is  a flagship scheme of Government of India. It facilitates micro credit/Loan upto Rs. 20 lakhs to income generating micro enterprises engaged in the non farm sector in manufacturing, processing, trading or service sector including activities allied to agriculture",
+    "tags": [
+      "Loan",
+      "Business",
+      "MUDRA"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmmy"
+  },
+  {
+    "slug": "nhdpccwms",
+    "schemeName": "National Handloom Development Programme: Concessional Credit/Weaver MUDRA Scheme",
+    "schemeShortTitle": "NHDP:CCWMS",
+    "nodalMinistryName": "Ministry Of Textiles",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to provide adequate and timely assistance from the banks to the handloom sector to meet their credit requirements for term loan & working capital in a flexible and cost effective manner across the country.",
+    "tags": [
+      "Handloom",
+      "Concessional Credit",
+      "Weaver",
+      "MUDRA",
+      "Bank",
+      "Margin Money Assistance",
+      "Interest Subvention",
+      "Credit Guarantee"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nhdpccwms"
+  },
+  {
+    "slug": "sui",
+    "schemeName": "Stand-Up India",
+    "schemeShortTitle": "SUPI",
+    "nodalMinistryName": "Ministry Of Finance",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "A scheme by Ministry of Finance for financing SC/ST and  Women Entrepreneurs by facilitating bank loans for setting up a greenfield project  Enterprise in manufacturing, services, trading sector and activities allied to agriculture.",
+    "tags": [
+      "Loan",
+      "Entrepreneur",
+      "Finance",
+      "Business"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sui"
+  },
+  {
+    "slug": "mcuf",
+    "schemeName": "Medical Check-Up facility (UKBOCWWB)",
+    "schemeShortTitle": "MCUFUKBOCWWB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "The scheme aims to provide medical check-up facilities to registered construction workers through door-to-door visits, health camps, and collection centers.",
+    "tags": [
+      "Labour",
+      "Building Worker",
+      "Construction Worker",
+      "Medical Check-Up",
+      "Health"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mcuf"
+  },
+  {
+    "slug": "hc-uabocwwb",
+    "schemeName": "Health Check-up (A.B.O.C.W.W.B)",
+    "schemeShortTitle": "HC-U(ABOCWWB)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "Registered construction workers having continuous membership of the Board can avail an amount of ₹5,000/- once in a year for his/ her annual health checkup in any Hospital.",
+    "tags": [
+      "Health",
+      "Check-Up",
+      "Building Worker",
+      "Construction Worker",
+      "Labour",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hc-uabocwwb"
+  },
+  {
+    "slug": "thcsgbocwwb",
+    "schemeName": "Total Health Check-up Scheme (GBOCWWB)",
+    "schemeShortTitle": "THCS(GBOCWWB)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "This scheme facilitates a complete physical examination of the construction workers, which can diagnose potential illnesses and early treatment can prevent major illnesses. Hence, major illness can be avoided and the construction worker can lead a healthy life.",
+    "tags": [
+      "Health Check-up",
+      "Building Worker",
+      "Construction Worker",
+      "Labour",
+      "Illnesses"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/thcsgbocwwb"
+  },
+  {
+    "slug": "sugjp",
+    "schemeName": "Skill Up-Gradation with Job/Placement (SUJOP Scheme)",
+    "schemeShortTitle": "SUGJP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The objective of this scheme is to provide employment opportunities, after training, to persons with disabilities (40% or more), helpless or widowed women, former residents of care institutions, and candidates from SC, OBC, and minority communities in Himachal Pradesh.",
+    "tags": [
+      "Training",
+      "Skill Up",
+      "Job",
+      "Placement",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sugjp"
+  },
+  {
+    "slug": "btus",
+    "schemeName": "Bank Tie-Up Scheme",
+    "schemeShortTitle": "BTUS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Punjab"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Through the \"Bank Tie-Up Scheme\", the Punjab Scheduled Castes Land Development & Finance Corporation (PSCLDFC) arranges loans through banks, and subsidy is provided by PSCLDFC. The permanent residents of Punjab belonging to Scheduled Castes and living Below Poverty Line are eligible.",
+    "tags": [
+      "Loan",
+      "Scheduled Caste",
+      "Below Poverty Line",
+      "Social Welfare",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/btus"
+  },
+  {
+    "slug": "15dsugt",
+    "schemeName": "15 Days Skill Up-gradation Training",
+    "schemeShortTitle": "15DSUGT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Andhra Pradesh"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The \"15 Days Skill Up-gradation Training\" scheme aims to provide skill training, safety, and hygiene education for building and other construction workers registered with the Andhra Pradesh Building and Other Construction Workers Welfare Board. ",
+    "tags": [
+      "Stipend",
+      "Construction Worker",
+      "Skill Upgradation",
+      "Training"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/15dsugt"
+  },
+  {
+    "slug": "fasuccu",
+    "schemeName": "Financial Assistance for Setting up Crab Culture Unit",
+    "schemeShortTitle": "FASUCCU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Through this scheme, financial assistance of 25% of the actual cost, limited to ₹1,50,000 per hectare is provided to eligible fishermen for setting up crab culture unit. Only Fish Farmer/ Individual/ Registered Self Help Group/ Societies, interested in the setting up of the Crab Farming Unit.",
+    "tags": [
+      "Fishermen",
+      "Subsidy",
+      "Financial Assistance",
+      "Aquaculture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fasuccu"
+  },
+  {
+    "slug": "fasucs",
+    "schemeName": "Financial Assistance for Setting Up of Cold Storage",
+    "schemeShortTitle": "FASUCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist the Proprietary/Partnership Concerns, Public/Private Limited Companies, Co-operative Societies, Market Committees, Boards, and Agro Industries Corporations. The assistance is provided for setting up of Cold Storage facilities. The applications for this scheme are online.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Storage",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fasucs"
+  },
+  {
+    "slug": "ssuie",
+    "schemeName": "Scheme for Setting Up of Industrial Estates",
+    "schemeShortTitle": "SSUIE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist organizations (Public Limited Companies, Private Limited Companies, Partnerships, Sole Proprietary, and Municipalities) for setting up of industrial estates for exclusive allotment of sheds/plots to SSI units. The applications for this scheme are accepted online only.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Business"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssuie"
+  },
+  {
+    "slug": "fatuvas",
+    "schemeName": "Financial Assistance to Take up Value Addition to Seafood",
+    "schemeShortTitle": "FATUVAS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Through this scheme, individuals who have been residents of Goa for the last 15 years, and are interested in setting up a unit for value-added fisheries products are provided financial assistance as a subsidy of 50% of the cost for the Construction or Renovation of the Unit/ Purchase of Equipment.",
+    "tags": [
+      "Subsidy",
+      "Financial Assistance",
+      "Fisheries",
+      "Construction",
+      "Equipment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fatuvas"
+  },
+  {
+    "slug": "fafspup",
+    "schemeName": "Financial Assistance to Former Sports Person of UP",
+    "schemeShortTitle": "FAFSPUP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttar Pradesh"
+    ],
+    "schemeCategory": [
+      "Sports & Culture",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Financial Assistance to Former Sports Person of UP” was launched by the Department of Sports, Government of Uttar Pradesh to provide financial assistance to sports persons who are old, weak, or facing hardships, under a scheme for the welfare of sports person of the state. ",
+    "tags": [
+      "Financial Assistance",
+      "Sports Person",
+      "Sports"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fafspup"
+  },
+  {
+    "slug": "fasuofug",
+    "schemeName": "Financial Assistance for setting up of Ornamental Fish Unit in Goa",
+    "schemeShortTitle": "FASUOFUG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "“Financial Assistance for setting up of Ornamental Fish Unit in Goa” is a scheme by the Dept. of Fisheries, Govt. of Goa. Through this scheme, financial assistance is provided to eligible fishermen for setting up Breeding Units and Rearing Units. The applications are accepted only in offline mode.",
+    "tags": [
+      "Fishermen",
+      "Fish",
+      "Aquaculture",
+      "Subsidy",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fasuofug"
+  },
+  {
+    "slug": "enffhr",
+    "schemeName": "PMMSY: Establishment of New Freshwater Fin Fish Hatcheries-Haryana",
+    "schemeShortTitle": "ENFFHR",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to support the establishment of new freshwater finfish hatcheries. Through this scheme, financial assistance in the form of subsidies is provided to beneficiaries for setting up these hatcheries.",
+    "tags": [
+      "Financial Assistance",
+      "Subsidy",
+      "Setting Up",
+      "Hatcheries"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/enffhr"
+  },
+  {
+    "slug": "sugtpctrcw-t",
+    "schemeName": "Skill Development Training - 15 Days Residential Skill Up-gradation Training Programme",
+    "schemeShortTitle": "SDT-15DRSUTP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Telangana"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The Telangana Building & Other Construction Workers Welfare Board offers a comprehensive 15-day residential skill up-gradation training program designed to enhance the skills of registered construction workers. ",
+    "tags": [
+      "Financial Assistance",
+      "Training",
+      "Construction Worker",
+      "Skill Upgradation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sugtpctrcw-t"
+  },
+  {
+    "slug": "csssspg",
+    "schemeName": "Capital Subsidy Scheme for Setting Up Solar Plant in Milk Cooperatives in Gujarat State (Tribal Area)",
+    "schemeShortTitle": "CSSSSPG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote renewable energy and reduce electricity expenses. Through this scheme, a 75% subsidy is provided for setting up solar plants (1KW to 40KW) in milk cooperative societies in tribal areas.",
+    "tags": [
+      "Agriculture",
+      "Solar Subsidy",
+      "Milk Cooperatives",
+      "Renewable Energy",
+      "Electricity Saving"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/csssspg"
+  },
+  {
+    "slug": "ftftgcescst",
+    "schemeName": "Free Travel Facility for Tribal Girls Studying up to Class 8th in Scheduled Caste and Tribal Areas of the State",
+    "schemeShortTitle": "FTFTGCESCST",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme aims to provide free travel facility from home to school to tribal girls studying up to Class 8 in Scheduled Caste and Tribal Areas of Rajasthan, thereby ensuring uninterrupted access to education.",
+    "tags": [
+      "Free Travel Facility",
+      "Tribal Girls",
+      "Tribal Area",
+      "Girl Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ftftgcescst"
+  },
+  {
+    "slug": "aifuee",
+    "schemeName": "Additional Infrastructure for Up-gradation of Existing EMRS",
+    "schemeShortTitle": "AIFUEE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to enhance the capacity of existing Eklavya Model Residential Schools (EMRS) from 480 students (240 boys and 240 girls) by providing additional academic and residential infrastructure facilities for tribal students.",
+    "tags": [
+      "EMRS Upgradation",
+      "Tribal Students",
+      "Residential Schools",
+      "Infrastructure Development",
+      "Academic Facilities"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aifuee"
+  },
+  {
+    "slug": "fcscgsssixssy",
+    "schemeName": "Free Cycles to SC Girl Students Studying in Standard IX (Sarasvati Sadhna Yojana)",
+    "schemeShortTitle": "FCSCGSSSIX(SSY)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The “Free Cycles to SC girl students studying in Standard IX” scheme is administered by the Directorate of Scheduled Caste Welfare, Department of Social Justice & Empowerment, Government of Gujarat. Under this scheme, free bicycles are given to scheduled caste girl students who are studying in Stand",
+    "tags": [
+      "Free Cycle",
+      "Scheduled Caste",
+      "Girl Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fcscgsssixssy"
+  },
+  {
+    "slug": "sei",
+    "schemeName": "Spurring Entrepreneurship Initiative",
+    "schemeShortTitle": "SEI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "Spurring Entrepreneurship Initiative is a scheme to provide financial assistance to youth of Union Territory of J&K for establishing their business units with a special focus on high-growth entrepreneurship.",
+    "tags": [
+      "Financial Assistance",
+      "Start Up Loan",
+      "Young Entrepreneurs",
+      "High Growth Entrepreneurship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sei"
+  },
+  {
+    "slug": "big",
+    "schemeName": "Biotechnology Ignition Grant Scheme",
+    "schemeShortTitle": "BIG",
+    "nodalMinistryName": "Ministry Of Science And Technology",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The “Biotechnology Ignition Grant Scheme (BIG)” is a flagship scheme of BIRAC which recognizes and invests in innovative ideas in the biotech sector. BIG scheme supports individual entrepreneurs/ start-ups from ideation to Proof of Concept.",
+    "tags": [
+      "Biotechnology",
+      "Ignition Grant",
+      "BIRAC",
+      "BIG",
+      "Entrepreneur",
+      "Start-up"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/big"
+  },
+  {
+    "slug": "icdss",
+    "schemeName": "Integrated Child Development Services Scheme",
+    "schemeShortTitle": "ICDSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Health & Wellness"
+    ],
+    "briefDescription": "In Nagaland, the ICDS programme was launched in the year 1975 in the Jalukie block of Peren district with 50 Anganwadi centres. The programme has since grown and at present, there are 60 (sixty) ICDS projects in 11 (Eleven) districts of the State. ",
+    "tags": [
+      "Child Development",
+      "Health Check Up",
+      "Children",
+      "Health Education",
+      "Nutrition"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/icdss"
+  },
+  {
+    "slug": "naps",
+    "schemeName": "National Apprenticeship Promotion Scheme-2",
+    "schemeShortTitle": "NAPS-2",
+    "nodalMinistryName": "Ministry Of Skill Development And Entrepreneurship",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "To promote apprenticeship training in the country, by providing partial stipend support to the apprentices engaged under the Apprentice Act, 1961, undertaking capacity building of the apprenticeship ecosystem, and providing advocacy assistance to the stakeholders.",
+    "tags": [
+      "Apprenticeship Training",
+      "Skilled Workforce",
+      "Up-skilling Opportunities",
+      "Skill India Programme"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/naps"
+  },
+  {
+    "slug": "mmky-iaftufffp",
+    "schemeName": "\"Input Assistance to Farmers for Taking up Fish Farming in Farm Ponds\" Component of the \"Mukhyamantri Maschyajibi Kalyan Yojana\" Scheme",
+    "schemeShortTitle": "IAFFFFP-MMKY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Odisha"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The objective of this scheme is to increase the inland fish production, and to enhance the income of farmers in the State though aquaculture. Input assistance is provided to the farmers who have excavated farm ponds under MGNREGA for facilitating the production of fingerling and fish.",
+    "tags": [
+      "Farmer",
+      "Fisheries",
+      "Seed",
+      "Subsidy",
+      "Fertilizer",
+      "Pond"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmky-iaftufffp"
+  },
+  {
+    "slug": "namo-shetkari-mahasanman-nidhi-yojana",
+    "schemeName": "Namo Shetkari Mahasanman Nidhi Yojana",
+    "schemeShortTitle": "NAMO SHETKARI MAHASANMAN NIDHI YOJANA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "To increase the income of farmers, State government has announced \"Namo Shetkari Mahasanman Nidhi Yojana\" in which cultivable land holding farmer families of the state will get an additional amount of Rs. 6000/- per year (along with Rs. 6000/- through Pradhan Mantri Kisan Samman Nidhi Yojana",
+    "tags": [
+      "PM KISAN TOP UP",
+      "Direct Benefit Transfer",
+      "Agriculture Land Holder",
+      "Family Scheme"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/namo-shetkari-mahasanman-nidhi-yojana"
+  },
+  {
+    "slug": "gspaa-dfwasaofbc",
+    "schemeName": "Grant of 50% Subsidy for the Purchase of Aquarium and Its Accessories under \"Development of Freshwater Aquaculture and Setting up of Aquarium, Ornamental Fish Breeding Centre\"",
+    "schemeShortTitle": "GSPAA-DFWASAOFBC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "\"Grant of 50% Subsidy for the Purchase of Aquarium and Its Accessories\" is introduced with the objective to propagate the importance of aquarium keeping and to inculcate the art of aquarium keeping among the general public. The scheme is extended to all the regions of Puducherry.",
+    "tags": [
+      "Fisheries",
+      "Aquarium",
+      "Subsidy",
+      "Financial Assistance",
+      "Aquaculture",
+      "Fish"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gspaa-dfwasaofbc"
+  },
+  {
+    "slug": "mapvuy",
+    "schemeName": "Mukhyamantri Ati Pichhada Varg Udyami Yojana",
+    "schemeShortTitle": "MAPVUY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Bihar"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "This is a flagship scheme of the Bihar government aimed at promoting entrepreneurship and self-employment among the youth by providing financial assistance of up to ₹10,00,000/- for setting up businesses.\n\n",
+    "tags": [
+      "Entrepreneurship",
+      "Youth",
+      "Business",
+      "Self Employment",
+      "Extremely Backward Class"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mapvuy"
+  },
+  {
+    "slug": "myuyb",
+    "schemeName": "Mukhyamantri Yuva Udyami Yojana",
+    "schemeShortTitle": "MYUYB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Bihar"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "This is a flagship scheme of the Bihar government aimed at promoting entrepreneurship and self-employment among the youth by providing financial assistance of up to ₹10,00,000/- for setting up businesses.",
+    "tags": [
+      "Entrepreneurship",
+      "Youth",
+      "Business",
+      "Self Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/myuyb"
+  },
+  {
+    "slug": "mmuyb",
+    "schemeName": "Mukhyamantri Mahila Udyami Yojana",
+    "schemeShortTitle": "MMUYB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Bihar"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "This is a flagship scheme of the Bihar government aimed at promoting entrepreneurship and self-employment among the youth by providing financial assistance of up to ₹10,00,000/- for setting up businesses.\n\n",
+    "tags": [
+      "Women Entrepreneurship",
+      "Youth",
+      "Business",
+      "Self Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmuyb"
+  },
+  {
+    "slug": "fess",
+    "schemeName": "Free Electricity Supply Scheme",
+    "schemeShortTitle": "FESS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Utility & Sanitation"
+    ],
+    "briefDescription": "The scheme aims to provide free electricity supply to Scheduled Caste (SC) and Scheduled Tribe (ST) farmers of Madhya Pradesh who have agricultural pumps up to 5 horsepower and landholding up to 1 hectare.",
+    "tags": [
+      "Free Electricity",
+      "Scheduled Caste",
+      "Scheduled Tribe"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fess"
+  },
+  {
+    "slug": "mauyb",
+    "schemeName": "Mukhyamantri Alpasankhyak Udyami Yojana",
+    "schemeShortTitle": "MAUYB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Bihar"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "This is a flagship scheme of the Bihar government aimed at promoting entrepreneurship and self-employment among the youth by providing financial assistance of up to ₹10,00,000/- for setting up businesses.\n\n",
+    "tags": [
+      "Entrepreneurship",
+      "Youth",
+      "Business",
+      "Self Employment",
+      "Minority"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mauyb"
+  },
+  {
+    "slug": "bby",
+    "schemeName": "Berojgari Bhatta Yojna",
+    "schemeShortTitle": "BBY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttar Pradesh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The UP government has implemented the UP Unemployment Allowance 2022 scheme in Uttar Pradesh. The government has implemented this scheme only for those candidates who belong to the state and is unemployed despite being educated.",
+    "tags": [
+      "Berojgari",
+      "Financial Assistance",
+      "Rojgaar Samgam",
+      "Bhatta"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bby"
+  },
+  {
+    "slug": "ssbc",
+    "schemeName": "Saksham Scheme for Backward Classes",
+    "schemeShortTitle": "SSBC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "Under the scheme, loans of up to ₹10,00,000/- are provided to young professionals for setting up Doctors' Clinics, Nursing Homes, Physiotherapy Clinics, Bio-Medical Labs, Lawyers' Offices, Engineering Units, Chemist Shops, Architect Offices, and similar establishments.",
+    "tags": [
+      "Saksham",
+      "Backward Classes",
+      "Loan",
+      "Young Professional"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssbc"
+  },
+  {
+    "slug": "pcwfstfpi",
+    "schemeName": "Pipes Carrying Water From Source To Field-Pulses ISPOM",
+    "schemeShortTitle": "PCWFSTFPI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme provides subsidies to farmers for installing pipes to carry water from the source to their fields, offering a 50% subsidy or up to ₹15,000/- for pipes (up to 800m), including PVC, HDPE, and others.\n",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Irrigation",
+      "Pipes",
+      "Pulses ISPOM"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pcwfstfpi"
+  },
+  {
+    "slug": "pcwfsf",
+    "schemeName": "Pipes Carrying Water From Source To Field",
+    "schemeShortTitle": "PCWFSF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme provides subsidies to farmers for installing pipes to carry water from the source to their fields, offering a 50% subsidy or up to ₹15,000/- for pipes (up to 800m), including PVC, HDPE, and others.\n",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Irrigation",
+      "Pipes"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pcwfsf"
+  },
+  {
+    "slug": "nss",
+    "schemeName": "Nishadraj Scholarship Scheme",
+    "schemeShortTitle": "NSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote higher education among children of fisher families working in federation reservoirs by providing scholarships of up to ₹20,000 for technical courses and up to ₹10,000 for non-technical courses.",
+    "tags": [
+      "Fish Farmer",
+      "Children",
+      "Higher Education",
+      "Scholarship",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nss"
+  },
+  {
+    "slug": "shrp",
+    "schemeName": "Scheme for Hotel and Restaurant Projects",
+    "schemeShortTitle": "SHRP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship",
+      "Travel & Tourism"
+    ],
+    "briefDescription": "The scheme was launched by PIPDIC, Department of Industries & Commerce, Puducherry. The scheme aims to financially assist entrepreneurs for setting up entrepreneurs setting up of hotel/restaurant projects in urban areas. The applications for this scheme are accepted online through the PIPDIC portal.",
+    "tags": [
+      "Entrepreneur",
+      "Tourism",
+      "Project",
+      "Hotel",
+      "Tourist",
+      "Restaurant"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/shrp"
+  },
+  {
+    "slug": "pvcppd",
+    "schemeName": "Purchase of Vehicle for Commercial Hiring Purpose for Persons with Disabilities ",
+    "schemeShortTitle": "PVCPPD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "Under the scheme, loans are provided to differently-abled persons for commercial hiring purposes up to ₹10.00 lakhs, and for the purchase of special category vehicles like JCBs, trucks, road rollers, etc., loans up to ₹25.00 lakhs are available. ",
+    "tags": [
+      "Vehicle",
+      "Commercial Hiring",
+      "PwD",
+      "Disability",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pvcppd"
+  },
+  {
+    "slug": "adthsg",
+    "schemeName": "Adi Dravidar and Tribal Welfare Department-Hostels: Special Guides",
+    "schemeShortTitle": "ADTHSG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The scheme provides hostel facilities to all boys and girls boarders studying up to XII Standard.\n",
+    "tags": [
+      "Tribal Welfare",
+      "Adi Dravidar",
+      "Students",
+      "Hostels",
+      "Education",
+      "Accommodation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/adthsg"
+  },
+  {
+    "slug": "smo",
+    "schemeName": "Scheme for Marketing Organisations",
+    "schemeShortTitle": "SMO",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme was launched by PIPDIC, Department of Industries & Commerce, Puducherry. The scheme aims to financially assist entrepreneurs for setting up entrepreneurs setting up of hotel/restaurant projects in urban areas. The applications for this scheme are accepted online through the PIPDIC portal.",
+    "tags": [
+      "Entrepreneur",
+      "Marketing",
+      "Project",
+      "Renovation",
+      "Village",
+      "Product"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/smo"
+  },
+  {
+    "slug": "elsnskfdch",
+    "schemeName": "Education Loan Scheme under NSKFDC- Haryana",
+    "schemeShortTitle": "ELSNSKFDCH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Education & Learning"
+    ],
+    "briefDescription": "This scheme offers educational loans of up to ₹10 lakhs for studies within India and up to ₹20 lakhs for studies abroad. These loans are available to eligible students pursuing regular full-time recognized professional/technical courses in India or abroad. ",
+    "tags": [
+      "Education Loan",
+      "NSKFDC",
+      "HSFDC",
+      "Safai Karamcharis",
+      "Students",
+      "Abroad"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/elsnskfdch"
+  },
+  {
+    "slug": "asoncutp",
+    "schemeName": "Award of Scholarships to Outstanding NCC Cadets of the UT of Puducherry",
+    "schemeShortTitle": "ASONCUTP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to recognize and support outstanding NCC cadets. The scheme offers scholarships to eligible candidates in various divisions: Senior Division Boys (Up to graduation), Senior Wing Girls, Junior Division Boys (Up to 12th Standard), and Junior Wing Girls.",
+    "tags": [
+      "Cadet",
+      "NCC",
+      "Camp",
+      "Parade",
+      "Scholarship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/asoncutp"
+  },
+  {
+    "slug": "pcardftc",
+    "schemeName": "Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase",
+    "schemeShortTitle": "PCARDFTC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme offers a specialized loan for farmers to purchase tractors, covering up to 90% of the tractor's cost.",
+    "tags": [
+      "Agriculture",
+      "Loan",
+      "Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pcardftc"
+  },
+  {
+    "slug": "edpedp",
+    "schemeName": "\"Entrepreneureship Development Programme (EDP)\" Component of the \"Development of Industries\" Scheme",
+    "schemeShortTitle": "EDPEDP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to to develop entrepreneurship skills by providing training for setting up of the projects. The programmes contains motivating the prospective entrepreneurs, highlight respective projects, the course of actions to taken by them for setting up and successful running their unit.",
+    "tags": [
+      "Entrepreneurship",
+      "Entrepreneur",
+      "Business",
+      "Skill",
+      "Training",
+      "Vocational"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/edpedp"
+  },
+  {
+    "slug": "ft",
+    "schemeName": "Farmers Training",
+    "schemeShortTitle": "FT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The “Farmers Training” scheme provides financial assistance for training sessions involving up to 50 farmers or agricultural laborers per cluster.\n",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Training"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ft"
+  },
+  {
+    "slug": "copy-of-cfpc",
+    "schemeName": "Distribution of Materials to Promote Herbal Cultivation in Uttarakhand - Herbal Research and Development Institute, Uttarakhand",
+    "schemeShortTitle": "DMPHCUKHRDI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Under this scheme, there is a special provision for the free distribution of seeds or saplings of medicinal plants up to 3 nali and seeds or saplings of aromatic plants up to 5 nali to farmers belonging to border districts, Scheduled Castes/Tribes, and Below Poverty Line (BPL) categories. ",
+    "tags": [
+      "Herbal Research",
+      "Herbal",
+      "Distribution Of Seeds",
+      "Distribution Of Saplings",
+      "Medicinal Plant",
+      "Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/copy-of-cfpc"
+  },
+  {
+    "slug": "nkymp",
+    "schemeName": "Nalkoop Khanan Yojana- Madhya Pradesh",
+    "schemeShortTitle": "NKYMP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Under this scheme, farmers from SC and ST categories are eligible for a subsidy covering 75% of the unit cost (up to ₹25,000/-) for digging a tube well and 75% of the unit cost (up to ₹15,000/-) for the successful installation of a tube well submersible pump.",
+    "tags": [
+      "Nalkoop",
+      "Farmer",
+      "Pump",
+      "Subsidy",
+      "Tube Well"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nkymp"
+  },
+  {
+    "slug": "hsy",
+    "schemeName": "Him Swablamban Yojana ",
+    "schemeShortTitle": "HSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The objective of this scheme is to provide loans to urban and rural SC/ST families for setting up and running businesses. Loans up to ₹5 lakh are offered at 6% interest, and loans from ₹5 lakh to ₹30 lakh at 8% interest through the National SC/ST Development Corporation.",
+    "tags": [
+      "Loans",
+      "Banking",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Families"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hsy"
+  },
+  {
+    "slug": "msk",
+    "schemeName": "Margadeepam Scholarship",
+    "schemeShortTitle": "MSK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide educational financial support to minority community students in Kerala. It offers ₹1,500/- annual scholarship to eligible students from Class 1st to Class 8th studying in government and government-aided schools.",
+    "tags": [
+      "Minority",
+      "Student",
+      "Scholarship",
+      "School",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/msk"
+  },
+  {
+    "slug": "pjayjiss",
+    "schemeName": "Pannadhay Jeevan Amrit Yojana (Janshree Insurance Scheme) – Scholarship",
+    "schemeShortTitle": "PJAYJISS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide scholarship benefits to the children of insured members. It supports eligible students studying in class 9th, 10th, 11th and 12th through monthly, quarterly and annual scholarship assistance.",
+    "tags": [
+      "Scholarship",
+      "Education",
+      "BPL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pjayjiss"
+  },
+  {
+    "slug": "des-sdspdpgc",
+    "schemeName": "Distance Education Scholarship–Scholarship For Disabled Students Pursuing Degree, PG Courses",
+    "schemeShortTitle": "DES-SDSPDPGC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme “Distance Education Scholarship–Scholarship for Disabled Students Pursuing Degree, PG Courses” was launched by the Department of Social Justice, Government of Kerala. ",
+    "tags": [
+      "Distance Education",
+      "Scholarship",
+      "Student",
+      "Person With Disability",
+      "Degree",
+      "PG Courses",
+      "Open University"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/des-sdspdpgc"
+  },
+  {
+    "slug": "shs",
+    "schemeName": "State Horticulture Scholarship",
+    "schemeShortTitle": "SHS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The “State Horticulture Scholarship” is a scholarship scheme, launched by the Department of Horticulture, Government of Nagaland to provide scholarship/stipend to students who are pursuing B.Sc. (Horticulture) M.Sc. (Horticulture) Ph.D. (Horticulture) courses. ",
+    "tags": [
+      "Horticulture",
+      "Scholarship",
+      "BSc",
+      "MSc",
+      "PhD",
+      "Stipend",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/shs"
+  },
+  {
+    "slug": "cms-g",
+    "schemeName": "Combined Merit Scholarship",
+    "schemeShortTitle": "CMS-G",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide merit-based scholarship to students of Assam studying in first semester degree and master degree courses in recognized institutions. It benefits academically meritorious students who have obtained at least 60% marks in their last qualifying examination.",
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Merit",
+      "Education",
+      "Degree",
+      "Academic"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cms-g"
+  },
+  {
+    "slug": "dssmp",
+    "schemeName": "Divyangjan Scholarship Scheme",
+    "schemeShortTitle": "DSSMP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Education & Learning",
+      "Health & Wellness"
+    ],
+    "briefDescription": "\"Divyangjan Scholarship Scheme\" provides financial assistance for the education and training of differently-abled children, who are regular students in a school or college. The application needs to be submitted to the District Office, Panchayat and Social Welfare / Janpad Panchayat Office.",
+    "tags": [
+      "Education",
+      "Student",
+      "Disability",
+      "Scholarship",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dssmp"
+  },
+  {
+    "slug": "stdsuk",
+    "schemeName": "Scholarship to Disabled Students",
+    "schemeShortTitle": "STDSUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme \"Scholarship to Disabled Students\" by the Social Justice and Empowerment Department aims to provide financial assistance to students with disabilities. Through this scheme, annual scholarships are offered to support the education of eligible students from Class 1 onwards.",
+    "tags": [
+      "Education",
+      "Scholarship",
+      "Persons With Disabilities"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/stdsuk"
+  },
+  {
+    "slug": "nsych",
+    "schemeName": "Naunihal Scholarship Yojana",
+    "schemeShortTitle": "NSYCH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Chhattisgarh Naunihal Scholarship Scheme has been started by the Government of Chhattisgarh in 2017. ",
+    "tags": [
+      "Financial Assistance",
+      "Student Finance",
+      "Scholarship",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nsych"
+  },
+  {
+    "slug": "bhmnsp",
+    "schemeName": "Begum Hazrat Mahal National Scholarship Program",
+    "schemeShortTitle": "BHMNSP",
+    "nodalMinistryName": "Ministry Of Minority Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Begum Hazrat Mahal National scholarship is a scholarship scheme also known as Maulana Azad National scholarship scheme was first announced on 3rd May 2003. It is a national level scholarship started for the benefit of the girl’s student belonging to the minority communities. ",
+    "tags": [
+      "Scholarship",
+      "Student",
+      "Financial Assistance",
+      "Minority"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bhmnsp"
+  },
+  {
+    "slug": "cmssg",
+    "schemeName": "Chief Minister Scholarship Scheme",
+    "schemeShortTitle": "CMSSG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme \"Chief Minister Scholarship Scheme\" by the Education Department, Government of Gujarat, aims to provide financial assistance to meritorious students for pursuing medical, engineering, diploma, and higher education courses.",
+    "tags": [
+      "Scholarship",
+      "Higher Education",
+      "Diploma",
+      "Degree Scholarship",
+      "Medical Education Scholarship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cmssg"
+  },
+  {
+    "slug": "nsms",
+    "schemeName": "Nagaland State Merit Scholarship",
+    "schemeShortTitle": "NSMS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The Directorate of Higher Education has launched the Nagaland State Merit Scholarship for the students of classes from 11th to 12th and UG Degree to PG degree so that they will be able to secure their scholarship rights or seats after getting online registration under this scholarship. ",
+    "tags": [
+      "Nagaland State",
+      "Merit Scholarship",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nsms"
+  },
+  {
+    "slug": "lkdss",
+    "schemeName": "Lakshadweep Scholarship Scheme",
+    "schemeShortTitle": "LKDSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Lakshadweep"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The Lakshadweep Scholarship Scheme is a government initiative aimed at providing financial assistance to students from Lakshadweep pursuing higher education.",
+    "tags": [
+      "Education",
+      "Scholarship",
+      "Higher Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lkdss"
+  },
+  {
+    "slug": "pks",
+    "schemeName": "Pratibha Kiran Scholarship",
+    "schemeShortTitle": "PKS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Women and Child"
+    ],
+    "briefDescription": "Pratibha Kiran Scholarship has been launched by the Government of Madhya Pradesh. Through this scheme, scholarship will be provided every year to girl students living below the poverty line.",
+    "tags": [
+      "FINANCIAL ASSISTANCE",
+      "SCHOLARSHIP",
+      "HIGHER EDUCATION",
+      "BPL Girl Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pks"
+  },
+  {
+    "slug": "sfgcs",
+    "schemeName": "Sudakshya For Girls Child Scholarship",
+    "schemeShortTitle": "SFGCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Odisha"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Women and Child"
+    ],
+    "briefDescription": "This scholarship provides financial assistance to all deserving students who want to pursue higher studies.  Under this scholarship scheme, the students fulfilling the eligibility criteria will receive a maintenance allowance and other benefits.",
+    "tags": [
+      "Sudakshya",
+      "Girl",
+      "Scholarship",
+      "Student",
+      "ITI"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sfgcs"
+  },
+  {
+    "slug": "ssmp",
+    "schemeName": "Sanskrit Scholarship",
+    "schemeShortTitle": "SSMP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Under this scheme, students studying Sanskrit at various levels—Post Graduate (M.A. Classic), Acharya, Graduate (B.A. Classic), Shastri, Uttar Madhyama, Purva Madhyama, and Prathama—in any government or aided non-government college receive a monthly scholarship of ₹300/- for 10 months.",
+    "tags": [
+      "Sanskrit",
+      "Scholarship",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssmp"
+  },
+  {
+    "slug": "cmss",
+    "schemeName": "Chief Minister's Scholarship Scheme",
+    "schemeShortTitle": "CMSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Meghalaya"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Under this scheme, financial support is provided to students from Class XI to Ph.D. level. It offers a fixed annual scholarship of ₹6,000 for post-matric studies, which is paid directly into the students’ bank accounts. This scholarship is often provided in addition to other scholarships.",
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Education",
+      "Courses"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cmss"
+  },
+  {
+    "slug": "mspi",
+    "schemeName": "Merit Scholarship: Polytechnic Institutions",
+    "schemeShortTitle": "MSPI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "\"Merit Scholarship: Polytechnic Institutions\" is a scholarship scheme by the Technical Education Department, Government of Chhattisgarh. The scheme provides ₹600/- per month to eligible students for pursuing education from recognized polytechnic institutions in Chhattisgarh.",
+    "tags": [
+      "Student",
+      "Education",
+      "Scholarship",
+      "Financial Support",
+      "Polytechnic"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mspi"
+  },
+  {
+    "slug": "sssms",
+    "schemeName": "Shridev Suman State Merit Scholarship",
+    "schemeShortTitle": "SSSMS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme provides monthly scholarship of ₹1,000/- to meritorious students who qualify in eligibility test conducted by SCERT Uttarakhand. The scholarship is awarded to the next 5 students from each development block of Uttarakhand who are not selected for the Dr. Shivanand Nautiyal Scholarship.",
+    "tags": [
+      "Scholarship",
+      "Secondary Education",
+      "Student",
+      "Sridev Suman"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sssms"
+  },
+  {
+    "slug": "nts-ug",
+    "schemeName": "National Talent Scholarship Undergraduate",
+    "schemeShortTitle": "NTS-UG",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scholarship aims to support meritorious students by providing financial assistance of ₹3,000 per month during their undergraduate studies.",
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Agriculture",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nts-ug"
+  },
+  {
+    "slug": "pesmp",
+    "schemeName": "Primary Education Scholarship (Madhya Pradesh)",
+    "schemeShortTitle": "PESMP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The \"Primary Education Scholarship\" scheme provides ₹150/- annually to students from De-notified, Nomadic, and Semi-Nomadic communities who are studying in classes 1st to 5th.  The scholarship distribution is managed through the Directorate of Public Education, Government of Madhya Pradesh.",
+    "tags": [
+      "Student",
+      "Education",
+      "Scholarship",
+      "Studying"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pesmp"
+  },
+  {
+    "slug": "vfmbs",
+    "schemeName": "Vyasakabi Fakir Mohan Bhasabruti Scholarship",
+    "schemeShortTitle": "VFMBS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Odisha"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "\"Vyasakabi Fakir Mohan Bhasabruti Scholarship\" is a Scholarship by the Higher Education Department, Govt. of Odisha. The objective of the scheme is the promotion of the Odia Language by way of encouraging meritorious students to take up higher studies in Odia Language at the U.G. and P.G. levels.",
+    "tags": [
+      "Scholarship",
+      "Student",
+      "Higher Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vfmbs"
+  },
+  {
+    "slug": "gpmsup",
+    "schemeName": "General Pre Matric Scholarship-Uttar Pradesh",
+    "schemeShortTitle": "GPMSUP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttar Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The Uttar Pradesh Social Welfare Department offers a Pre Matric Scholarship for General category students. This scholarship aims to financially assist students from these categories to pursue secondary education and complete their matriculation. ",
+    "tags": [
+      "Education",
+      "Financial Assistance",
+      "Scholarship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gpmsup"
+  },
+  {
+    "slug": "obcpms",
+    "schemeName": "OBC Pre Matric Scholarship-Uttar Pradesh",
+    "schemeShortTitle": "OBCPMS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttar Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The Uttar Pradesh Social Welfare Department offers a Pre Matric Scholarship for Other Backward Class (OBC) students. This scholarship aims to financially assist students from these categories to pursue secondary education and complete their matriculation.",
+    "tags": [
+      "Scholarship",
+      "Financial Assistance",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/obcpms"
+  },
+  {
+    "slug": "srsn",
+    "schemeName": "State Research Scholarship",
+    "schemeShortTitle": "SRSN",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "This scholarship is specially designed for students who are pursuing research work. Under the scheme, beneficiaries will get cash awards to conduct their research work. ",
+    "tags": [
+      "State Research",
+      "Nagaland",
+      "Scholarship",
+      "Studies",
+      "Students"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/srsn"
+  },
+  {
+    "slug": "mcmsec",
+    "schemeName": "Merit cum Means Scholarship: Engineering University",
+    "schemeShortTitle": "MCMSEC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "\"Merit cum Means Scholarship: Engineering University\" is a scholarship scheme by the Technical Education Department, Government of Chhattisgarh. The scheme provides ₹1,000/- per month to eligible students for pursuing education from recognized engineering universities in Chhattisgarh.",
+    "tags": [
+      "Student",
+      "Education",
+      "Scholarship",
+      "Engineering",
+      "University"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mcmsec"
+  },
+  {
+    "slug": "sdas",
+    "schemeName": "Scholarship For Differently Abled Students",
+    "schemeShortTitle": "SDAS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme “Scholarship for Differently Abled Students” was launched by the Department of Social Justice, Government of Kerala.",
+    "tags": [
+      "Scholarship",
+      "Disability",
+      "Student",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sdas"
+  },
+  {
+    "slug": "sdsspd",
+    "schemeName": "State Disability Scholarship (Scholarship for Persons with Disabilities)",
+    "schemeShortTitle": "SDS(SPD)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme “State Disability Scholarship” was launched by the Department of Social Welfare, Government of Nagaland to provide financial assistance to students from Class I to Class VIII who have a disability of 40% and above.",
+    "tags": [
+      "Disability",
+      "Scholarship",
+      "PwD",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sdsspd"
+  },
+  {
+    "slug": "sts",
+    "schemeName": "Scholarship For Transgender Students",
+    "schemeShortTitle": "STS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Scholarship for Transgender Students” was launched by the Social Justice Department, Government of Kerala for providing scholarships to Transgender students from 7th standard onwards studying in State Government/ Government aided/ Self Financing schools.",
+    "tags": [
+      "Transgender",
+      "Student",
+      "Scholarship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sts"
+  },
+  {
+    "slug": "sasbma",
+    "schemeName": "State Agriculture Scholarship for B.Sc. & M.Sc. Agriculture",
+    "schemeShortTitle": "SASBMA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme “State Agriculture Scholarship for B.Sc. & M.Sc. Agriculture” was launched by the Department of Agriculture, Government of Nagaland to provide educational assistance to students who are undergoing undergraduate (B.Sc. Agriculture) and post-graduate programme (M.Sc. Agriculture).",
+    "tags": [
+      "Agriculture",
+      "Scholarship",
+      "BSc",
+      "MSc",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sasbma"
+  },
+  {
+    "slug": "rcsmms",
+    "schemeName": "Rajarshri Chhatrapati Shahu Maharaj Merit Scholarship",
+    "schemeShortTitle": "RCSMMS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The \"Rajarshri Chhatrapati Shahu Maharaj Merit Scholarship\" is an initiative by the Maharashtra Government, specifically designed to encourage scheduled caste students to pursue higher secondary education.  The scholarship aims to enhance the educational standards & competitiveness of students.",
+    "tags": [
+      "Financial Assistance",
+      "Scholarship",
+      "Student",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rcsmms"
+  },
+  {
+    "slug": "ssstss",
+    "schemeName": "Sainik School Sujanpur Tihra Scholarship Scheme",
+    "schemeShortTitle": "SSSTSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme “Sainik School Sujanpur Tihra Scholarship Scheme” was started by the Department of Education, Himachal Pradesh. Under the scheme, scholarship is given to the students of Himachal Pradesh who are studying in Sainik School Sujanpur Tihra.",
+    "tags": [
+      "Sainik School",
+      "Sujanpur",
+      "Scholarship",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssstss"
+  },
+  {
+    "slug": "smsssmbbsacnps",
+    "schemeName": "State Medical Scholarship (Scholarship Scheme for MBBS & Allied Courses, Nursing and Paramedical Students)",
+    "schemeShortTitle": "SMS(SSMBBSACNPS)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The “State Medical Scholarship” is a scholarship scheme, launched by the Department of Health & Family Welfare, Government of Nagaland. Under the scheme, financial assistance is provided to students who are pursuing MBBS & Allied Courses, Nursing and Paramedical courses.",
+    "tags": [
+      "Medical",
+      "Scholarship",
+      "MBBS",
+      "Nursing",
+      "Paramedical",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/smsssmbbsacnps"
+  },
+  {
+    "slug": "pmcup",
+    "schemeName": "SC/ST Pre Matric Scholarship - Uttar Pradesh",
+    "schemeShortTitle": "PMCUP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttar Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The Uttar Pradesh Social Welfare Department offers a Pre Matric Scholarship for Scheduled Caste (SC) or Scheduled Tribe (ST) students. This scholarship aims to financially assist students from these categories to pursue secondary education and complete their matriculation.",
+    "tags": [
+      "Scholarship",
+      "Education",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmcup"
+  },
+  {
+    "slug": "psp",
+    "schemeName": "Prathibha Scholarship Programme",
+    "schemeShortTitle": "PSP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Prathibha Scholarship Programme is aimed at motivating bright Students to higher studies in Science by awarding Scholarships. Prathibha Scholars are also provided opportunities to attend Science Orientation Programmes and interact with pioneers in Science through the SPEED Scheme.",
+    "tags": [
+      "Scholarship",
+      "Student",
+      "Undergraduate",
+      "Postgraduate",
+      "Internship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/psp"
+  },
+  {
+    "slug": "nts-pg",
+    "schemeName": "National Talent Scholarship Postgraduate",
+    "schemeShortTitle": "NTS-PG",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Merit-based support through the National Talent Scholarship to the post-graduate students seeking admission in agricultural universities in a state other than the state of their domicile through ICAR All India Entrance Examination (AIEE).",
+    "tags": [
+      "Scholarship",
+      "Agricultural",
+      "Postgraduate",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nts-pg"
+  },
+  {
+    "slug": "mpmssc",
+    "schemeName": "Post Matric Scholarship for Students belonging to Scheduled Caste Community",
+    "schemeShortTitle": "PMSBTSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Mizoram"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme \"Post Matric Scholarship for Students belonging to Scheduled Caste Community\" was launched by the Mizoram Scholarship Board, Government of Mizoram. The objective of the scheme is to provide financial assistance to students belonging to Scheduled Castes pursuing post-matriculation.",
+    "tags": [
+      "Mizoram",
+      "Scholarship",
+      "Scheduled Caste",
+      "Student",
+      "School",
+      "College",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mpmssc"
+  },
+  {
+    "slug": "fssg",
+    "schemeName": "Fellowship Scholarship Scheme",
+    "schemeShortTitle": "FSSG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The \"Fellowship Scholarship Scheme\" by the Education Department, Government of Gujarat, aims to provide financial help to students by granting an annual monetary award to those who secure 70% or more marks in Class 10th and pursue higher education.",
+    "tags": [
+      "Scholarship",
+      "Fellowship",
+      "Higher Education",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fssg"
+  },
+  {
+    "slug": "iaris",
+    "schemeName": "Indian Agricultural Research Institute - Scholarship",
+    "schemeShortTitle": "IARIS",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Education & Learning"
+    ],
+    "briefDescription": "The Indian Agricultural Research Institute (IARI) Junior and Senior Scholarship shall be awarded to M.Sc. and Ph.D. students admitted under General Open Competition Scheme.",
+    "tags": [
+      "IARI",
+      "Scholarship",
+      "Education",
+      "PhD"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/iaris"
+  },
+  {
+    "slug": "usr",
+    "schemeName": "Urdu Scholarship- Rajasthan",
+    "schemeShortTitle": "USR",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to promote the Urdu language among female students at the undergraduate and postgraduate levels. Under this scheme, a monthly scholarship is provided to undergraduate and postgraduate students who are studying Urdu as an optional subject.",
+    "tags": [
+      "Scholarship",
+      "Girl Student",
+      "Undergraduate",
+      "Postgraduate",
+      "Urdu"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/usr"
+  },
+  {
+    "slug": "pmsm",
+    "schemeName": "Post Metric Scholarship - Madhya Pradesh",
+    "schemeShortTitle": "PMSMP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Under the Post-Matric Scholarship is a Madhya Pradesh Government initiative to provide financial assistance to economically weaker social class students to pursue higher education after matriculation.",
+    "tags": [
+      "Post Metric",
+      "Scholarship",
+      "Financial Support"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmsm"
+  },
+  {
+    "slug": "bbs",
+    "schemeName": "Bhagwan Budhdh Scholarship",
+    "schemeShortTitle": "BBS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "Bhagavan Buddha Post SSC Scholarship launched by the Ministry of Education, Government of Gujarat. A scheme was introduced with the aim to encourage SC girl students to continue their higher studies after SSC.",
+    "tags": [
+      "Bhagwan Budhdh",
+      "Scholarship",
+      "Financial Assistance",
+      "Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bbs"
+  },
+  {
+    "slug": "dpmss",
+    "schemeName": "Devnarayan Post Matric Scholarship Scheme",
+    "schemeShortTitle": "DPMSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "In Rajasthan, the Post-matriculation scholarship scheme is run by the Department of Social Justice and Empowerment for the educational upliftment of students.",
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Financial Assistance",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dpmss"
+  },
+  {
+    "slug": "ssj",
+    "schemeName": "Sports Scholarship Jharkhand",
+    "schemeShortTitle": "SSJ",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jharkhand"
+    ],
+    "schemeCategory": [
+      "Sports & Culture"
+    ],
+    "briefDescription": "The \"Sports Scholarship\" scheme implemented by the Department of Welfare, Government of Jharkhand aims to boost sports participation among Scheduled Tribe students. It provides scholarships, incentives, and essential sports materials for eligible participants.",
+    "tags": [
+      "Scholarship",
+      "Sports Materials",
+      "Scheduled Tribe",
+      "Below Poverty Line"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssj"
+  },
+  {
+    "slug": "asdaps",
+    "schemeName": "Award of Scholarship to Differently Abled Person Students",
+    "schemeShortTitle": "ASDAPS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Award of Scholarship to Differently Abled Person Students” by the Department of Social Welfare, Government of Puducherry is introduced to provide scholarship to the differently abled students, studying from Class 1st upto Postgraduate/ Professional courses.",
+    "tags": [
+      "Scholarship",
+      "Student",
+      "PwD",
+      "Disability",
+      "Award"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/asdaps"
+  },
+  {
+    "slug": "dpmsc",
+    "schemeName": "Devnarayan Pre-Matric Scholarship Scheme",
+    "schemeShortTitle": "DPMSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "In Rajasthan, the Pre-Matriculation scholarship scheme is run by the Department of Social Justice and Empowerment for the educational upliftment of Very Backward Class students.",
+    "tags": [
+      "Education",
+      "Scholarship",
+      "Financial Assistance",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dpmsc"
+  },
+  {
+    "slug": "pdos",
+    "schemeName": "Prabhuddha Overseas Scholarship",
+    "schemeShortTitle": "Pdos",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The PRABHUDDHA OVERSEAS SCHOLARSHIP scheme selects around 250 undergraduate and 150 postgraduate and PhD students from the SC/ST communities, providing them with financial assistance. The initiative aims to support deserving students in pursuing their academic aspirations.",
+    "tags": [
+      "Scholarship",
+      "Overseas",
+      "Scheduled Castes",
+      "Scheduled Tribes"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pdos"
+  },
+  {
+    "slug": "aicte-ssss",
+    "schemeName": "AICTE-Swanath Scholarship Scheme For Students",
+    "schemeShortTitle": "AICTE-SSSS",
+    "nodalMinistryName": "Ministry of Education",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "A scholarship scheme by the Student Development Cell (StDC) of All India Council for Technical Education (AICTE) to provide encouragement and support to orphans, wards of parents who died due to Covid-19, wards of Armed Forces, and Central Paramilitary Forces martyred in action (Shaheed).",
+    "tags": [
+      "Orphan",
+      "Scholarship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aicte-ssss"
+  },
+  {
+    "slug": "mpss",
+    "schemeName": "Post-matric Scholarship Scheme- Uttar Pradesh",
+    "schemeShortTitle": "MPSS-UP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttar Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The UP scholarship program was started by the state of Uttar Pradesh to increase literacy rates and generate a skilled youth force to boost social and economic growth.",
+    "tags": [
+      "Financial Assistance",
+      "Student",
+      "Education",
+      "Scholarship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mpss"
+  },
+  {
+    "slug": "stypsstdpdcs",
+    "schemeName": "Scholarship To 2 Years Pre-Service Student Teachers Undergoing D.El.Ed Programme At DIETs And CTTC Sohra",
+    "schemeShortTitle": "STYPSSTDPDCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Meghalaya"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme “Scholarship to 2 Years Pre-Service Student Teachers undergoing D.El.Ed Programme at DIETs and CTTC Sohra” was launched by the Dept. of Education, Govt. of Meghalaya in 2012. The scheme offers a scholarship of ₹5000 p.m. for 2 years (10 months per year) to attract the state's best talent.",
+    "tags": [
+      "Teacher",
+      "Scholarship",
+      "Student",
+      "Teaching",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/stypsstdpdcs"
+  },
+  {
+    "slug": "smsuggs",
+    "schemeName": "State Merit Scholarship to Under Graduate Girls Students",
+    "schemeShortTitle": "SMSUGGS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "\"Merit Scholarship to Undergraduate Girl Students\"  aims to promote higher education among meritorious girl students by providing a scholarship amount of ₹3,000 per annum to 10 eligible girl students per government college who have excelled in their 10+2 examination.",
+    "tags": [
+      "Merit",
+      "Scholarship",
+      "Girl",
+      "Student",
+      "Stipend",
+      "Graduation",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/smsuggs"
+  },
+  {
+    "slug": "edsc-st-wistem",
+    "schemeName": "Entrepreneurship Development by SC & ST Women in Science Technology Engineering Mathematics",
+    "schemeShortTitle": "ED/SC-ST-WISTEM",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "ED/SC-ST- WISTEM)” is aimed for exploring the potential of entrepreneurship along with improvement in the livelihood options for unemployed SC & ST women in Science, Technology, Engineering & Mathematics (STEM) areas using tools of Science, Technology & Innovation.",
+    "tags": [
+      "Entrepreneurship",
+      "Woman",
+      "SC",
+      "ST",
+      "Unemployed",
+      "Fellowship",
+      "Financial Support"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/edsc-st-wistem"
+  },
+  {
+    "slug": "pgspcscstc",
+    "schemeName": "Post-Graduate Scholarships for Professional Courses for SC/ST Candidates",
+    "schemeShortTitle": "PGSPCSCSTC",
+    "nodalMinistryName": "Ministry of Education",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme has been initiated to provide opportunity to deprived sections of the society, viz. SC/ST for undertaking postgraduate level studies in Professional subjects like Engineering & Technology, Management, Pharmacy etc. in recognised Indian Universities/Institutions/Colleges.",
+    "tags": [
+      "Post Graduate",
+      "Scholarship",
+      "Professional Course",
+      "ST",
+      "SC",
+      "Student",
+      "UGC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pgspcscstc"
+  },
+  {
+    "slug": "rotffssipsic",
+    "schemeName": "Reimbursement of Tution Fee for SC/ST/OBC/Min students in Public Schools in Class I to XII",
+    "schemeShortTitle": "ROTFFSSIPSIC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide financial support by reimbursing tuition and compulsory fees for SC/ST/OBC students from low-income families (below ₹3,00,000/- per annum) studying in recognized schools in Delhi. Beneficiaries must meet academic and attendance criteria.",
+    "tags": [
+      "Student",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Other Backward Class",
+      "Education",
+      "SC",
+      "ST",
+      "OBC",
+      "School"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rotffssipsic"
+  },
+  {
+    "slug": "fwsscstsphe",
+    "schemeName": "Fee Waiver Scheme For SC/ST Students Pursuing Higher Education",
+    "schemeShortTitle": "FWSSCSTSPHE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "\"Fee Waiver Scheme for SC/ST Students Pursuing Higher Education\" provides free access to every SC/ST student, to the institutions of higher learning so that that no eligible SC/ST students are deprived of higher education for want of resources.",
+    "tags": [
+      "Scholarship",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Student",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fwsscstsphe"
+  },
+  {
+    "slug": "sascste",
+    "schemeName": "Scheme of Assistance to SC/ST Entrepreneurs",
+    "schemeShortTitle": "SASCSTE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to extend financial assistance to SC/ST Entrepreneurs for setting up new Micro Enterprises or for expansion of existing units. The applications for this scheme are accepted online through the PIPDIC portal.",
+    "tags": [
+      "Industry",
+      "Entrepreneur",
+      "Loan",
+      "Scheduled Caste",
+      "Scheduled Tribe"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sascste"
+  },
+  {
+    "slug": "rssst",
+    "schemeName": "Resdential School Scheme-ST",
+    "schemeShortTitle": "RSSST",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide quality education to ST students in a clean and educational environment through residential schools established with financial assistance from KFW Germany and the State Government.\n\n\n",
+    "tags": [
+      "Education",
+      "Residential School",
+      "Scheduled Tribes",
+      "ST"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rssst"
+  },
+  {
+    "slug": "fafps",
+    "schemeName": "Financial Assistance For Purchase Of Stationery To SC/ST/OBC/Minorities Students",
+    "schemeShortTitle": "FAFPS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Welfare scheme of Department For The Welfare Of SC/ST/OBC’s/Minorities to provide help for purchase of stationery to SC/ST/OBC/Minorities Students of 1st to 12th class studying Govt. of India/GNCT of Delhi/Aided Recognized schools.",
+    "tags": [
+      "Financial Assistance",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Other Backward Classes",
+      "Minorities",
+      "Purchase Of Stationery",
+      "Students"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fafps"
+  },
+  {
+    "slug": "gascstpsfcad",
+    "schemeName": "Grants In Aid To SC/ST Patients Suffering From Cancer And Other Malignant Diseases",
+    "schemeShortTitle": "GASCSTPSFCAD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "The objective of the scheme is to provide financial assistance in the form of one-time grants to patients undergoing medical treatment in connection with T.B., Cancer and other malignant diseases. This scheme provides one-time financial assistance to patients belonging to the Tea Tribes community.  ",
+    "tags": [
+      "Cancer Patient",
+      "SC/ST",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Grant"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gascstpsfcad"
+  },
+  {
+    "slug": "dbrasa",
+    "schemeName": "Dr. B. R. Ambedkar State Award To SC/ST/OBC/Minorities Students",
+    "schemeShortTitle": "DBRASATSCSTOBCMS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Objective of the Scheme to recognise and reward meritorious SC/ST/OBC/Minority students pursuing graduation in recognised institutions.",
+    "tags": [
+      "Ambedkar",
+      "State Award",
+      "Scheduled Castes",
+      "Scheduled Tribes",
+      "Other Backward Classes",
+      "Financial Assistance",
+      "Minorities"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dbrasa"
+  },
+  {
+    "slug": "rphdsscsts",
+    "schemeName": "Research (PhD) Scholarship for SC/ST Students",
+    "schemeShortTitle": "RPHDSSCSTS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme is implemented by the Higher Education Department, Govt. of Madhya Pradesh, offers financial support for PhD research work to SC/ST students. Eligible students receive ₹16,000/- per month, totaling ₹1,92,000/- per year, which is directly transferred to their bank accounts.",
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "PhD",
+      "Research"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rphdsscsts"
+  },
+  {
+    "slug": "lsmsscst",
+    "schemeName": "Laptop Scheme for Meritorious Students of SC/ST",
+    "schemeShortTitle": "LSMSSCST",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme \"Laptop Scheme for Meritorious Students of SC/ST\" by the Department of Information Technology, Electronics and Communication, Government of Goa aims to provide laptops to the meritorious students who were born in Goa.",
+    "tags": [
+      "Student",
+      "Education",
+      "School",
+      "Laptop",
+      "Scheduled Caste",
+      "Scheduled Tribe"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lsmsscst"
+  },
+  {
+    "slug": "pmsscstb",
+    "schemeName": "Post-Matric Scholarship for Scheduled Castes (SC) and Scheduled Tribes (ST) Students-Bihar",
+    "schemeShortTitle": "PMSSCSTB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Bihar"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The “Post-Matric Scholarship for Scheduled Castes (SC) and Scheduled Tribes (ST) Students-Bihar” aims to provide financial assistance to eligible students from Schedule Castes (SC) and Scheduled Tribes (ST) for their post-secondary education.\n",
+    "tags": [
+      "Scholarship",
+      "Post-Matric",
+      "Higher Education Support",
+      "Education",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmsscstb"
+  },
+  {
+    "slug": "slg",
+    "schemeName": "Stipend To Law Graduates",
+    "schemeShortTitle": "SLG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Under this scheme, the Social Welfare Department, Govt of Karnataka will give a stipend to the Law Graduates belonging to SC/ST Community residing in Karnataka. This will help them to practice law in various courts and training courses will also be organized under the guidance of senior advocates.",
+    "tags": [
+      "SC",
+      "ST",
+      "Stipend",
+      "Law Graduates",
+      "Karnataka"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/slg"
+  },
+  {
+    "slug": "auscstpaa",
+    "schemeName": "Assistance under SC/ST Prevention of Atrocities Act",
+    "schemeShortTitle": "AUSCSTPAA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Public Safety,Law & Justice",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Assistance under SC/ST Prevention of Atrocities Act” was introduced by the Adi Dravidar Welfare Department, Government of Puducherry. The objective of the scheme is to provide immediate relief to the victims of atrocities who are from Scheduled Castes/ Scheduled Tribes.",
+    "tags": [
+      "Scheduled Caste",
+      "Rehabilitation",
+      "Relief",
+      "Compensation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/auscstpaa"
+  },
+  {
+    "slug": "grants-in-aid-to-scst-patients",
+    "schemeName": "Financial Grants In Aid To SC/ST Patients Suffering From Cancer And Other Malignant Diseases",
+    "schemeShortTitle": "GRANTS IN AID TO SC/ST PATIENTS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Health & Wellness",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Financial Grants in Aid to SC/ST patients suffering from cancer and other malignant diseases” was launched by the Government of Assam in 2017 to provide financial assistance in the form of grants in Aid to SC/ST patients who are suffering from cancer and other malignant diseases.",
+    "tags": [
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Medical Treatment",
+      "Patients",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/grants-in-aid-to-scst-patients"
+  },
+  {
+    "slug": "faimcescstc",
+    "schemeName": "Financial Assistance To Inter-Caste Married Couples (Except SC/ST Category)",
+    "schemeShortTitle": "FAIMC(ESC/STC)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Financial Assistance to Inter-Caste Married Couples (Except SC/ST Category)” was launched by the Department of Social Justice, Government of Kerala.",
+    "tags": [
+      "Inter-Caste",
+      "Financial Assistance",
+      "Marriage",
+      "Legally Married",
+      "Couples"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/faimcescstc"
+  },
+  {
+    "slug": "esspulodd",
+    "schemeName": "Establishment of Small Scale Poultry Unit (Layer) for livestock owner of Daman & Diu",
+    "schemeShortTitle": "ESSPULODD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Dadra & Nagar Haveli and Daman & Diu"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims at the economic upliftment of the SC/ST, SMF, and BPL Families. Through this scheme, financial assistance in the form of a subsidy is provided to SC/ST, SMF, and BPL families.",
+    "tags": [
+      "Poultry Development",
+      "BPL Livelihood Support",
+      "Egg Production",
+      "Livestock Subsidy",
+      "SC",
+      "ST"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/esspulodd"
+  },
+  {
+    "slug": "agr2fmsfotscst",
+    "schemeName": "AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST",
+    "schemeShortTitle": "AGR2(FM)SFOTSCST",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme “AGR 2 (Farm Mechanization) Scheme of Farmers Other Than SC/ST” was started by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat.",
+    "tags": [
+      "Farmer",
+      "Agriculture",
+      "Equipment",
+      "Mechanization",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/agr2fmsfotscst"
+  },
+  {
+    "slug": "csmsu",
+    "schemeName": "Coaching Schemes For Sc/st/obc (non-creamy Layer) & Minority Students For Universities",
+    "schemeShortTitle": "Csmsu",
+    "nodalMinistryName": "Ministry Of Minority Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Coaching schemes for students belonging to SC (Scheduled Caste), ST (Scheduled Tribe), OBC (Other Backward Classes) (non-creamy layer), and minority communities are implemented to provide them with equal opportunities and support in pursuing higher education.  \n",
+    "tags": [
+      "Coaching",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Other Backward Classes",
+      "Students"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/csmsu"
+  },
+  {
+    "slug": "estsccicttitkc",
+    "schemeName": "Empower ST/SC Communities using ICT Tools through IT Knowledge Centre (ITKC)",
+    "schemeShortTitle": "ESTSCCICTTITKC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "\"Empower ST/SC Communities using ICT Tools through IT Knowledge Centre (ITKC)\" by the Department of Information Technology, Electronics and Communication, Government of Goa aims to create a large pool of computer literate manpower and to make introducing e-governance solutions meaningful.",
+    "tags": [
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Skill",
+      "Knowledge",
+      "Literacy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/estsccicttitkc"
+  },
+  {
+    "slug": "rsssc",
+    "schemeName": "Resdential School Scheme-SC",
+    "schemeShortTitle": "RSSSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide quality education to SC students in a clean and educational environment through residential schools established with financial assistance from KFW Germany and the State Government.",
+    "tags": [
+      "Education",
+      "Residential School",
+      "Scheduled Caste",
+      "SC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rsssc"
+  },
+  {
+    "slug": "smstomsssfc",
+    "schemeName": "Scholarship/Merit scholarship to OBC/MIN/SC/ST students from Class I to XII",
+    "schemeShortTitle": "SMSTOMSSSFC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance to students from SC/ST/OBC/Minority communities studying in classes I to XII in government or recognised schools in Delhi. The scheme offers varying scholarship amounts based on class and academic performance, ensuring support for education.",
+    "tags": [
+      "Scheduled Castes",
+      "Schedule Tribe",
+      "Backward Classes",
+      "Scholarships",
+      "Students"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/smstomsssfc"
+  },
+  {
+    "slug": "sdsscp",
+    "schemeName": "Supply of Dhotis and Sarees to Scheduled Caste (SC) People",
+    "schemeShortTitle": "SDSSCP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Supply of Dhotis and Sarees to Scheduled Caste (SC) People” by the Adi Dravidar Welfare and Scheduled Tribes Welfare Department, Union Territory of Puducherry is introduced to provide clothing items (lungi, shirt, saree, blouse, etc) to the Scheduled Caste (SC) people of Puducherry.",
+    "tags": [
+      "Clothes",
+      "Scheduled Caste",
+      "Social Welfare",
+      "SC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sdsscp"
+  },
+  {
+    "slug": "smssssictpi",
+    "schemeName": "Scholarship/Merit Scholarship Schools SC/ST/OBC/Min (Studying in College/Technical/ Professional Institutions)",
+    "schemeShortTitle": "SMSSSSICTPI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme provides monthly financial aid to SC/ST/OBC/Minority students pursuing higher education. Benefits include scholarships for hostellers and day scholars, with eligibility based on academic performance and income criteria.",
+    "tags": [
+      "Scheduled Caste",
+      "Schedule Tribe",
+      "Scholarship",
+      "Student",
+      "College"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/smssssictpi"
+  },
+  {
+    "slug": "supply-of-school-uniform-tie-belt",
+    "schemeName": "Supply of School Uniform and Tie belt to SC/ST Boys/ Girls Students of Std I to VIII",
+    "schemeShortTitle": "SUPPLY OF SCHOOL UNIFORM, TIE BELT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Dadra & Nagar Haveli and Daman & Diu"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Supply of School Uniform and Tie belt to SC/ST Boys/ Girls Students of Std I to VIII studying in Govt Schools",
+    "tags": [
+      "Education",
+      "Free Uniform",
+      "Free Tie Belt"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/supply-of-school-uniform-tie-belt"
+  },
+  {
+    "slug": "gbsysc",
+    "schemeName": "Gagan Bharari Shiksha Yojana for SC Students",
+    "schemeShortTitle": "GBSYSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme \"Gagan Bharari Shiksha Yojana for SC Students\" aims to provide additional financial assistance to Scheduled Caste students to supplement their Post Matric Scholarship maintenance allowance. Additional monthly allowances are provided to meet food, travel, and disability-related expenses.",
+    "tags": [
+      "Scheduled Caste",
+      "Goa",
+      "Education",
+      "SC",
+      "Student",
+      "Allowance",
+      "Post Matric"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gbsysc"
+  },
+  {
+    "slug": "supply-of-school-uniform-and-tie-belt",
+    "schemeName": "Supply of School Uniform and Tie belt to other than SC/ST Boys Students of Std I to VIII",
+    "schemeShortTitle": "SUPPLY OF SCHOOL UNIFORM AND TIE BELT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Dadra & Nagar Haveli and Daman & Diu"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Supply of School Uniform and Tie belt to other than SC/ST Boys Students of Std I to VIII studying in Govt Schools",
+    "tags": [
+      "Education",
+      "Free Uniform",
+      "Free Tie Belt"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/supply-of-school-uniform-and-tie-belt"
+  },
+  {
+    "slug": "fbascs",
+    "schemeName": "Food Bill Assistance to SC Students",
+    "schemeShortTitle": "FBASCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The food bill assistance at the rate of ₹1,500/- per month (Up to 10 Months) will be granted to the Scheduled Caste (SC) students admitted in college-affiliated hostels.",
+    "tags": [
+      "Student",
+      "Hostel",
+      "Food Bill",
+      "SC",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fbascs"
+  },
+  {
+    "slug": "iscwr",
+    "schemeName": "Incentive for the SC Widow Re-Marriage",
+    "schemeShortTitle": "ISCWR",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "Under this scheme, the Social Welfare Department, Government of Karnataka gives incentives to the remarried widows belonging to SC Community. The incentive amount is ₹ 3 Lakh. ",
+    "tags": [
+      "Marriage",
+      "Widow",
+      "Widow",
+      "SC",
+      "Incentive",
+      "Re-marriage"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/iscwr"
+  },
+  {
+    "slug": "stssts",
+    "schemeName": "State Technical Scholarship for ST Student",
+    "schemeShortTitle": "STSSTS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The financial assistance is provided to students of Scheduled Tribe Communities who are pursuing Diploma/ Degree/Post Graduated/course in Engineering Institutes recognized by All India Council for Technical Education and, also provided to students who are pursuing UG or PG in Forestry courses.",
+    "tags": [
+      "Technical",
+      "Scholarship",
+      "ST",
+      "Student",
+      "Scheduled Tribe"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/stssts"
+  },
+  {
+    "slug": "fcsfst",
+    "schemeName": "Mukhyamantri Nishulk Coaching Yojana-ST",
+    "schemeShortTitle": "MMNCYST",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide free coaching and residential facilities to Scheduled Tribe students of Rajasthan for various competitive examinations through reputed coaching institutes.\n\n",
+    "tags": [
+      "Free Coaching",
+      "Scheduled Caste",
+      "Hostel Facility",
+      "ST"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fcsfst"
+  },
+  {
+    "slug": "ncscscst",
+    "schemeName": "National Career Service Centers For SC/STs (Erstwhile Coaching-cum-Guidance Centre for SC/STs)",
+    "schemeShortTitle": "NCSCSCST",
+    "nodalMinistryName": "Ministry Of Labour and Employment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme provides vocational guidance, confidence-building programmes, personality development sessions, practice in typing and shorthand, special coaching for competitive exams, and computer training courses. The applicant must be an educated, unemployed SC/ST jobseeker.",
+    "tags": [
+      "Student",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Coaching",
+      "Training",
+      "Counselling",
+      "Stipend"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ncscscst"
+  },
+  {
+    "slug": "fcfsc",
+    "schemeName": "Mukhyamantri Nishulk Coaching Yojana-SC",
+    "schemeShortTitle": "MMNCYSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide free coaching and residential facilities to Scheduled Caste students of Rajasthan for various competitive examinations through reputed coaching institutes.",
+    "tags": [
+      "Free Coaching",
+      "Scheduled Caste",
+      "Hostel Facility",
+      "SC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fcfsc"
+  },
+  {
+    "slug": "ais-sc",
+    "schemeName": "Ambedkar International Scholarship - SC",
+    "schemeShortTitle": "AIS-SC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The \"Ambedkar International Scholarship - SC\" Scheme by the Rajasthan Social Justice and Empowerment Department provides financial assistance to meritorious SC students for pursuing Ph.D. studies in foreign universities in Humanities and Social Sciences.",
+    "tags": [
+      "Financial Assistance",
+      "PhD",
+      "Student",
+      "Scheduled Caste",
+      "International"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ais-sc"
+  },
+  {
+    "slug": "tessitil",
+    "schemeName": "Technical Education Scholarship Scheme for ITI Level",
+    "schemeShortTitle": "TESSITIL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The objective of the scheme is to improve the quality of training by attracting promising trainees belonging to Scheduled Caste, Scheduled Tribe & Other Backward Classes & popularize technical training among these categories, so as to make them able to earn their livelihood respectably & honorably.",
+    "tags": [
+      "Technical Education",
+      "Scholarship",
+      "ITI",
+      "ST",
+      "SC",
+      "OBC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tessitil"
+  },
+  {
+    "slug": "dfbsscsts",
+    "schemeName": "Distribution of Free Books and Stationery to SC/ST Students",
+    "schemeShortTitle": "DFBSSCSTS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Under this scheme, free books and stationery are provided to Scheduled Caste and Scheduled Tribe students who are pursuing undergraduate and postgraduate courses at government colleges. Eligible students receive books worth ₹1,500/- and stationery worth ₹500/- per year.",
+    "tags": [
+      "Free Books",
+      "Free Stationery",
+      "Student",
+      "Scheduled Caste",
+      "Scheduled Tribe"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dfbsscsts"
+  },
+  {
+    "slug": "sgscs",
+    "schemeName": "State Government SC Scholarship (Class 1 to 10)",
+    "schemeShortTitle": "SGSCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme was launched by School Education Department, Govt. of Madhya Pradesh, aims to improve educational status of SC students by providing scholarships. Under this scheme, scholarships are provided to SC girl students in Classes 1 to 5,and to both boys & girls in SC category in Classes 6 to 10.",
+    "tags": [
+      "Scholarship",
+      "Student",
+      "Girl Student",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sgscs"
+  },
+  {
+    "slug": "ssscsitipcsvs",
+    "schemeName": "Scholarship/Stipend to SC Students for ITI/Professional Courses (Swami Vivekanand Scholarship)",
+    "schemeShortTitle": "S/SSCSITI/PC(SVS)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Under the scheme, a monthly stipend/scholarship will be given to Scheduled Caste Category students who are studying professional courses in Government or Private Industrial Training Institute (ITI).",
+    "tags": [
+      "Scholarship",
+      "Stipend",
+      "SC",
+      "Students",
+      "ITI",
+      "Professional Courses"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssscsitipcsvs"
+  },
+  {
+    "slug": "pmsfssd",
+    "schemeName": "Post Matric Scholarship for SC students (Delhi)",
+    "schemeShortTitle": "PMSFSSD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme \"Post Matric Scholarship for SC Students\" aims to support SC students financially for post-matriculation studies. Benefits include fee reimbursement and monthly allowances. Intended beneficiaries are SC students with a family income below ₹2,50,000/- annually.",
+    "tags": [
+      "Education",
+      "Student",
+      "Scholarship",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmsfssd"
+  },
+  {
+    "slug": "premsc",
+    "schemeName": "Pre Matric Scholarship for SC students- DNH & DD",
+    "schemeShortTitle": "PREMSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Dadra & Nagar Haveli and Daman & Diu"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to support the education of Scheduled Caste students studying in Classes IX and X. Through this scheme, annual scholarship assistance of up to ₹7,000/- is provided to eligible students.",
+    "tags": [
+      "Pre Matric",
+      "SC",
+      "Education",
+      "Students",
+      "Scheduled Caste",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/premsc"
+  },
+  {
+    "slug": "iftsmst",
+    "schemeName": "Incentive For The Simple Marriage (Scheduled Tribe)",
+    "schemeShortTitle": "IFTSMST",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme \"Incentive for the Simple Marriage\" was launched by the Tribal Welfare Department, Government of Karnataka. The scheme provides an incentive of ₹50,000/- to ST individuals residing in Karnataka who marry another ST individual on or after 11th August 2015.",
+    "tags": [
+      "Marriage",
+      "Schedule Tribe",
+      "Incentive",
+      "Couple",
+      "Spouse",
+      "ST"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/iftsmst"
+  },
+  {
+    "slug": "agr3fmsstf",
+    "schemeName": "AGR 3 (Farm Mechanization) Scheme For ST Farmers",
+    "schemeShortTitle": "AGR3(FM)SSTF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme “AGR 3 (Farm Mechanization) Scheme for ST Farmers” was started by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat.",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Scheduled Tribe",
+      "Adivasi",
+      "Mechanization",
+      "Equipment",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/agr3fmsstf"
+  },
+  {
+    "slug": "oossh",
+    "schemeName": "Operation of SC Senior Hostel",
+    "schemeShortTitle": "OOSSH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The scheme \"Operation of SC Senior Hostel\" provides accommodations and a conducive learning environment for Scheduled Caste students. Through this scheme, separate junior, senior, and college hostels with free boarding and lodging facilities are provided to both boys and girls.",
+    "tags": [
+      "Hostel",
+      "Scheduled Caste",
+      "College",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/oossh"
+  },
+  {
+    "slug": "sistpomms",
+    "schemeName": "Special Incentive to ST (P)/OBC/MOBC Meritorious Students",
+    "schemeShortTitle": "SISTPOMMS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide financial grants to meritorious ST (P)/OBC/MOBC students in Assam who secure high marks in Matriculation, 10+2, Graduation, or Post Graduation. Benefits include fixed monetary assistance ranging from ₹10,000/- to ₹25,000/- based on educational level.",
+    "tags": [
+      "Incentive",
+      "Student",
+      "School",
+      "Education",
+      "Scheduled Tribe",
+      "Other Backward Class",
+      "Merit"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sistpomms"
+  },
+  {
+    "slug": "epy-csts",
+    "schemeName": "Eklavya Prashikshan Yojana - Coaching To Scheduled Tribe Student Studying In Class Xth, XIth & XIIth",
+    "schemeShortTitle": "EPY-CSTS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The objective of the scheme is to impart coaching to ST students across Goa studying in classes Xth, XIth (Science), and XIIth (Arts, Science and Commerce). The scheme prepares the students for various professional courses such as Engineering, Medicine, Architecture, Paramedical Sciences, Law, etc.",
+    "tags": [
+      "Scholarship",
+      "Scheduled Tribe",
+      "ST",
+      "Post-Matric",
+      "Reimbursement"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/epy-csts"
+  },
+  {
+    "slug": "fiscmgs",
+    "schemeName": "Financial Incentive to SC Meritorious Girls Students",
+    "schemeShortTitle": "FISCMGS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme provides financial incentives worth ₹5,000/- to the meritorious girls from Scheduled Castes who have secured 80% or above marks in the HSLC examination. To objective is to motivate and encourage SC students to pursue higher studies and bring them at par with the rest.",
+    "tags": [
+      "Incentive",
+      "Scheduled Caste",
+      "Student",
+      "Social Welfare",
+      "Merit"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fiscmgs"
+  },
+  {
+    "slug": "kdscs",
+    "schemeName": "Kanya Dhan Scheme for SC Students",
+    "schemeShortTitle": "KDSCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme \"Kanya Dhan Scheme for SC Students\" by the Directorate of Higher Education, Government of Goa. Through this scheme, an amount of ₹ 25,000/- is provided to the girl students of the Scheduled Caste Communities once they pass the 12th standard board examination (or equivalent).",
+    "tags": [
+      "Student",
+      "Scheduled Caste",
+      "Education",
+      "Girl",
+      "Financial Assistance",
+      "Female",
+      "School"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kdscs"
+  },
+  {
+    "slug": "css-nos-st",
+    "schemeName": "National Overseas Scholarship For Scheduled Tribes (ST) Students",
+    "schemeShortTitle": "NOS-ST",
+    "nodalMinistryName": "Ministry Of Tribal Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "A scholarship scheme by the Ministry of Tribal Affairs for regular, full-time ST students to obtain higher education (post-graduate courses viz. Masters, Ph.D. and Post-Doctoral Research) from foreign institutes/universities. The Scheme is implemented through the Indian Embassies.",
+    "tags": [
+      "Higher Education",
+      "Scholarship Scheme",
+      "Overseas",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/css-nos-st"
+  },
+  {
+    "slug": "csss",
+    "schemeName": "Contributory Social Security Scheme",
+    "schemeShortTitle": "CSSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The \"Contributory Social Security Scheme (CSSS)\" intends to provide social security to marginal workers on a contributory basis. The duration of the scheme shall be for a period of 5 years, or 10 years. The amount will be deposited in a bank account opened for the beneficiary.",
+    "tags": [
+      "Social Security",
+      "Insurance",
+      "Pension",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/csss"
+  },
+  {
+    "slug": "hiip",
+    "schemeName": "Homes For Intellectually Impaired Persons",
+    "schemeShortTitle": "HIIP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The \"Homes for Intellectually Impaired Persons\" is a scheme by the Department of Social Justice & Special Assistance, Govt. of Maharashtra. In this scheme, Mentally Deficient Children who are in need of care and protection are admitted into shelter homes through the Child Welfare Committees.",
+    "tags": [
+      "Child",
+      "Person With Disability",
+      "Shelter",
+      "Social Justice"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hiip"
+  },
+  {
+    "slug": "ewasfswodnc",
+    "schemeName": "Excellent Work Award Scheme for Social Worker of De-Notified Communities",
+    "schemeShortTitle": "EWASFSWODNC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The \"Excellent Work Award Scheme for Social Workers of De-notified Communities\" by the Government of Madhya Pradesh awards ₹1,00,000/- to a social worker from De-notified, Nomadic, and Semi-Nomadic communities for outstanding contributions to their social and economic upliftment.",
+    "tags": [
+      "Award",
+      "Social Worker",
+      "Financial Assistance",
+      "Denotified"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ewasfswodnc"
+  },
+  {
+    "slug": "isss-wid",
+    "schemeName": "Integrated Social Security Scheme - Women In Distress",
+    "schemeShortTitle": "ISSS-WID",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "ISSS (Integrated Social Security Scheme) is a State Sponsored Scheme by the Social Welfare Department of the Govt. of Jammu and Kashmir where financial assistance is provided to Old Age Persons, Widows, Divorcees, Women in Distress, Transgenders, and Physically Handicapped Persons.",
+    "tags": [
+      "Women",
+      "Pension",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/isss-wid"
+  },
+  {
+    "slug": "isss-pot",
+    "schemeName": "Integrated Social Security Scheme - Pension For Transgender",
+    "schemeShortTitle": "ISSS-POT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "ISSS (Integrated Social Security Scheme) is a State Sponsored Scheme by the Social Welfare Department of the Govt. of Jammu and Kashmir where financial assistance is provided to Old Age Persons, Widows, Divorcees, Women in Distress, Transgenders, and Physically Handicapped Persons.",
+    "tags": [
+      "Transgender",
+      "Pension",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/isss-pot"
+  },
+  {
+    "slug": "ccsnfpfscsmap",
+    "schemeName": "Central Sector Scheme of National Fellowship for Providing Fellowship to Scheduled Caste Students to Pursue M.Phil. & PhD",
+    "schemeShortTitle": "CCSNFPFSCSMAP",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": " The scheme provides opportunities to Scheduled Castes students to pursue higher education leading to M.Phil/Ph.D degrees in Sciences, Humanities and Social Science streams. The objective of the scheme is to provide fellowships in the form of financial assistance to SC students.",
+    "tags": [
+      "Fellowship",
+      "Scheduled Caste",
+      "Research",
+      "Social Justice",
+      "PhD"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ccsnfpfscsmap"
+  },
+  {
+    "slug": "isss-oap",
+    "schemeName": "Integrated Social Security Scheme - Old Age Pension",
+    "schemeShortTitle": "ISSS-OAP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "ISSS-OAP is a State Sponsored Scheme by the Social Welfare Dept. of the Govt. of Jammu and Kashmir wherein financial assistance is provided to Old Age Persons who have meager support or no source of livelihood. A pension of ₹1000 per pensioner per month is deposited directly into their Bank Account.",
+    "tags": [
+      "Pension",
+      "Senior Citizen",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/isss-oap"
+  },
+  {
+    "slug": "llbip",
+    "schemeName": "LLB Internship Programme",
+    "schemeShortTitle": "LLB-IP",
+    "nodalMinistryName": "Ministry Of Law and Justice",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Public Safety,Law & Justice",
+      "Skills & Employment"
+    ],
+    "briefDescription": "Department of Justice introduced an Internship Programme for young law students. The purpose is to well acquaint law students in the field of research & referencing work, in various specialized areas of justice delivery, such as Tele-Law, Nyaya Bandhu etc.",
+    "tags": [
+      "Internship",
+      "Law Students",
+      "Research",
+      "Access To Justice"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/llbip"
+  },
+  {
+    "slug": "isss-ppcp",
+    "schemeName": "Integrated Social Security Scheme - Pension For Physically Challenged Persons",
+    "schemeShortTitle": "ISSS-PPCP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "ISSS-PPCP is a State Sponsored Scheme by the Social Welfare Dept. of the Govt. of J&K wherein financial assistance is provided to Physically Challenged Person who have meager support or no source of livelihood. A pension of ₹1000 per pensioner per month is deposited into their bank account.",
+    "tags": [
+      "Pension",
+      "PwD",
+      "Disability",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/isss-ppcp"
+  },
+  {
+    "slug": "ssipfpartsh",
+    "schemeName": "SPARSH – Social Innovation Programme for Products Affordable & Relevant to Social Health",
+    "schemeShortTitle": "SSIPFPARTSH",
+    "nodalMinistryName": "Ministry Of Science And Technology",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Science, IT & Communications"
+    ],
+    "briefDescription": "The SPARSH programme supports innovators in developing affordable health-related solutions so that essential healthcare products can reach and benefit underserved communities.\n",
+    "tags": [
+      "Social Health",
+      "SPARSH",
+      "Biotechnological",
+      "Scientists",
+      "Researchers"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssipfpartsh"
+  },
+  {
+    "slug": "cssrbl",
+    "schemeName": "Central Sector Scheme for Rehabilitation of Bonded Labourer",
+    "schemeShortTitle": "CSSRBL",
+    "nodalMinistryName": "Ministry Of Labour and Employment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme addresses eradicating bonded labour in India. It introduces varying rehabilitation assistance amounts based on beneficiary categories, such as adults, children, women, and extreme cases, with provisions for annuity schemes and Direct Benefit Transfer.",
+    "tags": [
+      "Rehabilitation",
+      "Labour",
+      "DBT",
+      "Trafficking",
+      "Social Justice"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cssrbl"
+  },
+  {
+    "slug": "ssps",
+    "schemeName": "Social Security Pension Scheme",
+    "schemeShortTitle": "SSPS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Under this scheme, a monthly pension of ₹500/- is provided to Below Poverty Line (BPL) Persons with Disabilities (PwDs) and dwarf individuals to support them in living a respectful life.",
+    "tags": [
+      "Social Security",
+      "Pension",
+      "PwD",
+      "Dwarf",
+      "BPL",
+      "Disabled"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssps"
+  },
+  {
+    "slug": "rgssspf-2012",
+    "schemeName": "Rajiv Gandhi Social Security Scheme For Poor Families - 2012",
+    "schemeShortTitle": "RGSSSPF-2012",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Rajiv Gandhi Social Security Scheme for Poor Families - 2012” was started by the Department of Revenue and Disaster Management, Union Territory of Puducherry on 25.03.2011. ",
+    "tags": [
+      "Social Security",
+      "Financial Assistance",
+      "Poverty Line Family",
+      "Natural Death",
+      "Unnatural Death",
+      "Partial Total Disability",
+      "Permanent Total Disability",
+      "Accident"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rgssspf-2012"
+  },
+  {
+    "slug": "spaddap",
+    "schemeName": "Scheme For Providing Assistive Devices To Differently Abled Persons",
+    "schemeShortTitle": "SPADDAP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Scheme for Providing Assistive Devices to Differently Abled Persons” was launched by the Department of Social Justice, Government of Kerala.",
+    "tags": [
+      "Differently Abled Persons",
+      "Assistive Devices",
+      "Social Welfare",
+      "Disability",
+      "PwD"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/spaddap"
+  },
+  {
+    "slug": "ptstgk",
+    "schemeName": "Providing Tin stalls to Gatai Kamgar",
+    "schemeShortTitle": "PTSTGK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Providing Tin Stalls to Gatai Kamgar\" is a social welfare scheme by the Department of Social Justice & Special Assistance of the Government of Maharashtra. The scheme aims to uplift Scheduled Caste individuals engaged in leather footwear production and leather goods preparation.",
+    "tags": [
+      "Scheduled Caste",
+      "Stall",
+      "Employment",
+      "Social Welfare",
+      "SC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ptstgk"
+  },
+  {
+    "slug": "vaioocfsw",
+    "schemeName": "Various Awards to Individuals/Organizations who have made Outstanding Contributions in the Field of Social Welfare",
+    "schemeShortTitle": "VAIOOCFSW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to recognize and honor the exceptional work carried out by individuals and organizations in the field of social welfare, particularly benefiting the Scheduled Caste (SC) community. Under this scheme, awards along with financial assistance are provided as a mark of appreciation.",
+    "tags": [
+      "Financial Assistance",
+      "Social Welfare",
+      "Award"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vaioocfsw"
+  },
+  {
+    "slug": "svsgcfrss",
+    "schemeName": "Swami Vivekananda Single Girl Child Fellowship for Research in Social Sciences",
+    "schemeShortTitle": "SVSGCFRSS",
+    "nodalMinistryName": "Ministry of Education",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "A fellowship scheme by the University Grants Commission (UGC) for Single Girl Child for research in Social Sciences with an aim to compensate for direct costs of higher education, especially for such girls who happen to be the only girl child in their family.",
+    "tags": [
+      "Single Girl Child",
+      "Fellowship",
+      "Research",
+      "Swami Vivekananda",
+      "Social Science",
+      "Girls Education",
+      "PhD"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/svsgcfrss"
+  },
+  {
+    "slug": "oasas",
+    "schemeName": "Old Age Samman Allowance",
+    "schemeShortTitle": "OASAS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "\"Old Age Samman Allowance\" is a social security scheme implemented by the Department of Social Justice and Empowerment, Government of Haryana. The scheme provides a pension of ₹ 3000/month to senior citizens (60 years of age or older) who are unable to sustain themselves with their own resource",
+    "tags": [
+      "Social Welfare",
+      "Financial Assistance",
+      "Social Security",
+      "Pension",
+      "Senior Citizen",
+      "Old Age"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/oasas"
+  },
+  {
+    "slug": "slesvkspy",
+    "schemeName": "Suraksha Laghu Evan Simant Vriddhajan Krishak Samman Pension Yojana",
+    "schemeShortTitle": "SLSVKP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The Rajasthan government's Social Justice and Empowerment Department launched the \"Suraksha Laghu Evan Seemaant Vrddhajan Krshak Sammaan Penshan Yojana\" program, a social welfare initiative that aims to improve the lives by providing them with monthly financial assistance. ",
+    "tags": [
+      "Pension",
+      "Old Age",
+      "Financial Assistance",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/slesvkspy"
+  },
+  {
+    "slug": "fadcs",
+    "schemeName": "Financial Assistance To Destitute Children Scheme",
+    "schemeShortTitle": "FADCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Financial Assistance to Destitute Children Scheme (FADCS)” was launched by the Department of Social Justice and Empowerment, Government of Haryana in the year 1984.",
+    "tags": [
+      "Destitute Children",
+      "Deprived",
+      "Financial Assistance",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fadcs"
+  },
+  {
+    "slug": "ipmwcd",
+    "schemeName": "Internship Programme for Women Students / Scholars / Social Activists / Teachers",
+    "schemeShortTitle": "IPMWCD",
+    "nodalMinistryName": "Ministry of Women and Child Development",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Women and Child"
+    ],
+    "briefDescription": "The Ministry of Women and Child Development launched the Internship Programme aims to harness the talent of the trainees, giving them an opportunity to work towards bringing more efficiency in the implementation of the schemes. ",
+    "tags": [
+      "Internship Programme",
+      "Women Student",
+      "Teachers",
+      "Scholars",
+      "Opportunity",
+      "Social Activist"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ipmwcd"
+  },
+  {
+    "slug": "maygskdc",
+    "schemeName": "Mahila Adhikarita Yojana (Gujarat Safai Kamdar Development Corporation)",
+    "schemeShortTitle": "MAYGSKDC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "\"Mahila Adhikarita Yojana\" introduced by the Social Justice and Empowerment Department, Gujarat, is a centrally sponsored financial support scheme offering loans of ₹20,000/- at a subsidized interest rate to women sweepers and their dependents to promote self-reliance and upliftment.",
+    "tags": [
+      "Social Welfare",
+      "Women Empowerment",
+      "Loan",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/maygskdc"
+  },
+  {
+    "slug": "wbtwssp",
+    "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Pension",
+    "schemeShortTitle": "WBTWSSP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "West Bengal"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme provides pension benefits to transport workers of the state upon reaching 60 years of age.\n",
+    "tags": [
+      "Social Security",
+      "Transport Worker",
+      "Monthly Assistance",
+      "Pension"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wbtwssp"
+  },
+  {
+    "slug": "issspwd",
+    "schemeName": "Integrated Social Security Scheme: Pension for Women in Distress",
+    "schemeShortTitle": "ISSSPWD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Ladakh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme is implemented by the Social and Tribal Welfare Department, Administration of Union Territory of Ladakh. Under this scheme, a financial assistance of ₹1,000/- per month is provided as a pension to destitute widows, divorced, or deserted women with no source of income.",
+    "tags": [
+      "Pension",
+      "Woman",
+      "Distress",
+      "Destitute Widow",
+      "Divorced Woman",
+      "Deserted Woman",
+      "BPL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/issspwd"
+  },
+  {
+    "slug": "wbtwsaps",
+    "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Assistance for Purchase of Spectacles",
+    "schemeShortTitle": "WBTWSAPS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "West Bengal"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Health & Wellness"
+    ],
+    "briefDescription": "This scheme provides financial assistance to eligible beneficiaries every 5 years to support the purchase of spectacles, ensuring better eye health and vision.\n",
+    "tags": [
+      "Social Security",
+      "Transport Worker",
+      "Health & Wellness",
+      "Medical Appliance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wbtwsaps"
+  },
+  {
+    "slug": "mabcstss",
+    "schemeName": "Maintenance Allowance To Backward Class Students Under Training In Sainik Schools",
+    "schemeShortTitle": "MABCSTSS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Maintenance Allowance to Backward Class Students Under Training in Sainik School” is a Scholarship Scheme by the Social Justice and Special Assistance Department, Government of Maharashtra. ",
+    "tags": [
+      "Vimukta Jatis",
+      "Nomadic Tribes",
+      "Other Backward Class",
+      "School",
+      "Social Welfare",
+      "Allowance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mabcstss"
+  },
+  {
+    "slug": "wbtwssfp",
+    "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Family Pension",
+    "schemeShortTitle": "WBTWSSFP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "West Bengal"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Under this scheme, beneficiaries, upon retirement or unfortunate demise, will have 50% of their last drawn amount transferred monthly to their families through a Direct Benefit Transfer (DBT) system.\n",
+    "tags": [
+      "Social Security",
+      "Transport Worker",
+      "Monthly Assistance",
+      "Family Pension"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wbtwssfp"
+  },
+  {
+    "slug": "nms",
+    "schemeName": "Nyaya Mitra Scheme",
+    "schemeShortTitle": "NMS",
+    "nodalMinistryName": "Ministry Of Law and Justice",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Public Safety,Law & Justice",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to facilitate the expeditious disposal of ten to fifteen years old pending court cases. It provides legal advice, case assistance, and Lok Adalat referrals to marginalized litigants by engaging retired officers.",
+    "tags": [
+      "Litigant",
+      "Justice",
+      "Court",
+      "Resolution",
+      "Judiciary"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nms"
+  },
+  {
+    "slug": "jrfshss",
+    "schemeName": "Junior Research Fellowship In Sciences, Humanities, And Social Sciences",
+    "schemeShortTitle": "JRFSHSS",
+    "nodalMinistryName": "Ministry of Education",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Science, IT & Communications"
+    ],
+    "briefDescription": "The scheme of Junior Research Fellowship in Sciences, Humanities, and Social Science by UGC, Dept. of Education, is open to candidates who qualify for the National Eligibility Test-Junior Research Fellowship(NET-JRF) of the UGC and the UGC-Council of Scientific and Industrial Research (UGC-CSIR).",
+    "tags": [
+      "Fellowship",
+      "Research",
+      "Junior",
+      "University",
+      "Students"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/jrfshss"
+  },
+  {
+    "slug": "wbtwssah",
+    "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Assistance on Hospitalization",
+    "schemeShortTitle": "WBTWSSAH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "West Bengal"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "The scheme provides financial assistance to transport workers who are hospitalized for 5 or more days due to an accident.\n",
+    "tags": [
+      "Social Security",
+      "Transport Worker",
+      "Hospitalization",
+      "Medical Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wbtwssah"
+  },
+  {
+    "slug": "isscpswhse",
+    "schemeName": "Internship Scheme For Students Of Counselling/ Psychology/ Social Work/ Home Science Etc",
+    "schemeShortTitle": "ISSCPSWHSE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The objective of this scheme is to offer aspiring postgraduate students an opportunity for internship facilities to be trained as qualified interns in state-run private children's and shelter homes who can be offered hands-on job training experience.",
+    "tags": [
+      "Internship",
+      "Student",
+      "Social Welfare",
+      "Postgraduation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/isscpswhse"
+  },
+  {
+    "slug": "gaoah",
+    "schemeName": "Grant In Aid To Old Age Home",
+    "schemeShortTitle": "GAOAH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The \"Grant in Aid to Old Age Home\" is a scheme by the Dept. of Social Justice & Special Assistance, Govt. of Maharashtra. In this scheme, grants are provided to the NGOs for accommodating old men & women, destitute, disabled victims, into Old Age Homes, and providing them with food, & accommodation.",
+    "tags": [
+      "NGO",
+      "Old Age",
+      "Senior Citizen",
+      "Shelter",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gaoah"
+  },
+  {
+    "slug": "wbtwssadpd",
+    "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Assistance on Death and Permanent Disablement",
+    "schemeShortTitle": "WBTWSSADPD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "West Bengal"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "The scheme provides financial relief to the beneficiaries in case of permanent disability due to accidents or their dependents/nominees in case of accidental or natural death.\n",
+    "tags": [
+      "Social Empowerment",
+      "Transport Worker",
+      "Monthly Assistance",
+      "Death Assistance",
+      "Permanent Disablement"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wbtwssadpd"
+  },
+  {
+    "slug": "spmsd",
+    "schemeName": "State Post-metric Scholarship For Disabled",
+    "schemeShortTitle": "SPMSD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The \"State Post-metric Scholarship for Disabled\" is a scheme by the Department of Social Justice & Special Assistance, Govt. of Maharashtra. The objective of this scheme is to encourage students with disability (SwDs) to pursue higher education.",
+    "tags": [
+      "Persons With Disability",
+      "Social Welfare",
+      "Financial Assistance",
+      "Post-Matric",
+      "Student",
+      "Scholarship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/spmsd"
+  },
+  {
+    "slug": "sstpwa",
+    "schemeName": "Social Security for Tea Plantation Workers in Assam",
+    "schemeShortTitle": "SSTPWA",
+    "nodalMinistryName": "Ministry Of Labour and Employment",
+    "level": "Central",
+    "beneficiaryState": [
+      "Assam"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to provide institutionalized social security cover, including provident funds, pensions, and life insurance. It provides monthly pensions, provident fund advances, and lump-sum death benefits to tea plantation workers in Assam and their dependent families.",
+    "tags": [
+      "Worker",
+      "Employee",
+      "Plantation",
+      "Pension",
+      "Insurance",
+      "Provident Fund"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sstpwa"
+  },
+  {
+    "slug": "vvuy",
+    "schemeName": "Vidhva Vivah Uphar Yojana",
+    "schemeShortTitle": " VVUY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The Rajasthan government's Social Justice and Empowerment Department launched the \"Vidhva Vivah Uphar Yojana\" program, a social welfare initiative that aims to improve the lives of widow women. ",
+    "tags": [
+      "Women",
+      "Widow",
+      "Financial Assistance",
+      "Marriage"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vvuy"
+  },
+  {
+    "slug": "post-doctoral-fellowship",
+    "schemeName": "ICSSR Post-Doctoral Fellowship",
+    "schemeShortTitle": "ICSSR POST-DOCTORAL FELLOWSHIP",
+    "nodalMinistryName": "Ministry of Education",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": " The Indian Council of Social Science Research (ICSSR) offers Postdoctoral Fellowships to encourage original and quality research by young and mid-career scholars in the field of social sciences. It is designed for researchers who have just finished their Ph.D. in advanced social science research.",
+    "tags": [
+      "ICSSR Fellowships",
+      "Post-Doctoral Fellowship",
+      "Social Science Research",
+      "Research Promotion",
+      "Social Scientists"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/post-doctoral-fellowship"
+  },
+  {
+    "slug": "senior-fellowship",
+    "schemeName": "ICSSR Senior Fellowship",
+    "schemeShortTitle": "ICSSR SENIOR FELLOWSHIP",
+    "nodalMinistryName": "Ministry of Education",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The Indian Council of Social scientific Research (ICSSR), under the Ministry of Education, offers a Senior Fellowship Scheme designed to assist accomplished Indian researchers in conducting advanced social science research.",
+    "tags": [
+      "ICSSR Fellowships",
+      "Senior Fellowship",
+      "Social Science Research",
+      "Research Promotion",
+      "Social Scientists"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/senior-fellowship"
+  },
+  {
+    "slug": "eacp",
+    "schemeName": "Educational Assistance To Children Of Prisoners",
+    "schemeShortTitle": "EACP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Educational Assistance to Children of Prisoners” was launched by the Department of Social Justice, Government of Kerala. ",
+    "tags": [
+      "Student",
+      "Prisoner",
+      "Scholarship",
+      "Education",
+      "BPL",
+      "Children"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/eacp"
+  },
+  {
+    "slug": "vspgsc",
+    "schemeName": "Vayomadhuram Scheme For Providing Glucometer To Senior Citizens",
+    "schemeShortTitle": "VSPGSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Vayomadhuram Scheme for Providing Glucometer to Senior Citizens” was launched by the Department of Social Justice, Government of Kerala. ",
+    "tags": [
+      "Glucometer",
+      "Senior Citizen",
+      "Old Age",
+      "Diabetes",
+      "Patient",
+      "BPL",
+      "Diabetic"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vspgsc"
+  },
+  {
+    "slug": "i-mesa-sa",
+    "schemeName": "Information-Monitoring, Evaluation, and Social Audit (I-MESA): Social Audit",
+    "schemeShortTitle": "I-MESA-SA",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to ensure transparency and accountability in the implementation of schemes. It provides a process for accumulating and analyzing beneficiary feedback for scheme improvement, ensuring people's participation, and offering a platform for timely grievance redressal for right holders.",
+    "tags": [
+      "Audit",
+      "Monitoring",
+      "Evaluation",
+      "Grievance",
+      "Implementation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/i-mesa-sa"
+  },
+  {
+    "slug": "favia",
+    "schemeName": "Financial Assistance To Visually Impaired Advocates",
+    "schemeShortTitle": "FAVIA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Financial Assistance to visually impaired Advocates” was launched by the Department of Social Justice, Government of Kerala.",
+    "tags": [
+      "Advocate",
+      "Visually Impaired",
+      "Financial Assistance",
+      "Court",
+      "Blind"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/favia"
+  },
+  {
+    "slug": "vs-eacdp",
+    "schemeName": "Vidyakiranam Scheme-Educational Assistance To Children Of Disabled Parents",
+    "schemeShortTitle": "VS-EACDP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme “Vidyakiranam Scheme-Educational Assistance to Children of Disabled Parents” was launched by the Department of Social Justice, Government of Kerala.",
+    "tags": [
+      "Person With Differently",
+      "Parents",
+      "Children",
+      "Student",
+      "Scholarship",
+      "Education",
+      "Financial Assistance",
+      "BPL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vs-eacdp"
+  },
+  {
+    "slug": "ssmpsn",
+    "schemeName": "Snehayanam Scheme For Mothers Of Persons With Special Needs",
+    "schemeShortTitle": "SSMPSN",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme “Snehayanam Scheme for Mothers of Persons with Special Needs” was launched by the Department of Social Justice, Government of Kerala.",
+    "tags": [
+      "PwD",
+      "Mother",
+      "Auto Rickshaw",
+      "Disability",
+      "Livelihood",
+      "Widow",
+      "BPL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ssmpsn"
+  },
+  {
+    "slug": "fagh",
+    "schemeName": "Financial Assistance To Gad-Hanjis",
+    "schemeShortTitle": "FAGH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "In the \"Financial Assistance to Gad-Hanjis\", financial assistance for the purchase of Nylon Twine is provided to the Licensed Fisherman by the Social Welfare Department. The beneficiary shall approach the concerned District Social Welfare Officer (DSWO) for submission of the application.",
+    "tags": [
+      "Fisherman",
+      "Financial Assistance",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fagh"
+  },
+  {
+    "slug": "fae-c",
+    "schemeName": "Financial Assistance To Ex-Convicts",
+    "schemeShortTitle": "FAE-C",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Financial Assistance to Ex-Convicts” was launched by the Department of Social Justice, Government of Kerala. This scheme is implemented by the Department of Social Justice to help those released from jail from poor economic conditions to find their livelihood.",
+    "tags": [
+      "Ex-Convict",
+      "Financial Assistance",
+      "Jail",
+      "BPL",
+      "Self-employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fae-c"
+  },
+  {
+    "slug": "sseppas",
+    "schemeName": "Shreshtam Scheme For Ensuring Participation Of PwDs In Arts & Sports",
+    "schemeShortTitle": "SSEPPAS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Sports & Culture"
+    ],
+    "briefDescription": "The scheme “Shreshtam Scheme for Ensuring Participation of PwDs in Arts & Sports” was launched by the Department of Social Justice, Government of Kerala. ",
+    "tags": [
+      "PwD",
+      "Arts",
+      "Sports",
+      "Disability",
+      "Talent",
+      "Championship",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sseppas"
+  },
+  {
+    "slug": "madawp-ii",
+    "schemeName": "Marriage Assistance To Differently Abled Women (Parinayam-II)",
+    "schemeShortTitle": "MADAW(P-II)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme “Marriage Assistance to Differently Abled Women (Parinayam-II)” was launched by the Department of Social Justice, Government of Kerala. ",
+    "tags": [
+      "Differently Abled Women",
+      "Marriage",
+      "Financial Assistance",
+      "Unmarried"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/madawp-ii"
+  },
+  {
+    "slug": "byea",
+    "schemeName": "Biotechnology Young Entrepreneur Award",
+    "schemeShortTitle": "BYEA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Science, IT & Communications",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The “Biotechnology Young Entrepreneur Award (BYE)” is a programme to promote commercialisation of bioscience ideas among graduate/post graduate students in Biotechnology and to encourage them to develop biotechnology entrepreneurship.",
+    "tags": [
+      "Biotechnology",
+      "Young",
+      "Entrepreneur",
+      "Award",
+      "Workshop",
+      "Student"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/byea"
+  },
+  {
+    "slug": "needs",
+    "schemeName": "New Entrepreneur-cum-enterprise Development Scheme",
+    "schemeShortTitle": "Needs",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “New Entrepreneur-Cum-Enterprise Development Scheme (NEEDS)” was launched by the Department of Micro, Small and Medium Enterprises, Government of Tamil Nadu. The scheme was devised and formulated as a special scheme to assist educated youth to become first-generation entrepreneurs. ",
+    "tags": [
+      "Entrepreneur",
+      "NEEDS",
+      "Loan",
+      "Subsidy",
+      "MSME"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/needs"
+  },
+  {
+    "slug": "eebdsrs",
+    "schemeName": "Establishment of Entrepreneur for Breed Development in Small Ruminant Sector (Sheep and Goat Farming)",
+    "schemeShortTitle": "EEBDSRS",
+    "nodalMinistryName": "Ministry of Fisheries,Animal Husbandry and Dairying",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme for the \"Establishment of Entrepreneurs for Breed Development in the Small Ruminant Sector (Sheep and Goat Farming)\" falls under the Sub-mission on Breed Development of Livestock and Poultry. The Entrepreneurs / Eligible Entities can establish sheep and goat breeding unit.",
+    "tags": [
+      "Entrepreneur",
+      "Breed",
+      "Investment",
+      "Subsidy",
+      "Sheep",
+      "Goat"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/eebdsrs"
+  },
+  {
+    "slug": "scdf",
+    "schemeName": "Semi-Commercial Duck Farming",
+    "schemeShortTitle": "SCDF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Odisha"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Semi-Commercial Duck Farming” started under the State Sector Scheme \"Encouragement of Commercial Poultry Entrepreneur and Promotion of Backyard Poultry Production\" to support small entrepreneurs in setting up Duck farms with a capacity of 1000 ducks.\n",
+    "tags": [
+      "Duck",
+      "Farming",
+      "Entrepreneurs",
+      "Subsidy",
+      "Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/scdf"
+  },
+  {
+    "slug": "sawemu",
+    "schemeName": "Scheme Of Assistance To Women Entrepreneurs (Mahalir Udavi)",
+    "schemeShortTitle": "SAWEMU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to extend financial assistance to new or existing Micro Enterprises and Small Scale Industry units exclusively promoted by women or having a majority of women entrepreneurs. It provides term loans and working capital assistance up to 75% of the project cost.",
+    "tags": [
+      "Industry",
+      "Entrepreneur",
+      "Loan",
+      "Asset",
+      "Woman"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sawemu"
+  },
+  {
+    "slug": "rsai9csu",
+    "schemeName": "Refinance Scheme for Acquisition of ISO 9000 Certification for SSI Unit (ISO 9000)",
+    "schemeShortTitle": "RSAI9CSU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist the existing industrial concerns in the SSI sector for the expenses on consultancy, documentation, audit, certification fees, equipment, and calibrating instruments required would be taken into account for determining the loan requirement.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Certification",
+      "Acquisition"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rsai9csu"
+  },
+  {
+    "slug": "sagb-ac",
+    "schemeName": "Scheme Of Assistance To Good Borrowers: ‘A’ Category",
+    "schemeShortTitle": "SAGB-AC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide special financial assistance to existing good borrowers who have maintained an excellent track record of timely repayment. Benefits include term loans up to ₹150,00,000/- and an interest rate concession of 1% less than the normal rate for modernization, expansion, etc.",
+    "tags": [
+      "Industry",
+      "Entrepreneur",
+      "Loan",
+      "Expansion",
+      "Machine",
+      "Concession"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sagb-ac"
+  },
+  {
+    "slug": "edp-dc",
+    "schemeName": "\"Entrepreneurship Development Programme\" Component of the \"Development of Coir\" Scheme",
+    "schemeShortTitle": "EDP-DC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide Entrepreneurship training, to encourage prospective entrepreneurs to start the coir industry. Awareness programmes will also be arranged for the existing coir industries about the modern technology and scheme, and incentives available under the State Grant.",
+    "tags": [
+      "Coir",
+      "Industry",
+      "Awareness",
+      "Skill",
+      "Training",
+      "Entrepreneur"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/edp-dc"
+  },
+  {
+    "slug": "myay-mp",
+    "schemeName": "Mukhyamantri Yuva Annadoot Yojana",
+    "schemeShortTitle": "MYAY-MP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme aims to provide employment opportunities to unemployed youth/women for 7 years by involving them in the transport of food grains from Madhya Pradesh State Civil Supplies Corporation centers to fair price shops. Benefits include an interest subsidy/grant.",
+    "tags": [
+      "Youth",
+      "Entrepreneur",
+      "Transport",
+      "Vehicle",
+      "Loan",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/myay-mp"
+  },
+  {
+    "slug": "sfsrtos",
+    "schemeName": "Scheme for Small Road Transport Operators (SRTOs)",
+    "schemeShortTitle": "SFSRTOS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme aims to extend financial assistance for acquiring new transport vehicles, including goods and passenger vehicles. It provides term loans covering up to 70% of the vehicle cost, excluding road tax and insurance, repayable over a max. of 58 monthly instalments.",
+    "tags": [
+      "Transport",
+      "Loan",
+      "Vehicle",
+      "Entrepreneur",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sfsrtos"
+  },
+  {
+    "slug": "gslwis-stairpl",
+    "schemeName": "Goa State Logistics and Warehousing Incentives Scheme: Subsidy Towards Annual Interest Rate Payable On Loans",
+    "schemeShortTitle": "GSLWIS-STAIRPL",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The subsidy aims to support the logistics and warehousing sector by reimbursing 50% of the annual interest paid on construction loans. The benefit is capped at ₹25,00,000/- (Indian Rupees Twenty-five Lakhs) annually per project and is available for up to 05 consecutive years for eligible entities.",
+    "tags": [
+      "Subsidy",
+      "Interest",
+      "Loan",
+      "Finance",
+      "Entrepreneur"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gslwis-stairpl"
+  },
+  {
+    "slug": "stfagb",
+    "schemeName": "Short Term Financial Assistance To Good Borrowers",
+    "schemeShortTitle": "STFAGB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to meet short term financial requirements related to executing specific orders, seasonal fund increases, or firm export orders. Benefits include loans ranging from ₹5,00,000/- to ₹50,00,000/-, primarily targeting existing Medium Scale Industry and Small Scale Industry units.",
+    "tags": [
+      "Industry",
+      "Entrepreneur",
+      "Loan",
+      "Export",
+      "Concession"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/stfagb"
+  },
+  {
+    "slug": "tgsieis",
+    "schemeName": "The Goa State Incentives to Encourage Investments Scheme",
+    "schemeShortTitle": "TGSIEIS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to create sustainable employment, accelerate investment, and support environmentally sustainable industrial development in Goa. It provides financial assistance and incentives under separate target schemes to new and existing Micro, Small, Medium, and Large manufacturing units.",
+    "tags": [
+      "Enterprise",
+      "Investment",
+      "Employment",
+      "Manufacture",
+      "Entrepreneur"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tgsieis"
+  },
+  {
+    "slug": "falb",
+    "schemeName": "Financial Assistance to Launderers and Barbers",
+    "schemeShortTitle": "FALB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to extend financial assistance to the Launderers and barbers for the purchase of worktables & furniture, etc. The applications for this scheme are accepted online through the PIPDIC portal.",
+    "tags": [
+      "Industry",
+      "Entrepreneur",
+      "Loan",
+      "Furniture",
+      "Barber"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/falb"
+  },
+  {
+    "slug": "oay-mesifai-sa-msme",
+    "schemeName": "\"Outstanding Artisan of the Year\" under “Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - State Awards to Micro, Small and Medium Enterprises”",
+    "schemeShortTitle": "OAY-MESIFAI-SA-MSME",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The \"Outstanding Artisan of the Year\" award is conferred upon the artisan who has been a participant for 3 years in National / International handicraft exhibitions/fairs. The awardee is given a cash award of ₹2,00,000/- and a citation. The applications are accepted offline in the prescribed form.",
+    "tags": [
+      "Artisan",
+      "Handicraft",
+      "Exhibition",
+      "Award",
+      "Entrepreneur"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/oay-mesifai-sa-msme"
+  },
+  {
+    "slug": "sp4wou",
+    "schemeName": "Scheme for Purchase of 4 Wheeler for Own Use",
+    "schemeShortTitle": "SP4WOU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist Qualified Personnel in Medicine, Management, Accountancy, Engineering, Architecture, etc. and Good Borrowers of the Corporation (Industrial Units) for purchase of New Four Wheeler Vehicle (Air Conditioned or Non-air-conditioned) for own use. The applications are online.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Vehicle",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sp4wou"
+  },
+  {
+    "slug": "stra",
+    "schemeName": "Scheme for Tourism-related Activities",
+    "schemeShortTitle": "STRA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship",
+      "Travel & Tourism"
+    ],
+    "briefDescription": "The scheme aims to financially assist entrepreneurs for setting up or development of amusement parks, cultural centres, convention centres, restaurants, tourist service agencies, including expansion and modernization project. The applications for scheme are accepted online through PIPDIC portal.",
+    "tags": [
+      "Entrepreneur",
+      "Tourism",
+      "Project",
+      "Expansion",
+      "Tourist"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/stra"
+  },
+  {
+    "slug": "tdp-tccp",
+    "schemeName": "Tribals Development Plan: Tea/Coffee And Coconut Parlor",
+    "schemeShortTitle": "TDP-TCCP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to attract tourists with better quality mechanized Tea and Coffee shops and tender coconut water parlors, as Goa is a tourist destination, ensuring better hygiene than other restaurants. The scheme provides entire project financing for establishing a parlor.",
+    "tags": [
+      "Tribal",
+      "Household",
+      "Livelihood",
+      "Entrepreneur",
+      "Tourism"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tdp-tccp"
+  },
+  {
+    "slug": "pli-pharma",
+    "schemeName": "Production Linked Incentive (PLI) Scheme for Pharmaceuticals",
+    "schemeShortTitle": "PLI-PHARMA",
+    "nodalMinistryName": "Ministry Of Chemicals And Fertilizers",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme provides financial incentives on the incremental sales (over Base Year) of pharmaceutical goods and in-vitro diagnostic medical devices to selected applicants based on pre-defined selection criteria. The applicant must be a manufacturer of pharmaceutical goods.",
+    "tags": [
+      "Manufacturer",
+      "Entrepreneur",
+      "Company",
+      "Incentive",
+      "Investment",
+      "Production",
+      "Pharmaceutical"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pli-pharma"
+  },
+  {
+    "slug": "mmsy-uk",
+    "schemeName": "Mukhyamantri Swarozgar Yojana - Uttarakhand",
+    "schemeShortTitle": "MMSY-UK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to promote self-employment and entrepreneurship among the residents of Uttarakhand by providing financial assistance and subsidies for establishing new enterprises or upgrading existing small-scale units.",
+    "tags": [
+      "Entrepreneur",
+      "Manufacturing",
+      "Self-Employment",
+      "Employment",
+      "Enterprises"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmsy-uk"
+  },
+  {
+    "slug": "ers",
+    "schemeName": "Equipment Refinance Scheme",
+    "schemeShortTitle": "ERS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to financially assist the well performing SSI units for the purchase of identifiable items of equipment / machinery for diversification / modernization / expansion / replacement and also balancing equipment. The applications for this scheme are accepted online through PIPDIC portal.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Equipment",
+      "Machinery",
+      "Expansion",
+      "Finance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ers"
+  },
+  {
+    "slug": "vcf-sc",
+    "schemeName": "Venture Capital Fund for Scheduled Castes",
+    "schemeShortTitle": "VCF-SC",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to promote entrepreneurship among Scheduled Caste individuals by providing concessional finance. Benefits include investment ranging from ₹10,00,000/- to ₹15,00,00,000/- as debt or equity for eligible Private Limited or Public Limited companies.",
+    "tags": [
+      "Entrepreneur",
+      "Finance",
+      "Capital",
+      "Investment",
+      "Technology",
+      "Startup"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vcf-sc"
+  },
+  {
+    "slug": "sfaoeao",
+    "schemeName": "Scheme for Acquisition of Equipment and Others",
+    "schemeShortTitle": "SFAOEAO-PUDU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist organizations in the small-scale sector in acquiring essential infrastructure and technology upgrades. The scheme provides need-based financial assistance for in-house quality control facilities, DG sets, pollution control equipment, computers and related accessories.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Equipment",
+      "Loan",
+      "Energy",
+      "Finance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sfaoeao"
+  },
+  {
+    "slug": "rstdm",
+    "schemeName": "Refinance Scheme for Technology Development and Modernization",
+    "schemeShortTitle": "RSTDM",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist Sole Proprietorships, Partnerships, Co-operative Societies, Private and Public Limited Companies for meeting the expenditure on purchase of capital equipment, acquisition of technical know-how, and the upgradation of process technology and products.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Modernization",
+      "Technology"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rstdm"
+  },
+  {
+    "slug": "acandabc",
+    "schemeName": "Agri-Clinics And Agri-Business Centres Scheme",
+    "schemeShortTitle": "AC&ABC",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "A welfare scheme by the Ministry of Agriculture and Farmers' Welfare was launched in 2002. AC&ABC aims at agricultural development, supplementing the efforts of public extension by providing extension and other services to farmers either on a payment basis or free of cost as per the business model.",
+    "tags": [
+      "Business",
+      "Entrepreneur",
+      "Student",
+      "Training",
+      "Agriculture",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/acandabc"
+  },
+  {
+    "slug": "tufs",
+    "schemeName": "Technology Upgradation Fund Scheme",
+    "schemeShortTitle": "TUFS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The \"Technology Upgradation Fund Scheme\" aims to assist the Existing/New Proprietary/Partnership Concerns and Private/Public Limited Companies with or without expansion, for modernization engaged in textile, as prescribed by SIDBI. The applications for this scheme are accepted online only.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Technology",
+      "Upgradation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tufs"
+  },
+  {
+    "slug": "sdmcr",
+    "schemeName": "Scheme for Development Maintenance and Construction of Roads",
+    "schemeShortTitle": "SDMCR",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The \"Development Maintenance and Construction of Roads\" was launched by the Pondicherry Industrial Promotion Development and Investment Corporation Limited (PIPDIC), Department of Industries & Commerce. The scheme aims to assist SSI units for the Development & Maintenance and Construction of Roads.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Road",
+      "Infrastructure"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sdmcr"
+  },
+  {
+    "slug": "sfwemun",
+    "schemeName": "Scheme For Women Entrepreneurs Mahila Udyam Nidhi (MUN)",
+    "schemeShortTitle": "SFWEMUN",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to meet the equity gap for new Small Scale Industrial units and service activities promoted by women entrepreneurs. It offers Term Loans and Seed Capital for projects costing up to ₹10,00,000/-.",
+    "tags": [
+      "Women",
+      "Entrepreneur",
+      "Loan",
+      "Capital",
+      "Equity",
+      "Finance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sfwemun"
+  },
+  {
+    "slug": "spmsv",
+    "schemeName": "Scheme for Purchase of Mobile Sales Van",
+    "schemeShortTitle": "SPMSV",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to financially assist the Khadi & Village Industries (KVI) Institutions for the purchase of new mobile sales vans for stocking display sales of KVI products and also to, transport of raw materials for producing KVI Products. The applications for this scheme are accepted online.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Institution",
+      "Khadi",
+      "Sales",
+      "Vehicle"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/spmsv"
+  },
+  {
+    "slug": "kkn-ifse",
+    "schemeName": "Kalakar Kritadnyata Nidhi: Incentive for Self Employment",
+    "schemeShortTitle": "KKN-IFSE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Sports & Culture",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance not exceeding ₹50,000/- or the actual cost, whichever is less, to needy Goan artists or their families for setting up self-employment ventures, helping them establish sustainable income sources. The applications for this scheme are accepted Offline.",
+    "tags": [
+      "Artist",
+      "Employment",
+      "Entrepreneur",
+      "Livelihood",
+      "Income",
+      "Training"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kkn-ifse"
+  },
+  {
+    "slug": "sagb-bc",
+    "schemeName": "Scheme of Assistance to Good Borrowers: ‘B’ Category",
+    "schemeShortTitle": "SAGB-BC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to support and reward existing industrial units and transport loanees who have maintained a satisfactory repayment track record. It provides term loans ranging from ₹5,00,000/- to ₹150,00,000/- for expansion, modernization, or acquisition of fixed assets.",
+    "tags": [
+      "Industry",
+      "Entrepreneur",
+      "Loan",
+      "Expansion",
+      "Machine",
+      "Concession"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sagb-bc"
+  },
+  {
+    "slug": "scmhchcccg",
+    "schemeName": "Scheme for Construction of Marriage Hall/ Community Hall/ Convention Centre/ Commercial Godown",
+    "schemeShortTitle": "SCMHCHCCCG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist Qualified Personnel in Medicine, Management, Accountancy, Engineering, Architecture, etc. and Good Borrowers of the Corporation (Industrial Units) for purchase of New Four Wheeler Vehicle (Air Conditioned or Non-air-conditioned) for own use. The applications are online.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Construction",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/scmhchcccg"
+  },
+  {
+    "slug": "jds",
+    "schemeName": "Jute Diversification Scheme",
+    "schemeShortTitle": "JDS",
+    "nodalMinistryName": "Ministry Of Textiles",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to set up production centres to promote eco-friendly jute products and generate sustained employment. It provides skill training, machine subsidies, and financial incentives to collaborating agencies, targeting artisans, women self-help groups, and entrepreneurs.",
+    "tags": [
+      "Artisan",
+      "Entrepreneur",
+      "Training",
+      "Employment",
+      "Subsidy",
+      "Equipment",
+      "Incentive"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/jds"
+  },
+  {
+    "slug": "rbisuk",
+    "schemeName": "Rural Business Incubators - Uttarakhand",
+    "schemeShortTitle": "RBIUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to promote entrepreneurship and develop a robust entrepreneurial ecosystem in the state by providing aspiring and existing entrepreneurs with technical, business, legal, marketing, and mentorship support.",
+    "tags": [
+      "Entrepreneur",
+      "Rural Business",
+      "Self Employment",
+      "Self Help Groups",
+      "Incubator"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rbisuk"
+  },
+  {
+    "slug": "fatyg",
+    "schemeName": "Financial Assistance to Youth Groups",
+    "schemeShortTitle": "FAYG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to promote self-employment & entrepreneurship among rural youth by providing financial support. Financial assistance is provided to Mangal Dals affiliated with the department to help them start employment-oriented projects in 18 identified business sectors.",
+    "tags": [
+      "Employment",
+      "Self-employment",
+      "Entrepreneur",
+      "Mangal Dal",
+      "Youth"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fatyg"
+  },
+  {
+    "slug": "sbhs",
+    "schemeName": "Solar Based Hydroponic System",
+    "schemeShortTitle": "SBHS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Science, IT & Communications"
+    ],
+    "briefDescription": "The system aims to develop and promote an innovative solar-based hydroponic system that integrates solar energy with modern greenhouse technology and mobile application support.",
+    "tags": [
+      "Hydroponic System",
+      "Farmer",
+      "Researcher",
+      "Student",
+      "Entrepreneur",
+      "UCOST"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sbhs"
+  },
+  {
+    "slug": "rkvyshfvlstl",
+    "schemeName": "RKVY Soil Health and Fertility Village level Soil Testing Lab",
+    "schemeShortTitle": "RKVYSHFVLSTL",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to provide easy and affordable access to soil testing facilities at the village level and support rural youth through financial assistance of ₹1,50,000/- for establishing Village Level Soil Testing Labs.",
+    "tags": [
+      "Soil Testing Lab",
+      "Soil Health",
+      "INM",
+      "Rural Entrepreneur",
+      "RKVY"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rkvyshfvlstl"
+  },
+  {
+    "slug": "spphm",
+    "schemeName": "Scheme for Purchase of Paddy Harvesting Machine",
+    "schemeShortTitle": "SPPHM",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Scheme for Purchase of Paddy Harvesting Machine\" aims to assist agriculturists belonging to Puducherry for the purchase of a tractor and harvesting machine to harvest the crops in their vicinity. The applications for this scheme are accepted online only.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Machine",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/spphm"
+  },
+  {
+    "slug": "fapea",
+    "schemeName": "Financial Assistance for Purchase of Existing Assets",
+    "schemeShortTitle": "FAPEA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to assist the units who are in existence for a minimum period of 2 years with good track record. The assistance is provided for purchase of existing land, building and machinery with prescribed residual life. The applications for this scheme are accepted online only.",
+    "tags": [
+      "Entrepreneur",
+      "Industry",
+      "Loan",
+      "Investment",
+      "Asset",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fapea"
+  },
+  {
+    "slug": "setd",
+    "schemeName": "Self Employment to Disabled",
+    "schemeShortTitle": "SETD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The objective of this scheme is to make persons with disabilities self-reliant by promoting self-employment. It is applicable to individuals whose disability is 40% or more and whose annual income does not exceed ₹1.60 lakh in rural areas and ₹2.00 lakh in urban areas.",
+    "tags": [
+      "Self Employment",
+      "Disabilities",
+      "Development",
+      "Financial Support"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/setd"
+  },
+  {
+    "slug": "sesg",
+    "schemeName": "Self Employment Scheme Gujarat",
+    "schemeShortTitle": "SESG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme provides unemployed tribal persons with affordable loans ranging from ₹50,000 to ₹5,00,000 at a 4% annual interest rate, aiming to help them establish self-employment opportunities.",
+    "tags": [
+      "Self Employment",
+      "Opportunity",
+      "Scheduled Tribe",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sesg"
+  },
+  {
+    "slug": "pseshsfdc",
+    "schemeName": "Professional and Self Employment Scheme (HSFDC)",
+    "schemeShortTitle": "PSESHSFDC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "Under this scheme, the Corporation provides loans/benefits to individuals from BPL families, whose annual family income does not exceed ₹1,80,000/-, in rural & urban areas. These loans support self-employment activities in fields such as legal profession, Chartered Accountancy, medical practice etc.",
+    "tags": [
+      "Professional",
+      "Self Employment",
+      "HSFDC",
+      "Loan",
+      "BPL",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pseshsfdc"
+  },
+  {
+    "slug": "ses",
+    "schemeName": "Self Employment Scheme",
+    "schemeShortTitle": "SES",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "Under this scheme, Subsidies will be provided to the religious minority communities with the help of Nationalized / Scheduled banks to start or improve a small-scale handicraft industry, service sector,  and agro-based activities.",
+    "tags": [
+      "Self Employment",
+      "Minorities",
+      "Empowerment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ses"
+  },
+  {
+    "slug": "ses-goa",
+    "schemeName": "Self Employment Scheme - Goa",
+    "schemeShortTitle": "Ses-goa",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "\"Self Employment Scheme\" provides financial support up to a maximum of ₹ 10,00,000 to any individual person belonging to Scheduled Tribes Community to undertake any self-employment activities.",
+    "tags": [
+      "Loan",
+      "Scheduled Tribe",
+      "Financial Assistance",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ses-goa"
+  },
+  {
+    "slug": "mhvs-sebs",
+    "schemeName": "Mukhyamantri Hunar Vikas Yojana- Self-Employment/Business",
+    "schemeShortTitle": "MHVY-SEB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "Under this scheme, eligible boys and girls receive financial assistance in two installments - 60% initially and 40% later, to establish self-employment or business ventures. The support is specifically linked to the training course completed by the beneficiary.",
+    "tags": [
+      "Self-Employment",
+      "Business",
+      "Financial Assistance",
+      "Skill Development",
+      "Palanhar"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mhvs-sebs"
+  },
+  {
+    "slug": "msesu",
+    "schemeName": "Self-Employment Scheme for Unemployed Minority Communities",
+    "schemeShortTitle": "SESUMC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to provide a grant of 25% of the loan amount (for loans ranging from ₹1 lakh to ₹10 lakh) to individuals belonging to minority communities, who are permanent residents of Uttarakhand, for the purpose of self-employment.\n\n",
+    "tags": [
+      "Minority",
+      "Self Employment",
+      "Loan",
+      "Subsidy",
+      "Unemployed"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/msesu"
+  },
+  {
+    "slug": "tuk-sept",
+    "schemeName": "Transgender Utthan Kosh - Self Employment Programme for Transgender",
+    "schemeShortTitle": "TUK-SEPT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme objective is to provide financial assistance to transgender individuals for self-employment/business establishment. Eligible beneficiaries can receive up to ₹50,000/- or 25% of the project cost.",
+    "tags": [
+      "Self-employment",
+      "Business",
+      "Transgender",
+      "Financial Assistance",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tuk-sept"
+  },
+  {
+    "slug": "js-esdcv",
+    "schemeName": "Jeevanam Self-Employment Scheme To Dependents Of Crime Victims",
+    "schemeShortTitle": "JS-ESDCV",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Jeevanam Self-Employment Scheme to Dependents of Crime Victims” was launched by the Department of Social Justice, Government of Kerala.",
+    "tags": [
+      "Dependent",
+      "Victim",
+      "Self-Employment",
+      "Financial Assistance",
+      "Breadwinner"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/js-esdcv"
+  },
+  {
+    "slug": "sessct",
+    "schemeName": "Self-Employment Scheme for Scheduled Castes and Tribes",
+    "schemeShortTitle": "SESSCT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to support scheduled castes and scheduled tribes families below the poverty line through concessional loans and subsidies for self-employment in various sectors.",
+    "tags": [
+      "Self-employment",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "BPL",
+      "Loan",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sessct"
+  },
+  {
+    "slug": "sestltf",
+    "schemeName": "Self-Employment Scheme: Transport/ Logistics/ Travels/ Food Court Wyaaj Sahaay",
+    "schemeShortTitle": "SESTLTF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "\"Transport/ Logistics/ Travels/ Food Court Wyaaj Sahaay\" is a component under the \"Self-Employment Scheme\" that provides 5% interest subsidy on a bank loan of ₹6,00,000/- for purchasing vehicles and setting up the required infrastructure.",
+    "tags": [
+      "Business",
+      "Entrepreneurship",
+      "Self Employment",
+      "Transport",
+      "Logistics",
+      "Food Courts"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sestltf"
+  },
+  {
+    "slug": "toaifse",
+    "schemeName": "Training on Artificial Insemination for Self-Employment",
+    "schemeShortTitle": "TOAIFSE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The \"Training on Artificial Insemination for Self-Employment\" by the Animal Husbandry Department, Madhya Pradesh promotes milk production and employment. Trained Gausevaks get an honorarium of ₹4,000 and equipment worth ₹18,000. ",
+    "tags": [
+      "Employment",
+      "Training",
+      "Animal Husbandry",
+      "Unemployed"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/toaifse"
+  },
+  {
+    "slug": "daynulsepuk",
+    "schemeName": "Deen Dayal Antyodaya Yojana - National Urban Livelihoods Mission (DAY-NULM): Self-Employment Programme – Uttarakhand",
+    "schemeShortTitle": "DAYNULSEPUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to promote sustainable livelihoods and economic empowerment of the urban poor by providing financial support and guidance for establishing self-employment ventures, strengthening their family’s economy, and generating new employment opportunities.",
+    "tags": [
+      "Self-Employment",
+      "Livelihood",
+      "Urban Area",
+      "Employment",
+      "Interest Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/daynulsepuk"
+  },
+  {
+    "slug": "rpyelstp",
+    "schemeName": "Employment Linked Skill Training Programme (ELSTP)",
+    "schemeShortTitle": "ELSTP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to provide free, self-employment-oriented training courses to unemployed/school dropouts/other disadvantaged youth of the state. It is a state-sponsored scheme that offers training in fields such as IT, healthcare, agriculture, beauty and wellness, electronics, and more.",
+    "tags": [
+      "Self-employment",
+      "Skill Training",
+      "Youth",
+      "ELSTP",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rpyelstp"
+  },
+  {
+    "slug": "mfs-shg",
+    "schemeName": "Microcredit Finance Scheme- Self Help Groups (DAADC)",
+    "schemeShortTitle": "MFS-SHG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to promote self-employment for SC individuals. It offers microloans to start small businesses and become economically self-sufficient.",
+    "tags": [
+      "SHGs",
+      "Loan",
+      "Self-employment",
+      "Business",
+      "Unemployment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mfs-shg"
+  },
+  {
+    "slug": "fadse",
+    "schemeName": "Financial Assistance To Disabled For Self Employment",
+    "schemeShortTitle": "FADSE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Social welfare & Empowerment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The objective of this scheme is to facilitate the self-employment of unemployed disabled persons. Under this scheme, financial assistance is provided to persons with disabilities for self-employment, small-scale business, and agro-based project. This scheme is 100% funded by Govt. of Maharashtra.",
+    "tags": [
+      "Persons With Disability",
+      "Social Welfare",
+      "Financial Assistance",
+      "Entrepreneurship",
+      "Business"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fadse"
+  },
+  {
+    "slug": "daynulmshguk",
+    "schemeName": "Deen Dayal Antyodaya Yojana - National Urban Livelihoods Mission (DAY-NULM): Self-Help Group - Uttarakhand",
+    "schemeShortTitle": "DAYNULMSHGUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to empower urban poor women in Uttarakhand by promoting the formation of self-help groups, improving their livelihoods, and supporting them in income-generating and self-employment activities through financial incentives, bank loans, and government subsidies.",
+    "tags": [
+      "Self-Employment",
+      "Loan",
+      "Urban Area",
+      "Employment",
+      "Self-Help Group"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/daynulmshguk"
+  },
+  {
+    "slug": "cmses",
+    "schemeName": "Chief Minister's Self Employment Scheme",
+    "schemeShortTitle": "CMSES",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Sikkim"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The \"Chief Minister's Self Employment Scheme\" was launched by the Department of Personnel, and Reforms, Training, Public Grievances, Government of Sikkim. The scheme aims to provide loan to unemployed youth who belong below the poverty line. ",
+    "tags": [
+      "Loan",
+      "Unemployed",
+      "BPL",
+      "Empowerment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cmses"
+  },
+  {
+    "slug": "seloanwomen",
+    "schemeName": " Self-Employment loan scheme for Minority Widows, Divorcees / Abandoned Women",
+    "schemeShortTitle": "SELOANWOMEN",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Banking,Financial Services and Insurance",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to provide self-employment loans to women from minority communities. Financial assistance with a 20% subsidy is provided to widows, divorced women, and abandoned women from minority communities. The scheme is implemented by the KSMDFC.",
+    "tags": [
+      "Divorce",
+      "Women",
+      "Loan",
+      "Subsidy",
+      "Employment",
+      "Minority"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/seloanwomen"
+  },
+  {
+    "slug": "fasetdp",
+    "schemeName": "Financial Assistance To Self-Employment For Trained Disabled Persons",
+    "schemeShortTitle": "FASETDP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The \"Financial Assistance to Self-Employment for Trained Disabled Persons\" is a scheme by the Govt. of Maharashtra. The objective of this scheme is to provide financial assistance to facilitate the purchase of equipment for those disabled persons who are completing their vocational training.",
+    "tags": [
+      "Persons With Disability",
+      "Social Welfare",
+      "Employment",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fasetdp"
+  },
+  {
+    "slug": "mupsese",
+    "schemeName": "Motivation Of Unemployed Persons To Start Self-Employed Enterprises Scheme",
+    "schemeShortTitle": "MUPSESE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Motivation of Unemployed Persons To Start Self-Employed Enterprises Scheme (MUPSES)” was launched by the Union Territory of Puducherry in the year 2006 with a view to encouraging self-employment among the youth in manufacturing and service activities.",
+    "tags": [
+      "Motivation",
+      "Unemployed",
+      "Youth",
+      "Self-employment",
+      "Enterprises",
+      "Loan",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mupsese"
+  },
+  {
+    "slug": "mfsfshg",
+    "schemeName": "Micro Finance Scheme for Self Help Groups (GTKVN)",
+    "schemeShortTitle": "MFSSHG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to economically empower women from Thakor and Koli castes through self-employment opportunities via Self Help Groups (SHGs). Under this scheme, eligible members of SHGs receive a loan up to ₹60,000/- at low interest to start or expand small-scale businesses/enterprises.",
+    "tags": [
+      "SHG",
+      "Business",
+      "Loan",
+      "Enterpreneurship",
+      "Self-employment",
+      "Thakor Caste",
+      "Koli Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mfsfshg"
+  },
+  {
+    "slug": "mmyuva",
+    "schemeName": "Mukhya Mantri Yuva Udyami Vikas Abhiyan (CM-YUVA)",
+    "schemeShortTitle": "MMYUVA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttar Pradesh"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to connect skilled young people with self-employment by establishing production/service-related enterprises. It will provide self-employment opportunities to 1,00,000 young people per year, aiming for a total of 10,00,000 self-employment opportunities over 10 years.",
+    "tags": [
+      "Self-Employment",
+      "Skilled Youth",
+      "Loan",
+      "Interest Subvention"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmyuva"
+  },
+  {
+    "slug": "mvdcws-cmsesdc",
+    "schemeName": "Motor Vehicle Driver-Conductor Welfare Scheme- Chief Minister Self-Employment Scheme for Drivers/Conductors",
+    "schemeShortTitle": "MVDCWS-CMSESDC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Transport & Infrastructure",
+      "Skills & Employment"
+    ],
+    "briefDescription": "This scheme aims to support self-employment for registered drivers and conductors by providing financial assistance for the purchase of vehicles to eligible beneficiaries.",
+    "tags": [
+      "Financial Assistance",
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Other Backward Class",
+      "Interest Subsidy",
+      "Driver",
+      "Conductor"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mvdcws-cmsesdc"
+  },
+  {
+    "slug": "rlbarpyu",
+    "schemeName": "Rani Laxmi Bai Self-Defense Training",
+    "schemeShortTitle": "RLBSDT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to provide free self-defense skills training (including judo, karate, martial arts, and boxing) to girl students in upper primary and secondary schools across Uttarakhand.\n\n",
+    "tags": [
+      "Self Defense Training",
+      "Girl Student",
+      "Samagra Shiksha"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rlbarpyu"
+  },
+  {
+    "slug": "msyggvn",
+    "schemeName": "Mahila Samrudhhi Yojana (Gujarat Gopalak Vikas Nigam)",
+    "schemeShortTitle": "MSYGGVN",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to create self-employment for women and make them self-reliant. Through this scheme, individual women entrepreneurs are provided with microfinance loans to start a business of their choice.",
+    "tags": [
+      "Self Employment",
+      "Loan",
+      "Entrepreneurs",
+      "Self Reliant"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/msyggvn"
+  },
+  {
+    "slug": "skaaeti",
+    "schemeName": "Strengthening Skills, Arts and Employment through ITIs",
+    "schemeShortTitle": "SKAAETI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The \"Strengthening Skills, Arts, and Employment through ITIs\" initiative by the Department of De-notified, Nomadic, and Semi-Nomadic Welfare, Government of Madhya Pradesh, aims to connect these skills with modern technology, short-term, employment-oriented training has been provided through ITIs.",
+    "tags": [
+      "Student",
+      "Employment",
+      "Nomadic",
+      "Training",
+      "Skill",
+      "Arts"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skaaeti"
+  },
+  {
+    "slug": "mgy",
+    "schemeName": "Manav Garima Yojana",
+    "schemeShortTitle": "MGY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme offers financial assistance to Scheduled Caste individuals who wish to establish cottage industries for self-employment without requiring bank loans. Employment/tool kits are provided to those who seek self-employment opportunities.",
+    "tags": [
+      "Tool Kits",
+      "SC",
+      "Trade",
+      "Self-employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mgy"
+  },
+  {
+    "slug": "pfe",
+    "schemeName": "Sponsorship for Employment",
+    "schemeShortTitle": "SFE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to provide employment opportunities to ex-servicemen and their legal dependents by sponsoring them for contractual posts. Under this scheme, eligible candidates are sponsored for various departmental positions based on demand and their qualifications.",
+    "tags": [
+      "Employment",
+      "Contractual Employment",
+      "Ex-serviceman",
+      "UPNL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pfe"
+  },
+  {
+    "slug": "jsyrj",
+    "schemeName": "Janjati Swarojgar Yojna",
+    "schemeShortTitle": "JSYRJ",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to empower unemployed BPL tribal youth by providing financial subsidies of up to ₹10,000 to establish small-scale self-employment businesses.",
+    "tags": [
+      "Self-Employment",
+      "BPL",
+      "Business",
+      "Loan",
+      "Subsidy",
+      "Tribal Self-Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/jsyrj"
+  },
+  {
+    "slug": "mmssy",
+    "schemeName": "Mukhyamantri Shramshakti Yojana",
+    "schemeShortTitle": "MMSSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Bihar"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "This scheme aims to provide employment opportunities to men and women aged 18 to 45 from the minority community by offering vocational skill training in various fields or by providing loans through the Bihar State Minority Financial Corporation, Patna, for self-employment.",
+    "tags": [
+      "Minority",
+      "Training",
+      "Employment",
+      "Self-Employment",
+      "Vocational Courses"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmssy"
+  },
+  {
+    "slug": "lopssc",
+    "schemeName": "Livelihood Opportunity Promotion Scheme (Scheduled Caste)",
+    "schemeShortTitle": "LOPSSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to promote self-employment among Scheduled Castes. It provides financial aid, including loans, margin money, and grants, for livelihood projects.",
+    "tags": [
+      "Financial Assistance",
+      "Loan",
+      "Scheduled Caste",
+      "Self-Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lopssc"
+  },
+  {
+    "slug": "esdp",
+    "schemeName": "Entrepreneurship and Skill Development Programme ",
+    "schemeShortTitle": "ESDP",
+    "nodalMinistryName": "Ministry Of Micro, Small and Medium Enterprises",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to promote entrepreneurship and skill development among youth by providing training and support for setting up MSMEs and self-employment ventures.",
+    "tags": [
+      "Entrepreneurship",
+      "Skill Development",
+      "MSME",
+      "ESDP",
+      "Self-employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/esdp"
+  },
+  {
+    "slug": "dduskky",
+    "schemeName": "Deen Dayal Upadhyaya Sahkarita Kisan Kalyan Yojana",
+    "schemeShortTitle": "DDUSKKYUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide interest-free loans to farmers and self-help groups for agricultural and non-agricultural activities to promote self-employment and strengthen the rural economy.",
+    "tags": [
+      "Interest Free Loan",
+      "Self-Help Group",
+      "Self-employment",
+      "Small Farmer",
+      "Marginal Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dduskky"
+  },
+  {
+    "slug": "nsywgntdnt",
+    "schemeName": "New Swarnim Yojana (for women only) GNTDNT",
+    "schemeShortTitle": "NSYWGNTDNT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to achieve economic upliftment by providing self-employment with dignity. Through this scheme, loans for self-employment at an annual interest rate are provided to women beneficiaries of nomadic and denotified castes living below the poverty line.",
+    "tags": [
+      "Self Employment",
+      "Business",
+      "Loan",
+      "Nomadic And Denotified Castes"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nsywgntdnt"
+  },
+  {
+    "slug": "mmrsy",
+    "schemeName": "Mukhyamatri Rojgaar Srijan Yojana",
+    "schemeShortTitle": "MMRSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jharkhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The Mukhyamantri Rojgaar Srijan Yojana aims to promote self-employment and entrepreneurship among Scheduled Tribes (ST), Scheduled Castes (SC), Minorities, Backward Classes, and Persons with Disabilities (PwDs) by providing subsidized loans and financial assistance.",
+    "tags": [
+      "Financial Assistance",
+      "Loan",
+      "Self-employment",
+      "Entrepreneurship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmrsy"
+  },
+  {
+    "slug": "mmsyasnu",
+    "schemeName": "Mukhyamantri Swarozgar Yojana Ati Sukshm (Nano) Udhyam",
+    "schemeShortTitle": "MMSYASNU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to promote self-employment and entrepreneurship among the residents of Uttarakhand by providing financial assistance through banks to facilitate the establishment of new micro (nano) enterprises as well as the expansion of existing businesses.",
+    "tags": [
+      "Entrepreneur",
+      "MSME",
+      "Self-Employment",
+      "Employment",
+      "Micro Enterprises",
+      "Nano Enterprises"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmsyasnu"
+  },
+  {
+    "slug": "megp",
+    "schemeName": "Migrants Employment Generation Programme",
+    "schemeShortTitle": "Megp",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The Government of Tamil Nadu has launched the “Migrants Employment Generation Programme (MEGP)” for the Non-Resident Tamils, who returned back to Tamil Nadu due to Covid-19 Pandemic. ",
+    "tags": [
+      "Covid-19",
+      "Migrant",
+      "Employment",
+      "Loan",
+      "Subsidy",
+      "MEGP",
+      "Entrepreneur"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/megp"
+  },
+  {
+    "slug": "sssgbcdc",
+    "schemeName": "Swayam Saksham Yojana (GBCDC)",
+    "schemeShortTitle": "SSYGBCDC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "This scheme aims to instill a sense of self-reliance in the youth belonging to backward classes after receiving vocational education/training. Under this scheme, eligible youth are provided loans at a low-interest rate to start self-employment ventures.",
+    "tags": [
+      "Enterpreneurship",
+      "Loan",
+      "Backward Classes",
+      "Youth",
+      "Self-employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sssgbcdc"
+  },
+  {
+    "slug": "wsfw",
+    "schemeName": "Welfare Services for Women",
+    "schemeShortTitle": "WSFW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Mizoram"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide welfare support and financial assistance for women in distress, including widows, victims of violence, trafficked women, and economically disadvantaged women.",
+    "tags": [
+      "Women Welfare",
+      "Working Women Hostel",
+      "Widow Assistance",
+      "Widow Assistance",
+      "Skill Development"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wsfw"
+  },
+  {
+    "slug": "ilshrwcd",
+    "schemeName": "Individual loaning scheme: Haryana Women Development Corporation",
+    "schemeShortTitle": "ILSHRWCD",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance to women for economically viable projects. Through this scheme, subsidies and loans are provided to eligible women for projects costing. ",
+    "tags": [
+      "Women",
+      "Project",
+      "Subsidy",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ilshrwcd"
+  },
+  {
+    "slug": "shw",
+    "schemeName": "Shelter Home For Women (SHW)",
+    "schemeShortTitle": "SHW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Goa"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Skills & Employment",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme \"Shelter Home for Women (SHW)\" provides temporary shelter and support to women who have no family or social support systems to rely on and rehabilitate the women socially and economically by the provision of skill training, and counselling. ",
+    "tags": [
+      "Women",
+      "Shelter",
+      "Counselling",
+      "Skill",
+      "Training"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/shw"
+  },
+  {
+    "slug": "ptwadwc",
+    "schemeName": "Pension To Widows And Destitute Women-Chandigarh",
+    "schemeShortTitle": "PTWADWC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chandigarh"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "Under the Pension To Widows And Destitute Women scheme To provide financial assistance to Widows and Destitute Women of Chandigarh.",
+    "tags": [
+      "Widows",
+      "Financial Assistance",
+      "Destitute Women"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ptwadwc"
+  },
+  {
+    "slug": "mbfwb",
+    "schemeName": "Maternity Benefit for Women Beneficiaries",
+    "schemeShortTitle": "MBFWB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Nagaland"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Health & Wellness"
+    ],
+    "briefDescription": "The \"Maternity Benefit for Women Beneficiaries\" scheme under the Nagaland Building and Other Construction Workers' Welfare Board provides financial assistance to pregnant women registered as beneficiaries and wives of registered beneficiaries. The assistance can be availed up to two times. ",
+    "tags": [
+      "Financial Assistance",
+      "Women",
+      "Pregnancy",
+      "Construction Worker"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mbfwb"
+  },
+  {
+    "slug": "suwps",
+    "schemeName": "Sikkim Unmarried Women Pension Scheme",
+    "schemeShortTitle": "SUWPS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Sikkim"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Banking,Financial Services and Insurance",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme “Sikkim Unmarried Women Pension Scheme (SUWPS)” was launched in 2013 by the Department of Women & Child Welfare, Govt. of Sikkim. Under this scheme, the unmarried women of Below Poverty Line (BPL) families in Sikkim would receive a pension of ₹ 2000/- per month.",
+    "tags": [
+      "Unmarried Women",
+      "Pension",
+      "Below Poverty Line",
+      "Direct Benefit Transfer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/suwps"
+  },
+  {
+    "slug": "wos-b",
+    "schemeName": "Women Scientist Scheme-B",
+    "schemeShortTitle": "WOS-B",
+    "nodalMinistryName": "Ministry Of Science And Technology",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Social welfare & Empowerment",
+      "Science, IT & Communications",
+      "Women and Child"
+    ],
+    "briefDescription": "A Research Grant by MoST for female candidates with break in their career interested in addressing societal challenges through viable S&T interventions. Women scientists who wish to apply under this scheme are required to develop their own project/proposals for scientific and technological solutions",
+    "tags": [
+      "Women",
+      "Scientist",
+      "Female",
+      "Technology",
+      "Science",
+      "Research",
+      "Fellowship"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wos-b"
+  },
+  {
+    "slug": "atwsfww",
+    "schemeName": "Amma Two Wheeler Scheme for Working Women",
+    "schemeShortTitle": "ATWSFWW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The Amma Two-wheeler is a scheme that will empower working women in Tamil Nadu State. ",
+    "tags": [
+      "Women",
+      "Empowerment",
+      "Two Wheeler",
+      "Loan",
+      "Banking"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/atwsfww"
+  },
+  {
+    "slug": "tnztbtsfw",
+    "schemeName": "Zero Ticket Bus Travel Scheme for Women",
+    "schemeShortTitle": "ZTBTSFW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": " The scheme aims to provide to eligible women/ transgender beneficiaries of Tamil Nadu under the Zero Ticket Bus Travel Scheme for Women, Free of Cost Travel in Government of Tamil Nadu Buses. No Need to Pay any Fare up to 30 Kilometers.",
+    "tags": [
+      "Women",
+      "Transport",
+      "Zero Ticket",
+      "Bus",
+      "Empowerment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tnztbtsfw"
+  },
+  {
+    "slug": "mssp-vm",
+    "schemeName": "Mukhyamantri Samajik Sahayata Prakalpa - Vulnerable Women ",
+    "schemeShortTitle": "MSSP-VM",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tripura"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme “Mukhyamantri Samajik Sahayata Prakalpa- Vulnerable Women\" was launched by the Directorate of Social Welfare and Social Education, Government of Tripura to provide financial assistance to Vulnerable Woman in need of special care, support or protection because of age, disability. ",
+    "tags": [
+      "Divorced",
+      "Women",
+      "Unmarried",
+      "Financial Assistance",
+      "Pension"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mssp-vm"
+  },
+  {
+    "slug": "dccbfww",
+    "schemeName": "District Central Cooperative Banks and through its Branches: For Working Women",
+    "schemeShortTitle": "DCCBFWW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme provides financial assistance to working women through loans up to ₹20,000/- at a 12% interest rate via District Central Cooperative Banks and their branches.\n",
+    "tags": [
+      "Working Women",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dccbfww"
+  },
+  {
+    "slug": "cnspnaw",
+    "schemeName": "Nari Shakti Puraskar - National Award for Women",
+    "schemeShortTitle": "NSP-NAW",
+    "nodalMinistryName": "Ministry of Women and Child Development",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Women and Child"
+    ],
+    "briefDescription": "The award aims to acknowledge the achievements of women & recognize their contributions to society and the nation. The award is conferred annually on individuals in recognition of their exceptional service towards the cause of women’s empowerment, particularly for vulnerable and marginalized women.",
+    "tags": [
+      "Woman",
+      "Nari Shakti",
+      "Puraskar",
+      "Award",
+      "Women Empowerment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cnspnaw"
+  },
+  {
+    "slug": "atwtctc",
+    "schemeName": "Assistance to Women for Trainer and Coaches Training Course",
+    "schemeShortTitle": "ATWTCTC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Sports & Culture"
+    ],
+    "briefDescription": "The scheme “Assistance to Women for Trainer and Coaches Training Course” by the Sports, Youth and Cultural Activities Department, Government of Gujarat aims to encourage women's participation in sports by providing financial assistance for diploma courses in sports education.",
+    "tags": [
+      "Women Coaches",
+      "Girls",
+      "Sports"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/atwtctc"
+  },
+  {
+    "slug": "nssw",
+    "schemeName": "New Swarnima Scheme For Women",
+    "schemeShortTitle": "NSSW",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship",
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "A term loan scheme by the Ministry of Social Justice and Empowerment for women entrepreneurs from backward classes to obtain a loan of up to ₹ 2,00,000/- @ 5% per annum, thereby providing them social & financial security.",
+    "tags": [
+      "Entrepreneur",
+      "Women",
+      "Business",
+      "Empowerment",
+      "Backward Class",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nssw"
+  },
+  {
+    "slug": "dccbfwe",
+    "schemeName": "District Central Cooperative Banks and through its Branches: For Women Entrepreneurs",
+    "schemeShortTitle": "DCCBFWE",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to provide loans of up to ₹5,00,000/- at an interest rate of 12% (subject to change) for women entrepreneurs through District Central Cooperative Banks and its branches.\n",
+    "tags": [
+      "Women",
+      "Entrepreneurs",
+      "Business",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dccbfwe"
+  },
+  {
+    "slug": "ghfwwgs",
+    "schemeName": "Government Hostel for Working Women/ Girl Students",
+    "schemeShortTitle": "GHFWWGS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide suitable, inexpensive, and safe accommodation to women employed in government offices, organizations, and firms, as well as girl students studying in colleges. Essential facilities include a cot with mattress, lockable cupboards, television, newspapers, magazines, etc.",
+    "tags": [
+      "Women",
+      "Girl",
+      "Student",
+      "Hostel",
+      "Accomodation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ghfwwgs"
+  },
+  {
+    "slug": "whl-181",
+    "schemeName": "Women Helpline",
+    "schemeShortTitle": "WHL-181",
+    "nodalMinistryName": "Ministry of Women and Child Development",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Women and Child"
+    ],
+    "briefDescription": "\"Women Helpline\" provides 24X7 emergency and non-emergency response through the telephonic short-code 181 to women",
+    "tags": [
+      "181",
+      "Emergency",
+      "Safety",
+      "Response",
+      "Violence",
+      "ERSS 112",
+      "Pyscho-social Counselling",
+      "Integrated Helplines",
+      "One Stop Centres",
+      "Scheme Information"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/whl-181"
+  },
+  {
+    "slug": "fapnw",
+    "schemeName": "Financial Assistance To Poor & Needy Widow Women",
+    "schemeShortTitle": "FAPNW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Manipur"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "\"Financial Assistance to Poor & Needy Widow Women\" is a scheme by the Department of Social Welfare, Govt. of Manipur. The objective of the scheme is to provide social security by way of financial assistance to widows in the age group of 18-40 years.",
+    "tags": [
+      "Women",
+      "Financial Assistance",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fapnw"
+  },
+  {
+    "slug": "ptupiwoa50yaa",
+    "schemeName": "Pension to Unmarried Poor, Incapacitated Women of Age 50 years and above",
+    "schemeShortTitle": "PTUPIWOA50YAA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Tamil Nadu"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The 'Pension to Unmarried Poor, Incapacitated Women of age 50 years and above' was launched by the Social Welfare and Women Empowerment Department, Tamil Nadu. The scheme aims to provide a pension of ₹1,000/- to unmarried, poor, incapacitated women of age 50 years and above. ",
+    "tags": [
+      "Pension",
+      "Unmarried",
+      "Poor",
+      "Incapacitated",
+      "Women"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ptupiwoa50yaa"
+  },
+  {
+    "slug": "vtdwag",
+    "schemeName": "Vocational Training Of Destitute Women And Adolescent Girls",
+    "schemeShortTitle": "VTDWAG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Manipur"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "\"Vocational Training of Destitute Women and Adolescent Girls\" is a scheme by the Social Welfare Department, Govt. of Manipur. In this scheme, a 6-months training is provided in the Trades such as Tailoring & Cutting, Embroidery, and Computer. This is a State Sponsored Scheme.",
+    "tags": [
+      "Skill",
+      "Women",
+      "Girl",
+      "Training",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vtdwag"
+  },
+  {
+    "slug": "cawpf",
+    "schemeName": "Cash Award to Women Players of the State",
+    "schemeShortTitle": "CAWPF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Sports & Culture"
+    ],
+    "briefDescription": "The scheme \"Cash Award to Women Players of the State\" by the Sports, Youth and Cultural Activities Department, Government of Gujarat, aims to encourage and support talented female athletes through annual cash scholarships for those who excel at state and national level competitions.\n\n",
+    "tags": [
+      "Sports",
+      "Women Athletes",
+      "Cash Prize"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cawpf"
+  },
+  {
+    "slug": "tpctfwg",
+    "schemeName": "30 Percent Concession in Travel Fare for Women/Girls",
+    "schemeShortTitle": "TPCTFWG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme aims to provide affordable and accessible public transport by offering a 30 percent concession in travel fare to women and girls traveling within the Rajasthan State boundary.\n",
+    "tags": [
+      "Fare Discount",
+      "Travel Concession",
+      "Women",
+      "Girls"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tpctfwg"
+  },
+  {
+    "slug": "ucswvsscc",
+    "schemeName": "Uttarakhand Compensation Scheme for Women Victims/Survivors of Sexual Offences and Other Crimes, 2020",
+    "schemeShortTitle": "UCSWVSSOOC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Public Safety,Law & Justice",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance/compensation ranging from a minimum of ₹3 lakh to a maximum of ₹10 lakh to women victims and survivors of sexual offences, as well as to other women victims of crime in the state.",
+    "tags": [
+      "Compensation",
+      "Women",
+      "Crimes",
+      "Woman Victim"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ucswvsscc"
+  },
+  {
+    "slug": "asdtpwff",
+    "schemeName": "Agricultural Skill Development Training Programme For Women Farmers And Farmers",
+    "schemeShortTitle": "ASDTPWFF",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme “Agricultural Skill Development Training Programme for Women Farmers and Farmers” was started by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat.",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Women",
+      "Training",
+      "Skill Development",
+      "Youth"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/asdtpwff"
+  },
+  {
+    "slug": "wmsr",
+    "schemeName": "Women Merit Scholarship",
+    "schemeShortTitle": "WMSR",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to encourage and support meritorious female students in Rajasthan who have performed well in their Higher Secondary examinations and are pursuing higher studies.",
+    "tags": [
+      "Scholarship",
+      "Higher Education",
+      "Women",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wmsr"
+  },
+  {
+    "slug": "biocare",
+    "schemeName": "Biotechnology Career Advancement And Re-orientation (BioCARe) Programme For Women Scientists",
+    "schemeShortTitle": "BIOCARE",
+    "nodalMinistryName": "Ministry Of Science And Technology",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Women and Child"
+    ],
+    "briefDescription": "Biotechnology Career Advancement and Re-orientation (BioCARe) Programme, a special scheme of the Department of Biotechnology (DBT), Ministry of Science & Technology, the government of India aims to enhance the participation of women scientists in India towards research in Biotechnology.",
+    "tags": [
+      "Bio-Technology",
+      "Research",
+      "PhD",
+      "Women",
+      "Scientist"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/biocare"
+  },
+  {
+    "slug": "srrwav",
+    "schemeName": "Scheme for Relief and Rehabilitation of Women Acid Victims",
+    "schemeShortTitle": "SRRWAV",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Women and Child"
+    ],
+    "briefDescription": "Under the scheme, the acid attack victim is entitled to receive 100% free medical treatment from government or government-approved hospitals. Additionally, an ad-hoc relief of ₹1.00 lakh is provided to the acid attack victim, which is later reimbursed by the Women and Child Development Department.",
+    "tags": [
+      "Acid Attack",
+      "Women",
+      "Victims",
+      "Medical Treatment",
+      "Relief",
+      "Rehabilitation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/srrwav"
+  },
+  {
+    "slug": "wos-a",
+    "schemeName": "Women Scientist Scheme-A",
+    "schemeShortTitle": "WOS-A",
+    "nodalMinistryName": "Ministry Of Science And Technology",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Skills & Employment",
+      "Social welfare & Empowerment",
+      "Science, IT & Communications",
+      "Women and Child"
+    ],
+    "briefDescription": "A Research Grant by MoST for female candidates to pursue research in frontier areas of science and engineering, preferably those having a break in career (minimum two years) and not having regular employment, to explore possibility of re-entry into the profession.\n",
+    "tags": [
+      "Women",
+      "Scientist",
+      "Technology",
+      "Science",
+      "Empowerment",
+      "Fellowship",
+      "Education",
+      "Unemployed"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wos-a"
+  },
+  {
+    "slug": "wos-c",
+    "schemeName": "Women Scientist Scheme-C",
+    "schemeShortTitle": "WOS-C",
+    "nodalMinistryName": "Ministry Of Science And Technology",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Social welfare & Empowerment",
+      "Science, IT & Communications",
+      "Women and Child"
+    ],
+    "briefDescription": "A scheme by MoST for female candidates with a break in their career interested in addressing societal challenges through viable S&T interventions. 1-year training is provided in Intellectual Property Rights (IPRs), patent search, know-how, drafting, filing, trademarks, trade secrets, and copyright.",
+    "tags": [
+      "Women",
+      "Scientist",
+      "Science",
+      "Technology",
+      "Post-graduation",
+      "Skill"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wos-c"
+  },
+  {
+    "slug": "dwp",
+    "schemeName": "Deserted Women Pension Scheme",
+    "schemeShortTitle": "DWPS-UK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide a monthly pension to Abandoned married women, mentally ill husband/wife & destitute unmarried women in the state. Under this scheme, beneficiaries receive a pension of ₹1,200/- per month, & in case of mental disability (spouse), the amount is ₹1,400/- per month.",
+    "tags": [
+      "Deserted",
+      "Pension",
+      "Woman",
+      "Abandoned",
+      "Destitute",
+      "BPL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dwp"
+  },
+  {
+    "slug": "pagwwrcwh",
+    "schemeName": "Procedure for Admission to Government Women Welfare and Rehabilitation Centre and Women's Home",
+    "schemeShortTitle": "PAGWWRCWH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to provide support to women above 18 years of age who are orphans, destitute, abandoned, found on roads, or mentally and physically disabled. Such women are provided with clothing, food, accommodation, medical care, counselling, entertainment, and training facilities free of cost.",
+    "tags": [
+      "Women Welfare",
+      "Rehabilitation Center",
+      "Mahila Griha",
+      "Destitute Woman",
+      "Orphan",
+      "Abandoned Woman",
+      "Disabled Woman"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pagwwrcwh"
+  },
+  {
+    "slug": "siswtbottm",
+    "schemeName": "Special Incentive Scheme for Women of Tharu, Boksa and Other Tribes (For Training and Marketing)",
+    "schemeShortTitle": "SISWTBOTTM",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to empower tribal women artisans through specialized training and marketing opportunities and ensures the provision of financial assistance for travel, logistics, and stall rent for participating artisans.",
+    "tags": [
+      "Tribal Women",
+      "Tharu Tribe",
+      "Boksa Tribe",
+      "Training Incentive",
+      "Marketing Promotion",
+      "Handloom Exhibition"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/siswtbottm"
+  },
+  {
+    "slug": "ttscandbc",
+    "schemeName": "Tailoring Training To Scheduled Caste & Backward Classes Widows/Destitute Women/Girls",
+    "schemeShortTitle": "TTSC&BC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The aim of the scheme is to enable Scheduled Caste Widows/girls/destitute women for self-employment. A stipend of Rs.600/- P.M. and raw material costing Rs.300/- per month per trainee is given to a trainee for getting training from the nearest Kalyan Kendar run by this department.",
+    "tags": [
+      "Training",
+      "Widows",
+      "Scheduled Caste",
+      "Backward Class",
+      "Destitute Women",
+      "Tailoring Training",
+      "Haryana Scheme"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ttscandbc"
+  },
+  {
+    "slug": "msygntdnt",
+    "schemeName": "Mahila Samriddhi Yojana (for women only) GNTDNT",
+    "schemeShortTitle": "MSYGNTDNT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to create self-employment for women of nomadic and denotified castes and support women entrepreneurs doing independent business. Through this scheme, microfinance is provided to women beneficiaries to pursue a business/occupation of their choice.",
+    "tags": [
+      "Entrepreneurs",
+      "Self Employment",
+      "Business",
+      "Micro Finance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/msygntdnt"
+  },
+  {
+    "slug": "wdwps",
+    "schemeName": "Widow / Destitute Women Pension Scheme - Punjab",
+    "schemeShortTitle": "Wdwps",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Punjab"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "Punjab State Government started a pension for widow and destitute women.",
+    "tags": [
+      "Pension",
+      "Welfare",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wdwps"
+  },
+  {
+    "slug": "ovcaewfstys",
+    "schemeName": "Organization of Various Conclaves and Felicitations to Encourage Women, Women Scientists, Teachers and Young Students",
+    "schemeShortTitle": "OVCFEWWSTYS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Science, IT & Communications"
+    ],
+    "briefDescription": "The scheme aims to promote and enhance scientific attitude and skill development of women, women scientists, teachers, and young students of the state by organizing conclaves and felicitating them.",
+    "tags": [
+      "Woman",
+      "Student",
+      "Teachers",
+      "Woman Scientist",
+      "Conclave"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ovcaewfstys"
+  },
+  {
+    "slug": "pdfwc",
+    "schemeName": "Post Doctoral Fellowship To Women Candidates",
+    "schemeShortTitle": "PDFWC",
+    "nodalMinistryName": "Ministry of Education",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "The UGC has initiated a scheme of “Post Doctoral Fellowship for Women” to those candidates, who are unemployed holding Ph.D. degree in their respective subject areas with an aim to accelerate the talented instincts of the women candidates to carry out the advanced studies and research.",
+    "tags": [
+      "Post Doctoral",
+      "Fellowship",
+      "Woman",
+      "UGC"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pdfwc"
+  },
+  {
+    "slug": "nsygtkdc",
+    "schemeName": "New Swarnima Yojana for Women (GTKVN)",
+    "schemeShortTitle": "NSYW(GTKVN)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to promote economic upliftment of women from Thakor & Koli communities living below poverty line by supporting them in self-employment ventures. Under this scheme, 100% financial support up to ₹1,00,000/- is provided to eligible women for starting a business/trade of their choice.",
+    "tags": [
+      "Business",
+      "Entrepreneurship",
+      "Loan",
+      "Self-Employment",
+      "Woman",
+      "BPL",
+      "Thakor Caste",
+      "Koli Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nsygtkdc"
+  },
+  {
+    "slug": "wiser",
+    "schemeName": "Women Involvement in Science and Engineering Research",
+    "schemeShortTitle": "WISER",
+    "nodalMinistryName": "Ministry Of Science And Technology",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme “Women Involvement in Science and Engineering Research (WISER)” aims to build scientific capacity, retain and promote women researchers in India & Germany by utilizing complementary expertise in science, technology, innovation and research partnerships. ",
+    "tags": [
+      "Woman",
+      "WISER",
+      "Germany",
+      "IGSTC",
+      "STEM"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/wiser"
+  },
+  {
+    "slug": "ashswwwuk",
+    "schemeName": "Assistance Scheme for Handloom Spinning-Weaving Women Workers",
+    "schemeShortTitle": "ASHSWWWUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to provide financial support to traditional women workers whose primary occupation is handloom weaving, spinning, or related weaving activities. Under this scheme, eligible women workers are provided with handloom equipment, including looms & related equipment, worth upto ₹25,000/-.",
+    "tags": [
+      "Artisan",
+      "Handloom",
+      "Spinning",
+      "Weaving",
+      "Woman",
+      "Woman Weaver"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ashswwwuk"
+  },
+  {
+    "slug": "inyts",
+    "schemeName": "IMA Nongthangleima Yaipha Tengbang Scheme",
+    "schemeShortTitle": "INYTS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Manipur"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "The \"Ima Nongthangleima Yaipha Tengbang Scheme\" provides support to approximately 4 lakh women in Manipur who are above the age of 40 years. The scheme aims to empower these women by offering crucial financial assistance, thereby aiding them in pursuing diverse livelihood options.",
+    "tags": [
+      "Financial Assistance",
+      "Women",
+      "Widow",
+      "Divorcee",
+      "Separated Women"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/inyts"
+  },
+  {
+    "slug": "aywb",
+    "schemeName": "Annapurna Yojana",
+    "schemeShortTitle": "AYWB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "West Bengal"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme “Annapurna Yojana” implemented by the Women and Child Development and Social Welfare Department, Government of West Bengal aims to provide assured monthly financial assistance to eligible women residing in the state for their empowerment and socio-economic upliftment. Under the scheme, el",
+    "tags": [
+      "Women Empowerment",
+      "Financial Assistance",
+      "Women Welfare",
+      "DBT"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aywb"
+  },
+  {
+    "slug": "dpswdwp",
+    "schemeName": "Delhi Pension Scheme To Women In Distress (Widow Pension)",
+    "schemeShortTitle": "DPSWD(WP)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "briefDescription": "Delhi Pension Scheme to Women in Distress is a welfare scheme to provide social security by way of financial assistance to widows, divorced, separated, abandoned, deserted or destitute women in the age group of 18 years of lifelong who do not have adequate means of subsistence and are poor & needy.",
+    "tags": [
+      "Widow",
+      "Pension",
+      "Distress",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dpswdwp"
+  },
+  {
+    "slug": "drfdamt",
+    "schemeName": "Distress Relief Fund For The Differently Abled (Medical Treatment)",
+    "schemeShortTitle": "DRFDA(MT)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Health & Wellness"
+    ],
+    "briefDescription": "The scheme “Distress Relief Fund for the Differently Abled (Medical Treatment)” was launched by the Department of Social Justice, Government of Kerala. ",
+    "tags": [
+      "Distress",
+      "Differently Abled",
+      "Medical Treatment",
+      "Handicap",
+      "PwD",
+      "Financial Assistance",
+      "BPL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/drfdamt"
+  },
+  {
+    "slug": "lbssf-els",
+    "schemeName": "Loan Based Schemes For Safai Karamchari - Education Loan",
+    "schemeShortTitle": "LBSSF-EL",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide education loans to the students from the community of safai karamcharis\\manual scavengers & their dependents for pursuing higher education. ",
+    "tags": [
+      "Professional Course",
+      "Technical Course",
+      "Education Loan",
+      "Student",
+      "Manual Scavengers",
+      "Waste Pickers",
+      "Safai Karamcharis"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lbssf-els"
+  },
+  {
+    "slug": "visvasi",
+    "schemeName": "Vanchit Ikai Samooh aur Vargon ki Aarthik Sahayata Yojana (VISVAS) for Individual",
+    "schemeShortTitle": "VISVASI",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The VISVAS Scheme provides interest subvention on income-generating loans to SC, OBC, and Safai Karamchari individuals through Public Sector Banks, Regional Rural Banks, Private Sector Banks, Small Finance Banks, and other participating lending institutions.",
+    "tags": [
+      "Interest Subvention",
+      "Loan Assistance",
+      "Scheduled Caste",
+      "Safai Karamchari",
+      "Other Backward Class"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/visvasi"
+  },
+  {
+    "slug": "maynskfdc-h",
+    "schemeName": "Mahila Adhikarita Yojana under NSKFDC- Haryana",
+    "schemeShortTitle": "MAYNSKFDC-H",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "Under this scheme, loan is provided to woman Safai Karamchari and their dependent daughters for projects with a maximum project cost of up to ₹2,00,000/- for small and petty trade/businesses, and various income-generating activities such as beauty parlors, boutiques, cosmetic shop, bangle shop, etc.",
+    "tags": [
+      "Mahila",
+      "Adhikarita",
+      "NSKFDC",
+      "Woman",
+      "Self-Employment",
+      "Loan",
+      "HSFDC",
+      "Safai Karamchari"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/maynskfdc-h"
+  },
+  {
+    "slug": "tlnskfdch",
+    "schemeName": "Term Loan under NSKFDC- Haryana",
+    "schemeShortTitle": "TLNSKFDCH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Under this scheme, loans are provided to Safai Karamcharis & their dependents for any viable income-generating activities with a maximum cost of up to ₹15,00,000/- per beneficiary. The beneficiary should be between 18 & 55 years of age and should be either Safai Karamchari or his/her dependent.",
+    "tags": [
+      "Term Loan",
+      "NSKFDC",
+      "HSFDC",
+      "Safai Karamcharis",
+      "Self-Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/tlnskfdch"
+  },
+  {
+    "slug": "hscc",
+    "schemeName": "Hostel Scheme - Cleaner Class",
+    "schemeShortTitle": "HSCC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Education & Learning"
+    ],
+    "briefDescription": "The scheme aims to provide hostel facilities and financial assistance to Safai Karmi community students of Rajasthan to support their education. It offers ₹2,000/- per student per month for hostel-related expenses to ensure better learning opportunities.\n\n",
+    "tags": [
+      "Hostel",
+      "Safai Karamchari",
+      "Student",
+      "Education"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hscc"
+  },
+  {
+    "slug": "skpsy",
+    "schemeName": "Safai Karmakar Prasuti Sahayata Yojana",
+    "schemeShortTitle": "SKPSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Safai Karmakar Prasuti Sahayata Yojana\" for unorganized worker on 11 March 2015.",
+    "tags": [
+      "Heath",
+      "Financial Assistance",
+      "Maternity Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skpsy"
+  },
+  {
+    "slug": "nskfadcs",
+    "schemeName": "National Safai Karamcharis Finance and Development Corporation Scheme",
+    "schemeShortTitle": "NSKFADCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The objective of this scheme is to provide financial assistance at a concessional rate of interest for setting up higher-cost income-generating activities, such as small business units, taxis, Mahindra Jeeps, Tata Sumos, shuttering work, piggery farms, etc.",
+    "tags": [
+      "Loans",
+      "Bank",
+      "Safai Karamcharis",
+      "Transport",
+      "Corporation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nskfadcs"
+  },
+  {
+    "slug": "skbrcsy",
+    "schemeName": "Safai Karmakar Bahay Rogi Chikitsa Sahayata Yojana",
+    "schemeShortTitle": "SKBRCSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Safai Karmakar Bahay Rogi Chikitsa Sahayata Yojana\" for unorganized worker on 11 March 2015.",
+    "tags": [
+      "Financial Assistance",
+      "Health",
+      "Wellness"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skbrcsy"
+  },
+  {
+    "slug": "skkuy",
+    "schemeName": "Safai Karmakaar Kaushal Unnayan Yojana",
+    "schemeShortTitle": "SKKUY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Safai Karmakaar Kaushal Unnayan Yojana\" for unorganized worker on 10 April 2018.",
+    "tags": [
+      "Training",
+      "Empowerment",
+      "Employment",
+      "Sanitation Workers"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skkuy"
+  },
+  {
+    "slug": "skgbcsy",
+    "schemeName": "Safai Karmakar Gambhir Bimari Chikitsa Sahayata Yojana",
+    "schemeShortTitle": "SKGBCSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Health & Wellness"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Safai Karmakar Gambhir Bimari Chikitsa Sahayata Yojana\" for unorganized worker on 28 April 2012.",
+    "tags": [
+      "Medical Treatment",
+      "Financial Assistance",
+      "Serious Illness",
+      "Health & Wellness"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skgbcsy"
+  },
+  {
+    "slug": "skhausy",
+    "schemeName": "Safai Karmakar Hetu Aavashyak Upakaran Sahayata Yojana ​",
+    "schemeShortTitle": "SKHAUSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Utility & Sanitation"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Safai Karmakar Hetu Aavashyak Upakaran Sahayata Yojana\" for unorganized worker on 02 September 2015.",
+    "tags": [
+      "Sanity Equipment",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skhausy"
+  },
+  {
+    "slug": "ap",
+    "schemeName": "Artisan Promotion",
+    "schemeShortTitle": "AP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Delhi"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme \"Artisan Promotion\" by the DSFDC provides artisans with opportunities to participate in national fairs and exhibitions. It offers financial support for participation fees, lodging, boarding, and stipends, benefiting artisans from Scheduled Castes, Other Backward Classes, Minorities.",
+    "tags": [
+      "Artisan",
+      "Exhibition",
+      "Stipend",
+      "Scheduled Caste",
+      "OBC",
+      "Minority",
+      "Safai Karamchari",
+      "Disability"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ap"
+  },
+  {
+    "slug": "dcs-tl",
+    "schemeName": "Term Loan Scheme (GSKVN)",
+    "schemeShortTitle": "TLSGSKVN",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to uplift scavengers & their dependents by offering term loans of ₹1,00,000/- to ₹15,00,000/- to support them in starting self‐employment ventures in various trades & professions, enabling them to pursue income‐generating activities and lead dignified lives.",
+    "tags": [
+      "Loan",
+      "Self-employment",
+      "Safai Kamdar",
+      "Scavenger"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dcs-tl"
+  },
+  {
+    "slug": "msygskvn",
+    "schemeName": "Mahila Samruddhi Yojana (GSKVN)",
+    "schemeShortTitle": "MSYGSKVN",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance to female Safai Kamdars and their dependents to start small businesses. Through this scheme, loans for various self-employment ventures are provided to eligible female individuals.",
+    "tags": [
+      "Small Business",
+      "Loan",
+      "Interest",
+      "Shops"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/msygskvn"
+  },
+  {
+    "slug": "gbs",
+    "schemeName": "Green Business Scheme",
+    "schemeShortTitle": "GBS",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Green Business Scheme has been launched by the National Safai Karamcharis Finance and Development Corporation to provide financial assistance in the form of loans for activities that can tackle the impacts of climate change and also be income-generating.",
+    "tags": [
+      "Income Generation",
+      "Coverage",
+      "Battery Electric Vehicle",
+      "Compressed Air Vehicle",
+      "Solar Energy Gadgets",
+      "Poly Houses",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gbs"
+  },
+  {
+    "slug": "pm-daksh",
+    "schemeName": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi (PM-DAKSH)",
+    "schemeShortTitle": "PM-DAKSH",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme \"PM-DAKSH\", launched by the Ministry of Social Justice & Empowerment (MoSJ&E), aims to empower socially, educationally, and economically marginalized groups like SCs, OBCs, EWS, DNTs, Safai Mitras, and Waste Pickers by enhancing their skills through high-quality training.",
+    "tags": [
+      "Skill",
+      "Training",
+      "Employment",
+      "Stipend",
+      "Scheduled Caste",
+      "Other Backward Class",
+      "Economically Weaker Section"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pm-daksh"
+  },
+  {
+    "slug": "skbhcs",
+    "schemeName": "Safai Karmakar Ke Bachche Hetu Chhatravrtti Yojana",
+    "schemeShortTitle": "SKBHCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Safai Karmakar Ke Bachche Hetu Chhatravrtti Yojana\" for unorganized worker on 11 March 2015.",
+    "tags": [
+      "Scholarship",
+      "Financial Assistance",
+      "Student Finance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skbhcs"
+  },
+  {
+    "slug": "skpcsy",
+    "schemeName": "Safai Karmakaar Putr/Putri Cycle sahayata yojana",
+    "schemeShortTitle": "SKPCSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Safai Karmakaar Putr/Putree Cycle Sahayata Yojana\" for unorganized worker on 27 August 2015.",
+    "tags": [
+      "Free Bicycle",
+      "Vehicle",
+      "Empowerment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skpcsy"
+  },
+  {
+    "slug": "skhvc",
+    "schemeName": " Safai Karmakaar Ke Putr/Putri Hetu Vishesh Coaching Yojana",
+    "schemeShortTitle": "SKHVC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Safai Karmakaar Ke Putr/Putri Hetu Vishesh Coaching Yojana\" for unorganized worker on 28 April 2012.",
+    "tags": [
+      "Education",
+      "Coaching"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/skhvc"
+  },
+  {
+    "slug": "lbssk-suy",
+    "schemeName": "Loan Based Schemes For Safai Karamchari - Swachhta Udyami Yojana – Swachhta Se Sampannta Ki Aur",
+    "schemeShortTitle": "LBSSK-SUY",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Utility & Sanitation",
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to ensure mechanised cleaning and provide related safe and sustainable livelihood opportunities to Safai Karamcharis and liberated Manual Scavengers. The Financial assistance is provided for the procurement and operation of sanitation-related equipment and vehicles for the target.",
+    "tags": [
+      "Entrepreneurship",
+      "Loan",
+      "Financial Assistance",
+      "Credit",
+      "Sanitation",
+      "Manual Scavengers",
+      "Waste Pickers",
+      "Safai Karamcharis"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lbssk-suy"
+  },
+  {
+    "slug": "lbssk-sms",
+    "schemeName": "Loan Based Schemes For Safai Karamchari - Sanitary Marts Scheme",
+    "schemeShortTitle": "LBSSK-SMS",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment",
+      "Utility & Sanitation"
+    ],
+    "briefDescription": "A sanitary mart is a one-stop-shop for all things for sanitation and hygiene. It is a shopping place where the sanitary needs of the common man could be met. It serves both as a shop and as a service centre.",
+    "tags": [
+      "Sanitary Mart",
+      "Loan",
+      "Financial Assistance",
+      "Credit",
+      "Sanitation",
+      "Manual Scavengers",
+      "Waste Pickers",
+      "Safai Karamcharis"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lbssk-sms"
+  },
+  {
+    "slug": "visvas",
+    "schemeName": "Vanchit Ikai Samooh aur Vargon ki Aarthik Sahayata Yojana (VISVAS) for Self-Help Groups",
+    "schemeShortTitle": "VISVASSHG",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide the benefit of a lower rate of interest to eligible Self-Help Groups (SHGs) and individual beneficiaries belonging to Scheduled Castes (SCs), Other Backward Classes (OBCs), and Safai Karamcharis (including identified Manual Scavengers, Waste Pickers, and their dependents).",
+    "tags": [
+      "Interest Subvention",
+      "SHGs",
+      "OBC",
+      "Loan Assistance",
+      "SC",
+      "Safai Karamchari"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/visvas"
+  },
+  {
+    "slug": "msynskfdc-h",
+    "schemeName": "Mahila Samridhi Yojana under NSKFDC- Haryana",
+    "schemeShortTitle": "MSYNSKFDC-H",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "This scheme offers loans up to ₹1,00,000/- to women Safai Karamcharis or their dependents for economic development through self-employment initiatives, such as establishing cloth shops, dairies, tea shops, bangle shops, beauty parlours, papad making, basketry, tailoring shops, etc. ",
+    "tags": [
+      "Mahila",
+      "Samridhi",
+      "NSKFDC",
+      "HSFDC",
+      "Safai Karamcharis",
+      "Loan",
+      "Self-employment",
+      "Woman"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/msynskfdc-h"
+  },
+  {
+    "slug": "lbssk-spuct",
+    "schemeName": "Loan based Scheme for Pay and Use Community Toilets",
+    "schemeShortTitle": "LBSFPAUCT",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment",
+      "Utility & Sanitation"
+    ],
+    "briefDescription": "The “Pay and Use” Community Toilets Scheme under Swachhta Udyami Yojana by NSKFDC offers concessional loans to Safai Karamcharis and their dependents for setting up public toilet units, promoting sanitation, livelihood, and dignity.",
+    "tags": [
+      "Pay And Use Toilets",
+      "Toilet Construction Loan",
+      "Safai Karamchari"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/lbssk-spuct"
+  },
+  {
+    "slug": "sgsscst",
+    "schemeName": "Shilpi Gram Scheme (Scheduled Caste / Scheduled Tribe)",
+    "schemeShortTitle": "SGSSCST",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to re-establish traditional artisan skills among SC/ST communities. It provides free training, infrastructure support, and marketing opportunities to artisans in selected artisan villages.",
+    "tags": [
+      "Scheduled Caste",
+      "Scheduled Tribe",
+      "Skill Training",
+      "Artisans",
+      "Crafts"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sgsscst"
+  },
+  {
+    "slug": "ncls",
+    "schemeName": "New Charkha-Loom Scheme",
+    "schemeShortTitle": "NCLS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme provides 65% financial assistance for purchasing Amber Charkhas (₹13,000/-) and looms (₹30,000/-) to registered Khadi spinners and weavers, promoting sustainable livelihoods.",
+    "tags": [
+      "Loom",
+      "Weaver",
+      "Artisan",
+      "Subsidy",
+      "Fabric"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ncls"
+  },
+  {
+    "slug": "hrs-g2",
+    "schemeName": "Handloom Rebate Scheme",
+    "schemeShortTitle": "HRS-G2",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme provides 10% special rebate for 120 festival days; Additional 5-15% permanent rebates for regular sales; Enhanced 20% rebates for women-led cooperatives. The scheme aims to enhance market competitiveness for Gujarat's handloom cooperatives and apex societies.",
+    "tags": [
+      "Handloom",
+      "Rebate",
+      "Festival",
+      "Artisan",
+      "Women"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hrs-g2"
+  },
+  {
+    "slug": "taspa",
+    "schemeName": "Tool Assistance Scheme for Pottery Artisans",
+    "schemeShortTitle": "TASPA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide essential tools like electric chalk and electric footmill to individual artisans with a 75% subsidy. It benefits pottery workers, particularly those of Prajapati/Kumbhar caste, by offering instrumental assistance and requiring a 25% beneficiary contribution.",
+    "tags": [
+      "Tool",
+      "Equipment",
+      "Artisan",
+      "Pottery",
+      "Subsidy"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/taspa"
+  },
+  {
+    "slug": "mky-gujarat",
+    "schemeName": "Manav Kalyan Yojana",
+    "schemeShortTitle": "MKY-GUJARAT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme provides toolkit assistance (e-vouchers) to economically weak individuals (annual income ≤ ₹6,00,000/-) for self-employment in 10 trades like dairy, plumbing, and beauty parlors. Beneficiaries include SC/ST, nomadic tribes, and BPL families.",
+    "tags": [
+      "Toolkit",
+      "Employment",
+      "Trade",
+      "Artisan",
+      "Voucher"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mky-gujarat"
+  },
+  {
+    "slug": "etftcacotdocs",
+    "schemeName": "“Exposure Tour for the Coir Artisans” Component of the \"Development of Coir\" Scheme",
+    "schemeShortTitle": "ETFTCACOTDOCS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme “Exposure Tour For The Coir Artisans” by the Dept of Industries and Commerce, Union Territory of Puducherry is introduced for acquiring the latest techniques and innovative ideas in various coir units located in other states, the exposure tour will be conducted for the coir artisans.",
+    "tags": [
+      "Tour",
+      "Coir",
+      "Artisan",
+      "Conveyance",
+      "Accomodation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/etftcacotdocs"
+  },
+  {
+    "slug": "pltgpa-eek",
+    "schemeName": "Providing Latest Technology to Group of Pottery Artisans (Energy Efficient Kiln)",
+    "schemeShortTitle": "PLTGPA-EEK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide latest technology and equipment to pottery artisans for better productivity, improved quality and reduce health risks. It provides 100% financial assistance for energy-efficient kilns to groups of registered clay artisans and potters in Gujarat state.",
+    "tags": [
+      "Technology",
+      "Artisan",
+      "Pottery",
+      "Energy",
+      "Equipment",
+      "Kiln"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pltgpa-eek"
+  },
+  {
+    "slug": "cds-g",
+    "schemeName": "Cluster Development Scheme",
+    "schemeShortTitle": "CDS-G",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Skills & Employment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to enhance the productivity and competitiveness as well as capacity building of Micro and Small Enterprises through cluster development approach. It provides various assistance including training, subsidies, and marketing facilities to clusters of 25 or more artisans.",
+    "tags": [
+      "Artisan",
+      "Training",
+      "Subsidy",
+      "Marketing",
+      "Handicraft",
+      "Enterprise"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cds-g"
+  },
+  {
+    "slug": "vkvvs-swas",
+    "schemeName": "Vishesh Katan, Vankari & Vanat Sahay (Spinning & Weaving Assistance Scheme)",
+    "schemeShortTitle": "VKVVS-SWAS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance in addition to the central government assistance to spinners and weavers. It provides production incentives to Khadi spinners and weavers with category-wise differential assistance rates.",
+    "tags": [
+      "Artisan",
+      "Spinner",
+      "Weaver",
+      "Yarn",
+      "Khadi"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vkvvs-swas"
+  },
+  {
+    "slug": "hrs-g",
+    "schemeName": "Handicraft Rebate Scheme",
+    "schemeShortTitle": "HRS-G",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme provides 5–20% rebates on sales of handicraft goods to cooperatives, with higher incentives for women-led groups and during festivals. Applications are submitted online via e-Kutir.",
+    "tags": [
+      "Handicraft",
+      "Rebate",
+      "Festival",
+      "Artisan",
+      "Women"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hrs-g"
+  },
+  {
+    "slug": "jdrcs",
+    "schemeName": "Jute Design Resource Centre Scheme",
+    "schemeShortTitle": "JDRCS",
+    "nodalMinistryName": "Ministry Of Textiles",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to foster innovation and product diversification in the Jute Diversified Products sector. It provides innovative designs, skill training, and technical specifications to Jute Artisans, Micro Small and Medium Enterprises, Exporters, and Women Self Help Groups.",
+    "tags": [
+      "Artisan",
+      "Exporter",
+      "Entrepreneur",
+      "Design",
+      "Training",
+      "Workshop",
+      "Innovation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/jdrcs"
+  },
+  {
+    "slug": "ukrsrp",
+    "schemeName": "Uttarakhand Rajya Shilp Ratna Puraskar",
+    "schemeShortTitle": "UKRSRP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Sports & Culture"
+    ],
+    "briefDescription": "The scheme aims to honor exceptionally skilled artisans of the state for their outstanding contributions to the traditional craft sector. This annual award celebrates heritage, promotes excellence, and supports artisans whose expertise has preserved and enriched cultural craftsmanship.",
+    "tags": [
+      "Ratna Award",
+      "Shilp",
+      "Artisan",
+      "Traditional Crafts",
+      "Craftsperson"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ukrsrp"
+  },
+  {
+    "slug": "hmp",
+    "schemeName": "Handicraft Mela Participation",
+    "schemeShortTitle": "HMP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme enables artisans and handicraft organizations to participate in government-sponsored melas across Gujarat and other states, fostering market access and preserving traditional crafts. Benefits include subsidized stall fees, promotional support, sales opportunities for handmade products.",
+    "tags": [
+      "Handicraft",
+      "Exhibition",
+      "Artisan",
+      "SHG",
+      "Embroidery",
+      "Pottery"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/hmp"
+  },
+  {
+    "slug": "psc",
+    "schemeName": "Pension Scheme for Craftsmen",
+    "schemeShortTitle": "PSC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to provide financial support and social security to traditional artisans of Uttarakhand who are aged 60 years or above and belong to families living below the poverty line.",
+    "tags": [
+      "Artisan",
+      "Pension",
+      "Craftsman",
+      "Old Age",
+      "Senor Citizen",
+      "BPL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/psc"
+  },
+  {
+    "slug": "jgvy",
+    "schemeName": "Jyoti Gramodyog Vikas Yojana",
+    "schemeShortTitle": "JGVY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme provides margin money subsidies (25–30%) for new rural industrial projects (₹1,00,000/- to 25,00,000/-) to artisans, entrepreneurs, and SHGs, leveraging a 24-hour electricity supply in villages. Beneficiaries must be aged 25–50 years with a Class 10th education.",
+    "tags": [
+      "Business",
+      "Rural",
+      "Village",
+      "Artisan",
+      "SHG",
+      "Subsidy",
+      "Margin Money"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/jgvy"
+  },
+  {
+    "slug": "cs",
+    "schemeName": "Charmashilpa Scheme",
+    "schemeShortTitle": "CS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Women and Child"
+    ],
+    "briefDescription": "The \"Charmashilpa Scheme\" aims to modernize the leather artisans' production methods by offering financial assistance to setup mechanized production units. This support helps leather artisan SHGs and cooperative societies enhance the quality of their products, making them more competitive.",
+    "tags": [
+      "Subsidy",
+      "SHGs",
+      "Co-operative Society",
+      "Financial Assistance",
+      "Artisans"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cs"
+  },
+  {
+    "slug": "sbstspddsy",
+    "schemeName": "Small Business in Service/Trading Sector for Persons with Disabilities (Divyangjan Swavalamban Yojana)",
+    "schemeShortTitle": "SBSTSPD(DSY)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme offers loans up to ₹50 lakhs for self-employment to disabled persons in sectors like Agriculture, Small Business/Artisan & Traditional Occupations, Transport & Service Sectors, etc. Eligible individuals can access loans with interest rates ranging from 5% to 9% per annum.",
+    "tags": [
+      "Small Business",
+      "Trading Sector",
+      "Service Sector",
+      "PwD",
+      "Loan",
+      "Disability",
+      "Divyang",
+      "Swavalamban"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sbstspddsy"
+  },
+  {
+    "slug": "nhdp-dba-saic",
+    "schemeName": "National Handicrafts Development Programme: Direct Benefit to Artisans - Supports to Artisans in Indigent Circumstances",
+    "schemeShortTitle": "NHDP-DBA-SAIC",
+    "nodalMinistryName": "Ministry Of Textiles",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Sports & Culture",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme \"Direct Benefit to Artisans - Supports to Artisans in Indigent Circumstances\" is designed to give a boost to the handicraft sector in India. Assistance of upto ₹8,000/- per month is granted to the Artisans in Indigent Circumstances in the form of monthly allowance/lump sum grant/ both.",
+    "tags": [
+      "Pension",
+      "Artisan",
+      "Handicraft",
+      "Senior Citizen",
+      "Financial Assistance",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nhdp-dba-saic"
+  },
+  {
+    "slug": "dpiti",
+    "schemeName": "Dastkar Prashikshan (I.T.I)",
+    "schemeShortTitle": "DPITI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to provide benefits to the youth of the state by connecting them with private-sector employment or self-employment opportunities through skills training offered at district ITIs.",
+    "tags": [
+      "Skill Development",
+      "Self-employment",
+      "ITI",
+      "Vocational Training",
+      "Youth",
+      "Artisan Training",
+      "Employment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/dpiti"
+  },
+  {
+    "slug": "rescaw",
+    "schemeName": "Revised Education Scheme For Children Of Artisans/Weavers Of Handicrafts And Handloom Departments",
+    "schemeShortTitle": "RESCAW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jammu and Kashmir"
+    ],
+    "schemeCategory": [
+      "Education & Learning"
+    ],
+    "briefDescription": "A scholarship scheme by the Industries and Commerce Dept., Govt. of Jammu and Kashmir to provide financial support to the children of Artisans/Weavers of Handicrafts and Handloom Depts. in completion of education. The scholarship shall be provided to a maximum of two children of Weaver/Artisan.",
+    "tags": [
+      "Scholarship",
+      "Financial Assistance",
+      "Student",
+      "Artisan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rescaw"
+  },
+  {
+    "slug": "pm-sym",
+    "schemeName": "Pradhan Mantri Shram Yogi Maan-dhan",
+    "schemeShortTitle": "PM-SYM",
+    "nodalMinistryName": "Ministry Of Labour and Employment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to ensure old age protection for unorganized workers. It provides a minimum assured pension of ₹3,000/- per month and family pension benefits to unorganized workers in the age group of 18 to 40 years who earn not more than ₹15,000/- monthly.",
+    "tags": [
+      "Artisan",
+      "Labour",
+      "Pension",
+      "Senior Citizen",
+      "Vendor",
+      "Worker"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pm-sym"
+  },
+  {
+    "slug": "sdbwaw",
+    "schemeName": "Scheme of Death Benefit for Weavers & Artisans of West Bengal",
+    "schemeShortTitle": "SDBWAW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "West Bengal"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "\"Scheme of Death Benefit for Weavers & Artisans of West Bengal\" is a social welfare scheme implemented by the Department of Micro, Small and Medium Enterprises and Textiles, Government of West Bengal aims to provide financial assistance to the family of the deceased weaver /artisan.",
+    "tags": [
+      "Weavers",
+      "Social Welfare",
+      "Artisans",
+      "Death"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sdbwaw"
+  },
+  {
+    "slug": "gccsa-dc",
+    "schemeName": "\"Grant to Coir Cluster/Societies/Agency\" Component of the \"Development of Coir\" Scheme",
+    "schemeShortTitle": "GCCSA-DC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The \"Grant to Coir Cluster/Societies/Agency\" scheme aims to foster the development of coir industries. The scheme encourages unemployed rural youth and artisan individuals to participate in the manufacturing and sales of coir products. Grant of ₹2,00,000 per year is provided for five years.",
+    "tags": [
+      "Coir",
+      "Society",
+      "Grant",
+      "Artisan",
+      "Youth"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gccsa-dc"
+  },
+  {
+    "slug": "gssa-ds",
+    "schemeName": "\"Grant to Silk Societies/Agency\" Component of the \"Development of Silk\" Scheme",
+    "schemeShortTitle": "GSSA-DS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme \"Grant to Silk Societies/Agency\" aims to encourage the silk weaving artisans to form registered societies/agencies to develop a cluster approach among the artisans which is effective and advisable at present for the successful development of their business.",
+    "tags": [
+      "Society",
+      "Grant",
+      "Silk",
+      "Artisan",
+      "Business"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gssa-ds"
+  },
+  {
+    "slug": "mmdas",
+    "schemeName": "Modified Market Development Assistance Scheme",
+    "schemeShortTitle": "MMDAS",
+    "nodalMinistryName": "Ministry Of Micro, Small and Medium Enterprises",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to enhance the production and sales of Khadi and Polyvastra products by supporting technology upgradation, market promotion, and providing direct incentives to artisans and Karyakartas. It targets Khadi Institutions and their associated artisans and workers.",
+    "tags": [
+      "Artisan",
+      "Production",
+      "Marketing",
+      "Subsidy",
+      "Incentive"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmdas"
+  },
+  {
+    "slug": "ghs-pudu",
+    "schemeName": "\"Grant To Handicrafts Societies\" Component of the \"Development of Handicrafts\" Scheme",
+    "schemeShortTitle": "GHS-PUDU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Puducherry"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "“Grant To Handicrafts Societies” by the Department of Industries and Commerce, UT of Puducherry aims to encourage the creation of Handicrafts Societies to enhance coordination and skill among craftspeople. Grants are provided to registered societies for organizing or participating in exhibitions.",
+    "tags": [
+      "Society",
+      "Exhibition",
+      "Grant",
+      "Handicraft",
+      "Artisan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ghs-pudu"
+  },
+  {
+    "slug": "nhdp-iandts-emporia",
+    "schemeName": "National Handicrafts Development Programme: Infrastructure And Technology Support: EMPORIA",
+    "schemeShortTitle": "NHDP-I&TS-EMPORIA",
+    "nodalMinistryName": "Ministry Of Textiles",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "In the scheme \"Infrastructure and Technology Support: EMPORIA\" assistance would be provided for the setting up of emporia. These would be set up in commercially viable locations in the implementing agencies' own/rented buildings.",
+    "tags": [
+      "Artisan",
+      "Weaver",
+      "Entrepreneurship",
+      "Business",
+      "Exhibition"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nhdp-iandts-emporia"
+  },
+  {
+    "slug": "asha",
+    "schemeName": "Assistance Scheme for Handicraft Artisans",
+    "schemeShortTitle": "ASHA",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Kerala"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The Scheme intends to provide financial assistance in the form of grant to the artisans in the handicrafts sector for setting up handicraft enterprises. The assistance is a one time support to eligible artisans of the state as back end assistance.",
+    "tags": [
+      "Handicraft",
+      "Artisan",
+      "ASHA",
+      "Financial Assistance",
+      "Enterprise",
+      "Entrepreneur"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/asha"
+  },
+  {
+    "slug": "gvk",
+    "schemeName": "Gramodhyog Vikas Kendra",
+    "schemeShortTitle": "GVK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Transport & Infrastructure"
+    ],
+    "briefDescription": "The scheme aims to provide infrastructure facilities at village level to artisans through Common Facility Centers. Registered Non-Governmental Organizations, cooperative societies and trusts receive financial assistance up to ₹13,00,000/- for building infrastructure, training, equipment, etc.",
+    "tags": [
+      "Artisan",
+      "Infrastructure",
+      "Village",
+      "NGO",
+      "Training",
+      "Marketing"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/gvk"
+  },
+  {
+    "slug": "nhdp-iandts-uh",
+    "schemeName": "National Handicrafts Development Programme: Infrastructure And Technology Support: URBAN HAAT",
+    "schemeShortTitle": "NHDP-I&TS-UH",
+    "nodalMinistryName": "Ministry Of Textiles",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme \"Infrastructure & Technology Support: URBAN HAAT\" is introduced is to set up a permanent marketing infrastructure in towns/ metropolitan cities to provide direct marketing facilities to handicrafts artisans/handloom weavers, enabling them to sell their products to wider target audience.",
+    "tags": [
+      "Entrepreneurship",
+      "Artisan",
+      "Handloom",
+      "Handicraft",
+      "Weaver",
+      "Infrastructure",
+      "Technology Support",
+      "Urban Haat"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nhdp-iandts-uh"
+  },
+  {
+    "slug": "bydbta",
+    "schemeName": "Bima Yojana - Direct Benefit to Artisan",
+    "schemeShortTitle": "BYDBTA",
+    "nodalMinistryName": "Ministry Of Textiles",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Sports & Culture",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Launched on 15th August 2022, the scheme \"Bima Yojana - Direct Benefit to Artisan (BYDBTA)\" is a Social Welfare Scheme by the Ministry of Textiles, Government of India.\n",
+    "tags": [
+      "Artisans",
+      "Insurance",
+      "Handicrafts",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bydbta"
+  },
+  {
+    "slug": "pmegp",
+    "schemeName": "Prime Minister's Employment Generation Programme",
+    "schemeShortTitle": "PMEGP",
+    "nodalMinistryName": "Ministry Of Micro, Small and Medium Enterprises",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment",
+      "Skills & Employment"
+    ],
+    "briefDescription": "Launched in August 2008, Prime Minister's Employment Generation Programme (PMEGP) is a credit-linked subsidy scheme, administered by the Ministry of Micro, Small and Medium Enterprises (MSME). PMEGP aims to generate employment opportunities through the establishment of micro-enterprises in ",
+    "tags": [
+      "Financial Assistance",
+      "Loan",
+      "Entrepreneur",
+      "Projects",
+      "Micro Enterprises"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmegp"
+  },
+  {
+    "slug": "pmv",
+    "schemeName": "PM Vishwakarma",
+    "schemeShortTitle": "PMV",
+    "nodalMinistryName": "Ministry Of Micro, Small and Medium Enterprises",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme \"PM Vishwakarma \" by the Ministry of Micro, Small & Medium Enterprises, is a new scheme that envisages providing end-to-end holistic support to traditional artisans and craftspeople in scaling up their conventional products and services.",
+    "tags": [
+      "Artisans",
+      "Craftspeople",
+      "Skill Upgradation",
+      "Toolkit Incentive"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmv"
+  },
+  {
+    "slug": "fataps",
+    "schemeName": "Financial Assistance to Traditional Artisans (Panchavrutthi Scheme) ",
+    "schemeShortTitle": "FATAPS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Karnataka"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The \"Financial Assistance to Traditional Artisans (Panchavrutthi Scheme)\" provides financial assistance to traditional artisans of the Vishwakarma community in Karnataka. The scheme aims to help these artisans purchase modern tools & upgrade their technological skills to enhance their trade.",
+    "tags": [
+      "Financial Assistance",
+      "Artisans",
+      "Vishwakarma Communities",
+      "Subsidy",
+      "Loan"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/fataps"
+  },
+  {
+    "slug": "spay",
+    "schemeName": "Sardar Patel Awas Yojana",
+    "schemeShortTitle": "SPAY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "Sardar Patel Awas Yojana (SPAY) is a housing scheme launched by the government of Gujarat in India to provide affordable housing to economically weaker sections (EWS) and low-income groups (LIG) of society. ",
+    "tags": [
+      "Sardar Patel",
+      "Awas Yojana",
+      "Gujarat",
+      "Housing"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/spay"
+  },
+  {
+    "slug": "daay",
+    "schemeName": "Dr. Ambedkar Awas Yojana",
+    "schemeShortTitle": "DAAY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "Under the scheme, financial assistance of ₹1,20,000/- is provided to Scheduled Caste individuals who do not own a residential home, have an old rough residential home, or own a plot for residence, and who belong to the Below Poverty Line (BPL) category for the construction of a house. ",
+    "tags": [
+      "Scheduled Caste",
+      "House",
+      "Awas",
+      "Financial Assistance",
+      "BPL"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/daay"
+  },
+  {
+    "slug": "mayhpbocwwb",
+    "schemeName": "Mukhyamantri Awas Yojna (HPBOCWWB)",
+    "schemeShortTitle": "MAYHPBOCWWB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The Mukhyamantri Awas Yojna, introduced by the Himachal Pradesh Building and Other Construction Workers Welfare Board (HPBOCWWB), provides financial assistance of ₹1,50,000/- to registered worker.",
+    "tags": [
+      "Construction Workers",
+      "Building Worker",
+      "Housing Assistance",
+      "Labour"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mayhpbocwwb"
+  },
+  {
+    "slug": "braany",
+    "schemeName": "Dr. B.R. Ambedkar Awas Navinikarn Yojna",
+    "schemeShortTitle": "BRAANY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The main purpose of this scheme is to provide grant for the repair of house to all families living under below poverty line, whose house needs repair. An amount of Rs. 80,000/- is provided for this purpose. Only on-line applications on https://saralharyana.gov.in/ are accepted under this scheme.",
+    "tags": [
+      "Below Poverty Line",
+      "Haryana Domicile",
+      "Awas",
+      "Scheduled Caste",
+      "Backward Classes"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/braany"
+  },
+  {
+    "slug": "bany",
+    "schemeName": "Birsa Awas Nirman Yojana",
+    "schemeShortTitle": "BANY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jharkhand"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The \"Birsa Awas Nirman Yojana\" by the Welfare Department, Government of Jharkhand, provides financial assistance in three installments for housing construction to Scheduled Tribes, along with a ₹500 incentive for monitoring agencies for timely completion.",
+    "tags": [
+      "Financial Assistance",
+      "Housing",
+      "Rural Development"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/bany"
+  },
+  {
+    "slug": "pduaydcw",
+    "schemeName": "Pandit Dindayal Upadhyay Awas Yojana-Developing Caste Welfare",
+    "schemeShortTitle": "PDUAYDCW",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The \"Pandit Dindayal Upadhyay Awas Yojana-Developing Caste Welfare\" provides financial assistance of up to ₹1,20,000/- to socially and educationally backward classes, economically backward classes, and nomadic exempted castes for constructing houses across Gujarat.\n\n",
+    "tags": [
+      "Housing",
+      "Socially And Educationally Backward Class",
+      "Economically Backward Class",
+      "Nomadic Exempted Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pduaydcw"
+  },
+  {
+    "slug": "mmvenay",
+    "schemeName": "Mukhyamantri Vidwa Evam Ekal Naari Awas Yojana",
+    "schemeShortTitle": "MMVENAY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Himachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Women and Child",
+      "Social welfare & Empowerment",
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The \"Mukhyamantri Vidwa Evam Ekal Naari Awas Yojana\" was launched by the Department of Social Justice and Empowerment, Government of Himachal Pradesh. The scheme aims to provide financial grants for the construction of houses to economically weak widows and single women.",
+    "tags": [
+      "Financial Assistance",
+      "Women",
+      "Widow",
+      "Housing"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmvenay"
+  },
+  {
+    "slug": "rassnb",
+    "schemeName": "Ramai Awas (Gharkul) Scheme for SC & Nav-Buddha (Urban and Rural)",
+    "schemeShortTitle": "RASSNB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme \"Ramai Awas (Gharkul) Scheme for SC & Nav-Buddha (Urban and Rural)\" is a housing scheme by the Department of Social Justice & Special Assistance of the Government of Maharashtra. The scheme aims to raise the standard of living of the Scheduled Caste and Nav-Buddha communities.",
+    "tags": [
+      "Housing",
+      "Scheduled Caste",
+      "Nav Buddha",
+      "Urban",
+      "Rural"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rassnb"
+  },
+  {
+    "slug": "mgawb",
+    "schemeName": "Mukhyamantri Gramin Awas Yojana",
+    "schemeShortTitle": "MGAWB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Bihar"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "This scheme aims to provide safe housing for Scheduled Castes, Scheduled Tribes, and Extremely Backward Classes whose existing group housing under previous schemes has become broken down.\n\n",
+    "tags": [
+      "Housing",
+      "Social Welfare",
+      "Scheduled Castes",
+      "Scheduled Tribes",
+      "Extremely Backward Classes",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mgawb"
+  },
+  {
+    "slug": "pduayebc",
+    "schemeName": "Pandit Dindayal Upadhyay Awas Yojana (Developing Caste Welfare) (EBC)",
+    "schemeShortTitle": "PDUAYEBC",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The scheme aims to support Economically Weaker Sections (EWS) by offering financial aid up to ₹1,20,000/- for house construction. This scheme also ensures that Economically Weaker Sections receive support in securing shelter.",
+    "tags": [
+      "Housing",
+      "Economically Weaker Section",
+      "Social Welfare",
+      "Shelter",
+      "Home",
+      "EWS"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pduayebc"
+  },
+  {
+    "slug": "asyf1hvidsstiti",
+    "schemeName": "Awas Sahayta Yojana for 100% Hearing and Visually Impaired Disabled Students in Special Trades of Industrial Training Institutes",
+    "schemeShortTitle": "ASYF1HVIDSSTITI",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to ensure qualitative admission and enable 100% hearing and visually impaired students to obtain high-quality technical education free from economic constraints. It provides housing assistance and expenses for food and accommodation, up to ₹4,000/- to PwD Students.",
+    "tags": [
+      "Student",
+      "Housing",
+      "Disability",
+      "Training",
+      "Stipend"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/asyf1hvidsstiti"
+  },
+  {
+    "slug": "sndaygbocwwb",
+    "schemeName": "Shree Nanaji Deshmukh Awas Yojana (GBOCWWB)",
+    "schemeShortTitle": "SNDAY(GBOCWWB)",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "In urban areas, where EWS/LIG houses have been allotted by Local Self-Government Organization/Urban Development Authority & Gujarat Housing Board under Chief Minister/Prime Minister Awas Yojana, the benefit of this scheme is given once per family to construction worker registered in the board.",
+    "tags": [
+      "Awas",
+      "Building Worker",
+      "Construction Worker",
+      "Labour",
+      "Financial Assistance",
+      "House"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sndaygbocwwb"
+  },
+  {
+    "slug": "aay",
+    "schemeName": "Abua Awas Yojana",
+    "schemeShortTitle": "AAY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jharkhand"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The Abua Awas Yojana aims to provide pucca houses to 8,00,000 homeless families in three phases. Each house will feature three rooms and a kitchen, covering an area of 31 square meters.",
+    "tags": [
+      "Construction",
+      "Housing",
+      "Rural Development",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aay"
+  },
+  {
+    "slug": "nssay",
+    "schemeName": "Nirman Shramik Sulabhn Awas Yojana",
+    "schemeShortTitle": "NSSAY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The scheme aims to provide housing grant assistance to registered construction workers under approved Central or State Government housing schemes or for construction of a house on their own plot.",
+    "tags": [
+      "Construction Worker",
+      "Housing Grant",
+      "Awas Yojana"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/nssay"
+  },
+  {
+    "slug": "pduayntdnt",
+    "schemeName": "Pandit Dindayal Upadhyay Awas Yojana (Developing Caste Welfare) (NT-DNT)",
+    "schemeShortTitle": "PDUAYNTDNT",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The \"Pandit Dindayal Upadhyay Awas Yojana (Developing Caste Welfare) (NT-DNT)\" provides financial assistance of up to ₹1,20,000/- to the people belonging to Nomadic Tribes and Denotified Tribes.\n",
+    "tags": [
+      "Housing",
+      "Nomadic And Denotified Tribe",
+      "Social Welfare"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pduayntdnt"
+  },
+  {
+    "slug": "pmay-u",
+    "schemeName": "Pradhan Mantri Awas Yojana - Urban",
+    "schemeShortTitle": "PMAY - U",
+    "nodalMinistryName": "Ministry Of Housing & Urban Affairs",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter",
+      "Utility & Sanitation"
+    ],
+    "briefDescription": "Pradhan Mantri Awas Yojana - Urban (PMAY-U) Scheme was launched on 25th June 2015 by the Hon’ble Prime Minister to provide all-weather pucca houses to all eligible urban households across the nation with the vision of ‘Housing for All’. ",
+    "tags": [
+      "Housing",
+      "Urban",
+      "Rehabilitation",
+      "Loan",
+      "Sanitation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmay-u"
+  },
+  {
+    "slug": "aayu",
+    "schemeName": "Atal Awas Yojana - Uttarakhand",
+    "schemeShortTitle": "AAYU",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "Under this scheme, financial assistance of ₹1,30,000/- is provided for constructing houses in hilly areas and ₹1,20,000/- for plain areas to homeless Scheduled Caste families who are below the poverty line (BPL) or fall within a defined income limit.",
+    "tags": [
+      "Financial Assistance",
+      "BPL",
+      "Scheduled Caste",
+      "House",
+      "Atal",
+      "Homeless Family"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aayu"
+  },
+  {
+    "slug": "ahcppmay",
+    "schemeName": "Affordable Housing Component in Partnership of Pradhan Mantri Awas Yojana (Urban) under Uttarakhand Housing Policy Rules, 2024",
+    "schemeShortTitle": "AHCPPMAY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The scheme aims to provide affordable pucca housing with basic amenities to lower-income groups individuals in Uttarakhand through a partnership model under the Pradhan Mantri Awas Yojana (Urban).",
+    "tags": [
+      "House",
+      "Affordable Housing",
+      "Awas"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ahcppmay"
+  },
+  {
+    "slug": "ihccblcuk",
+    "schemeName": "Pradhan Mantri Awas Yojana – Urban: Individual House Construction Component - Beneficiary Led Construction (BLC) Uttarakhand",
+    "schemeShortTitle": "IHCCBLCUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Housing & Shelter"
+    ],
+    "briefDescription": "The scheme aims to provide financial assistance to eligible urban families for constructing a pucca house on their own land or for improving their existing kutcha or weak houses.",
+    "tags": [
+      "House Construction",
+      "BLC",
+      "Urban",
+      "Awas"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ihccblcuk"
+  },
+  {
+    "slug": "mmksy",
+    "schemeName": "Mukhya Mantri Mahila Kisan Sashaktikaran Yojana",
+    "schemeShortTitle": "MMKSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Mukhya Mantri Mahila Kisan Sashaktikaran Yojana (MMKSY) is a scheme launched by the Government of Gujarat to empower women farmers in the state. The scheme was announced in the 2018-19 budget and is being implemented by the Department of Agriculture and Co-operation. ",
+    "tags": [
+      "Mukhya Mantri",
+      "Mahila",
+      "Kisan",
+      "Sashaktikaran Yojana"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmksy"
+  },
+  {
+    "slug": "asfm",
+    "schemeName": "Allotment of Shops in Kisan Bazaar",
+    "schemeShortTitle": "ASKB",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme aims to facilitate trade in products other than agricultural produce by providing commercial shops in Kisan Bazaars. The shops are allotted to eligible residents of Uttarakhand through public notices published in newspapers and displayed at public places.",
+    "tags": [
+      "Farmer Market",
+      "Kisan Bazaar",
+      "Shop Allotment"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/asfm"
+  },
+  {
+    "slug": "ksych",
+    "schemeName": "Kisan Samriddhi Yojana - Chhattisgarh",
+    "schemeShortTitle": "Ksych",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Chhattisgarh State Government started a scheme \"Kisan Samriddhi Yojana\" for farmer.",
+    "tags": [
+      "Financial Assistance",
+      "Farmers",
+      "Agriculture",
+      "Pump Installation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ksych"
+  },
+  {
+    "slug": "mksy",
+    "schemeName": "Mukhyamantri Kisan Sahay Yojana",
+    "schemeShortTitle": "MKSY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme was launched on September 6, 2019, to provide relief and support to farmers in case of crop damage due to natural calamities and was implemented by the Revenue Department of the Government of Gujarat in collaboration with the Agriculture and Co-operation Department.",
+    "tags": [
+      "Kisan Sahay",
+      "Drought",
+      "Flood",
+      "Earthquake",
+      "Natural Calamities",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mksy"
+  },
+  {
+    "slug": "kky",
+    "schemeName": "Kisan Kaleva Yojana",
+    "schemeShortTitle": "KKY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Under the Kisan Kaleva Scheme run by the Rajasthan Government, food is provided at concessional rates through coupons to the farmers and their assistants who come to sell crops in the vegetable market premises.",
+    "tags": [
+      "Food",
+      "Farmer",
+      "Agriculture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kky"
+  },
+  {
+    "slug": "ksyg",
+    "schemeName": "Kisan Suryoday Yojana (KSY)",
+    "schemeShortTitle": "KSYG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Utility & Sanitation",
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "\"Kisan Suryoday Yojana (KSY)\" is a Gujarat government initiative launched in 2020-2021 to provide daytime electricity for agricultural activities, utilizing solar and non-conventional energy.\n\n",
+    "tags": [
+      "Agricultural",
+      "Electricity Supply",
+      "Farmer",
+      "Renewable Energy",
+      "Irrigation"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ksyg"
+  },
+  {
+    "slug": "mkyh",
+    "schemeName": "Mahila Kisan Yojana",
+    "schemeShortTitle": "MKYH",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Haryana"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship"
+    ],
+    "briefDescription": "The scheme \"Mahila Kisan Yojana\" is an economic empowerment scheme by the Scheduled Castes Finance and Development Corporation, Government of Haryana. Through this scheme, loans are provided to the women from Scheduled Castes for the betterment of their economic status through self-employment.",
+    "tags": [
+      "Women",
+      "Employment",
+      "Loan",
+      "Subsidy",
+      "Enterpreneur",
+      "Scheduled Caste"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mkyh"
+  },
+  {
+    "slug": "ksyj",
+    "schemeName": "Kisan Samriddhi Yojana Jharkhand",
+    "schemeShortTitle": "KSYJ",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jharkhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The \"Kisan Samriddhi Yojana\" by the Department of Agriculture, Animal Husbandry & Cooperative, Government of Jharkhand, promotes solar-powered irrigation systems to reduce agricultural costs and dependency on fossil fuels. Farmers receive up to 90% subsidy for solar units under this initiative.",
+    "tags": [
+      "Farmers",
+      "Subsidy",
+      "Solar Units",
+      "Self-help Group"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/ksyj"
+  },
+  {
+    "slug": "mkym",
+    "schemeName": "Mahila Kisan Yojana (Maharashtra)",
+    "schemeShortTitle": "MKYM",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Maharashtra"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment",
+      "Skills & Employment",
+      "Women and Child"
+    ],
+    "briefDescription": "\"Mahila Kisan Yojana\" is implemented by the Dept. of Social Justice & Special Assistance, Govt. of Maharashtra. The scheme aims to uplift the lifestyle of economically disadvantaged Charmakar communities. it supports the production and sale of various types of footwear and leather articles.",
+    "tags": [
+      "Employment",
+      "Charmakar",
+      "Subsidy",
+      "Loan",
+      "Woman",
+      "Scheduled Caste",
+      "Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mkym"
+  },
+  {
+    "slug": "cm-sky",
+    "schemeName": "Chief Minister’s Shasakt Kisan Yojana",
+    "schemeShortTitle": "CM-SKY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Arunachal Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The Govt. of Arunachal Pradesh started the scheme “Chief Minister’s Shasakt Kisan Yojana (CM-SKY)” for uplifting the status of women, marginal and small farmers of the State for self-employment generation & commercialization of Horticulture activities to double their income.",
+    "tags": [
+      "Farmer",
+      "Horticulture",
+      "Self-employment",
+      "Tea",
+      "Rubber",
+      "Financial Assistance"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/cm-sky"
+  },
+  {
+    "slug": "rgkny",
+    "schemeName": "Rajiv Gandhi Kisan Nyay Yojana",
+    "schemeShortTitle": "Rgkny",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "Rajiv Gandhi Kisan Nyay Yojana is a scheme of the Government of Chhattisgarh for the farmers. This scheme was launched on 21 May 2020, on the death anniversary of Rajiv Gandhi.",
+    "tags": [
+      "Agriculture",
+      "Farmers",
+      "Paddy",
+      "Maize"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/rgkny"
+  },
+  {
+    "slug": "kvny",
+    "schemeName": "Krishi Vidya Nidhi Yojana",
+    "schemeShortTitle": "KVNY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Odisha"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to provide merit-based financial assistance to children of CM-KISAN beneficiaries pursuing professional and technical courses, supporting higher education through Direct Benefit Transfer.",
+    "tags": [
+      "Scholarship",
+      "Higher Education",
+      "Farmers Children",
+      "DBT",
+      "CM-KISAN"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kvny"
+  },
+  {
+    "slug": "vtsskvk",
+    "schemeName": "Various Training and Support Schemes of Kisan Vigyan Kendra - Veer Chandra Singh Garhwali Uttarakhand University of Horticulture and Forestry",
+    "schemeShortTitle": "VTSSKVK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to enhance the knowledge, skills, and productivity of farmers in Uttarakhand by providing them with the latest technical training in agriculture, horticulture, and forestry.",
+    "tags": [
+      "Kisan Vigyan Kendra",
+      "Training",
+      "Farmer",
+      "Technical Training",
+      "Agriculture",
+      "Forestry",
+      "Horticulture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/vtsskvk"
+  },
+  {
+    "slug": "f-ss",
+    "schemeName": "Kisan-Vaigyanik Sangoshthi",
+    "schemeShortTitle": "KVS",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Skills & Employment"
+    ],
+    "briefDescription": "The scheme aims to guide farmers and youth in biotechnology-based farming and animal husbandry by providing technical training and solutions to enhance self-employment and income generation.",
+    "tags": [
+      "Farmer",
+      "Scientist",
+      "Self-help Group",
+      "Seminar",
+      "Training",
+      "Youth",
+      "Biotechnology"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/f-ss"
+  },
+  {
+    "slug": "smaeuk",
+    "schemeName": "Sub-Mission on Agricultural Extension (SMAE)",
+    "schemeShortTitle": "SMAEUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote the adoption of modern and scientific farming practices among farmers across the state through continuous training, practical demonstrations, and exposure visits.",
+    "tags": [
+      "Agricultural",
+      "Farmer",
+      "SMAE",
+      "Kisan Award",
+      "Kisan Ratna",
+      "Kisan Shri"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/smaeuk"
+  },
+  {
+    "slug": "kpyg",
+    "schemeName": "Kisan Parivahan Yojana",
+    "schemeShortTitle": "KPYG",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Gujarat"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "This scheme has been introduced by the Agriculture, Farmers Welfare and Cooperation Department, Gujarat. It aims to provide financial assistance to farmers for purchasing medium-sized goods vehicles to facilitate the transportation of agricultural produce.",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Heavy Farm Equipment",
+      "Goods Vehicles"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kpyg"
+  },
+  {
+    "slug": "akjy",
+    "schemeName": "Atal Kisan Jyoti Yojana",
+    "schemeShortTitle": "AKJY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Madhya Pradesh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Utility & Sanitation"
+    ],
+    "briefDescription": "The scheme aims to provide affordable electricity to farmers in Madhya Pradesh by offering power supply at concessional rates.",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Agricultural Pump"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/akjy"
+  },
+  {
+    "slug": "pmkmdy",
+    "schemeName": "Pradhan Mantri Kisan Maandhan Yojana",
+    "schemeShortTitle": "PMKMDY",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide old-age social security through a minimum assured monthly pension of ₹ 3,000/- to Small and Marginal Farmers after attaining the age of 60 years.",
+    "tags": [
+      "Small And Marginal Farmer",
+      "Social Security",
+      "Old Age Pension",
+      "Family Pension"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pmkmdy"
+  },
+  {
+    "slug": "mmkmuy",
+    "schemeName": "Mukhyamantri Kisan Mitra Urja Yojna",
+    "schemeShortTitle": "MMKMUY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Rajasthan"
+    ],
+    "schemeCategory": [
+      "Utility & Sanitation"
+    ],
+    "briefDescription": "The scheme aims to provide additional electricity bill subsidy of up to ₹1,000/- per month (maximum ₹12,000/- per year) through adjustment in electricity bills to eligible rural agricultural electricity consumers of Rajasthan.",
+    "tags": [
+      "Farmer",
+      "Electricity",
+      "Electricity Bill Assistance",
+      "Tariff Subsidy",
+      "Subsidy",
+      "Agricultural Power Consumers"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/mmkmuy"
+  },
+  {
+    "slug": "kpy",
+    "schemeName": "Farmer Pension Scheme",
+    "schemeShortTitle": "FPSUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "The scheme aims to provide financial support to elderly farmers residing in the state of Uttarakhand. Under this scheme, a monthly pension of ₹1200/- is provided to farmers who are above 60 years of age, own up to 2 hectares of land, and cultivate their own land.",
+    "tags": [
+      "Farmer",
+      "Pension",
+      "Kisan",
+      "Agriculture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kpy"
+  },
+  {
+    "slug": "pm-mkssy",
+    "schemeName": "Pradhan Mantri Matsya Kisan Samridhi Sah-Yojana (PM-MKSSY)",
+    "schemeShortTitle": "PM-MKSSY",
+    "nodalMinistryName": "Ministry of Fisheries,Animal Husbandry and Dairying",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "The scheme aims to provide financial incentives to persons associated with fisheries and aquaculture for registration, successful loan facilitation, and aquaculture insurance. It promotes capital investment, job creation, and employment retention through performance-based grants.",
+    "tags": [
+      "Fisheries",
+      "Aquaculture",
+      "Financial Assistance",
+      "Loan",
+      "Insurance",
+      "Stakeholder"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pm-mkssy"
+  },
+  {
+    "slug": "sdu",
+    "schemeName": "Seed Grant",
+    "schemeShortTitle": "SD-UK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to provide seeds to farmers at a concessional rate during Kisan Melas with a subsidy of up to 15%.",
+    "tags": [
+      "Agriculture",
+      "Subsidy",
+      "Farmer",
+      "Seed Distribution"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/sdu"
+  },
+  {
+    "slug": "pm-kisan",
+    "schemeName": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "schemeShortTitle": "PM-KISAN",
+    "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment",
+      "Social welfare & Empowerment"
+    ],
+    "briefDescription": "With a view to provide income support to all landholding farmers’ families in the country, having cultivable land, the Central Government has implemented a Central Sector Scheme, namely, “Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)”. ",
+    "tags": [
+      "Farmers",
+      "Income Support",
+      "Agricultural Inputs",
+      "Kisan",
+      "Agriculture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pm-kisan"
+  },
+  {
+    "slug": "kvmy",
+    "schemeName": "Kisan Vriksha Mitra Yojana",
+    "schemeShortTitle": "KVMY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Chhattisgarh"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote commercial tree plantation on private lands, ensuring buyback of produce, increasing farmers' income, and generating employment. The scheme benefits farmers, private institutions, and other stakeholders by providing financial assistance for plantation.",
+    "tags": [
+      "Forest",
+      "Environment",
+      "Tree",
+      "Plantation",
+      "Farmer"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kvmy"
+  },
+  {
+    "slug": "aikmkue",
+    "schemeName": "Akhil Bhartiya Kisan Mela and Krishi Udyog Pradarshani",
+    "schemeShortTitle": "ABKMKUP",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to provide a platform for farmers, agri-entrepreneurs, and stakeholders to access, learn about, and showcase the latest agricultural innovations, technologies, and practices.",
+    "tags": [
+      "Agricultural Exhibition",
+      "Farmer",
+      "Fair",
+      "Entrepreneur"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/aikmkue"
+  },
+  {
+    "slug": "jkrmy",
+    "schemeName": "Jharkhand Krishi Rin Mafi Yojana",
+    "schemeShortTitle": "JKRMY",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Jharkhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The objective of the scheme is to provide relief from the debt burden to short-term agricultural loan holders in the state. Under this scheme, outstanding loan amounts of up to ₹50,000/- in standard crop loan outstanding accounts as of 31st March 2020, will be waived.",
+    "tags": [
+      "Farmer",
+      "Crop Loan",
+      "Kisan Credit Card",
+      "Agriculture"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/jkrmy"
+  },
+  {
+    "slug": "pm-kusumuk",
+    "schemeName": "Pradhan Mantri Kisan Urja Suraksha Evam Utthaan Mahabhiyan Yojana (PM-KUSUM) - Uttarakhand",
+    "schemeShortTitle": "PM-KUSUMUK",
+    "nodalMinistryName": "",
+    "level": "State",
+    "beneficiaryState": [
+      "Uttarakhand"
+    ],
+    "schemeCategory": [
+      "Agriculture,Rural & Environment"
+    ],
+    "briefDescription": "The scheme aims to promote clean and affordable irrigation by replacing diesel pump sets with solar-powered pump sets, reducing farmers’ irrigation costs, enhancing energy security, and increasing farmers’ income through sustainable and efficient use of solar energy.",
+    "tags": [
+      "Farmer",
+      "Irrigation",
+      "Solar Pumpset",
+      "Agriculture",
+      "Diesel Pumpset"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/pm-kusumuk"
+  },
+  {
+    "slug": "kvps",
+    "schemeName": "Kisan Vikas Patra Scheme",
+    "schemeShortTitle": "KVPS",
+    "nodalMinistryName": "Ministry Of Finance",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "‘Kisan Vikas Patra Scheme’ was relaunched in the year 2014 by the Department of Economic Affairs, Ministry Of Finance, Government of India in view of the popular demand and to revitalize Small Savings. The amount invested in Kisan Vikas Patra (KYP) doubles in 115 months at the present rate.",
+    "tags": [
+      "Kisan",
+      "Investment",
+      "Savings",
+      "Certificate"
+    ],
+    "officialUrl": "https://www.myscheme.gov.in/schemes/kvps"
+  },
+  {
+    "slug": "nsfdc-mcf",
+    "schemeName": "NSFDC Micro Credit Finance (MCF)",
+    "schemeShortTitle": "MCF",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Social Welfare & Empowerment"
+    ],
+    "briefDescription": "Provides micro-finance loans up to ₹1,40,000 to Target Group (SC beneficiaries with family income up to ₹5.00 Lakh) at 6.5% interest rate with 3-6 months moratorium.",
+    "tags": [
+      "Loan",
+      "Microfinance",
+      "NSFDC",
+      "SC Beneficiaries",
+      "MoSJE"
+    ],
+    "officialUrl": "https://nsfdc.nic.in/scheme"
+  },
+  {
+    "slug": "nsfdc-msy",
+    "schemeName": "Mahila Samriddhi Yojana (MSY)",
+    "schemeShortTitle": "MSY",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Banking,Financial Services and Insurance",
+      "Women and Child"
+    ],
+    "briefDescription": "Exclusive concessional microfinance scheme for Scheduled Caste women entrepreneurs up to ₹1,40,000 at a rebate interest rate of 5.5% per annum.",
+    "tags": [
+      "Loan",
+      "Women Entrepreneurship",
+      "NSFDC",
+      "MoSJE",
+      "Concessional"
+    ],
+    "officialUrl": "https://nsfdc.nic.in/scheme"
+  },
+  {
+    "slug": "nsfdc-term-loan",
+    "schemeName": "NSFDC Term Loan Scheme (TL)",
+    "schemeShortTitle": "TL",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Business & Entrepreneurship",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Term loan assistance up to ₹50.00 Lakh per unit for viable income-generating projects in manufacturing, service, and agricultural sectors for target beneficiaries.",
+    "tags": [
+      "Term Loan",
+      "Business Scale-up",
+      "NSFDC",
+      "MoSJE"
+    ],
+    "officialUrl": "https://nsfdc.nic.in/scheme"
+  },
+  {
+    "slug": "nsfdc-els",
+    "schemeName": "NSFDC Education Loan Scheme (ELS)",
+    "schemeShortTitle": "ELS",
+    "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+    "level": "Central",
+    "beneficiaryState": [
+      "All"
+    ],
+    "schemeCategory": [
+      "Education & Learning",
+      "Banking,Financial Services and Insurance"
+    ],
+    "briefDescription": "Concessional education loans up to ₹20 Lakh for studies in India and ₹40 Lakh abroad at 4.0% p.a. (3.5% for women students) with study period + 6 months repayment moratorium.",
+    "tags": [
+      "Education Loan",
+      "Higher Studies",
+      "NSFDC",
+      "MoSJE"
+    ],
+    "officialUrl": "https://nsfdc.nic.in/scheme"
+  }
+];

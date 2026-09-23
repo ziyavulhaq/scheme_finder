@@ -7,6 +7,7 @@ import bcrypt from "bcryptjs";
 import db, { initDatabase } from "./db.js";
 import { evaluateEligibility } from "./rulesEngine.js";
 import { calculateAmortization } from "./financialMath.js";
+import { assessSchemeAndLender } from "../src/utils/verifierEngine.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,6 +22,7 @@ const allowedOrigins = [
   "http://localhost:4173",
   "http://localhost:3000",
   "https://scheme-finder.vercel.app",
+  "https://scheme-finder-six.vercel.app",
   process.env.CLIENT_ORIGIN
 ].filter(Boolean);
 
@@ -515,6 +517,35 @@ app.get("/api/partners", (req, res) => {
   const userLng = parseFloat(req.query.lng) || 76.976618;
   const categoryFilter = (req.query.category || "all").toLowerCase().trim();
   res.json(getVerifiedCoimbatoreFallback(userLat, userLng, categoryFilter));
+});
+
+// 7. POST /api/verify-scheme - Scheme & Lender Verification Checker (Module 5)
+app.post("/api/verify-scheme", (req, res) => {
+  try {
+    const {
+      schemeName = "",
+      websiteUrl = "",
+      lenderName = "",
+      upfrontFeeAsked = false,
+      urgencyTactics = false,
+      otpOrPinRequested = false,
+      unverifiableDepartment = false
+    } = req.body;
+
+    const result = assessSchemeAndLender({
+      schemeName,
+      websiteUrl,
+      lenderName,
+      upfrontFeeAsked: Boolean(upfrontFeeAsked),
+      urgencyTactics: Boolean(urgencyTactics),
+      otpOrPinRequested: Boolean(otpOrPinRequested),
+      unverifiableDepartment: Boolean(unverifiableDepartment)
+    });
+
+    res.json({ success: true, ...result });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
 });
 
 // Serve frontend in production container

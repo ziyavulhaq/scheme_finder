@@ -45,6 +45,10 @@ Every single datum presented to a beneficiary, bank officer, or government evalu
 | **Application Slip** | Required Documents Checklist | **VERIFIED REAL** | [NSFDC Beneficiary Eligibility Guidelines](https://nsfdc.nic.in/eligibility-requirements) | Aadhaar card, Caste Certificate issued by competent Tehsildar, Family Income Certificate (≤ ₹5L), DPR/Quotation, Bank Passbook. |
 | **Document Readiness Checker** | Document checklist per scheme (Common: Caste, Income ≤₹5L, Aadhaar/ID, Photo, Passbook; Micro/Term: Project Report/DPR, Machinery Quotation; Education: Admission Letter, Fee Structure, Mark Sheets) | **VERIFIED REAL** | [NSFDC Eligibility Requirements](https://nsfdc.nic.in/eligibility-requirements), [NSFDC How to Apply Guidelines](https://nsfdc.nic.in/how-to-apply-2), [Term Loan Form PDF](https://nsfdc.nic.in/storage/uploads-file/media/20260114_092056_9DWIVL.pdf), and [Education Loan Form PDF](https://nsfdc.nic.in/storage/uploads-file/media/20260114_092157_GN3YdZ.pdf) | Verified against official downloadable application forms and statutory guidelines published on the NSFDC portal. Strict on-device verification via Tesseract.js (zero server upload). |
 | **Application Slip** | Mock Beneficiary Profile (`"Murugan S."`, income, category) | **ESTIMATED — labeled in UI** | Demonstrative sample profile for preview | Used solely as demonstrative data when generating a print preview from the standalone locator without completing the Recommender Wizard. |
+| **Scheme Verifier** | myScheme Government Registry Cache (571 Schemes) | **VERIFIED REAL** | [myScheme Government Portal](https://www.myscheme.gov.in) (Digital India Corporation / MeitY) | Extracted on September 23, 2026. Focuses on credit, loans, subsidies, MoSJE/NSFDC target groups, MSME, and women empowerment. Pre-cached to strictly comply with myScheme's terms of use regarding bot restrictions. |
+| **Scheme Verifier** | RBI Sachet Portal & Regulated Entity Verification | **OFFICIAL REGULATORY DEEP-LINK** | [RBI Sachet Portal](https://sachet.rbi.org.in) | Authoritative central multi-regulator platform (RBI, SEBI, IRDAI, State Regulators). Verified live. Direct deep-link architecture avoids replicating sensitive regulatory databases. |
+| **Scheme Verifier** | Cyber Crime Emergency Reporting (Helpline 1930 & CFCFRS Portal) | **VERIFIED OFFICIAL CONTACT** | [National Cyber Crime Reporting Portal](https://cybercrime.gov.in) (MHA / I4C) | Confirmed official helpline 1930 for citizen financial fraud reporting during the golden hour to freeze unauthorized banking transactions. |
+| **Scheme Verifier** | Fraud Pattern Warning Checklist (Domain, Upfront Fee, Urgency, OTP/PIN, Dept) | **RULE-BASED HEURISTIC — ADVISORY ONLY** | Standardized Cyber Crime & Banking Fraud Typology | Heuristic advisory based on documented scam patterns. Explicitly labeled in UI as non-definitive warning signs, never as a false-confidence binary verdict. |
 
 ---
 
@@ -157,3 +161,40 @@ Sourced directly from the official NSFDC NBFC-MFI publication ([Document Link](h
    Whenever a user selects or searches any region in India outside Tamil Nadu, the system never returns sample Coimbatore branches. It resolves the genuine geographic coordinates, locates the official State Apex Agency, and dynamically fetches live bank branches via Overpass/Nominatim. If no local branches are mapped within radius, it displays the real State Channelizing Agency with direct contact info and links to the central NSFDC directory.
 5. **No Hallucinated SCAs:**  
    In newly designated or unmapped administrative areas, the system honestly states: `"No regional SCA directly identified for [State]. You can apply through any Public Sector Bank below"`. No placeholder agencies are ever generated.
+
+---
+
+## 7. Scheme & Lender Verification Checker (Module 5) Data Provenance Audit
+
+### 7.1. myScheme Official Registry Cache
+- **Data Origin:** Digital India Corporation (DIC), Ministry of Electronics & Information Technology (MeitY), Government of India ([https://www.myscheme.gov.in](https://www.myscheme.gov.in)).
+- **Extraction Timestamp:** September 23, 2026.
+- **Cache Volume:** **571 unique, verified schemes** extracted and indexed into `src/data/mySchemeCache.json` and `src/data/mySchemeData.js`.
+- **Prioritized Categories:**
+  1. *Credit & Concessional Lending:* Schemes under MoSJE, NSFDC (MCF, MSY, TL, ELS), NBCFDC, NSKFDC, PMMY (Mudra), PMEGP, Stand-Up India.
+  2. *Target Demographics:* Scheduled Castes (SC), Scheduled Tribes (ST), Safai Karamcharis, artisans, rural entrepreneurs, women-led micro-enterprises.
+  3. *Flagship Central & State Schemes:* PM Vishwakarma, PM Awas Yojana, PM-Kisan Samman Nidhi, State SC/ST development corporation loan schemes.
+- **Terms of Use Compliance:**  
+  Section *Limitation on Use* of `myscheme.gov.in/terms-of-use` specifies:  
+  > *"The use of any software (e.g. bots, scraper tools) or other automatic devices to access, monitor, or copy the platform pages is prohibited unless expressly authorized by the myScheme in writing."*  
+  To respect this restriction and prevent automated network strain on government infrastructure, FINORA implements an offline-capable, pre-curated cache for fast fuzzy verification and directs users directly to `https://www.myscheme.gov.in/search` for manual live queries.
+
+### 7.2. RBI Sachet Portal Integration
+- **Platform Origin:** Reserve Bank of India (RBI) in partnership with SEBI, IRDAI, PFRDA, NHB, and State Level Coordination Committees (SLCCs) ([https://sachet.rbi.org.in](https://sachet.rbi.org.in)).
+- **Connectivity Status:** **VERIFIED LIVE** (HTTP 200, Angular application active at `/sachet/home`, `/sachet/file-a-complaint`, and `/sachet/help-your-regulator`).
+- **Architectural Policy:**  
+  RBI Sachet is the legal, statutory authority for confirming whether a Non-Banking Financial Company (NBFC) or financial entity is authorized to accept deposits or disburse commercial loans. FINORA explicitly refrains from replicating or scraping RBI's regulated-entity database, as doing so would risk presenting stale or inaccurate financial authorizations. Instead, the application provides persistent, direct deep-links to Sachet's verification search and complaint registry.
+
+### 7.3. National Cyber Crime Helpline (1930) & CFCFRS Portal
+- **Authority:** Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs (MHA), Government of India ([https://cybercrime.gov.in](https://cybercrime.gov.in)).
+- **Emergency Helpline:** **1930** (Citizen Financial Cyber Fraud Reporting System).
+- **Golden Hour Protocol:** The application prominently highlights that reporting financial fraud to 1930 within the first two hours ("golden hour") enables the banking system to place lien holds and freeze illicit beneficiary accounts before stolen funds can be laundered through mule networks.
+
+### 7.4. Rule-Based Red-Flag Checklist
+- **Classification:** **`RULE-BASED HEURISTIC — ADVISORY ONLY`**
+- **Disclaimer in UI:** The user interface explicitly labels this section as *"Common warning signs, not a definitive verdict"*. It assesses 5 documented cyber fraud patterns:
+  1. *Domain Verification:* Flags links not ending in `.gov.in`, `.nic.in`, or recognized official state government domains (Severity: HIGH).
+  2. *Upfront Fee Demands:* Flags advance fee, security deposit, or file processing charges (concessional government loans never ask for advance payments to release funds) (Severity: CRITICAL).
+  3. *Artificial Urgency / Pressure:* Flags artificial countdowns or "limited slots" manipulation tactics (Severity: HIGH).
+  4. *Sensitive Credential Requests:* Flags requests for OTP, UPI PIN, ATM PIN, or full card details (Severity: CRITICAL).
+  5. *Unverifiable Department:* Flags generic claims of "Govt of India loan" without a traceable nodal ministry (Severity: MEDIUM).

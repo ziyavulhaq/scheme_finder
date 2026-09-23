@@ -7,6 +7,7 @@ import { SchemeRecommender } from "./components/SchemeRecommender";
 import { FinancialCalculator } from "./components/FinancialCalculator";
 import { PartnerLocator } from "./components/PartnerLocator";
 import { DocumentChecklist } from "./components/DocumentChecklist";
+import { SchemeVerifier } from "./components/SchemeVerifier";
 import { BottomNav } from "./components/BottomNav";
 import { Footer } from "./components/Footer";
 
@@ -112,6 +113,10 @@ function AppContent() {
           <PartnerLocator
             initialSchemeId={selectedCategoryFilter}
           />
+        )}
+
+        {activeSection === "verify" && (
+          <SchemeVerifier />
         )}
       </main>
 

@@ -340,12 +340,6 @@ export const AuthPage = () => {
             </form>
           )}
         </div>
-
-        {/* Security & Verification Footer */}
-        <div className="p-3 bg-[#FBF9F4] border-t border-[#D8D2C4] text-[11px] text-[#6B6558] flex items-center justify-center gap-1.5">
-          <ShieldCheck className="w-4 h-4 text-[#3B6E52]" />
-          <span>Real JWT Authentication • 100% Free Citizen Scheme Portal</span>
-        </div>
       </div>
 
       {/* Footer Info */}
