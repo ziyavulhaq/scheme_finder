@@ -11,10 +11,6 @@ import {
   AlertTriangle,
   Search,
   Crosshair,
-  Printer,
-  FileText,
-  CheckCircle2,
-  X,
   Mail,
   Globe,
   Navigation
@@ -226,7 +222,6 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
   const [isFallback, setIsFallback] = useState(false);
   const [fallbackNotice, setFallbackNotice] = useState("");
   const [selectedPartner, setSelectedPartner] = useState(null);
-  const [slipModalPartner, setSlipModalPartner] = useState(null);
   const [geoError, setGeoError] = useState("");
 
   // Sync external category filter changes
@@ -659,22 +654,6 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
                           </div>
                         )}
 
-                        {/* Available Schemes in Map Popup */}
-                        {p.schemesAvailable && p.schemesAvailable.length > 0 && (
-                          <div className="pt-1 border-t border-[#D8D2C4]/40">
-                            <span className="text-[10px] font-bold text-[#1F3A5F] block">
-                              {t.availableSchemesAtBranch || "Available Schemes:"}
-                            </span>
-                            <div className="flex flex-wrap gap-1 mt-0.5">
-                              {p.schemesAvailable.map((sch, sIdx) => (
-                                <span key={sIdx} className="px-1.5 py-0.2 bg-[#EBF2FA] text-[#1F3A5F] rounded text-[9px] font-medium border border-[#1F3A5F]/20">
-                                  {sch}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-                        )}
-
                         <div className="pt-1 space-y-1">
                           <span
                             className={`inline-block px-1.5 py-0.5 rounded text-[10px] font-medium ${
@@ -694,12 +673,6 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
                             <Navigation className="w-3 h-3" />
                             <span>{t.directionsBtn || "Shortest Route"}</span>
                           </a>
-                          <button
-                            onClick={() => setSlipModalPartner(p)}
-                            className="w-full px-2 py-1 bg-[#1F3A5F] text-white rounded text-[11px] font-semibold hover:bg-[#152842] transition"
-                          >
-                            {t.visitSlip || "Print Visit Slip"}
-                          </button>
                         </div>
                       </div>
                     </Popup>
@@ -793,25 +766,6 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
                       </div>
                     )}
 
-                    {/* Available Schemes Badges on Bank Card */}
-                    {p.schemesAvailable && p.schemesAvailable.length > 0 && (
-                      <div className="mt-2.5 pt-2 border-t border-[#D8D2C4]/50">
-                        <span className="text-[10px] font-bold text-[#1F3A5F] block mb-1">
-                          {t.availableSchemesAtBranch || "Available Schemes at this Branch:"}
-                        </span>
-                        <div className="flex flex-wrap gap-1">
-                          {p.schemesAvailable.map((schName, sIdx) => (
-                            <span
-                              key={sIdx}
-                              className="px-1.5 py-0.5 rounded bg-[#EBF2FA] text-[#1F3A5F] border border-[#1F3A5F]/20 text-[10px] font-medium"
-                            >
-                              {schName}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
                     {/* Status & Action Buttons */}
                     <div className="mt-3 pt-2 border-t border-[#D8D2C4]/60 flex items-center justify-between text-xs">
                       <div>
@@ -824,9 +778,6 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
                         >
                           {p.utilizationStatus || "Available (estimated)"}
                         </span>
-                        <div className="text-[10px] text-[#8C827A] mt-0.5">
-                          {p.institutionLabel || "Eligible partner type — confirm enrollment with branch"}
-                        </div>
                       </div>
 
                       <div className="flex items-center gap-1.5 shrink-0 ml-2">
@@ -835,21 +786,11 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={(e) => e.stopPropagation()}
-                          className="inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-white border border-[#3B6E52] text-[#3B6E52] rounded hover:bg-[#E4EEE7] transition whitespace-nowrap"
+                          className="inline-flex items-center gap-1 px-3 py-1.5 text-[11px] font-semibold bg-[#3B6E52] text-white rounded hover:bg-[#2e5741] transition whitespace-nowrap shadow-xs"
                         >
-                          <Navigation className="w-3 h-3" />
+                          <Navigation className="w-3.5 h-3.5" />
                           <span>{t.directionsBtn || "Directions"}</span>
                         </a>
-
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setSlipModalPartner(p);
-                          }}
-                          className="px-2.5 py-1 text-[11px] font-semibold bg-[#1F3A5F] text-white rounded hover:bg-[#152842] transition whitespace-nowrap"
-                        >
-                          {t.visitSlip || "Visit Slip"}
-                        </button>
                       </div>
                     </div>
                   </div>
@@ -867,98 +808,6 @@ export const PartnerLocator = ({ initialSchemeId = "all" }) => {
           </span>
         </div>
       </div>
-
-      {/* Branch Visit Slip Modal */}
-      {slipModalPartner && (
-        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[2000] flex items-center justify-center p-4">
-          <div className="bg-[#FBF9F4] border-2 border-[#1F3A5F] rounded-lg max-w-lg w-full p-6 shadow-2xl relative">
-            <button
-              onClick={() => setSlipModalPartner(null)}
-              className="absolute top-4 right-4 text-[#6B6558] hover:text-[#1F3A5F]"
-            >
-              <X className="w-5 h-5" />
-            </button>
-
-            {/* Slip Header */}
-            <div className="border-b-2 border-dashed border-[#D8D2C4] pb-4 mb-4">
-              <div className="text-[10px] uppercase tracking-wider font-semibold text-[#3B6E52]">
-                Citizen Guide • Pre-Application Slip
-              </div>
-              <h3 className="font-serif font-bold text-xl text-[#1F3A5F] mt-1">
-                {t.slipTitle || "Bank Visit & Document Checklist"}
-              </h3>
-              <div className="text-xs text-[#6B6558] mt-0.5">
-                {t.slipSubtitle || "Take this printed slip and your documents with you to the branch"}
-              </div>
-            </div>
-
-            {/* Partner Details */}
-            <div className="bg-white border border-[#D8D2C4] rounded p-3 mb-4 space-y-1 text-xs">
-              <div className="font-bold text-sm text-[#1F3A5F]">{slipModalPartner.name}</div>
-              <div className="text-[#6B6558]">{slipModalPartner.type}</div>
-              <div className="text-[#2B2A28]">{slipModalPartner.address}</div>
-              {slipModalPartner.phone && (
-                <div className="text-[#1F3A5F] font-mono font-semibold pt-1">
-                  Contact / Helpline: {slipModalPartner.phone}
-                </div>
-              )}
-              {slipModalPartner.distance !== undefined && (
-                <div className="text-[#3B6E52] font-semibold pt-0.5">
-                  Shortest Distance from your origin: {slipModalPartner.distance} km
-                </div>
-              )}
-            </div>
-
-            {/* Checklist */}
-            <div className="space-y-2 mb-5">
-              <div className="text-xs font-bold text-[#1F3A5F] uppercase tracking-wider">
-                Mandatory Documents to Carry:
-              </div>
-              <ul className="text-xs space-y-1 text-[#2B2A28]">
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-[#3B6E52] shrink-0" />
-                  <span>Scheduled Caste (SC) Community / Caste Certificate</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-[#3B6E52] shrink-0" />
-                  <span>Annual Family Income Certificate (Below ₹5,00,000 p.a.)</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-[#3B6E52] shrink-0" />
-                  <span>Aadhaar Card &amp; PAN Card (Identity &amp; Address Proof)</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-[#3B6E52] shrink-0" />
-                  <span>Project Quotation / Business Plan / College Admission Letter</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-[#3B6E52] shrink-0" />
-                  <span>Active Savings Bank Passbook &amp; 3 Passport Photos</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Actions */}
-            <div className="flex gap-3 justify-end pt-3 border-t border-[#D8D2C4]">
-              <button
-                type="button"
-                onClick={() => setSlipModalPartner(null)}
-                className="px-4 py-2 border border-[#D8D2C4] text-xs font-semibold rounded text-[#6B6558] hover:bg-[#F1ECE0]"
-              >
-                {t.slipCloseBtn || "Close"}
-              </button>
-              <button
-                type="button"
-                onClick={() => window.print()}
-                className="inline-flex items-center gap-1.5 px-4 py-2 bg-[#1F3A5F] text-white text-xs font-semibold rounded hover:bg-[#152842] shadow-sm"
-              >
-                <Printer className="w-3.5 h-3.5" />
-                <span>{t.slipPrintBtn || "Print Slip"}</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </section>
   );
 };
