@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Settings } from "lucide-react";
+import { Settings, Sparkles } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 import { useLanguage } from "../context/LanguageContext";
 import { SettingsModal } from "./SettingsModal";
@@ -16,7 +16,7 @@ export const Navbar = ({ activeSection, onNavigate }) => {
           {/* Brand */}
           <div 
             onClick={() => {
-              if (onNavigate) onNavigate("recommend");
+              if (onNavigate) onNavigate("landing");
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
             className="flex items-center gap-2.5 cursor-pointer group"
@@ -40,8 +40,26 @@ export const Navbar = ({ activeSection, onNavigate }) => {
             </div>
           </div>
 
-          {/* Top-Right Settings Button (Language, Audio Guide, Profile & Logout) */}
+          {/* Top-Right Action Buttons: ASK AI & Settings */}
           <div className="flex items-center gap-2">
+            {/* ASK AI Button - Left side of settings */}
+            <button
+              onClick={() => {
+                if (onNavigate) onNavigate("ask-ai");
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+              className={`flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-xl border transition shadow-xs cursor-pointer font-bold text-xs sm:text-sm ${
+                activeSection === "ask-ai"
+                  ? "bg-[#1F3A5F] text-[#E8A33D] border-[#1F3A5F] shadow-sm ring-2 ring-[#E8A33D]/40"
+                  : "bg-[#E8A33D] hover:bg-[#B97A1C] text-[#1F3A5F] hover:text-white border-[#D8D2C4]"
+              }`}
+              title="Ask AI: Government Loan Scheme Assistant"
+            >
+              <Sparkles className="w-4 h-4 shrink-0" />
+              <span>{t.askAiBtn || "ASK AI"}</span>
+            </button>
+
+            {/* Settings Button (Language, Audio Guide, Profile & Logout) */}
             <button
               onClick={() => setIsSettingsOpen(true)}
               className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-[#F1ECE0] border border-[#D8D2C4] hover:bg-white hover:border-[#1F3A5F] transition shadow-xs cursor-pointer group"
@@ -58,10 +76,10 @@ export const Navbar = ({ activeSection, onNavigate }) => {
 
               <div className="text-left hidden sm:block">
                 <div className="text-xs font-bold text-[#1F3A5F] leading-tight group-hover:text-[#3B6E52]">
-                  {user?.name ? user.name.split(" ")[0] : "Settings"}
+                  {user?.name ? user.name.split(" ")[0] : (t.settingsLabel || "Settings")}
                 </div>
                 <div className="text-[10px] text-[#6B6558] leading-none">
-                  Settings &amp; Audio
+                  {t.settingsAndAudio || "Settings & Audio"}
                 </div>
               </div>
 

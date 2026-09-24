@@ -7,6 +7,8 @@ export const SCHEMES = [
     titleHi: "सूक्ष्म ऋण वित्त योजना (MCF)",
     titleTa: "குறு கடன் நிதி திட்டம் (MCF)",
     titleTe: "మైక్రో క్రెడిట్ ఫైనాన్స్ పథకం (MCF)",
+    titleKn: "ಕಿರು ಸಾಲ ಹಣಕಾಸು ಯೋಜನೆ (MCF)",
+    titleMl: "മൈക്രോ ക്രെഡിറ്റ് ഫിനാൻസ് പദ്ധതി (MCF)",
     tagline: "Ultra-low interest micro-capital for petty traders, shopkeepers & small artisans",
     category: "Micro Finance",
     maxLoan: 140000, // ₹1.40 Lakh
@@ -45,6 +47,8 @@ export const SCHEMES = [
     titleHi: "महिला समृद्धि योजना (MSY)",
     titleTa: "மகளிர் சம்ரித்தி யோஜனா (MSY)",
     titleTe: "మహిళా సమృద్ధి యోజన (MSY)",
+    titleKn: "ಮಹಿಳಾ ಸಮೃದ್ಧಿ ಯೋಜನೆ (MSY)",
+    titleMl: "മഹിളാ സമൃദ്ധി യോജന (MSY)",
     tagline: "Dedicated women-empowerment micro-credit with extra concessional interest",
     category: "Women Entrepreneurship",
     maxLoan: 140000, // ₹1.40 Lakh
@@ -84,6 +88,8 @@ export const SCHEMES = [
     titleHi: "सावधि ऋण योजना (Term Loan)",
     titleTa: "காலக் கடன் திட்டம் (Term Loan)",
     titleTe: "టర్మ్ లోన్ పథకం (Term Loan)",
+    titleKn: "ಅವಧಿ ಸಾಲ ಯೋಜನೆ (Term Loan)",
+    titleMl: "ടേം ലോൺ പദ്ധതി (Term Loan)",
     tagline: "Substantial capital for manufacturing, service units, transport & medium enterprises",
     category: "Term Loan",
     maxLoan: 5000000, // ₹50.00 Lakh
@@ -123,6 +129,8 @@ export const SCHEMES = [
     titleHi: "शिक्षा ऋण योजना (ELS)",
     titleTa: "கல்விக் கடன் திட்டம் (ELS)",
     titleTe: "విద్యా రుణం పథకం (ELS)",
+    titleKn: "ಶಿಕ್ಷಣ ಸಾಲ ಯೋಜನೆ (ELS)",
+    titleMl: "വിദ്യാഭ്യാസ വായ്പാ പദ്ധതി (ELS)",
     tagline: "Concessional loans covering tuition, living & travel for higher technical & professional studies",
     category: "Education Loan",
     maxLoan: 2000000, // ₹20 Lakhs (India) / ₹40 Lakhs (Abroad)
@@ -161,6 +169,8 @@ export const SCHEMES = [
     titleHi: "हरित व्यापार योजना (GBS)",
     titleTa: "பசுமை வணிகத் திட்டம் (GBS)",
     titleTe: "గ్రీన్ బిజినెస్ పథకం (GBS)",
+    titleKn: "ಹಸಿರು ವ್ಯಾಪಾರ ಯೋಜನೆ (GBS)",
+    titleMl: "ഗ്രീൻ ബിസിനസ്സ് സ്കീം (GBS)",
     tagline: "Eco-friendly loans for E-Rickshaws, solar setups, polyhouse farming & waste recycling",
     category: "Green Enterprise",
     maxLoan: 3000000, // ₹30 Lakhs
@@ -199,6 +209,8 @@ export const SCHEMES = [
     titleHi: "स्वच्छता उद्यमी योजना (SUY)",
     titleTa: "சுவச்சதா உத்யமி யோஜனா (SUY)",
     titleTe: "స్వచ్ఛత ఉద్యమి యోజన (SUY)",
+    titleKn: "ಸ್ವಚ್ಛತಾ ಉದ್ಯಮಿ ಯೋಜನೆ (SUY)",
+    titleMl: "സ്വച്ഛതാ ഉദ്യമി യോജന (SUY)",
     tagline: "Mechanized sanitation equipment loans to eliminate hazardous manual cleaning & empower operators",
     category: "Sanitation Automation",
     maxLoan: 5000000, // ₹50 Lakhs

@@ -3,11 +3,13 @@ import { AuthProvider, useAuth } from "./context/AuthContext";
 import { LanguageProvider } from "./context/LanguageContext";
 import { AuthPage } from "./components/AuthPage";
 import { Navbar } from "./components/Navbar";
+import { LandingPage } from "./components/LandingPage";
 import { SchemeRecommender } from "./components/SchemeRecommender";
 import { FinancialCalculator } from "./components/FinancialCalculator";
 import { PartnerLocator } from "./components/PartnerLocator";
 import { DocumentChecklist } from "./components/DocumentChecklist";
 import { SchemeVerifier } from "./components/SchemeVerifier";
+import { AiAssistantPage } from "./components/AiAssistantPage";
 import { BottomNav } from "./components/BottomNav";
 import { Footer } from "./components/Footer";
 
@@ -17,7 +19,7 @@ function AppContent() {
   const [selectedAmount, setSelectedAmount] = useState(140000);
   const [recommenderIncome, setRecommenderIncome] = useState(180000);
   const [selectedCategoryFilter, setSelectedCategoryFilter] = useState("all");
-  const [activeSection, setActiveSection] = useState("recommend");
+  const [activeSection, setActiveSection] = useState("landing");
 
   if (loading) {
     return (
@@ -62,7 +64,10 @@ function AppContent() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleNavigate = (pageId) => {
+  const handleNavigate = (pageId, scheme = null) => {
+    if (scheme) {
+      setSelectedScheme(scheme);
+    }
     setActiveSection(pageId);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -74,11 +79,16 @@ function AppContent() {
 
       {/* Main Content: Render Active Page Only with pb-24 to clear fixed bottom nav */}
       <main className="flex-1 pb-24">
+        {activeSection === "landing" && (
+          <LandingPage onNavigate={handleNavigate} />
+        )}
+
         {activeSection === "recommend" && (
           <SchemeRecommender
             onSelectForCalculator={handleSelectForCalculator}
             onSelectForLocator={handleSelectForLocator}
             onSelectForDocuments={handleSelectForDocuments}
+            onSelectForAi={(scheme) => handleNavigate("ask-ai", scheme)}
           />
         )}
 
@@ -117,6 +127,13 @@ function AppContent() {
 
         {activeSection === "verify" && (
           <SchemeVerifier />
+        )}
+
+        {activeSection === "ask-ai" && (
+          <AiAssistantPage
+            selectedScheme={selectedScheme}
+            onNavigate={handleNavigate}
+          />
         )}
       </main>
 

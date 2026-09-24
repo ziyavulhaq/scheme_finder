@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { CheckCircle, AlertTriangle, ArrowRight, Calculator, MapPin, FileText, Info, ExternalLink, ShieldCheck, FileCheck } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { CheckCircle, AlertTriangle, ArrowRight, Calculator, MapPin, FileText, Info, ExternalLink, ShieldCheck, FileCheck, Sparkles, ChevronDown, ChevronUp } from "lucide-react";
 import { calculateMarginMoney } from "../utils/financialMath";
 import { useLanguage } from "../context/LanguageContext";
 import { apiUrl } from "../utils/apiConfig";
 
-export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, onSelectForDocuments }) => {
+export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, onSelectForDocuments, onSelectForAi }) => {
   const { lang, t } = useLanguage();
   const [projectType, setProjectType] = useState("trade");
   const [costInput, setCostInput] = useState(120000);
@@ -15,7 +15,60 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, o
   const [result, setResult] = useState(null);
   const [hasSearched, setHasSearched] = useState(false);
 
+  // Feature 1: LLM Plain-Language Explanation State
+  const [aiExplanation, setAiExplanation] = useState("");
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiSource, setAiSource] = useState("");
+  const [showRawReason, setShowRawReason] = useState(false);
+
   const formatINR = (n) => "₹" + Math.round(Number(n) || 0).toLocaleString("en-IN");
+
+  const fetchAiExplanation = async (matchData) => {
+    if (!matchData || matchData.status !== "match") {
+      setAiExplanation("");
+      return;
+    }
+    setAiLoading(true);
+    try {
+      const explainRes = await fetch(apiUrl("/api/explain"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          scheme: matchData.scheme,
+          eligibleLoanAmount: matchData.eligibleLoanAmount,
+          marginMoney: matchData.marginMoney,
+          rate: matchData.scheme?.rate,
+          moratorium: matchData.scheme?.moratorium,
+          reasoning: matchData.reason,
+          language: lang,
+          cost: Number(costInput) || 0,
+          annualIncome: Number(incomeInput) || 0
+        })
+      });
+
+      if (explainRes.ok) {
+        const data = await explainRes.json();
+        setAiExplanation(data.explanation || matchData.reason);
+        setAiSource(data.source || "groq");
+      } else {
+        setAiExplanation(matchData.reason);
+        setAiSource("deterministic_fallback");
+      }
+    } catch (err) {
+      console.warn("AI explanation fetch failed; falling back to deterministic reasoning:", err);
+      setAiExplanation(matchData.reason);
+      setAiSource("deterministic_fallback");
+    } finally {
+      setAiLoading(false);
+    }
+  };
+
+  // Re-fetch explanation when user switches language
+  useEffect(() => {
+    if (result && result.status === "match") {
+      fetchAiExplanation(result);
+    }
+  }, [lang]);
 
   const handleQuickPreset = (preset) => {
     setProjectType(preset.type);
@@ -339,10 +392,47 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, o
                       {result.scheme.description}
                     </p>
 
-                    {/* Reasoning Box */}
-                    <div className="bg-[#F1ECE0] border-l-2 border-[#1F3A5F] p-3 rounded text-xs text-[#2B2A28] leading-relaxed mb-6">
-                      <span className="font-semibold text-[#1F3A5F]">{t("whyMatched") || "Why you qualify: "}</span>
-                      {result.reason}
+                    {/* Natural-Language Explanation Box (Rephrased via Groq LLM & Fact-Validated) */}
+                    <div className="bg-[#FAF7F0] border border-[#D8D2C4] rounded-md p-4 mb-6 shadow-2xs">
+                      <div className="flex items-center justify-between pb-2.5 mb-2.5 border-b border-[#D8D2C4]/70">
+                        <div className="flex items-center gap-2">
+                          <Sparkles className="w-4 h-4 text-[#E8A33D]" />
+                          <span className="font-semibold text-xs text-[#1F3A5F]">
+                            {t("aiSummaryTitle") || "Plain-Language AI Explanation"}
+                          </span>
+                        </div>
+                      </div>
+
+                      {aiLoading ? (
+                        <div className="py-2 flex items-center gap-2 text-xs text-[#6B6558]">
+                          <span className="inline-block w-2 h-2 rounded-full bg-[#1F3A5F] animate-bounce"></span>
+                          <span className="inline-block w-2 h-2 rounded-full bg-[#1F3A5F] animate-bounce [animation-delay:0.2s]"></span>
+                          <span className="inline-block w-2 h-2 rounded-full bg-[#1F3A5F] animate-bounce [animation-delay:0.4s]"></span>
+                          <span>{t("aiGenerating") || "Generating warm summary..."}</span>
+                        </div>
+                      ) : (
+                        <p className="text-xs sm:text-sm text-[#2B2A28] leading-relaxed font-sans">
+                          {aiExplanation || result.reason}
+                        </p>
+                      )}
+
+                      {/* Expandable toggle to view raw deterministic rules engine reasoning */}
+                      <div className="mt-3 pt-2.5 border-t border-[#D8D2C4]/60">
+                        <button
+                          type="button"
+                          onClick={() => setShowRawReason(!showRawReason)}
+                          className="text-[11px] text-[#6B6558] hover:text-[#1F3A5F] inline-flex items-center gap-1 font-medium transition cursor-pointer"
+                        >
+                          <span>{showRawReason ? "Hide statutory rules reasoning" : "View statutory rules engine reasoning"}</span>
+                          {showRawReason ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
+                        </button>
+                        {showRawReason && (
+                          <div className="mt-2 p-2.5 bg-[#F1ECE0] rounded text-[11px] text-[#2B2A28] leading-relaxed border-l-2 border-[#1F3A5F]">
+                            <strong className="text-[#1F3A5F]">Rules Engine Audit: </strong>
+                            {result.reason}
+                          </div>
+                        )}
+                      </div>
                     </div>
 
                     {/* Capped Warning */}
@@ -481,6 +571,14 @@ export const SchemeRecommender = ({ onSelectForCalculator, onSelectForLocator, o
                       >
                         <MapPin className="w-4 h-4 shrink-0" />
                         <span>{t("actionFindPartner") || "Find Nearby Bank to Apply"}</span>
+                      </button>
+
+                      <button
+                        onClick={() => onSelectForAi && onSelectForAi(result.scheme)}
+                        className="w-full sm:w-auto px-4 py-2.5 bg-[#FAF7F0] hover:bg-[#F1ECE0] border border-[#1F3A5F] text-[#1F3A5F] rounded text-xs sm:text-sm font-semibold transition flex items-center justify-center sm:justify-start gap-2 shadow-2xs cursor-pointer"
+                      >
+                        <Sparkles className="w-4 h-4 text-[#E8A33D] shrink-0" />
+                        <span>{t.askAiBtn || "Ask AI"}</span>
                       </button>
                     </div>
                   </div>

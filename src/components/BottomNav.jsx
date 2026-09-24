@@ -1,9 +1,9 @@
 import React from "react";
-import { Compass, Calculator, FileCheck, MapPin, ShieldCheck } from "lucide-react";
+import { Home, Compass, Calculator, FileCheck, MapPin, ShieldCheck } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 export const BottomNav = ({ activeSection, onNavigate }) => {
-  const { t } = useLanguage();
+  const { lang, t } = useLanguage();
 
   const cleanLabel = (text, fallback) => {
     if (!text || typeof text !== "string") return fallback;
@@ -13,6 +13,11 @@ export const BottomNav = ({ activeSection, onNavigate }) => {
   };
 
   const navItems = [
+    {
+      id: "landing",
+      label: cleanLabel(t.navLanding, "Home"),
+      icon: Home
+    },
     {
       id: "recommend",
       label: cleanLabel(t.navHome, "Find Scheme"),
@@ -46,7 +51,7 @@ export const BottomNav = ({ activeSection, onNavigate }) => {
       aria-label="Main Navigation"
       className="fixed bottom-0 left-0 right-0 z-50 w-full bg-[#1F3A5F] border-t-2 border-[#E8A33D] shadow-[0_-4px_25px_rgba(0,0,0,0.25)] py-2 px-1 sm:px-6 backdrop-blur-md pb-[max(0.5rem,env(safe-area-inset-bottom))]"
     >
-      <div className="w-full max-w-2xl mx-auto grid grid-cols-5 gap-1 sm:gap-2 items-center">
+      <div className="w-full max-w-3xl mx-auto grid grid-cols-6 gap-1 sm:gap-2 items-center">
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeSection === item.id;

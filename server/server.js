@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import path from "path";
+import fs from "fs";
 import { fileURLToPath } from "url";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
@@ -8,9 +9,29 @@ import db, { initDatabase } from "./db.js";
 import { evaluateEligibility } from "./rulesEngine.js";
 import { calculateAmortization } from "./financialMath.js";
 import { assessSchemeAndLender } from "../src/utils/verifierEngine.js";
+import { generateSchemeExplanation, handleAssistantChat } from "./llmService.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Safe auto-loading of .env in local development
+const possibleEnvPaths = [
+  path.resolve(process.cwd(), ".env"),
+  path.resolve(__dirname, ".env"),
+  path.resolve(__dirname, "../.env")
+];
+for (const envPath of possibleEnvPaths) {
+  if (fs.existsSync(envPath)) {
+    try {
+      if (process.loadEnvFile) {
+        process.loadEnvFile(envPath);
+      }
+      break;
+    } catch (e) {
+      // Ignore if loadEnvFile encounters issues
+    }
+  }
+}
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -274,6 +295,68 @@ app.post("/api/recommend", (req, res) => {
 
     res.json({ success: true, ...result });
   });
+});
+
+// 2b. POST /api/explain - Groq LLM Warm Plain-Language Rephrasing (With Fact Validation)
+app.post("/api/explain", async (req, res) => {
+  try {
+    const {
+      scheme,
+      eligibleLoanAmount,
+      marginMoney,
+      rate,
+      moratorium,
+      reasoning,
+      language = "en",
+      cost = 0,
+      annualIncome = 0
+    } = req.body;
+
+    const result = await generateSchemeExplanation({
+      scheme,
+      eligibleLoanAmount,
+      marginMoney,
+      rate,
+      moratorium,
+      reasoning,
+      language,
+      cost,
+      annualIncome
+    });
+
+    res.json(result);
+  } catch (err) {
+    console.error("[Explain Endpoint Error]:", err.message);
+    res.json({
+      success: true,
+      explanation: req.body.reasoning || "Eligible for concessional government loan scheme.",
+      source: "deterministic_fallback",
+      error: err.message
+    });
+  }
+});
+
+// 2c. POST /api/assistant/chat - Constrained Follow-Up Q&A Assistant (Groq LLM)
+app.post("/api/assistant/chat", async (req, res) => {
+  try {
+    const { message, context, language = "en", conversationHistory = [] } = req.body;
+    const result = await handleAssistantChat({
+      message,
+      context,
+      language,
+      conversationHistory
+    });
+
+    res.json(result);
+  } catch (err) {
+    console.error("[Assistant Chat Endpoint Error]:", err.message);
+    res.json({
+      success: false,
+      reply: "AI assistant is temporarily unavailable — please try again shortly.",
+      fallback: true,
+      error: err.message
+    });
+  }
 });
 
 // 3. POST /api/calculate-emi - Shared Financial Math Endpoint

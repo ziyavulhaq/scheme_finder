@@ -230,17 +230,17 @@ export const DocumentChecklist = ({
       {/* Module Title */}
       <div className="text-center max-w-3xl mx-auto">
         <h1 className="text-2xl sm:text-4xl font-serif font-bold text-[#1F3A5F] tracking-tight">
-          Document Verifier
+          {t.docVerifierTitle || "Document Readiness & Verification Checker"}
         </h1>
         <p className="mt-2 text-xs sm:text-base text-[#6B6558]">
-          Upload or photograph your required certificates for instant completeness &amp; legibility feedback — ensuring zero rejection or return trips at your channel partner bank.
+          {t.docVerifierSub || "Upload or photograph your required certificates for instant completeness & legibility feedback — ensuring zero rejection or return trips at your channel partner bank."}
         </p>
       </div>
 
       {/* Scheme Selector Pills */}
       <div className="bg-white p-3 sm:p-4 rounded-xl border border-[#D8D2C4] shadow-xs flex flex-col sm:flex-row items-center justify-between gap-3 w-full max-w-full">
         <div className="text-xs font-semibold uppercase text-[#6B6558] tracking-wider text-center sm:text-left">
-          Selected Scheme Checklist:
+          {t.selectedSchemeChecklist || "Selected Scheme Checklist:"}
         </div>
         <div className="flex flex-wrap gap-2">
           <button
@@ -283,15 +283,15 @@ export const DocumentChecklist = ({
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <span className="text-xs font-bold uppercase tracking-wider text-[#6B6558]">
-              Documents you'll need for the {schemeName}
+              {t.selectedSchemeChecklist || "Documents you'll need for the"} {schemeName}
             </span>
             <div className="text-2xl sm:text-3xl font-serif font-bold text-[#1F3A5F] mt-1">
-              {readyCount} of {totalCount} Documents Valid
+              {readyCount} / {totalCount} {t.docsValid || "Documents Valid"}
             </div>
             <p className="text-xs text-[#6B6558] mt-1">
               {readyCount === totalCount
-                ? "All mandatory documents are valid. You are ready to visit the branch."
-                : `Please upload or photograph the remaining ${totalCount - readyCount} document(s) below.`}
+                ? (t.docsAllValid || "All mandatory documents are valid. You are ready to visit the branch.")
+                : (t.docsRemaining || `Please upload or photograph the remaining ${totalCount - readyCount} document(s) below.`)}
             </p>
           </div>
 
@@ -653,7 +653,7 @@ export const DocumentChecklist = ({
               className="w-full sm:w-auto px-4 py-2.5 bg-[#1F3A5F] hover:bg-[#345178] text-white text-xs font-semibold rounded-lg flex items-center justify-center gap-1.5 transition cursor-pointer shadow-xs"
             >
               <Calculator className="w-4 h-4 text-[#E8A33D]" />
-              <span>Calculate EMI</span>
+              <span>{t.calcEmiBtn || "Calculate EMI"}</span>
             </button>
           )}
 
@@ -663,7 +663,7 @@ export const DocumentChecklist = ({
               className="w-full sm:w-auto px-4 py-2.5 bg-[#E8A33D] hover:bg-[#B97A1C] text-[#2B2A28] hover:text-white text-xs font-semibold rounded-lg flex items-center justify-center gap-1.5 transition cursor-pointer shadow-xs"
             >
               <MapPin className="w-4 h-4" />
-              <span>Find Nearby Bank</span>
+              <span>{t.locatePartnerBtn || "Find Nearby Bank"}</span>
             </button>
           )}
 
